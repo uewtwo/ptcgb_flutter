@@ -1,0 +1,982 @@
+[
+	{
+		"cardId": 35903,
+		"multiId": "SMI-006",
+		"nameJp": "ラプラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035903_P_RAPURASU.jpg",
+		"imageUrl": "",
+		"cardText": "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アクアバレット",
+				"damage": "20",
+				"text": "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ハイドロポンプ",
+				"damage": "70＋",
+				"text": "このポケモンについている[water]エネルギーの数×10ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35904,
+		"multiId": "SMI-007",
+		"nameJp": "シャワーズGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035904_P_SHAWAZUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Otani",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {
+			"name": "うるおいのしずく",
+			"text": "自分の番に1回使える。自分のバトル場の[water]ポケモンのHPを「30」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "40＋",
+				"text": "このポケモンについている[water]エネルギーの数×30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヒールシャワーGX",
+				"damage": "",
+				"text": "自分の[water]ポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35905,
+		"multiId": "SMI-008",
+		"nameJp": "ウパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035905_P_UPA.jpg",
+		"imageUrl": "",
+		"cardText": "夕暮れどき 涼しくなると 水から 上がってきた ウパーたちは エサを 探して 水辺を 歩く。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みずかけ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35906,
+		"multiId": "SMI-009",
+		"nameJp": "ヌオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035906_P_NUO.jpg",
+		"imageUrl": "",
+		"cardText": "のんびりとした 性格で 気ままに 泳いでは いつも 船底に 頭を ぶつけている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {
+			"name": "おしながす",
+			"text": "自分の番に何回でも使える。自分のベンチポケモンについている[water]エネルギーを1個、バトルポケモンにつけ替える。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "60＋",
+				"text": "このポケモンについている[water]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35907,
+		"multiId": "SMI-010",
+		"nameJp": "カイオーガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035907_P_KAIOGA.jpg",
+		"imageUrl": "",
+		"cardText": "大雨を 降らせる 能力で 海を 広げたと 言われている。 海溝の 底で 眠っていた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "デュアルスプラッシュ",
+				"damage": "",
+				"text": "相手のポケモン2匹に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "グランドウェーブ",
+				"damage": "120",
+				"text": "次の自分の番、このポケモンは「グランドウェーブ」が使えない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35913,
+		"multiId": "SMI-016",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035913_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35915,
+		"multiId": "SMI-018",
+		"nameJp": "イーブイGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035915_P_IBUIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Otani",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {
+			"name": "かくせいDNA",
+			"text": "このポケモンは、自分の番に、「イーブイ」から進化するカードを手札から出して、このポケモンに重ねて進化できる（最初の自分の番と、このポケモンを場に出した番はのぞく）。進化する前に、このポケモンのHPを、すべて回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ブーストダッシュ",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ハッピーメーカーGX",
+				"damage": "",
+				"text": "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35917,
+		"multiId": "SMI-020",
+		"nameJp": "シェイミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035917_P_SHIEIMI.jpg",
+		"imageUrl": "",
+		"cardText": "グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札にあるたねポケモンを2枚まで、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かっくう",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35918,
+		"multiId": "SMI-021",
+		"nameJp": "アクアパッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035918_T_AKUAPACCHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュにある[water]エネルギーを1枚、ベンチの[water]ポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35919,
+		"multiId": "SMI-022",
+		"nameJp": "いれかえフロート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035919_T_IREKAEFUROTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトル場の[water]ポケモンをベンチポケモンと入れ替える。その後、ベンチに入れ替えたポケモンのHPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35921,
+		"multiId": "SMI-024",
+		"nameJp": "ネストボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035921_T_NESUTOBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35922,
+		"multiId": "SMI-025",
+		"nameJp": "ハイパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035922_T_HAIPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35926,
+		"multiId": "SMI-029",
+		"nameJp": "こだわりメット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035926_T_KODAWARIMETTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35928,
+		"multiId": "SMI-031",
+		"nameJp": "グズマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035928_T_GUZUMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35929,
+		"multiId": "SMI-032",
+		"nameJp": "ジャッジマン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035929_T_JAJJIMAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35930,
+		"multiId": "SMI-033",
+		"nameJp": "シロナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035930_T_SHIRONA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35932,
+		"multiId": "SMI-035",
+		"nameJp": "ハウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035932_T_HAU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35933,
+		"multiId": "SMI-036",
+		"nameJp": "マキシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035933_T_MAKISHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札にある[water]エネルギーを2枚トラッシュしなければ使えない。\n\n自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35934,
+		"multiId": "SMI-037",
+		"nameJp": "マサキの解析",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035934_T_MASAKINOKAISEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を上から7枚見る。その中にあるトレーナーズを2枚まで、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 35935,
+		"multiId": "SMI-038",
+		"nameJp": "リーリエ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SMI/035935_T_RIRIE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36465,
+		"multiId": "SMI-undefined",
+		"nameJp": "基本水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/036465_E_KIHONMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"set": "サン&ムーン スターターセット「水のシャワーズGX」",
+		"setCode": "SMI",
+		"generation": "SM",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	}
+]

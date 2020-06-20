@@ -1,0 +1,3689 @@
+[
+	{
+		"cardId": 36146,
+		"multiId": "SM9a-001",
+		"nameJp": "コンパン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036146_P_KONPAN.jpg",
+		"imageUrl": "",
+		"cardText": "小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "レーダーアイ",
+				"damage": "",
+				"text": "自分の山札を上から7枚見て、その中にあるカードを1枚、手札に加える。残りのカードは山札にもどして切る。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はねまわる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36147,
+		"multiId": "SM9a-002",
+		"nameJp": "モルフォンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036147_P_MORUFONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しのびのごくい",
+				"damage": "110＋",
+				"text": "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "じゅうまいがえしGX",
+				"damage": "60",
+				"text": "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36148,
+		"multiId": "SM9a-003",
+		"nameJp": "マダツボミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036148_P_MADATSUBOMI.jpg",
+		"imageUrl": "",
+		"cardText": "ひょろっとした 体つきだが 獲物を 捕らえるときの 動きは 目にも とまらないほど 素早い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36149,
+		"multiId": "SM9a-004",
+		"nameJp": "ウツドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036149_P_UTSUDON.jpg",
+		"imageUrl": "",
+		"cardText": "葉っぱの 部分は カッターになって 相手を 切り裂く。 口からは なんでも 溶かす 液体を 吐く。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やけつくどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとやけどにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶつかる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36150,
+		"multiId": "SM9a-005",
+		"nameJp": "ウツボット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036150_P_UTSUBOTTO.jpg",
+		"imageUrl": "",
+		"cardText": "ジャングルの 奥地に ウツボット ばかり いる 地帯が あって 行ったら ２度と 帰ってこれない。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくへんげ",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンが受けている特殊状態の数×60ダメージ追加。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いえき",
+				"damage": "90",
+				"text": "次の自分の番の終わりまで、このワザを受けたポケモンが持つ特性はなくなる。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36151,
+		"multiId": "SM9a-006",
+		"nameJp": "アゴジムシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036151_P_AGOJIMUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "もし 巣穴を 見つけても 手を 突っ込んでは ダメだ。 嫌がる アゴジムシに 噛みつかれるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エレキシグナル",
+				"damage": "",
+				"text": "自分の山札にある[electric]ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36152,
+		"multiId": "SM9a-007",
+		"nameJp": "メノクラゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036152_P_MENOKURAGE.jpg",
+		"imageUrl": "",
+		"cardText": "海辺を 漂い 獲物を 探す。 毒の 触手は ちぎれることも あるが 時間が 経てば 生えてくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あわとばしのじゅつ",
+				"damage": "10＋",
+				"text": "この番、手札から「アンズ」を出して使っていたなら、50ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36153,
+		"multiId": "SM9a-008",
+		"nameJp": "ドククラゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036153_P_DOKUKURAGE.jpg",
+		"imageUrl": "",
+		"cardText": "赤い 玉から 超音波を 発生させ 獲物を 弱らせると ８０本の 触手を 巻きつける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いけずなしょくしゅ",
+				"damage": "",
+				"text": "相手の場のポケモンについているエネルギーを1個、相手の別のポケモンにつけ替える。その後、つけ替えたポケモンにダメカンを3個のせる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "まきつく",
+				"damage": "60",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36154,
+		"multiId": "SM9a-009",
+		"nameJp": "トサキント",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036154_P_TOSAKINTO.jpg",
+		"imageUrl": "",
+		"cardText": "美しい 尾びれが 特徴だが トサキント同士は ツノの 太さと 鋭さを 競い合っているらしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ゆうがにおよぐ",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36155,
+		"multiId": "SM9a-010",
+		"nameJp": "アズマオウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036155_P_AZUMAOU.jpg",
+		"imageUrl": "",
+		"cardText": "ツノは ドリルのように 回転して 硬い 岩も グングン くり貫く。 オスの方が 鮮やかな 色合い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エキサイトホーン",
+				"damage": "30×",
+				"text": "コインを2回投げ、オモテの数×30ダメージ。このポケモンに「ポケモンのどうぐ」がついているなら、このワザで投げるコインの数は6回になる。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36156,
+		"multiId": "SM9a-011",
+		"nameJp": "キュレム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036156_P_KYUREMU.jpg",
+		"imageUrl": "",
+		"cardText": "失った 体を 真実と 理想で 埋めてくれる 英雄を 待つ 氷の 伝説ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れいきをよぶ",
+				"damage": "",
+				"text": "自分の山札にある[water]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘイルプリズン",
+				"damage": "110",
+				"text": "このポケモンについている[water]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36157,
+		"multiId": "SM9a-012",
+		"nameJp": "ケロマツ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036157_P_KEROMATSU.jpg",
+		"imageUrl": "",
+		"cardText": "胸と 背中から 泡を 出す。 弾力のある 泡で 攻撃を 受け止めて ダメージを 減らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんこうせっか",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、20ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36158,
+		"multiId": "SM9a-013",
+		"nameJp": "ゲコガシラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036158_P_GEKOGASHIRA.jpg",
+		"imageUrl": "",
+		"cardText": "泡で 包んだ 小石を 投げる 技を 使う。 ３０メートル 先の 空き缶に 当てる コントロール。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ざんぞうぎり",
+				"damage": "20",
+				"text": "次の相手の番、このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36159,
+		"multiId": "SM9a-014",
+		"nameJp": "ピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036159_P_PIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "電気を ため込む 性質。 ピカチュウが 群れて 暮らす 森は 落雷が 絶えず 危険だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ピカボール",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36160,
+		"multiId": "SM9a-015",
+		"nameJp": "ライチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036160_P_RAICHUU.jpg",
+		"imageUrl": "",
+		"cardText": "身体に 電気が たまるに つれ 攻撃的に。 実は 電気が ストレスなのでは という 説もある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ネバーギブアップ",
+				"damage": "",
+				"text": "このワザは、自分のサイドの残り枚数が、相手より3枚以上多いときにしか使えない。自分のトラッシュにある[electric]エネルギーをすべて、自分のポケモンに好きなようにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘッドボルト",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36161,
+		"multiId": "SM9a-016",
+		"nameJp": "デデンネGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036161_P_DEDENNEGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {
+			"name": "デデチェンジ",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。"
+		},
+		"attacks": [
+			{
+				"name": "バチバチ",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ビリリターンGX",
+				"damage": "50",
+				"text": "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36162,
+		"multiId": "SM9a-017",
+		"nameJp": "デンヂムシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036162_P_DENDIMUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "落ち葉に 埋まり ほとんど 動かず ひたすら 腐葉土を 食っている。 間違って 踏むと ビリビリするぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {
+			"name": "バッテリー",
+			"text": "このカードが手札にあるなら、自分の番に1回使える。このカードを特殊エネルギーとして自分の「クワガノン（GXをふくむ）」につける。このカードは、ポケモンについているかぎり[electric]エネルギー2個ぶんとしてはたらく。"
+		},
+		"attacks": [
+			{
+				"name": "つきさす",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36163,
+		"multiId": "SM9a-018",
+		"nameJp": "クワガノン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036163_P_KUWAGANON.jpg",
+		"imageUrl": "",
+		"cardText": "腹部に 発電 器官を 持つ。 大アゴに エネルギーを 集め 凄まじい 電撃を 放つ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {
+			"name": "ステルスボディ",
+			"text": "場にスタジアムが出ているなら、このポケモンの弱点は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "エレキほう",
+				"damage": "120＋",
+				"text": "のぞむなら、このポケモンについている[electric]エネルギーを、すべてトラッシュする。その場合、100ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36164,
+		"multiId": "SM9a-019",
+		"nameJp": "ゼラオラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036164_P_ZERAORA.jpg",
+		"imageUrl": "",
+		"cardText": "両手足の ツメを 帯電させ 相手を 八つ裂き。 かわされても 飛び散る 電撃で 感電させる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クラッシュクロー",
+				"damage": "20",
+				"text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほうでん",
+				"damage": "50×",
+				"text": "このポケモンについている[electric]エネルギーをすべてトラッシュし、その枚数×50ダメージ。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36165,
+		"multiId": "SM9a-020",
+		"nameJp": "マーシャドー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036165_P_MASHADO.jpg",
+		"imageUrl": "",
+		"cardText": "相手の 影に 潜って 動きや 力を 真似る。 真似ているうちに 本物 よりも 強くなるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "chibi",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {
+			"name": "リセットホール",
+			"text": "このポケモンがベンチにいるなら、自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、このポケモンと、ついているすべてのカードを、トラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "レッドナックル",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンが「ウルトラビースト」なら、60ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36166,
+		"multiId": "SM9a-021",
+		"nameJp": "ウパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036166_P_UPA.jpg",
+		"imageUrl": "",
+		"cardText": "冷たい 水の中で 生活。 あたりが 涼しくなると エサを 探しに 地上にも 現れる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どろばくだん",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36167,
+		"multiId": "SM9a-022",
+		"nameJp": "ヌオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036167_P_NUO.jpg",
+		"imageUrl": "",
+		"cardText": "のんびりとした 性格。 川底で 口を 開けて エサが 飛びこんでくるのを ひたすら 待つ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "なみのり",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36168,
+		"multiId": "SM9a-023",
+		"nameJp": "グライガー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036168_P_GURAIGA.jpg",
+		"imageUrl": "",
+		"cardText": "いつもは 崖に 張りついている。 獲物を見つけると 羽を広げ 風に乗り 襲いかかってくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {
+			"name": "フリーフライト",
+			"text": "このポケモンにエネルギーがついていないなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "しのびのひとつき",
+				"damage": "30＋",
+				"text": "この番、手札から「アンズ」を出して使っていたなら、90ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36169,
+		"multiId": "SM9a-024",
+		"nameJp": "グライオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036169_P_GURAION.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾で 木の枝に ぶら下がり 獲物を 観察する。 すきを 見て 上空から 襲いかかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どくづき",
+				"damage": "70",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36170,
+		"multiId": "SM9a-025",
+		"nameJp": "ゲッコウガ&ゾロアークGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036170_P_GEKKOUGAZOROAKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あくのはどう",
+				"damage": "30＋",
+				"text": "自分の場のポケモンについている[dark]エネルギーの数×30ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ナイトユニゾンGX",
+				"damage": "",
+				"text": "自分のトラッシュにある[dark]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36171,
+		"multiId": "SM9a-026",
+		"nameJp": "キバニア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036171_P_KIBANIA.jpg",
+		"imageUrl": "",
+		"cardText": "臆病で １匹では 狩りも しない。 ５匹 くらい 集まると 急に 凶暴に なるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36172,
+		"multiId": "SM9a-027",
+		"nameJp": "サメハダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036172_P_SAMEHADA.jpg",
+		"imageUrl": "",
+		"cardText": "抜けた キバを 持っていると 海で 事故に 遭わないと 信じられており アクセサリーなどに 加工 される。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {
+			"name": "ごうよくしんか",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から6枚見て、その中にある[dark]エネルギーを好きなだけ、このポケモンにつける。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "バッドファング",
+				"damage": "60＋",
+				"text": "このポケモンについている[dark]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36173,
+		"multiId": "SM9a-028",
+		"nameJp": "ゲッコウガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036173_P_GEKKOUGA.jpg",
+		"imageUrl": "",
+		"cardText": "水を 圧縮して 手裏剣を 作り出す。 高速回転させて 飛ばすと 金属も 真っ二つ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しとめる",
+				"damage": "",
+				"text": "このポケモン以外の、おたがいの場のポケモン全員の中から、残りHPが一番少ないポケモンのうち1匹を選び、きぜつさせる。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "かすみぎり",
+				"damage": "70",
+				"text": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"dark",
+					"dark"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36174,
+		"multiId": "SM9a-029",
+		"nameJp": "マーイーカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036174_P_MAIKA.jpg",
+		"imageUrl": "",
+		"cardText": "光を 点滅させて 獲物を おびきよせると 長い 触手で 絡めとり 動きを 封じるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まどわす",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36175,
+		"multiId": "SM9a-030",
+		"nameJp": "カラマネロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036175_P_KARAMANERO.jpg",
+		"imageUrl": "",
+		"cardText": "強力な さいみんじゅつを 使う。 それを 利用し 悪事を 働く者は 後を 絶たない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さいみんしはい",
+				"damage": "",
+				"text": "相手の手札を見る。のぞむなら、その中にあるポケモンを、1枚トラッシュする。その場合、そのポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダークプレッシャー",
+				"damage": "80",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36176,
+		"multiId": "SM9a-031",
+		"nameJp": "サーナイト&ニンフィアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036176_P_SANAITONINFIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "260",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ようせいのうた",
+				"damage": "",
+				"text": "自分の山札にある[fairy]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カレイドストーム",
+				"damage": "150",
+				"text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				"costs": [
+					"fairy",
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ミラクルマジカルGX",
+				"damage": "200",
+				"text": "追加で[fairy]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fairy",
+					"fairy",
+					"fairy",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36177,
+		"multiId": "SM9a-032",
+		"nameJp": "ピッピ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036177_P_PIPPI.jpg",
+		"imageUrl": "",
+		"cardText": "人気だが 数が 少ないので 貴重。 むやみに 見せびらかすと 泥棒に 狙われるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうふくビンタ",
+				"damage": "10×",
+				"text": "コインを2回投げ、オモテの数×10ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36178,
+		"multiId": "SM9a-033",
+		"nameJp": "ピクシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036178_P_PIKUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "１キロ先で 針が 落ちた 音も 聞こえてしまうので 人やポケモンが 少ない 深い山奥で 暮らす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おつきみダンス",
+				"damage": "10＋",
+				"text": "自分の場の[fairy]エネルギーがついているポケモンの数×30ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36179,
+		"multiId": "SM9a-034",
+		"nameJp": "トゲピー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036179_P_TOGEPI.jpg",
+		"imageUrl": "",
+		"cardText": "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひるませる",
+				"damage": "10",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36180,
+		"multiId": "SM9a-035",
+		"nameJp": "トゲチック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036180_P_TOGECHIKKU.jpg",
+		"imageUrl": "",
+		"cardText": "優しい人の そばに いないと 元気が 出なくなってしまう。 羽を動かさずに 空に浮かべる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エネギフト",
+				"damage": "",
+				"text": "自分の手札にあるエネルギーを1枚、ベンチポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マジカルショット",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36181,
+		"multiId": "SM9a-036",
+		"nameJp": "トゲキッス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036181_P_TOGEKISSU.jpg",
+		"imageUrl": "",
+		"cardText": "争いのない 平和な 土地に トゲキッスは 訪れ さまざまな 恵みを 分け与えると 言われる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {
+			"name": "ようせいのうたげ",
+			"text": "自分の番に1回使える。自分の[fairy]ポケモン全員のHPを、それぞれ「30」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "マジカルショット",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36182,
+		"multiId": "SM9a-037",
+		"nameJp": "シュシュプ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036182_P_SHUSHUPU.jpg",
+		"imageUrl": "",
+		"cardText": "かいだ 者を うっとりさせる 香りを 体から 漂わせる。 食べた もので 香りが 変わる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひとやすみ",
+				"damage": "",
+				"text": "このポケモンのHPを「20」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ようせいのかぜ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fairy"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36183,
+		"multiId": "SM9a-038",
+		"nameJp": "フレフワン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036183_P_FUREFUWAN.jpg",
+		"imageUrl": "",
+		"cardText": "さまざまな においを 作り出す。 相手の 嫌がる においを 出して 戦いを 有利に 進めるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きょうれつなかおり",
+				"damage": "",
+				"text": "コインを2回投げる。1回でもオモテなら、相手の手札を見て、オモテの数ぶんのカードを、相手の山札にもどして切る。",
+				"costs": [
+					"fairy"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ミラクルコロン",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36184,
+		"multiId": "SM9a-039",
+		"nameJp": "コラッタ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036184_P_KORATTA.jpg",
+		"imageUrl": "",
+		"cardText": "一生 前歯が 伸び続ける。 あまりに 伸びすぎると エサが 食べられなくなって 餓死 する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36185,
+		"multiId": "SM9a-040",
+		"nameJp": "ラッタ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036185_P_RATTA.jpg",
+		"imageUrl": "",
+		"cardText": "後ろ足の 小さい 水かきで 海を 泳いで 島を 渡り 敵から 逃げていた という。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とんずらまえば",
+				"damage": "70",
+				"text": "相手のバトルポケモンが進化ポケモンなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36186,
+		"multiId": "SM9a-041",
+		"nameJp": "ベロリンガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036186_P_BERORINGA.jpg",
+		"imageUrl": "",
+		"cardText": "長い ベロで なんでも ベロリと 舐めて 確かめている。 舐められた 部分を 放っておくと かぶれるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "したでなめる",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36187,
+		"multiId": "SM9a-042",
+		"nameJp": "ベロベルト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036187_P_BEROBERUTO.jpg",
+		"imageUrl": "",
+		"cardText": "舌が どこまで 伸びるのかの コンテストが 開催 されている。 現在の 最高記録は２５ｍ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つまんでたべる",
+				"damage": "40",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。トラッシュした場合、このポケモンのHPを、すべて回復する。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ベロベロハリケーン",
+				"damage": "60×",
+				"text": "コインを4回投げ、オモテの数×60ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36312,
+		"multiId": "SM9a-056",
+		"nameJp": "モルフォンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036312_P_MORUFONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しのびのごくい",
+				"damage": "110＋",
+				"text": "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "じゅうまいがえしGX",
+				"damage": "60",
+				"text": "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36313,
+		"multiId": "SM9a-057",
+		"nameJp": "デデンネGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036313_P_DEDENNEGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {
+			"name": "デデチェンジ",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。"
+		},
+		"attacks": [
+			{
+				"name": "バチバチ",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ビリリターンGX",
+				"damage": "50",
+				"text": "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36314,
+		"multiId": "SM9a-058",
+		"nameJp": "ゲッコウガ&ゾロアークGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036314_P_GEKKOUGAZOROAKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あくのはどう",
+				"damage": "30＋",
+				"text": "自分の場のポケモンについている[dark]エネルギーの数×30ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ナイトユニゾンGX",
+				"damage": "",
+				"text": "自分のトラッシュにある[dark]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36315,
+		"multiId": "SM9a-059",
+		"nameJp": "ゲッコウガ&ゾロアークGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036315_P_GEKKOUGAZOROAKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "kodama",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あくのはどう",
+				"damage": "30＋",
+				"text": "自分の場のポケモンについている[dark]エネルギーの数×30ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ナイトユニゾンGX",
+				"damage": "",
+				"text": "自分のトラッシュにある[dark]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36316,
+		"multiId": "SM9a-060",
+		"nameJp": "サーナイト&ニンフィアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036316_P_SANAITONINFIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "260",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ようせいのうた",
+				"damage": "",
+				"text": "自分の山札にある[fairy]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カレイドストーム",
+				"damage": "150",
+				"text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				"costs": [
+					"fairy",
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ミラクルマジカルGX",
+				"damage": "200",
+				"text": "追加で[fairy]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fairy",
+					"fairy",
+					"fairy",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36317,
+		"multiId": "SM9a-061",
+		"nameJp": "サーナイト&ニンフィアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036317_P_SANAITONINFIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "260",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ようせいのうた",
+				"damage": "",
+				"text": "自分の山札にある[fairy]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カレイドストーム",
+				"damage": "150",
+				"text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				"costs": [
+					"fairy",
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ミラクルマジカルGX",
+				"damage": "200",
+				"text": "追加で[fairy]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fairy",
+					"fairy",
+					"fairy",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36188,
+		"multiId": "SM9a-043",
+		"nameJp": "電磁レーダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036188_T_DENJIREDA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n \n自分の山札にある[electric]タイプの「ポケモンGX・EX」を2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36189,
+		"multiId": "SM9a-044",
+		"nameJp": "びっくりボックス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036189_T_BIKKURIBOKKUSU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "相手のトラッシュにある好きなカードを1枚、相手の手札にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "C",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36190,
+		"multiId": "SM9a-045",
+		"nameJp": "ポケギア3.0",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036190_T_POKEGIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中にあるサポートを1枚、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36191,
+		"multiId": "SM9a-046",
+		"nameJp": "隠密フード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036191_T_ONMITSUFUDO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36192,
+		"multiId": "SM9a-047",
+		"nameJp": "フェアリーチャーム 雷",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036192_T_FEARICHAMUKAMINARI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36193,
+		"multiId": "SM9a-048",
+		"nameJp": "フェアリーチャーム 特性",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036193_T_FEARICHAMUTOKUSEI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36194,
+		"multiId": "SM9a-049",
+		"nameJp": "アンズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036194_T_ANZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を上から4枚見て、その中にあるカードを2枚、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36195,
+		"multiId": "SM9a-050",
+		"nameJp": "キョウの罠",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036195_T_KYOUNOWANA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のバトルポケモンをどくとこんらんにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36196,
+		"multiId": "SM9a-051",
+		"nameJp": "マチスの作戦",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036196_T_MACHISUNOSAKUSEN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分のサイドの残り枚数が、相手より多いときにしか使えない。\n\nこの番、自分が使えるサポートの枚数は3枚になる。（このカードをふくむ。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "U",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36197,
+		"multiId": "SM9a-052",
+		"nameJp": "エレキパワー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036197_T_EREKIPAWA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "この番、自分の[electric]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "TR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36198,
+		"multiId": "SM9a-053",
+		"nameJp": "改造ハンマー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036198_T_KAIZOUHANMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "相手の場のポケモンについている特殊エネルギーを、1個トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "TR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36199,
+		"multiId": "SM9a-054",
+		"nameJp": "まんたんのくすり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036199_T_MANTANNOKUSURI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモン1匹のHPを、すべて回復する。その後、そのポケモンについているエネルギーを、すべてトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "TR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36200,
+		"multiId": "SM9a-055",
+		"nameJp": "グズマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036200_T_GUZUMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "TR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36318,
+		"multiId": "SM9a-062",
+		"nameJp": "アンズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036318_T_ANZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を上から4枚見て、その中にあるカードを2枚、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	},
+	{
+		"cardId": 36319,
+		"multiId": "SM9a-063",
+		"nameJp": "キョウの罠",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036319_T_KYOUNOWANA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のバトルポケモンをどくとこんらんにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "SR",
+		"set": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
+		"setCode": "SM9a",
+		"generation": "SM",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evloves": null
+	}
+]

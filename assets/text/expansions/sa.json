@@ -1,0 +1,92 @@
+[
+    {
+        "number": "S-P",
+        "name": "ソード&シールド プロモカード",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "697",
+        "name": "ソード&シールド スターターセットV　水",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "696",
+        "name": "ソード&シールド スターターセットV　炎",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "695",
+        "name": "ソード&シールド スターターセットV　草",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "699",
+        "name": "ソード&シールド スターターセットV　闘",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "698",
+        "name": "ソード&シールド スターターセットV　雷",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "701",
+        "name": "ソード&シールド 拡張パック「ソード」",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "702",
+        "name": "ソード&シールド 拡張パック「シールド」",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "709",
+        "name": "スターターセットVMAX　オーロンゲ",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "708",
+        "name": "スターターセットVMAX　リザードン",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "704",
+        "name": "強化拡張パック「VMAXライジング」",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "706",
+        "name": "ザシアン＋ザマゼンタBOX",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "703",
+        "name": "プレミアムトレーナーボックス ソード＆シールド",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "705",
+        "name": "拡張パック「反逆クラッシュ」",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    },
+    {
+        "number": "707",
+        "name": "強化拡張パック「爆炎ウォーカー」",
+        "releaseDate": "9999-12-31",
+        "generation": "sa"
+    }
+]
