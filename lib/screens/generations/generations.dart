@@ -6,12 +6,9 @@ class Generations extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          title: Text('Generation List'),
-          actions: <Widget>[
-            IconButton(icon: Icon(Icons.list), onPressed: null),
-          ]
-      ),
+      appBar: AppBar(title: Text('Generation List'), actions: <Widget>[
+        IconButton(icon: Icon(Icons.list), onPressed: null),
+      ]),
       body: _buildExpansions(context),
     );
   }
@@ -25,15 +22,16 @@ class Generations extends StatelessWidget {
       },
     );
   }
+
   Widget _expansionItem(BuildContext context, String gen) {
     return Container(
       decoration: new BoxDecoration(
-        border: new Border(bottom: BorderSide(width: 1.0, color:Colors.grey))
-      ),
+          border:
+              new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
         leading: _expansionImage(gen),
         title: Text(getGenerationDisplayName(gen), style: _biggerFont),
-        onTap: (){
+        onTap: () {
           Navigator.of(context).pushNamed('/expansions', arguments: gen);
         },
       ),
@@ -48,10 +46,7 @@ class Generations extends StatelessWidget {
   List<String> getGenerationOrders() => ['sa', 'sm'];
 
   String getGenerationDisplayName(String gen) {
-    final _map = {
-      'sa': 'ソード＆シールド',
-      'sm': 'サン＆ムーン'};
+    final _map = {'sa': 'ソード＆シールド', 'sm': 'サン＆ムーン'};
     return _map[gen];
   }
 }
-
