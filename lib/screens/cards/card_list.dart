@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 
@@ -11,26 +12,28 @@ class CardList extends StatelessWidget {
   Widget build(BuildContext context) {
     final ExpansionContent expansionContent =
         ModalRoute.of(context).settings.arguments;
+    final String genDisplay = getGenerationDisplayName(
+        expansionContent.generation).replaceFirst('＆', '&');
+    final String titleText = expansionContent.name
+        .replaceAll(RegExp('$genDisplay'), '')
+        .replaceAll(RegExp(r'強化拡張パック'), '')
+        .replaceAll(RegExp(r'拡張パック'), '')
+        .replaceAll(RegExp(r'ハイクラスパック'), '')
+        .replaceAll(RegExp(r'「'), '')
+        .replaceAll(RegExp(r'」'), '')
+        .replaceAll(RegExp(r'　'), '\n')
+        .replaceFirst(RegExp(r' '), '')
+    ;
+
     return Scaffold(
         appBar: AppBar(
-            title: Text(expansionContent.name, maxLines: 2),
+            centerTitle: true,
+            title: Text(titleText, maxLines: 2),
             actions: <Widget>[
               IconButton(icon: Icon(Icons.list), onPressed: null),
             ]),
         body: Container(
             child: Column(children: <Widget>[
-              Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextField(
-                    onChanged: (value) {},
-                    controller: TextEditingController(),
-                    decoration: InputDecoration(
-                        labelText: "Search",
-                        hintText: "Search",
-                        prefixIcon: Icon(Icons.search),
-                        border: OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(25.0)))),
-                  )),
               Expanded(
                 child: Center(
                   child: FutureBuilder(

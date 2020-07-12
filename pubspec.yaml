@@ -27,6 +27,9 @@ dependencies:
   cupertino_icons: ^0.1.2
   draggable_scrollbar: ^0.0.4
 
+  dio: ^3.0.9
+  dio_cookie_manager: ^1.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

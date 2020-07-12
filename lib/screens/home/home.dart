@@ -20,6 +20,7 @@ class Home extends StatelessWidget {
           _buildInformation(context),
           _buildExpansions(context),
           _buildDecks(context),
+          _buildSearch(context),
         ]
       ))
     );
@@ -49,6 +50,15 @@ class Home extends StatelessWidget {
         Navigator.of(context).pushNamed('/decks');
       },
       child: Text('Decks'),
+    );
+  }
+
+  Widget _buildSearch(BuildContext context) {
+    return RaisedButton(
+      onPressed: (){
+        Navigator.of(context).pushNamed('/search_cards');
+      },
+      child: Text('Search'),
     );
   }
 }

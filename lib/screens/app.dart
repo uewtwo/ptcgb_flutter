@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/screens//home/home.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
+import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
 
 import 'generations/generations.dart';
@@ -23,6 +24,8 @@ class PtcgBuilderApp extends StatelessWidget {
         '/decks': (BuildContext context) => Home(),
         '/deck': (BuildContext context) => Home(),
         '/events': (BuildContext context) => Home(),
+        '/search_cards': (BuildContext context) => SearchCards(),
+        '/search_events': (BuildContext context) => Home(),
       },
       theme: ThemeData(
         primaryColor: Colors.teal, // app header background

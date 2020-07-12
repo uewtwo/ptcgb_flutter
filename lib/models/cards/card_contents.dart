@@ -1,6 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:ptcgb_flutter/models/cards/ability_content.dart';
 import 'package:ptcgb_flutter/models/cards/attack_content.dart';
+// TODO: 下記はモデルを使えていない
 import 'package:ptcgb_flutter/models/cards/opt_value_content.dart';
 import 'package:ptcgb_flutter/models/cards/resistances_content.dart';
 import 'package:ptcgb_flutter/models/cards/retreats_content.dart';

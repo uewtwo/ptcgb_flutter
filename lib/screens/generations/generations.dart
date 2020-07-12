@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
+
 
 class Generations extends StatelessWidget {
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
@@ -43,10 +45,10 @@ class Generations extends StatelessWidget {
     return Image.asset(targetPath);
   }
 
-  List<String> getGenerationOrders() => ['sa', 'sm'];
-
-  String getGenerationDisplayName(String gen) {
-    final _map = {'sa': 'ソード＆シールド', 'sm': 'サン＆ムーン'};
-    return _map[gen];
-  }
+//  List<String> getGenerationOrders() => ['sa', 'sm'];
+//
+//  String getGenerationDisplayName(String gen) {
+//    final _map = {'sa': 'ソード＆シールド', 'sm': 'サン＆ムーン'};
+//    return _map[gen];
+//  }
 }

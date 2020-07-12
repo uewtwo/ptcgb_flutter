@@ -1,42 +1,100 @@
 import 'dart:convert';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ptcgb_flutter/common/appbar_search.dart';
+import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 
-class Expansions extends StatelessWidget {
+class Expansions extends StatefulWidget {
+  @override
+  ExpansionsState createState() => ExpansionsState();
+}
+
+class ExpansionsState extends State<Expansions> {
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
+  ExpansionsState() {
+    dio = Dio();
+    _listContent = [];
+    _searchText = "";
+    _pageNum = 1;
+  }
+  Dio dio;
+  List<SearchResultCard> _listContent;
+  String _searchText;
+  int _hitCnt;
+  int _pageNum;
+
+  AppBarSearch appbarsearch;
+
+  @override
+  void initState() {
+    super.initState();
+
+    appbarsearch = AppBarSearch(
+      state: this,
+      onSubmitted: _searchCardsByKeyword
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
-    final String generation = ModalRoute.of(context).settings.arguments;
+    final String gen = ModalRoute.of(context).settings.arguments;
+    return _buildExpansionsList(context, gen);
+  }
+
+  Widget _buildExpansionsList(BuildContext context, String gen) {
     return Scaffold(
-        appBar: AppBar(title: Text('Expansion List'), actions: <Widget>[
-          IconButton(icon: Icon(Icons.list), onPressed: null),
-        ]),
-        body: Container(
-            child: Column(children: <Widget>[
-              Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextField(
-                    onChanged: (value) {},
-                    controller: TextEditingController(),
-                    decoration: InputDecoration(
-                        labelText: "Search",
-                        hintText: "Search",
-                        prefixIcon: Icon(Icons.search),
-                        border: OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(25.0)))),
-                  )),
-              Expanded(
-                  child: Center(
-                      child: FutureBuilder(
-                future: this.getExpansionContentsByGen(context, generation),
-                builder: (BuildContext context, AsyncSnapshot snapshot) {
-                  return _buildExpansions(context, snapshot);
-                },
-              ))),
-            ])));
+        appBar: AppBar(
+            centerTitle: true,
+            title: appbarsearch.onTitle(const Text('Expansion List')),
+            actions: <Widget>[
+              appbarsearch.searchIcon,
+              IconButton(icon: Icon(Icons.list), onPressed: null),
+            ]),
+        body: _searchText.isEmpty
+            ? this._getExpansionContentsByGen(context, gen)
+            : this._buildSearchCardList()
+    );
+  }
+
+  Widget _getExpansionContentsByGen(BuildContext context, String gen) {
+    return Container(
+        child: Column(children: <Widget>[
+          Expanded(
+              child: Center(
+                  child: FutureBuilder(
+                    future: this.getExpansionContentsByGen(context, gen),
+                    builder: (BuildContext context, AsyncSnapshot snapshot) {
+                      return _buildExpansions(context, snapshot);
+                    },
+                  ))),
+        ])
+    );
+  }
+
+  Widget _buildSearchCardList() {
+    return Scrollbar(
+      child: ListView.builder(
+          itemCount: _listContent.length,
+          padding: const EdgeInsets.all(16.0),
+          itemBuilder: (context, index) {
+            if ((_hitCnt != null && index + 1 < _hitCnt)
+                && index + 1 >= _listContent.length) {
+              _pageNum++;
+              _searchCardsByKeyword(_searchText, page: _pageNum);
+            }
+            return Container(
+              decoration: new BoxDecoration(
+                  border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+              child: ListTile(
+                title: Text(_listContent[index].cardNameViewText, style: _biggerFont),
+                onTap: () {},
+              ),
+            );
+          }),
+    );
   }
 
   Widget _buildExpansions(BuildContext context, AsyncSnapshot snapshot) {
@@ -98,5 +156,40 @@ class Expansions extends StatelessWidget {
         ExpansionContents.fromJson(jsonRes).getExpansionContentList();
 
     return _expansions;
+  }
+
+  void _searchCardsByKeyword(String keyword, {int page = 1}) async {
+    _searchText = "";
+    // 何となく2文字以上でsubmitされた場合に絞る
+    if (keyword.length >= 2) {
+      final url = 'https://www.pokemon-card.com/card-search/resultAPI.php';
+      final payload = {
+        'keyword': keyword,
+        'regulation_sidebar_form': 'XY',
+        'sm_and_keyword': true,
+        'page': page
+      };
+
+      // FIXME: エラーハンドリング
+      final Response response = await dio.post(
+          url,
+          data: new FormData.fromMap(payload),
+          options: Options(
+            headers: {},
+          ));
+
+      final SearchResultCards resData = SearchResultCards.fromJson(
+          response.data);
+
+      setState(() {
+        _searchText = keyword;
+        _hitCnt = resData.hitCnt;
+        if (page == 1) {
+          _listContent = [];
+        }
+
+        _listContent.addAll(resData.cardList);
+      });
+    }
   }
 }
