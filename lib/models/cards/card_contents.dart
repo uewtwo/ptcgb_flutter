@@ -39,9 +39,11 @@ class CardContent {
   final String energyText;
   final String hp;
   final List<String> color;
+  // TODO: OptionValueはGenerationによって変わるので、どこかで吸収する
   final Map<String, dynamic> optionValue;
   final String author;
   final String rarity;
+  final String productNo;
   final String set;
   final String setCode;
   final String generation;
@@ -53,9 +55,9 @@ class CardContent {
   final Map<String, dynamic> retreats;
   final Map<String, dynamic> resistances;
   final List<int> nationalPokedexNumbers;
-  final String evloves;
+  final String evolves;
 
-  CardContent({this.nameJp, this.nameUs, this.imageUrlOfficial, this.imageUrl, this.cardText, this.supertype, this.subtype, this.trainerText, this.energyText, this.hp, this.color, this.optionValue, this.author, this.rarity, this.set, this.setCode, this.generation, this.setNo, this.ability, this.addRule, this.weaknesses, this.resistances, this.nationalPokedexNumbers, this.evloves, this.cardId, this.multiId, this.attacks, this.retreats});
+  CardContent({this.nameJp, this.nameUs, this.imageUrlOfficial, this.imageUrl, this.cardText, this.supertype, this.subtype, this.trainerText, this.energyText, this.hp, this.color, this.optionValue, this.author, this.rarity, this.productNo, this.set, this.setCode, this.generation, this.setNo, this.ability, this.addRule, this.weaknesses, this.resistances, this.nationalPokedexNumbers, this.evolves, this.cardId, this.multiId, this.attacks, this.retreats});
 
   factory CardContent.fromJson(Map<String, dynamic> json) => _$CardContentFromJson(json);
 

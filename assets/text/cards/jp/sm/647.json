@@ -1,0 +1,3770 @@
+[
+	{
+		"cardId": 36656,
+		"multiId": "647_001",
+		"nameJp": "モクロー&アローラナッシーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036656_P_MOKUROARORANASSHIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパーグロウ",
+				"damage": "",
+				"text": "自分の場の[grass]ポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。進化後が1進化なら、続けて2進化を1枚選び進化させる。そして山札を切る。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やすらぎハリケーン",
+				"damage": "150",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "トロピカルアワーGX",
+				"damage": "200",
+				"text": "追加でエネルギーが3個ついているなら、相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"grass",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36657,
+		"multiId": "647_002",
+		"nameJp": "イシズマイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036657_P_ISHIZUMAI.jpg",
+		"imageUrl": "",
+		"cardText": "手ごろな 石に 穴を 開けて 住処にする。 壊されると かわりの 石が 見つかるまで 落ち着かない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメをたてる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36658,
+		"multiId": "647_003",
+		"nameJp": "イワパレス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036658_P_IWAPARESU.jpg",
+		"imageUrl": "",
+		"cardText": "重たい 岩を 背負って 乾燥した 土地を 何日でも 移動できる 脚力を 持つ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {
+			"name": "シェルアーマー",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "れんぞくぎり",
+				"damage": "50＋",
+				"text": "コインを3回投げる。オモテが1回なら、40ダメージ追加。オモテが2回なら、80ダメージ追加。すべてオモテなら、150ダメージ追加。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36659,
+		"multiId": "647_004",
+		"nameJp": "カリキリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036659_P_KARIKIRI.jpg",
+		"imageUrl": "",
+		"cardText": "日が 昇ると ４枚の 葉っぱを 広げ 日光浴。 頭の 先から いい 匂いが するよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あまいかおり",
+				"damage": "",
+				"text": "自分のポケモン1匹のHPを「30」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "このは",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36660,
+		"multiId": "647_005",
+		"nameJp": "ラランテス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036660_P_RARANTESU.jpg",
+		"imageUrl": "",
+		"cardText": "むしポケモンの ふりを するのは 身を 守るため。 両腕の 花びらは 鋭い 切れ味。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はなふぶき",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ソルスラッシュ",
+				"damage": "50＋",
+				"text": "このポケモンに[fire]エネルギーがついているなら、50ダメージ追加。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36661,
+		"multiId": "647_006",
+		"nameJp": "アマカジ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036661_P_AMAKAJI.jpg",
+		"imageUrl": "",
+		"cardText": "甘く 美味しそうな 匂いのせいで とりポケモンに 狙われるが あまり 賢くないので 気に していない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はねる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かいてんアタック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36662,
+		"multiId": "647_007",
+		"nameJp": "アママイコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036662_P_AMAMAIKO.jpg",
+		"imageUrl": "",
+		"cardText": "硬いヘタで 守られているので とりポケモンとも 平気で 遊ぶ。 突かれまくるが 気に していない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうふくビンタ",
+				"damage": "30×",
+				"text": "コインを2回投げ、オモテの数×30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "リーフステップ",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36663,
+		"multiId": "647_008",
+		"nameJp": "アマージョ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036663_P_AMAJO.jpg",
+		"imageUrl": "",
+		"cardText": "美しい 蹴り技の 使い手。 キックボクシングの チャンピオンも 一撃で ノックアウトするぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {
+			"name": "じょおうのほうび",
+			"text": "自分の番に1回使える。自分のトラッシュにある[grass]エネルギーを1枚、バトルポケモンにつける。"
+		},
+		"attacks": [
+			{
+				"name": "とびひざげり",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36664,
+		"multiId": "647_009",
+		"nameJp": "ドンメル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036664_P_DONMERU.jpg",
+		"imageUrl": "",
+		"cardText": "灼熱の マグマを 背中の コブに ためている。 雨に 当たると マグマが 冷えて 動きが 鈍る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Motofumi Fujiwara",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "80",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36665,
+		"multiId": "647_010",
+		"nameJp": "バクーダ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036665_P_BAKUDA.jpg",
+		"imageUrl": "",
+		"cardText": "背中の コブの 火山は １０年ごとに 大噴火 するが 激しく 怒っても 噴火する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ストロングフレア",
+				"damage": "150",
+				"text": "このポケモンについているエネルギーを、2個トラッシュする。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36666,
+		"multiId": "647_011",
+		"nameJp": "ビクティニ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036666_P_BIKUTEINI.jpg",
+		"imageUrl": "",
+		"cardText": "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビクトリーサイン",
+				"damage": "",
+				"text": "自分の山札にある、それぞれちがうタイプの基本エネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのお",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36667,
+		"multiId": "647_012",
+		"nameJp": "ヒノヤコマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036667_P_HINOYAKOMA.jpg",
+		"imageUrl": "",
+		"cardText": "草むらに ひのこを まき散らす。 炎に 驚いて 飛び出してきた むしポケモンを ぱくりと いただく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ニトロチャージ",
+				"damage": "20",
+				"text": "自分の山札にある[fire]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36668,
+		"multiId": "647_013",
+		"nameJp": "ファイアロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036668_P_FAIARO.jpg",
+		"imageUrl": "",
+		"cardText": "羽は 火を 通さず 丈夫。 昔の 消防士の 服は ファイアローの 羽で できていた。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねっぷう",
+				"damage": "40",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "フレアブリッツ",
+				"damage": "100",
+				"text": "このポケモンについているエネルギーを1個トラッシュし、相手のベンチポケモン1匹にも、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36669,
+		"multiId": "647_014",
+		"nameJp": "ユキワラシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036669_P_YUKIWARASHI.jpg",
+		"imageUrl": "",
+		"cardText": "雪や 氷が 主な エサ。 暖かな アローラでは 限られた 場所 でしか 生きていけない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つらら",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36670,
+		"multiId": "647_015",
+		"nameJp": "ユキメノコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036670_P_YUKIMENOKO.jpg",
+		"imageUrl": "",
+		"cardText": "雪山登山に 来た 山男を 氷漬けにし 棲家に 持ち帰る。 美男子 しか 狙われない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "うらみのといき",
+				"damage": "20×",
+				"text": "このポケモンにダメカンを7個までのせ、のせた数×20ダメージ。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "こごえるかぜ",
+				"damage": "40",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36671,
+		"multiId": "647_016",
+		"nameJp": "ユキカブリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036671_P_YUKIKABURI.jpg",
+		"imageUrl": "",
+		"cardText": "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こなゆき",
+				"damage": "10",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36672,
+		"multiId": "647_017",
+		"nameJp": "ユキノオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036672_P_YUKINOO.jpg",
+		"imageUrl": "",
+		"cardText": "ブリザードを 発生させて あたり 一面を 真っ白に してしまう。 別名 アイスモンスター。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きゅうそくれいとう",
+				"damage": "70",
+				"text": "相手のバトルポケモンに[water]エネルギーがついているなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ワイルドタックル",
+				"damage": "140",
+				"text": "このポケモンにも20ダメージ。",
+				"costs": [
+					"water",
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36673,
+		"multiId": "647_018",
+		"nameJp": "フリージオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036673_P_FURIJIO.jpg",
+		"imageUrl": "",
+		"cardText": "雪雲の 中で 生まれた。 氷の 結晶で できた 鎖で 獲物を 捕まえる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "カチカチロック",
+				"damage": "10",
+				"text": "次の相手の番、相手は手札からグッズを出して使えない。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36674,
+		"multiId": "647_019",
+		"nameJp": "ケルディオGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036674_P_KERUDEIOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {
+			"name": "ホーリーハート",
+			"text": "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ソニックエッジ",
+				"damage": "110",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かくごのつるぎGX",
+				"damage": "50×",
+				"text": "相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36675,
+		"multiId": "647_020",
+		"nameJp": "カプ・レヒレ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036675_P_KAPUREHIRE.jpg",
+		"imageUrl": "",
+		"cardText": "深い 霧の 奥に 棲んでいると 恐れ 敬われてきた。 水を 操る ポニの 守り神だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひれカッター",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ネイチャーウェーブ",
+				"damage": "100",
+				"text": "このワザは、相手の場に「ウルトラビースト」がいるなら、[colorless]エネルギー1個で使える。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36676,
+		"multiId": "647_021",
+		"nameJp": "コイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036676_P_KOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "たびたび 停電の 原因と なる ため コイルが 嫌がる 電波を 流す 発電所も あるほど。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちょうおんぱ",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36677,
+		"multiId": "647_022",
+		"nameJp": "レアコイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036677_P_REAKOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "謎の 電波を 発信 しており レアコイルが 棲んでいる 場所では 精密機器が 故障してしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ピッカリだま",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "トライアタック",
+				"damage": "40×",
+				"text": "コインを3回投げ、オモテの数×40ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36678,
+		"multiId": "647_023",
+		"nameJp": "ジバコイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036678_P_JIBAKOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "自分の テリトリーを レーダーで 監視 している。 侵入者は 破壊光線で ただちに 処分。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {
+			"name": "ダブルタイプ",
+			"text": "このポケモンは、場にいるかぎり[electric]と[steel]の2つのタイプになる。"
+		},
+		"attacks": [
+			{
+				"name": "マグネットボルト",
+				"damage": "120",
+				"text": "自分のトラッシュにあるトレーナーズを1枚、相手に見せてから、手札に加える。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36679,
+		"multiId": "647_024",
+		"nameJp": "デンジュモク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036679_P_DENJUMOKU.jpg",
+		"imageUrl": "",
+		"cardText": "この世界では 異質で 危険だが 本来 棲んでいる 世界では 普通に 見かける 生物らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スリーミラーズ",
+				"damage": "30＋",
+				"text": "相手のサイドの残り枚数が3枚なら、90ダメージ追加。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シグナルビーム",
+				"damage": "50",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36680,
+		"multiId": "647_025",
+		"nameJp": "アーボ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036680_P_ABO.jpg",
+		"imageUrl": "",
+		"cardText": "顎を 外すことで 自分より 大きな 獲物も 丸呑みに する。 食後は 身体を 丸め 休む。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽではたく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36681,
+		"multiId": "647_026",
+		"nameJp": "アーボック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036681_P_ABOKKU.jpg",
+		"imageUrl": "",
+		"cardText": "最新の 研究で お腹の 模様は ２０種類 以上の パターンが あることが 判明。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {
+			"name": "いまわのもよう",
+			"text": "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の手札からオモテを見ないで、2枚トラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "ロケットテール",
+				"damage": "50＋",
+				"text": "自分のトラッシュに「ムサシとコジロウ」があるなら、80ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36682,
+		"multiId": "647_027",
+		"nameJp": "ドガース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036682_P_DOGASU.jpg",
+		"imageUrl": "",
+		"cardText": "薄い バルーン状の 体に 猛毒の ガスが つまっている。 近くに 来ると くさい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36683,
+		"multiId": "647_028",
+		"nameJp": "マタドガス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036683_P_MATADOGASU.jpg",
+		"imageUrl": "",
+		"cardText": "どちらかが ふくらむと 片方は しぼむ 双子の ドガース。 いつも 体内の 毒ガスを 混ぜている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {
+			"name": "ホワイトホール",
+			"text": "自分の番に、このカードが「ムサシとコジロウ」の効果でトラッシュされたとき、1回使える。相手は相手自身の手札を、1枚トラッシュする。（トラッシュするのは「ムサシとコジロウ」の効果のあと。）"
+		},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36684,
+		"multiId": "647_029",
+		"nameJp": "ユクシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036684_P_YUKUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "知識の神と 呼ばれている。 目を 合わせた 者の 記憶を 消してしまう 力を 持つという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {
+			"name": "ひみつのテリトリー",
+			"text": "自分の場に「エムリット」「アグノム」がいるなら、おたがいのポケモン全員の弱点は、すべて「×4」としてダメージ計算をする。"
+		},
+		"attacks": [
+			{
+				"name": "サイコショット",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36685,
+		"multiId": "647_030",
+		"nameJp": "エムリット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036685_P_EMURITTO.jpg",
+		"imageUrl": "",
+		"cardText": "悲しみの 苦しさと 喜びの 尊さを 人々に 教えた。 感情の神と 呼ばれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "コンタクト",
+				"damage": "",
+				"text": "自分の山札にあるたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つぶやく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36686,
+		"multiId": "647_031",
+		"nameJp": "アグノム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036686_P_AGUNOMU.jpg",
+		"imageUrl": "",
+		"cardText": "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコパワー",
+				"damage": "",
+				"text": "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36687,
+		"multiId": "647_032",
+		"nameJp": "ベベノム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036687_P_BEBENOMU.jpg",
+		"imageUrl": "",
+		"cardText": "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とばす",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ラストシーン",
+				"damage": "50＋",
+				"text": "おたがいのサイドの残り枚数が、それぞれ1枚なら、130ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36688,
+		"multiId": "647_033",
+		"nameJp": "クリムガン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036688_P_KURIMUGAN.jpg",
+		"imageUrl": "",
+		"cardText": "赤い 顔の 皮膚は 岩よりも 硬い。 狭い 洞窟の 中で 敵に 向かって 顔から 突撃。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "hatachu",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきずりだす",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ドラゴンテール",
+				"damage": "100×",
+				"text": "コインを2回投げ、オモテの数×100ダメージ。",
+				"costs": [
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36689,
+		"multiId": "647_034",
+		"nameJp": "アーゴヨンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036689_P_AGOYONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "RR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {
+			"name": "ウルトラへんかん",
+			"text": "自分の番に1回使える。自分の手札にある「ウルトラビースト」を1枚トラッシュする。その後、山札を3枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "ベノムシュート",
+				"damage": "",
+				"text": "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "インジェクションGX",
+				"damage": "",
+				"text": "相手のトラッシュにある好きなカードを1枚、相手に見せてから、ウラにして相手のサイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36690,
+		"multiId": "647_035",
+		"nameJp": "ファイヤー&サンダー&フリーザーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036690_P_FAIYASANDAFURIZAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トリニティバーン",
+				"damage": "210",
+				"text": "",
+				"costs": [
+					"fire",
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "スカイレジェンドGX",
+				"damage": "",
+				"text": "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。追加で[fire][water][electric]エネルギーが1個ずつついているなら、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36691,
+		"multiId": "647_036",
+		"nameJp": "ベロリンガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036691_P_BERORINGA.jpg",
+		"imageUrl": "",
+		"cardText": "長い ベロで なんでも ベロリと 舐めて 確かめている。 舐められた 部分を 放っておくと かぶれるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どすこいドロー",
+				"damage": "",
+				"text": "自分の場のにげるためのエネルギーが4個のポケモンの数ぶん、山札を引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ベロではたく",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36692,
+		"multiId": "647_037",
+		"nameJp": "ベロベルト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036692_P_BEROBERUTO.jpg",
+		"imageUrl": "",
+		"cardText": "舌が どこまで 伸びるのかの コンテストが 開催 されている。 現在の 最高記録は２５ｍ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ころがる",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ベロベロらんぶ",
+				"damage": "90",
+				"text": "相手の手札からオモテを見ないで1枚トラッシュし、相手の山札を上から1枚トラッシュし、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36693,
+		"multiId": "647_038",
+		"nameJp": "ホーホー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036693_P_HOHO.jpg",
+		"imageUrl": "",
+		"cardText": "毎日 必ず 決まったリズムで 首を かしげる。 昔の人は 時計の 代わりに 飼っていた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エアスラッシュ",
+				"damage": "30",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36694,
+		"multiId": "647_039",
+		"nameJp": "ヨルノズク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036694_P_YORUNOZUKU.jpg",
+		"imageUrl": "",
+		"cardText": "暗闇でも はっきり 見える 目を 持っており 獲物を 逃がさない。 闇夜の 帝王とも 呼ばれる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やみうち",
+				"damage": "",
+				"text": "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36695,
+		"multiId": "647_040",
+		"nameJp": "タブンネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036695_P_TABUNNE.jpg",
+		"imageUrl": "",
+		"cardText": "耳の 触角で 相手の 体調や タマゴから ポケモンが いつ でてくるのかも わかるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {
+			"name": "ヒヤリング",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を1枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "ドレインビンタ",
+				"damage": "30",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36696,
+		"multiId": "647_041",
+		"nameJp": "ヤヤコマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036696_P_YAYAKOMA.jpg",
+		"imageUrl": "",
+		"cardText": "人懐っこい ポケモンだけど 無理やり 触ると 身体を 一気に 発熱させるので 火傷 するぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はばたく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36697,
+		"multiId": "647_042",
+		"nameJp": "タイプ：ヌル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036697_P_TAIPUNURU.jpg",
+		"imageUrl": "",
+		"cardText": "ある任務の ために 開発された ポケモン兵器。 実験中に 暴走した ため 凍結された。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けとばす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "クイックアタック",
+				"damage": "30＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36698,
+		"multiId": "647_043",
+		"nameJp": "シルヴァディ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036698_P_SHIRUVADEI.jpg",
+		"imageUrl": "",
+		"cardText": "覚醒し 進化した 姿。 重い マスクから 解き放たれ スピードが 大幅に アップ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アベンジハート",
+				"damage": "30＋",
+				"text": "前の相手の番に、相手がとったサイドの枚数×50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エアスラッシュ",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36873,
+		"multiId": "647_055",
+		"nameJp": "モクロー&アローラナッシーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036873_P_MOKUROARORANASSHIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパーグロウ",
+				"damage": "",
+				"text": "自分の場の[grass]ポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。進化後が1進化なら、続けて2進化を1枚選び進化させる。そして山札を切る。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やすらぎハリケーン",
+				"damage": "150",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "トロピカルアワーGX",
+				"damage": "200",
+				"text": "追加でエネルギーが3個ついているなら、相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"grass",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36874,
+		"multiId": "647_056",
+		"nameJp": "モクロー&アローラナッシーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036874_P_MOKUROARORANASSHIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパーグロウ",
+				"damage": "",
+				"text": "自分の場の[grass]ポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。進化後が1進化なら、続けて2進化を1枚選び進化させる。そして山札を切る。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やすらぎハリケーン",
+				"damage": "150",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "トロピカルアワーGX",
+				"damage": "200",
+				"text": "追加でエネルギーが3個ついているなら、相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"grass",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36875,
+		"multiId": "647_057",
+		"nameJp": "ケルディオGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036875_P_KERUDEIOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {
+			"name": "ホーリーハート",
+			"text": "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ソニックエッジ",
+				"damage": "110",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かくごのつるぎGX",
+				"damage": "50×",
+				"text": "相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36876,
+		"multiId": "647_058",
+		"nameJp": "アーゴヨンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036876_P_AGOYONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {
+			"name": "ウルトラへんかん",
+			"text": "自分の番に1回使える。自分の手札にある「ウルトラビースト」を1枚トラッシュする。その後、山札を3枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "ベノムシュート",
+				"damage": "",
+				"text": "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "インジェクションGX",
+				"damage": "",
+				"text": "相手のトラッシュにある好きなカードを1枚、相手に見せてから、ウラにして相手のサイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36877,
+		"multiId": "647_059",
+		"nameJp": "ファイヤー&サンダー&フリーザーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036877_P_FAIYASANDAFURIZAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トリニティバーン",
+				"damage": "210",
+				"text": "",
+				"costs": [
+					"fire",
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "スカイレジェンドGX",
+				"damage": "",
+				"text": "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。追加で[fire][water][electric]エネルギーが1個ずつついているなら、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36878,
+		"multiId": "647_060",
+		"nameJp": "ファイヤー&サンダー&フリーザーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036878_P_FAIYASANDAFURIZAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トリニティバーン",
+				"damage": "210",
+				"text": "",
+				"costs": [
+					"fire",
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "スカイレジェンドGX",
+				"damage": "",
+				"text": "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。追加で[fire][water][electric]エネルギーが1個ずつついているなら、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36699,
+		"multiId": "647_044",
+		"nameJp": "ノーマルZ たいあたり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036699_T_NOMARUZTAIATARI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36700,
+		"multiId": "647_045",
+		"nameJp": "ヒコウZ エアスラッシュ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036700_T_HIKOUZEASURASSHU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "aky CG Works",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36701,
+		"multiId": "647_046",
+		"nameJp": "Uターンボード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036701_T_UTANBODO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sadaji",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36702,
+		"multiId": "647_047",
+		"nameJp": "かいじゅうマニア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036702_T_KAIJUUMANIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるにげるためのエネルギーが4個のポケモンを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36703,
+		"multiId": "647_048",
+		"nameJp": "ムサシとコジロウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036703_T_MUSASHITOKOJIROU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札を、2枚トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "R",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36704,
+		"multiId": "647_049",
+		"nameJp": "ブリザードタウン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036704_T_BURIZADOTAUN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいの場の残りHPが「40」以下のポケモンは、ワザが使えない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [],
+		"addRule": "スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36706,
+		"multiId": "647_051",
+		"nameJp": "ネットボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036706_T_NETTOBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札にある[grass]タイプのたねポケモンまたは[grass]エネルギーを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "TR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36707,
+		"multiId": "647_052",
+		"nameJp": "グラジオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036707_T_GURAJIO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "ウラになっている自分のサイドのオモテをすべて見て、その中にあるカードを1枚、この「グラジオ」と入れ替えて、手札に加える。その後、この「グラジオ」と残りのサイドをすべてウラにして切り、サイドとして置く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mana Ibe",
+		"rarity": "TR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36708,
+		"multiId": "647_053",
+		"nameJp": "リーリエ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036708_T_RIRIE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mana Ibe",
+		"rarity": "TR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36709,
+		"multiId": "647_054",
+		"nameJp": "ルザミーネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036709_T_RUZAMINE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにあるサポートとスタジアムを合計2枚、相手に見せてから、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mana Ibe",
+		"rarity": "TR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36879,
+		"multiId": "647_061",
+		"nameJp": "かいじゅうマニア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036879_T_KAIJUUMANIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるにげるためのエネルギーが4個のポケモンを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36880,
+		"multiId": "647_062",
+		"nameJp": "ムサシとコジロウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036880_T_MUSASHITOKOJIROU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札を、2枚トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "SR",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36705,
+		"multiId": "647_050",
+		"nameJp": "リサイクルエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM10b/036705_E_RISAIKURUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは[colorless]エネルギー1個ぶんとしてはたらく。\n\nこのカードは、場からトラッシュされるとき、トラッシュせず、手札にもどす。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "647",
+		"set": "サン&ムーン 強化拡張パック「スカイレジェンド」",
+		"setCode": "SM10b",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

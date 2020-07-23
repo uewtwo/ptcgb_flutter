@@ -1,0 +1,6631 @@
+[
+	{
+		"cardId": 35945,
+		"multiId": "624_001",
+		"nameJp": "セレビィ&フシギバナGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035945_P_SEREBIIFUSHIGIBANAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きけんなかふん",
+				"damage": "50",
+				"text": "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ソーラービーム",
+				"damage": "150",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エバーグリーンGX",
+				"damage": "180",
+				"text": "このポケモンのHPを、すべて回復する。追加で[grass]エネルギーが1個ついているなら、自分のトラッシュにあるカードをすべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35946,
+		"multiId": "624_002",
+		"nameJp": "ビードル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035946_P_BIDORU.jpg",
+		"imageUrl": "",
+		"cardText": "森や 草地に 多く 生息。 頭の 先に ５センチぐらいの 小さく 鋭い 毒針を持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "からめてひっぱる",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "むしくい",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35947,
+		"multiId": "624_003",
+		"nameJp": "ビードル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035947_P_BIDORU.jpg",
+		"imageUrl": "",
+		"cardText": "森や 草地に 多く 生息。 頭の 先に ５センチぐらいの 小さく 鋭い 毒針を持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とつげき",
+				"damage": "20",
+				"text": "このポケモンにも10ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35948,
+		"multiId": "624_004",
+		"nameJp": "コクーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035948_P_KOKUN.jpg",
+		"imageUrl": "",
+		"cardText": "自分では ほとんど 動けないが 危ないときは 硬くなって 身を守っているようだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {
+			"name": "くさぶとん",
+			"text": "このポケモンに[grass]エネルギーがついているなら、このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "むしくい",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35949,
+		"multiId": "624_005",
+		"nameJp": "スピアー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035949_P_SUPIA.jpg",
+		"imageUrl": "",
+		"cardText": "両手と お尻にある ３本の 毒針で 相手を 刺して 刺して 刺しまくって 攻撃する。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "You Iribi",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みちづればり",
+				"damage": "",
+				"text": "このワザは、このポケモンにダメカンがのっているときにしか使えない。おたがいのバトルポケモンをきぜつさせる。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "とつげき",
+				"damage": "90",
+				"text": "このポケモンにも10ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35950,
+		"multiId": "624_006",
+		"nameJp": "パラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035950_P_PARASU.jpg",
+		"imageUrl": "",
+		"cardText": "湿気が 足りないのか 栄養が 足りないのか アローラの パラスの キノコは 育ちが いまいち。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きりさく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35951,
+		"multiId": "624_007",
+		"nameJp": "パラセクト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035951_P_PARASEKUTO.jpg",
+		"imageUrl": "",
+		"cardText": "ムシの 方は ほぼ 死んでいて 本体は 背中の キノコだ。 もげると もう 動かなくなる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {
+			"name": "パニックほうし",
+			"text": "このポケモンがいるかぎり、ポケモンチェックのたび、相手のこんらんのポケモンにダメカンを2個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ふしぎなこな",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35952,
+		"multiId": "624_008",
+		"nameJp": "タマタマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035952_P_TAMATAMA.jpg",
+		"imageUrl": "",
+		"cardText": "６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タネマシンガン",
+				"damage": "10×",
+				"text": "コインを4回投げ、オモテの数×10ダメージ。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35953,
+		"multiId": "624_009",
+		"nameJp": "カイロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035953_P_KAIROSU.jpg",
+		"imageUrl": "",
+		"cardText": "クワガノンと 縄張りを 争う。 アローラでは なぜか ヘラクロスと 結構 仲が 良いらしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はさんでしめる",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ギロチンハッグ",
+				"damage": "",
+				"text": "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35954,
+		"multiId": "624_010",
+		"nameJp": "ヒトカゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035954_P_HITOKAGE.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾の 炎は ヒトカゲの 生命力の 証。 元気だと さかんに 燃えさかる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しかえし",
+				"damage": "20×",
+				"text": "このポケモンにのっているダメカンの数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35955,
+		"multiId": "624_011",
+		"nameJp": "ヒトカゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035955_P_HITOKAGE.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾の 炎は ヒトカゲの 生命力の 証。 元気だと さかんに 燃えさかる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひのこ",
+				"damage": "30",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35956,
+		"multiId": "624_012",
+		"nameJp": "リザード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035956_P_RIZADO.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾を 振り回して 相手を なぎ倒し 鋭い ツメで ズタズタに ひきさいてしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおのキバ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35957,
+		"multiId": "624_013",
+		"nameJp": "リザードン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035957_P_RIZADON.jpg",
+		"imageUrl": "",
+		"cardText": "口から 灼熱の 炎を 吐き出すとき 尻尾の 先は より 赤く 激しく 燃え上がる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {
+			"name": "たけるとうき",
+			"text": "自分の番に1回使える。このポケモンにダメカンを2個のせる。その後、自分の山札にある[fire]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "れんぞくブレイズボール",
+				"damage": "30＋",
+				"text": "このポケモンについている[fire]エネルギーをすべてトラッシュし、その枚数×50ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35958,
+		"multiId": "624_014",
+		"nameJp": "ロコン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035958_P_ROKON.jpg",
+		"imageUrl": "",
+		"cardText": "美しい シッポで 大人気。 ただし まめに ブラッシングしないと あっという間に 毛玉だらけになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽをふる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35959,
+		"multiId": "624_015",
+		"nameJp": "キュウコン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035959_P_KYUUKON.jpg",
+		"imageUrl": "",
+		"cardText": "しつこく 執念深い 性質。 １度 恨むと 子孫を 含め １０００年間 祟り続ける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "You Iribi",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {
+			"name": "きゅうびのいざない",
+			"text": "自分の番に1回使える。自分の手札にある[fire]エネルギーを、2枚トラッシュする。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
+		},
+		"attacks": [
+			{
+				"name": "ほのおのしっぽ",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35960,
+		"multiId": "624_016",
+		"nameJp": "ポニータ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035960_P_PONITA.jpg",
+		"imageUrl": "",
+		"cardText": "生まれたばかりでは 立つのがやっと。 だが 走るほどに 足腰は 鍛えられて 速度が 増していく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひだね",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ふみつけ",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35961,
+		"multiId": "624_017",
+		"nameJp": "ギャロップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035961_P_GYAROPPU.jpg",
+		"imageUrl": "",
+		"cardText": "速く 動く 物体を 見ると 競争したくなり 猛烈な スピードで 追いかけはじめる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "こうそくいどう",
+				"damage": "60",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35962,
+		"multiId": "624_018",
+		"nameJp": "ファイヤー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035962_P_FAIYA.jpg",
+		"imageUrl": "",
+		"cardText": "昔から 火の鳥伝説として 知られる。 羽ばたくたびに 羽が 明るく 燃え上がり 美しい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やまやき",
+				"damage": "",
+				"text": "このポケモンについている[fire]エネルギーをすべてトラッシュし、そのエネルギーの数ぶん、相手の山札をトラッシュする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのおのうず",
+				"damage": "180",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35963,
+		"multiId": "624_019",
+		"nameJp": "コイキング&ホエルオーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035963_P_KOIKINGUHOERUOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパースプラッシュ",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "キングザブーンGX",
+				"damage": "10",
+				"text": "追加で[water]エネルギーが7個ついているなら、相手のベンチポケモン全員にも、それぞれ100ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35964,
+		"multiId": "624_020",
+		"nameJp": "ゼニガメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035964_P_ZENIGAME.jpg",
+		"imageUrl": "",
+		"cardText": "甲羅に 閉じこもり 身を 守る。 相手の すきを 見逃さず 水を 噴き出して 反撃する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {
+			"name": "こうらフロート",
+			"text": "場に自分のスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35965,
+		"multiId": "624_021",
+		"nameJp": "ゼニガメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035965_P_ZENIGAME.jpg",
+		"imageUrl": "",
+		"cardText": "甲羅に 閉じこもり 身を 守る。 相手の すきを 見逃さず 水を 噴き出して 反撃する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みずかけ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35966,
+		"multiId": "624_022",
+		"nameJp": "カメール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035966_P_KAMERU.jpg",
+		"imageUrl": "",
+		"cardText": "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。 でも ちょっとだけ 尻尾が 出ているよ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "たきのぼり",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35967,
+		"multiId": "624_023",
+		"nameJp": "カメックス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035967_P_KAMEKKUSU.jpg",
+		"imageUrl": "",
+		"cardText": "体が 重たく のしかかって 相手を 気絶させる。 ピンチのときは 殻に 隠れる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {
+			"name": "パワースコール",
+			"text": "自分の番に1回使える。自分の山札を上から6枚見て、その中にある[water]エネルギーを好きなだけ、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロタックル",
+				"damage": "150",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35968,
+		"multiId": "624_024",
+		"nameJp": "コダック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035968_P_KODAKKU.jpg",
+		"imageUrl": "",
+		"cardText": "念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ずつう",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、次の相手の番、相手は手札からトレーナーズを出して使えない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35969,
+		"multiId": "624_025",
+		"nameJp": "ゴルダック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035969_P_GORUDAKKU.jpg",
+		"imageUrl": "",
+		"cardText": "泳ぎが 速い さかなポケモンでも 金縛りで 動きを 止めて 簡単に 捕まえることが できる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドわすれ",
+				"damage": "20",
+				"text": "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "およぐ",
+				"damage": "90",
+				"text": "相手の場のポケモンに[water]エネルギーがついている場合、のぞむなら、このワザのダメージを、相手のバトルポケモンではなくベンチポケモン1匹に与える。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35970,
+		"multiId": "624_026",
+		"nameJp": "ヒトデマン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035970_P_HITODEMAN.jpg",
+		"imageUrl": "",
+		"cardText": "星屑が 海に 落ちて ヒトデマンに なったのだ という 民話が 各地に 残っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しびれみず",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35971,
+		"multiId": "624_027",
+		"nameJp": "コイキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035971_P_KOIKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "遥か 大昔は それなりに 強かったが 時が 経つに つれて どんどんどんどん 弱くなっていった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とうりゅうもん",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、このポケモンから進化するカードを、自分のトラッシュから1枚選び、このポケモンにのせて進化させる。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35972,
+		"multiId": "624_028",
+		"nameJp": "ギャラドス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035972_P_GYARADOSU.jpg",
+		"imageUrl": "",
+		"cardText": "破壊光線を はきまくり あたり 一面を 焼き尽くす。 破壊の神と 呼ぶ 地方もある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "だいぎんじょう",
+				"damage": "30＋",
+				"text": "自分の山札を上から7枚オモテにする。その中にある[water]エネルギーの数×30ダメージ追加し、その[water]エネルギーを山札にもどして切る。残りのカードはトラッシュする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はかいこうせん",
+				"damage": "100",
+				"text": "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35973,
+		"multiId": "624_029",
+		"nameJp": "ラプラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035973_P_RAPURASU.jpg",
+		"imageUrl": "",
+		"cardText": "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あやしいひかり",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×30ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35974,
+		"multiId": "624_030",
+		"nameJp": "フリーザー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035974_P_FURIZA.jpg",
+		"imageUrl": "",
+		"cardText": "伝説の とりポケモン。 空気中の 水分を 凍らせ 吹雪を 作り出すことが できる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {
+			"name": "ブリザードヴェール",
+			"text": "このポケモンがバトル場にいるかぎり、自分のベンチの[water]ポケモン全員は、相手が手札からサポートを出して使ったとき、その効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "コールドサイクロン",
+				"damage": "70",
+				"text": "このポケモンについている[water]エネルギーを2個、ベンチポケモン1匹につけ替える。",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35975,
+		"multiId": "624_031",
+		"nameJp": "ピカチュウ&ゼクロムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035975_P_PIKACHUUZEKUROMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フルドライブ",
+				"damage": "150",
+				"text": "自分の山札にある[electric]エネルギーを3枚まで、自分のポケモン1匹につける。そして山札を切る。",
+				"costs": [
+					"electric",
+					"electric",
+					"electric"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "タッグボルトGX",
+				"damage": "200",
+				"text": "追加で[electric]エネルギーが3個ついているなら、相手のベンチポケモン1匹にも、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"electric",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35976,
+		"multiId": "624_032",
+		"nameJp": "アローライシツブテ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035976_P_ARORAISHITSUBUTE.jpg",
+		"imageUrl": "",
+		"cardText": "石ころと 間違え 踏んでしまうと 怒って 頭突きを かましてくる。 痛いだけでなく ビリッと くるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じばく",
+				"damage": "60",
+				"text": "このポケモンにも60ダメージ。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35977,
+		"multiId": "624_033",
+		"nameJp": "アローライシツブテ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035977_P_ARORAISHITSUBUTE.jpg",
+		"imageUrl": "",
+		"cardText": "石ころと 間違え 踏んでしまうと 怒って 頭突きを かましてくる。 痛いだけでなく ビリッと くるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じゅうでん",
+				"damage": "",
+				"text": "自分の山札にある[electric]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スマッシュボンバー",
+				"damage": "50",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35978,
+		"multiId": "624_034",
+		"nameJp": "アローラゴローン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035978_P_ARORAGORON.jpg",
+		"imageUrl": "",
+		"cardText": "ゴローン同士 争うと あたりに 光と 爆音がする。 地元の 人は 陸花火と 呼んでいる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ころがる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキスラッグ",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35979,
+		"multiId": "624_035",
+		"nameJp": "アローラゴローニャ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035979_P_ARORAGORONYA.jpg",
+		"imageUrl": "",
+		"cardText": "気難しくて 頑固。 機嫌を 損ねると 全身から 放電し 雷鳴の ような 声で ほえる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マグネボンバー",
+				"damage": "20×",
+				"text": "自分のベンチポケモンについている[electric]エネルギーを好きなだけ、このポケモンにつけ替え、その枚数×20ダメージ。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ちょうでんじほう",
+				"damage": "190",
+				"text": "このポケモンについているエネルギーを、2個トラッシュする。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35980,
+		"multiId": "624_036",
+		"nameJp": "ビリリダマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035980_P_BIRIRIDAMA.jpg",
+		"imageUrl": "",
+		"cardText": "モンスターボールが 売り出されたのと 同じ 時期に 発見された。 なにか 関係があると いわれる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35981,
+		"multiId": "624_037",
+		"nameJp": "マルマイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035981_P_MARUMAIN.jpg",
+		"imageUrl": "",
+		"cardText": "少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Asako Ito",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {
+			"name": "エレキシェイカー",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の場のポケモンについている[electric]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。"
+		},
+		"attacks": [
+			{
+				"name": "スピードボール",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35982,
+		"multiId": "624_038",
+		"nameJp": "ゲンガー&ミミッキュGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ポルターガイスト",
+				"damage": "50×",
+				"text": "相手の手札を見て、その中にあるトレーナーズの枚数×50ダメージ。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ホラーハウスGX",
+				"damage": "",
+				"text": "次の相手の番、相手は手札からカードを出して使えない。追加で[psychic]エネルギーが1個ついているなら、おたがいのプレイヤーは、それぞれの手札が7枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35983,
+		"multiId": "624_039",
+		"nameJp": "ニドラン♀",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035983_P_NIDORAN.jpg",
+		"imageUrl": "",
+		"cardText": "体は 小さくても 毒針を 持つため 注意が 必要だ。 メスのほうが ツノが 小さい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "miki kudo",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひっかく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35984,
+		"multiId": "624_040",
+		"nameJp": "ニドリーナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035984_P_NIDORINA.jpg",
+		"imageUrl": "",
+		"cardText": "メスなので 性格は 温厚。 口から 出す 超音波は 相手を まどわす 力がある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ファミリーレスキュー",
+				"damage": "",
+				"text": "自分のトラッシュにある[psychic]ポケモンを5枚、相手に見せてから、山札にもどして切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35985,
+		"multiId": "624_041",
+		"nameJp": "ニドクイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035985_P_NIDOKUIN.jpg",
+		"imageUrl": "",
+		"cardText": "ウロコで 覆われた 頑丈な 体で 巣穴の 入り口を ふさぎ 敵から 子供たちを 守る。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {
+			"name": "マザーコール",
+			"text": "自分の番に1回使える。自分の山札にあるポケモン（「ポケモンGX・EX」をのぞく）を1枚、相手に見せてから、手札に加える。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "パワーラリアット",
+				"damage": "10＋",
+				"text": "自分のベンチの進化ポケモンの数×50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35986,
+		"multiId": "624_042",
+		"nameJp": "ニドラン♂",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035986_P_NIDORAN.jpg",
+		"imageUrl": "",
+		"cardText": "草むらの 上に 耳だけ 出して まわりの 気配を 探る。 猛毒の ツノで 身を 守る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つのでつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35987,
+		"multiId": "624_043",
+		"nameJp": "ニドリーノ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035987_P_NIDORINO.jpg",
+		"imageUrl": "",
+		"cardText": "発達した 耳を 立てて まわりの 気配を 探る。 なにかあると すぐに 飛びかかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つのドリル",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35988,
+		"multiId": "624_044",
+		"nameJp": "ニドキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035988_P_NIDOKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "石のように 硬い 皮膚と 長く 伸びた ツノが 特徴。 ツノには 毒も あるので 注意。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきずりだす",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに50ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "キングドラム",
+				"damage": "100＋",
+				"text": "自分のベンチに「ニドクイン」がいるなら、100ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35989,
+		"multiId": "624_045",
+		"nameJp": "メノクラゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035989_P_MENOKURAGE.jpg",
+		"imageUrl": "",
+		"cardText": "海辺を 漂い 獲物を 探す。 毒の 触手は ちぎれることも あるが 時間が 経てば 生えてくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まきつく",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35990,
+		"multiId": "624_046",
+		"nameJp": "ドククラゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035990_P_DOKUKURAGE.jpg",
+		"imageUrl": "",
+		"cardText": "赤い 玉から 超音波を 発生させ 獲物を 弱らせると ８０本の 触手を 巻きつける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "うつろなしょくしゅ",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "パラノーマル",
+				"damage": "70",
+				"text": "次の相手の番、このポケモンは「ウルトラビースト」からワザのダメージを受けない。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35991,
+		"multiId": "624_047",
+		"nameJp": "ベトベター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035991_P_BETOBETA.jpg",
+		"imageUrl": "",
+		"cardText": "海底の ヘドロから 生まれた。 清潔な 場所では 体内の ばい菌が 増やせず 死んでしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はたく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35992,
+		"multiId": "624_048",
+		"nameJp": "ベトベトン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035992_P_BETOBETON.jpg",
+		"imageUrl": "",
+		"cardText": "エサが 減って 数も 激減。 絶滅を 防ぐため 人工の ヘドロ池が 作られ始めた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {
+			"name": "どくぶくろ",
+			"text": "このポケモンがいるかぎり、相手のどくのポケモンは、進化・退化してもどくが回復しない。"
+		},
+		"attacks": [
+			{
+				"name": "どくどくえき",
+				"damage": "40",
+				"text": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は2個になる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35993,
+		"multiId": "624_049",
+		"nameJp": "スターミー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035993_P_SUTAMI.jpg",
+		"imageUrl": "",
+		"cardText": "輝く コアは 海の 宝石と 呼ばれる。 高価な アクセサリーに 変えられ 隠れて 取引される。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ストレンジウェーブ",
+				"damage": "40",
+				"text": "自分の山札にある[water]または[psychic]エネルギーを3枚まで、自分のベンチポケモン1匹につける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35994,
+		"multiId": "624_050",
+		"nameJp": "バリヤード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035994_P_BARIYADO.jpg",
+		"imageUrl": "",
+		"cardText": "素晴らしい パントマイムの 腕前。 見とれている 間に いつの間にか 本当に 壁が できているのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {
+			"name": "かいしゅうふうじ",
+			"text": "このポケモンがいるかぎり、ダメカンがのっている相手のポケモンと、そのポケモンについているすべてのカードは、手札にもどせない。"
+		},
+		"attacks": [
+			{
+				"name": "ねんりき",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35995,
+		"multiId": "624_051",
+		"nameJp": "ルージュラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035995_P_RUJURA.jpg",
+		"imageUrl": "",
+		"cardText": "独特の リズムで 腰を 振る。 アローラに 棲む ルージュラは そのキレが 実に 素晴らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "げんわくダンス",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "なぞのダンス",
+				"damage": "",
+				"text": "相手のベンチポケモンの数ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35996,
+		"multiId": "624_052",
+		"nameJp": "マンキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035996_P_MANKI.jpg",
+		"imageUrl": "",
+		"cardText": "ちょっとしたことで すぐ 怒る。 ストレスを ため込まないので かなり 長生きする ポケモンだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さぐる",
+				"damage": "",
+				"text": "相手の手札を見る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "けたぐり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35997,
+		"multiId": "624_053",
+		"nameJp": "オコリザル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035997_P_OKORIZARU.jpg",
+		"imageUrl": "",
+		"cardText": "怒らせた 相手を 許さず 追い続ける。 叩きのめして 動かなくなっても まだ 許さない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けたぐり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶちこわす",
+				"damage": "80＋",
+				"text": "場にスタジアムが出ているなら、80ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35998,
+		"multiId": "624_054",
+		"nameJp": "サワムラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035998_P_SAWAMURA.jpg",
+		"imageUrl": "",
+		"cardText": "脚が 自由に 伸び縮みして 遠く 離れている 場合でも 相手を 蹴り上げることができる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スペシャルコンボ",
+				"damage": "",
+				"text": "このワザは、前の自分の番に「エビワラー」が「ヒット&アウェー」を使っていなければ使えない。相手のベンチポケモン1匹に、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メガトンキック",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35999,
+		"multiId": "624_055",
+		"nameJp": "エビワラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035999_P_EBIWARA.jpg",
+		"imageUrl": "",
+		"cardText": "腕を ねじりながら 繰り出す パンチは コンクリートも 粉砕。 ３分 戦うと ひとやすみする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヒット&アウェー",
+				"damage": "30",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マグナムパンチ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36000,
+		"multiId": "624_056",
+		"nameJp": "オムナイト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036000_P_OMUNAITO.jpg",
+		"imageUrl": "",
+		"cardText": "古代の海に 生きていた ポケモン。 アーケオスの エサだったようで 歯型のついた 化石が 見つかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くすぐる",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36001,
+		"multiId": "624_057",
+		"nameJp": "オムスター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036001_P_OMUSUTA.jpg",
+		"imageUrl": "",
+		"cardText": "重いカラが 原因で 滅んだと 考えられている 古代ポケモン。 オクタンの 遠い 祖先 らしい。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {
+			"name": "かせきのしがらみ",
+			"text": "このポケモンがいるかぎり、自分の場のポケモンの数が、相手より少ないなら、相手は手札からグッズを出して使えない。"
+		},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36002,
+		"multiId": "624_058",
+		"nameJp": "カブト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036002_P_KABUTO.jpg",
+		"imageUrl": "",
+		"cardText": "３億年前に 栄えた ポケモン。 とある 地方では 今でも まれに 生きた 姿が 見られると 言う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうらでぶつかる",
+				"damage": "40",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36003,
+		"multiId": "624_059",
+		"nameJp": "カブトプス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036003_P_KABUTOPUSU.jpg",
+		"imageUrl": "",
+		"cardText": "陸でも 活動 できるよう 身体が 変化を 始めていたが 間に合わず 絶滅 してしまった。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {
+			"name": "かせきのきおく",
+			"text": "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。"
+		},
+		"attacks": [
+			{
+				"name": "いわなだれ",
+				"damage": "80",
+				"text": "相手のベンチポケモン2匹にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36004,
+		"multiId": "624_060",
+		"nameJp": "ラティアス&ラティオスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036004_P_RATEIASURATEIOSUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バスターパージ",
+				"damage": "240",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"water",
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エアロユニットGX",
+				"damage": "",
+				"text": "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。追加でエネルギーが1個ついているなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36005,
+		"multiId": "624_061",
+		"nameJp": "アローラナッシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036005_P_ARORANASSHI.jpg",
+		"imageUrl": "",
+		"cardText": "ナッシーは アローラ人の 誇り。 歴史的な 絵画や 建物に その 姿が 刻まれている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パラダイスドロー",
+				"damage": "",
+				"text": "自分の手札が6枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たまおとし",
+				"damage": "60×",
+				"text": "自分の手札にある「タマタマ」を好きなだけトラッシュし、その枚数×60ダメージ。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36006,
+		"multiId": "624_062",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036006_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "まだ 弱いので 水底に 身を 潜め 沈んできた ものを 食らいながら ひそかに 暮らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "りゅうのいかり",
+				"damage": "60",
+				"text": "コインを2回投げ、1回でもウラなら、このワザは失敗。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36007,
+		"multiId": "624_063",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036007_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "まだ 弱いので 水底に 身を 潜め 沈んできた ものを 食らいながら ひそかに 暮らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "063",
+		"ability": {
+			"name": "まもりのうろこ",
+			"text": "このポケモンは、相手のポケモンが使うワザの効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "みずかけ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36008,
+		"multiId": "624_064",
+		"nameJp": "ハクリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036008_P_HAKURYU.jpg",
+		"imageUrl": "",
+		"cardText": "天候を 操ると 信じられ ハクリューの 棲む 湖には お供え物が 絶えない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たつまき",
+				"damage": "30",
+				"text": "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーをトラッシュする。すべてウラなら、このワザは失敗。",
+				"costs": [
+					"water",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36009,
+		"multiId": "624_065",
+		"nameJp": "カイリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036009_P_KAIRYU.jpg",
+		"imageUrl": "",
+		"cardText": "荒れ狂う 海も ものともせずに 飛んでいく。 その姿を 見かけた 船長は 海の化身と 呼んだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "065",
+		"ability": {
+			"name": "ファーストコール",
+			"text": "自分の番に1回使える。自分の山札にあるサポートを1枚、相手に見せてから、手札に加える。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36010,
+		"multiId": "624_066",
+		"nameJp": "イーブイ&カビゴンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036010_P_IBUIKABIGONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうえん",
+				"damage": "",
+				"text": "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダンププレス",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンが進化ポケモンなら、120ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "メガトンフレンズGX",
+				"damage": "210",
+				"text": "追加でエネルギーが1個ついているなら、自分の手札が10枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36011,
+		"multiId": "624_067",
+		"nameJp": "ポッポ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036011_P_POPPO.jpg",
+		"imageUrl": "",
+		"cardText": "森や 林に 多く 分布。 地上でも 激しく はばたいて 砂を かけたりする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かぜおこし",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36012,
+		"multiId": "624_068",
+		"nameJp": "ポッポ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036012_P_POPPO.jpg",
+		"imageUrl": "",
+		"cardText": "森や 林に 多く 分布。 地上でも 激しく はばたいて 砂を かけたりする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんこうせっか",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、10ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36013,
+		"multiId": "624_069",
+		"nameJp": "ピジョン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036013_P_PIJON.jpg",
+		"imageUrl": "",
+		"cardText": "足の ツメが 発達している。 エサの タマタマを つかんで １００キロ先の 巣まで 運ぶ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "069",
+		"ability": {
+			"name": "エアメール",
+			"text": "自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を手札に加える。残りのカードは、山札の下にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "かぜおこし",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36014,
+		"multiId": "624_070",
+		"nameJp": "ピジョット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036014_P_PIJOTTO.jpg",
+		"imageUrl": "",
+		"cardText": "エサを 探すとき 水面 すれすれを 滑るように 飛んで コイキングなどを わしづかみにする。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふきとばし",
+				"damage": "60",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "せんぷう",
+				"damage": "",
+				"text": "相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36015,
+		"multiId": "624_071",
+		"nameJp": "ニャース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036015_P_NYASU.jpg",
+		"imageUrl": "",
+		"cardText": "ゴミ捨て場に いくと ひかりものを 巡って ヤミカラスと 激しく ケンカする 光景が 見られる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36016,
+		"multiId": "624_072",
+		"nameJp": "ペルシアン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036016_P_PERUSHIAN.jpg",
+		"imageUrl": "",
+		"cardText": "アローラの ペルシアンとは 額の 宝石の色が 違って 見えるが 成分は あまり 変わらないのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おもいしらせる",
+				"damage": "20",
+				"text": "相手の手札が4枚以上なら、相手の手札を見て、その枚数が4枚になるまでトラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "するどいツメ",
+				"damage": "30＋",
+				"text": "コインを1回投げオモテなら、60ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36017,
+		"multiId": "624_073",
+		"nameJp": "カモネギ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036017_P_KAMONEGI.jpg",
+		"imageUrl": "",
+		"cardText": "持っている 茎は 大切な 武器でもあり 刀を 振るように いろんな ものを 切ることができる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を2枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どうぐはじき",
+				"damage": "20＋",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。トラッシュした場合、70ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36018,
+		"multiId": "624_074",
+		"nameJp": "ガルーラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036018_P_GARURA.jpg",
+		"imageUrl": "",
+		"cardText": "お腹の 袋に 我が子を 入れて 守る。 子どもを 傷つけた者は 絶対に 許さず 叩きのめす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しんかそくせい",
+				"damage": "",
+				"text": "自分の山札にある進化ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メガトンパンチ",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36019,
+		"multiId": "624_075",
+		"nameJp": "ケンタロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036019_P_KENTAROSU.jpg",
+		"imageUrl": "",
+		"cardText": "集団で 生活する。 群れの 中で １番 太く 長く キズだらけの ツノを持つのが ボス。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いかりのむれ",
+				"damage": "10＋",
+				"text": "自分の場の「ケンタロス（GXをふくむ）」にのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36020,
+		"multiId": "624_076",
+		"nameJp": "プテラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036020_P_PUTERA.jpg",
+		"imageUrl": "",
+		"cardText": "琥珀に 残された 遺伝子から 復元させた。 予想以上に 凶暴で 犠牲者も でた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "hatachu",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちょうおんぱ",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かせきのキバ",
+				"damage": "90＋",
+				"text": "自分のベンチに「ポケモンGX・EX」がいないなら、90ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36201,
+		"multiId": "624_096",
+		"nameJp": "セレビィ&フシギバナGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036201_P_SEREBIIFUSHIGIBANAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きけんなかふん",
+				"damage": "50",
+				"text": "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ソーラービーム",
+				"damage": "150",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エバーグリーンGX",
+				"damage": "180",
+				"text": "このポケモンのHPを、すべて回復する。追加で[grass]エネルギーが1個ついているなら、自分のトラッシュにあるカードをすべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36202,
+		"multiId": "624_097",
+		"nameJp": "セレビィ&フシギバナGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036202_P_SEREBIIFUSHIGIBANAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きけんなかふん",
+				"damage": "50",
+				"text": "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ソーラービーム",
+				"damage": "150",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エバーグリーンGX",
+				"damage": "180",
+				"text": "このポケモンのHPを、すべて回復する。追加で[grass]エネルギーが1個ついているなら、自分のトラッシュにあるカードをすべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36203,
+		"multiId": "624_098",
+		"nameJp": "コイキング&ホエルオーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036203_P_KOIKINGUHOERUOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパースプラッシュ",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "キングザブーンGX",
+				"damage": "10",
+				"text": "追加で[water]エネルギーが7個ついているなら、相手のベンチポケモン全員にも、それぞれ100ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36204,
+		"multiId": "624_099",
+		"nameJp": "コイキング&ホエルオーGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036204_P_KOIKINGUHOERUOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "OOYAMA",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "099",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スーパースプラッシュ",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "キングザブーンGX",
+				"damage": "10",
+				"text": "追加で[water]エネルギーが7個ついているなら、相手のベンチポケモン全員にも、それぞれ100ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36205,
+		"multiId": "624_100",
+		"nameJp": "ピカチュウ&ゼクロムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036205_P_PIKACHUUZEKUROMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フルドライブ",
+				"damage": "150",
+				"text": "自分の山札にある[electric]エネルギーを3枚まで、自分のポケモン1匹につける。そして山札を切る。",
+				"costs": [
+					"electric",
+					"electric",
+					"electric"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "タッグボルトGX",
+				"damage": "200",
+				"text": "追加で[electric]エネルギーが3個ついているなら、相手のベンチポケモン1匹にも、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"electric",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36206,
+		"multiId": "624_101",
+		"nameJp": "ピカチュウ&ゼクロムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036206_P_PIKACHUUZEKUROMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "kawayoo",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フルドライブ",
+				"damage": "150",
+				"text": "自分の山札にある[electric]エネルギーを3枚まで、自分のポケモン1匹につける。そして山札を切る。",
+				"costs": [
+					"electric",
+					"electric",
+					"electric"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "タッグボルトGX",
+				"damage": "200",
+				"text": "追加で[electric]エネルギーが3個ついているなら、相手のベンチポケモン1匹にも、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"electric",
+					"plus"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36207,
+		"multiId": "624_102",
+		"nameJp": "ゲンガー&ミミッキュGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036207_P_GENGAMIMIKKYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "102",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ポルターガイスト",
+				"damage": "50×",
+				"text": "相手の手札を見て、その中にあるトレーナーズの枚数×50ダメージ。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ホラーハウスGX",
+				"damage": "",
+				"text": "次の相手の番、相手は手札からカードを出して使えない。追加で[psychic]エネルギーが1個ついているなら、おたがいのプレイヤーは、それぞれの手札が7枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36208,
+		"multiId": "624_103",
+		"nameJp": "ゲンガー&ミミッキュGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036208_P_GENGAMIMIKKYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Midori Harada",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "103",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ポルターガイスト",
+				"damage": "50×",
+				"text": "相手の手札を見て、その中にあるトレーナーズの枚数×50ダメージ。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ホラーハウスGX",
+				"damage": "",
+				"text": "次の相手の番、相手は手札からカードを出して使えない。追加で[psychic]エネルギーが1個ついているなら、おたがいのプレイヤーは、それぞれの手札が7枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36209,
+		"multiId": "624_104",
+		"nameJp": "ラティアス&ラティオスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036209_P_RATEIASURATEIOSUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "104",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バスターパージ",
+				"damage": "240",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"water",
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エアロユニットGX",
+				"damage": "",
+				"text": "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。追加でエネルギーが1個ついているなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36210,
+		"multiId": "624_105",
+		"nameJp": "ラティアス&ラティオスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036210_P_RATEIASURATEIOSUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "105",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バスターパージ",
+				"damage": "240",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"water",
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "エアロユニットGX",
+				"damage": "",
+				"text": "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。追加でエネルギーが1個ついているなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic",
+					"plus"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36211,
+		"multiId": "624_106",
+		"nameJp": "イーブイ&カビゴンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036211_P_IBUIKABIGONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "106",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうえん",
+				"damage": "",
+				"text": "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダンププレス",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンが進化ポケモンなら、120ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "メガトンフレンズGX",
+				"damage": "210",
+				"text": "追加でエネルギーが1個ついているなら、自分の手札が10枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36021,
+		"multiId": "624_077",
+		"nameJp": "あなぬけのヒモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036021_T_ANANUKENOHIMO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "おたがいのプレイヤーは、それぞれ、自分のバトルポケモンをベンチポケモンと入れ替える。（入れ替えは相手から行う。ベンチがいないプレイヤーは入れ替えをしない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36022,
+		"multiId": "624_078",
+		"nameJp": "ジャッジマンホイッスル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036022_T_JAJJIMANHOISSURU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、2つの効果から1つを選んで使う。\n\n◆自分の山札を1枚引く。\n\n◆自分のトラッシュにある「ジャッジマン」を1枚、相手に見せてから、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36023,
+		"multiId": "624_079",
+		"nameJp": "なぞの化石",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036023_T_NAZONOKASEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、HP60の[colorless]タイプのたねポケモンとして、場に出すことができる。\n自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。\n\nこのカードは、にげられない。",
+		"energyText": "",
+		"hp": "60",
+		"color": [],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36024,
+		"multiId": "624_080",
+		"nameJp": "ハイパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036024_T_HAIPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "080",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36025,
+		"multiId": "624_081",
+		"nameJp": "ふしぎなアメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036025_T_FUSHIGINAAME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札にある2進化ポケモンを1枚、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。（最初の自分の番と、この番出したばかりのたねポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36026,
+		"multiId": "624_082",
+		"nameJp": "ポケモン通信",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036026_T_POKEMONTSUUSHIN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札にあるポケモンを1枚、相手に見せてから、山札にもどす。その後、自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "082",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36027,
+		"multiId": "624_083",
+		"nameJp": "ムキムキパッド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036027_T_MUKIMUKIPADDO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36028,
+		"multiId": "624_084",
+		"nameJp": "エリカのおもてなし",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036028_T_ERIKANOOMOTENASHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札がこのカードをふくめて6枚以上なら使えない。\n\n相手の場のポケモンの数ぶん、自分の山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36029,
+		"multiId": "624_085",
+		"nameJp": "ジャッジマン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036029_T_JAJJIMAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36030,
+		"multiId": "624_086",
+		"nameJp": "シロナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036030_T_SHIRONA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36031,
+		"multiId": "624_087",
+		"nameJp": "タケシのガッツ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036031_T_TAKESHINOGATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにあるポケモンと基本エネルギーを合計6枚、相手に見せてから、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36032,
+		"multiId": "624_088",
+		"nameJp": "ナツメの暗示",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036032_T_NATSUMENOANJI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の手札を見る。のぞむなら、その中からサポートを1枚選び、そのサポートの効果を、このカードの効果として使う。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36033,
+		"multiId": "624_089",
+		"nameJp": "マサキの解析",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036033_T_MASAKINOKAISEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を上から7枚見る。その中にあるトレーナーズを2枚まで、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "R",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36034,
+		"multiId": "624_090",
+		"nameJp": "シオンタウン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036034_T_SHIONTAUN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、相手の手札を見てよい。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36035,
+		"multiId": "624_091",
+		"nameJp": "トキワの森",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036035_T_TOKIWANOMORI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札を1枚トラッシュしてよい。その場合、自分の山札にある基本エネルギーを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36036,
+		"multiId": "624_092",
+		"nameJp": "アクアパッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036036_T_AKUAPACCHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュにある[water]エネルギーを1枚、ベンチの[water]ポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "TR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36037,
+		"multiId": "624_093",
+		"nameJp": "フィールドブロアー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036037_T_FIRUDOBUROA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "場にある「ポケモンのどうぐ」または「スタジアム」を、2枚までトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "TR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36038,
+		"multiId": "624_094",
+		"nameJp": "こだわりハチマキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036038_T_KODAWARIHACHIMAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "TR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36039,
+		"multiId": "624_095",
+		"nameJp": "デンジ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036039_T_DENJI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるグッズと[electric]エネルギーを1枚ずつ、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "TR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36212,
+		"multiId": "624_107",
+		"nameJp": "エリカのおもてなし",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036212_T_ERIKANOOMOTENASHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札がこのカードをふくめて6枚以上なら使えない。\n\n相手の場のポケモンの数ぶん、自分の山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "107",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36213,
+		"multiId": "624_108",
+		"nameJp": "タケシのガッツ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036213_T_TAKESHINOGATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにあるポケモンと基本エネルギーを合計6枚、相手に見せてから、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "108",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36214,
+		"multiId": "624_109",
+		"nameJp": "ナツメの暗示",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/036214_T_NATSUMENOANJI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の手札を見る。のぞむなら、その中からサポートを1枚選び、そのサポートの効果を、このカードの効果として使う。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "SR",
+		"productNo": "624",
+		"set": "サン&ムーン 拡張パック「タッグボルト」",
+		"setCode": "SM9",
+		"generation": "SM",
+		"setNo": "109",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

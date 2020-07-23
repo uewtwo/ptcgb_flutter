@@ -1,0 +1,6420 @@
+[
+	{
+		"cardId": 36748,
+		"multiId": "650_001",
+		"nameJp": "ヤンヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036748_P_YANYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "顔を 動かさずに ３６０度 すべてを 見渡す 目を 持つので 真後ろの 獲物も 見逃さない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カッターウインド",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36749,
+		"multiId": "650_002",
+		"nameJp": "メガヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036749_P_MEGAYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "高速で 飛んで すれ違った 相手の 首を 一瞬で かみちぎる 戦い方を 好む。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エアスラッシュ",
+				"damage": "100",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36750,
+		"multiId": "650_003",
+		"nameJp": "セレビィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036750_P_SEREBII.jpg",
+		"imageUrl": "",
+		"cardText": "時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タイムスパイラル",
+				"damage": "",
+				"text": "相手の進化しているポケモン1匹から、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の山札にもどして切る。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコトリップ",
+				"damage": "20",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36751,
+		"multiId": "650_004",
+		"nameJp": "キノココ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036751_P_KINOKOKO.jpg",
+		"imageUrl": "",
+		"cardText": "湿った 場所を 好み 昼間は 森の 木陰で じっと している。 頭から 毒の 粉を 出す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくのこな",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36752,
+		"multiId": "650_005",
+		"nameJp": "クルミル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036752_P_KURUMIRU.jpg",
+		"imageUrl": "",
+		"cardText": "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふえる",
+				"damage": "",
+				"text": "自分の山札にある「クルミル」を2枚まで、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かじる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36753,
+		"multiId": "650_006",
+		"nameJp": "クルミル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036753_P_KURUMIRU.jpg",
+		"imageUrl": "",
+		"cardText": "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {
+			"name": "はっぱのおくるみ",
+			"text": "このポケモンが受けるワザのダメージは「-10」される。"
+		},
+		"attacks": [
+			{
+				"name": "ふいをつく",
+				"damage": "20",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36754,
+		"multiId": "650_007",
+		"nameJp": "クルマユ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036754_P_KURUMAYU.jpg",
+		"imageUrl": "",
+		"cardText": "クルマユの 住む 森は 草木が よく 育つ。 クルマユが 落ち葉を 栄養分に 変えているのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {
+			"name": "はっぱのおくるみ",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "むしくい",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36755,
+		"multiId": "650_008",
+		"nameJp": "ハハコモリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036755_P_HAHAKOMORI.jpg",
+		"imageUrl": "",
+		"cardText": "幼い ポケモンを みつけると 口から 出す 粘着糸で 葉っぱの 服を 縫ってあげる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {
+			"name": "おくるみテーラー",
+			"text": "このポケモンがいるかぎり、自分の[grass]ポケモン全員が、相手のポケモンから受けるワザのダメージは「-40」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。"
+		},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36756,
+		"multiId": "650_009",
+		"nameJp": "タマゲタケ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036756_P_TAMAGETAKE.jpg",
+		"imageUrl": "",
+		"cardText": "モンスターボールに 似た 模様で 誘い 毒胞子を 吹きかける。 なぜ 似ているかは ナゾである。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キノコのほうし",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36757,
+		"multiId": "650_010",
+		"nameJp": "モロバレル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036757_P_MOROBARERU.jpg",
+		"imageUrl": "",
+		"cardText": "モンスターボールの カサを 見せつけ 獲物を 誘き寄せようとするが だまされる ポケモンは 少ない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {
+			"name": "ぼうはつほうし",
+			"text": "自分の番に、自分の手札からワザ「キノコのほうし」を持つポケモンを場に出すたび、1回使える。相手のバトルポケモンをどくとねむりにする。"
+		},
+		"attacks": [
+			{
+				"name": "ベノムショック",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンがどくなら、70ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36758,
+		"multiId": "650_011",
+		"nameJp": "ヤドン&コダックGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036758_P_YADONKODAKKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぽいぽいスプラッシュ",
+				"damage": "40×",
+				"text": "自分の手札にあるサポートを好きなだけトラッシュし、その枚数×40ダメージ。",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "どきどきタイムGX",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、100ダメージ追加。追加で[water]エネルギーが6個ついているなら、このワザで投げるコインの数は10回になり、オモテの数×100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36759,
+		"multiId": "650_012",
+		"nameJp": "ラプラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036759_P_RAPURASU.jpg",
+		"imageUrl": "",
+		"cardText": "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {
+			"name": "マーメイドコール",
+			"text": "自分の番に1回使える。自分のトラッシュにある「カスミのおねがい」を1枚、相手に見せてから、手札に加える。"
+		},
+		"attacks": [
+			{
+				"name": "なみのり",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36760,
+		"multiId": "650_013",
+		"nameJp": "ケイコウオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036760_P_KEIKOUO.jpg",
+		"imageUrl": "",
+		"cardText": "ピンク色の 模様は 夜になると 光りだす。 ダイバーに 人気なので リゾート地では 餌付けされることも。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かぜおこし",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36761,
+		"multiId": "650_014",
+		"nameJp": "ネオラント",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036761_P_NEORANTO.jpg",
+		"imageUrl": "",
+		"cardText": "深い 海の 底は 獲物が 少ない。 貴重な エサを 巡り ランターンと 激しく 争う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ネオントリック",
+				"damage": "50",
+				"text": "のぞむなら、相手のバトルポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36762,
+		"multiId": "650_015",
+		"nameJp": "バスラオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036762_P_BASURAO.jpg",
+		"imageUrl": "",
+		"cardText": "乱暴かつ 獰猛な ポケモン。 赤と 青の バスラオは 縄張りを 巡って いつも ケンカしている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "むれでむさぼる",
+				"damage": "",
+				"text": "相手のベンチポケモン1匹に、自分の場の「バスラオ」の数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36763,
+		"multiId": "650_016",
+		"nameJp": "プロトーガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036763_P_PUROTOGA.jpg",
+		"imageUrl": "",
+		"cardText": "古代の 化石から 復活。 海に 暮らしていたが 獲物を 探して 陸にも あがっていた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうらアタック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ロックスマッシュ",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36764,
+		"multiId": "650_017",
+		"nameJp": "アバゴーラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036764_P_ABAGORA.jpg",
+		"imageUrl": "",
+		"cardText": "アゴの 力が 凄まじい。 オムスターや オムナイトの カラも 気にせず 丸ごと 食っていた。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {
+			"name": "こだいのしきたり",
+			"text": "このポケモンがいるかぎり、相手の場にある「ポケモンのどうぐ」の効果は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "アクアインパクト",
+				"damage": "80＋",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×20ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36765,
+		"multiId": "650_018",
+		"nameJp": "シズクモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036765_P_SHIZUKUMO.jpg",
+		"imageUrl": "",
+		"cardText": "シズクモ同士が 出会うと 頭の 水泡を 自慢し アピールする。 小さな 方が 道を 譲る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずかけ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36766,
+		"multiId": "650_019",
+		"nameJp": "オニシズクモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036766_P_ONISHIZUKUMO.jpg",
+		"imageUrl": "",
+		"cardText": "普段は 水の中で 過ごす。 満腹の とき 仕留めた 獲物は 頭の 水泡に 仕舞っておく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "からめてひっぱる",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ねばねばネット",
+				"damage": "80",
+				"text": "次の相手の番、このワザを受けたポケモンは、ワザに必要なエネルギーとにげるためのエネルギーが、それぞれ[colorless]エネルギー1個ぶん多くなる。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36767,
+		"multiId": "650_020",
+		"nameJp": "コソクムシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036767_P_KOSOKUMUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "落ちているものは 何でも 拾う。 コインを 持っていることも あるので ヤミカラスやニャースに 狙われる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すなかけ",
+				"damage": "10",
+				"text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36768,
+		"multiId": "650_021",
+		"nameJp": "グソクムシャ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036768_P_GUSOKUMUSHA.jpg",
+		"imageUrl": "",
+		"cardText": "身体を 覆う 硬いカラは ダイヤモンド並みの 強度を 持つ。 勝つためには 手段を 選ばない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {
+			"name": "ききかいひ",
+			"text": "このポケモンについているエネルギーが2個以下なら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "であいがしら",
+				"damage": "120＋",
+				"text": "この番、このポケモンがベンチからバトル場に出ていたなら、60ダメージ追加。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36769,
+		"multiId": "650_022",
+		"nameJp": "バチュル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036769_P_BACHURU.jpg",
+		"imageUrl": "",
+		"cardText": "自分では 電気を つくれないので 他の 大きな ポケモンに とりつき 静電気を 吸いとる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "プチショック",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36770,
+		"multiId": "650_023",
+		"nameJp": "デンチュラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036770_P_DENCHURA.jpg",
+		"imageUrl": "",
+		"cardText": "電気を 帯びた 糸で ワナを 仕掛ける。 感電して 動けない 獲物を ゆっくりと いただくのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビリビリワイヤー",
+				"damage": "",
+				"text": "相手のポケモン1匹に、50ダメージ。このワザのダメージは、ベンチでも弱点・抵抗力を計算する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36771,
+		"multiId": "650_024",
+		"nameJp": "シビシラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036771_P_SHIBISHIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ワイルドリバー",
+				"damage": "",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36772,
+		"multiId": "650_025",
+		"nameJp": "シビシラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036772_P_SHIBISHIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんきをつくる",
+				"damage": "",
+				"text": "自分の山札にある[electric]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36773,
+		"multiId": "650_026",
+		"nameJp": "シビビール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036773_P_SHIBIBIRU.jpg",
+		"imageUrl": "",
+		"cardText": "相手に 巻きつき まるい はん点から 電気を 流して しびれたところを まるかじりする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "オーバースパーク",
+				"damage": "30×",
+				"text": "このポケモンについている[electric]エネルギーをすべてトラッシュし、その枚数×30ダメージ。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36774,
+		"multiId": "650_027",
+		"nameJp": "シビルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036774_P_SHIBIRUDON.jpg",
+		"imageUrl": "",
+		"cardText": "吸盤の 口で 獲物に 吸いつき 食いこませた キバから 電気を 流して 感電させる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {
+			"name": "でんきぬま",
+			"text": "自分の番に、このカードが手札にあり、自分の場に[electric]エネルギーが合計4枚以上あるなら、1回使える。このカードをベンチに出す。その後、自分の場のポケモンについている[electric]エネルギーを好きなだけ、このカードにつけ替える。"
+		},
+		"attacks": [
+			{
+				"name": "むしゃぶりつく",
+				"damage": "130",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36775,
+		"multiId": "650_028",
+		"nameJp": "カプ・コケコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036775_P_KAPUKOKEKO.jpg",
+		"imageUrl": "",
+		"cardText": "守り神と 呼ばれるが 気分を 害する 人間や ポケモンには 襲い掛かる 荒ぶる神 でもある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エレキボール",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ネイチャーダイブ",
+				"damage": "100＋",
+				"text": "相手のバトルポケモンが「ウルトラビースト」なら、100ダメージ追加。その場合、このポケモンについているエネルギーを、2個トラッシュする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36776,
+		"multiId": "650_029",
+		"nameJp": "ミュウツー&ミュウGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036776_P_MYUUTSUMYUUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {
+			"name": "パーフェクション",
+			"text": "このポケモンは、自分のベンチまたはトラッシュにある「ポケモンGX・EX」が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］"
+		},
+		"attacks": [],
+		"addRule": "追加でエネルギーが1個ついているなら、自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36777,
+		"multiId": "650_030",
+		"nameJp": "タマタマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036777_P_TAMATAMA.jpg",
+		"imageUrl": "",
+		"cardText": "６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やどりぎのタネ",
+				"damage": "10",
+				"text": "このポケモンのHPを「10」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36778,
+		"multiId": "650_031",
+		"nameJp": "ナッシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036778_P_NASSHI.jpg",
+		"imageUrl": "",
+		"cardText": "サイコパワーで 敵を 迎え撃つ。 ３つの頭 それぞれが 念力を 放つので その威力は ３倍だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコトリップ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "まるさばき",
+				"damage": "180",
+				"text": "自分の手札をすべてトラッシュする。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36779,
+		"multiId": "650_032",
+		"nameJp": "ルージュラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036779_P_RUJURA.jpg",
+		"imageUrl": "",
+		"cardText": "独特の リズムで 腰を 振る。 アローラに 棲む ルージュラは そのキレが 実に 素晴らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {
+			"name": "あやしいこしつき",
+			"text": "自分の番に1回使える。自分の場のポケモンにのっているダメカンを1個、自分の別のポケモンにのせ替える。"
+		},
+		"attacks": [
+			{
+				"name": "メロメロアタック",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36780,
+		"multiId": "650_033",
+		"nameJp": "ソーナノ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036780_P_SONANO.jpg",
+		"imageUrl": "",
+		"cardText": "群れで 行動する 習性。 眠る ときは 洞窟の 中で 仲間たちと 体を 寄せ合う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {
+			"name": "ごきげんピック",
+			"text": "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。"
+		},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36781,
+		"multiId": "650_034",
+		"nameJp": "ラティオスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036781_P_RATEIOSUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {
+			"name": "パワーバインド",
+			"text": "自分の場のポケモンの数が4匹以下なら、このポケモンはワザが使えない。"
+		},
+		"attacks": [
+			{
+				"name": "タッグパージ",
+				"damage": "120",
+				"text": "次の相手の番、このポケモンは「TAG TEAM」のポケモンからワザのダメージを受けない。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "クリアビジョンGX",
+				"damage": "",
+				"text": "この対戦が終わるまで、相手のポケモンはGXワザが使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36782,
+		"multiId": "650_035",
+		"nameJp": "スコルピ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036782_P_SUKORUPI.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾の ツメで 獲物を 挟み 毒を 送りこむ。毒が 効くまで 絶対に 放さない 執念。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はたきおとす",
+				"damage": "",
+				"text": "相手の手札からオモテを見ないで、1枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "むしくい",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36783,
+		"multiId": "650_036",
+		"nameJp": "リグレー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036783_P_RIGURE.jpg",
+		"imageUrl": "",
+		"cardText": "凄まじい サイコパワーを 操る。 宇宙人 目撃情報の 多くは リグレーの 見間違いだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイケこうせん",
+				"damage": "10",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36784,
+		"multiId": "650_037",
+		"nameJp": "オーベム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036784_P_OBEMU.jpg",
+		"imageUrl": "",
+		"cardText": "サイコパワーで 相手の 記憶を 書き換えてしまう。 あなたも 既に 書き換えられているかも しれない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコパンチ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ミステリーノイズ",
+				"damage": "90",
+				"text": "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。次の相手の番、相手は手札からグッズを出して使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36785,
+		"multiId": "650_038",
+		"nameJp": "ヒトツキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036785_P_HITOTSUKI.jpg",
+		"imageUrl": "",
+		"cardText": "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほりだしもの",
+				"damage": "",
+				"text": "自分の山札にあるグッズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つきさす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36786,
+		"multiId": "650_039",
+		"nameJp": "ヒトツキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036786_P_HITOTSUKI.jpg",
+		"imageUrl": "",
+		"cardText": "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スラッシュカッター",
+				"damage": "10",
+				"text": "このワザのダメージは弱点・抵抗力を計算しない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36787,
+		"multiId": "650_040",
+		"nameJp": "ニダンギル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036787_P_NIDANGIRU.jpg",
+		"imageUrl": "",
+		"cardText": "進化して ２本に 分裂した。 テレパシーで 会話して 連係攻撃で 敵を 切り刻む。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スラッシュカッター",
+				"damage": "30",
+				"text": "このワザのダメージは弱点・抵抗力を計算しない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36788,
+		"multiId": "650_041",
+		"nameJp": "ギルガルド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036788_P_GIRUGARUDO.jpg",
+		"imageUrl": "",
+		"cardText": "歴代の 王が 連れていた。 霊力で 人や ポケモンの 心を 操り 従わせる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {
+			"name": "くちないつるぎ",
+			"text": "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、トラッシュせず、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）"
+		},
+		"attacks": [
+			{
+				"name": "ガレキスラッシュ",
+				"damage": "10×",
+				"text": "自分のトラッシュにあるグッズの枚数×10ダメージ。与えられるダメージはグッズ13枚ぶんまで。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36789,
+		"multiId": "650_042",
+		"nameJp": "ネクロズマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036789_P_NEKUROZUMA.jpg",
+		"imageUrl": "",
+		"cardText": "エネルギーとなる 光を 求めて 暴れる 姿は どこか 苦しげ。 別の 世界の 存在 らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バリアアタック",
+				"damage": "30",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "スペシャルレーザー",
+				"damage": "100＋",
+				"text": "このポケモンに特殊エネルギーがついているなら、60ダメージ追加。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36790,
+		"multiId": "650_043",
+		"nameJp": "イワーク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036790_P_IWAKU.jpg",
+		"imageUrl": "",
+		"cardText": "地中を ものすごい 勢いで 掘りすすみ エサを 探す。 通った 跡は ディグダの 住処になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんばんプレス",
+				"damage": "20",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36791,
+		"multiId": "650_044",
+		"nameJp": "ハガネール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036791_P_HAGANERU.jpg",
+		"imageUrl": "",
+		"cardText": "地中の 高い 圧力と 熱で 鍛えられた 体は あらゆる 金属よりも 硬い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ランドストリーム",
+				"damage": "20",
+				"text": "自分のトラッシュにある[fighting]エネルギーを2枚、このポケモンにつける。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガトンシェイク",
+				"damage": "220",
+				"text": "次の自分の番、自分のポケモン全員はワザが使えない。（新しく出したポケモンも含む。）",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36792,
+		"multiId": "650_045",
+		"nameJp": "プテラGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036792_P_PUTERAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {
+			"name": "げんしのかぜ",
+			"text": "このポケモンがバトル場にいるかぎり、相手のたねポケモンが使うワザに必要なエネルギーは、[colorless]エネルギー1個ぶん多くなる。"
+		},
+		"attacks": [
+			{
+				"name": "ロックスマッシュ",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ワイルドダイブGX",
+				"damage": "50×",
+				"text": "相手のバトルポケモンについているエネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36793,
+		"multiId": "650_046",
+		"nameJp": "ヘラクロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036793_P_HERAKUROSU.jpg",
+		"imageUrl": "",
+		"cardText": "太いツノが 自慢。 アローラでは クワガノンが 最大の ライバルで しょっちゅう ケンカを している。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どひょうがえし",
+				"damage": "",
+				"text": "前の相手の番に、相手のポケモンがGXワザを使っていたなら、相手のバトルポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たいあたり",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36794,
+		"multiId": "650_047",
+		"nameJp": "キノガッサ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036794_P_KINOGASSA.jpg",
+		"imageUrl": "",
+		"cardText": "短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キノコのほうし",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ねこみをおそう",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンがねむりなら、90ダメージ追加。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36795,
+		"multiId": "650_048",
+		"nameJp": "ジーランス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036795_P_JIRANSU.jpg",
+		"imageUrl": "",
+		"cardText": "絶滅したと 考えられていた。 ジーランスの 名は 発見者の 名前を もじって つけられた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しんかいボーリング",
+				"damage": "",
+				"text": "自分の山札にあるトレーナーズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みずのはどう",
+				"damage": "30",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36796,
+		"multiId": "650_049",
+		"nameJp": "モグリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036796_P_MOGURYU.jpg",
+		"imageUrl": "",
+		"cardText": "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメをたてる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36797,
+		"multiId": "650_050",
+		"nameJp": "ドリュウズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036797_P_DORYUUZU.jpg",
+		"imageUrl": "",
+		"cardText": "鋼に 進化した ドリルは 鉄板を つらぬく 破壊力。 トンネル工事で 大活躍する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たがやす",
+				"damage": "",
+				"text": "自分のトラッシュにある好きなカードを4枚、相手に見せてから、山札にもどして切る。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きりさく",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36798,
+		"multiId": "650_051",
+		"nameJp": "アーケン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036798_P_AKEN.jpg",
+		"imageUrl": "",
+		"cardText": "あらゆる とりポケモンの 祖先と 考えられてきたが 最近の 研究では 違うという 説も。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がむしゃら",
+				"damage": "20＋",
+				"text": "コインを2回投げ、オモテの数×20ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36799,
+		"multiId": "650_052",
+		"nameJp": "アーケオス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036799_P_AKEOSU.jpg",
+		"imageUrl": "",
+		"cardText": "羽毛が 細かいので 熟練の 職人 でなければ 復元に 失敗するという 古代の ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とんぼがえり",
+				"damage": "40",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はかいこうせん",
+				"damage": "80",
+				"text": "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36800,
+		"multiId": "650_053",
+		"nameJp": "テラキオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036800_P_TERAKION.jpg",
+		"imageUrl": "",
+		"cardText": "巨大な 城壁を 一撃で 突破するほどの 突進力。 伝説で 語られる ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんくつおう",
+				"damage": "50＋",
+				"text": "自分のベンチポケモン全員にダメカンがのっているなら、150ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ロックスマッシュ",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36801,
+		"multiId": "650_054",
+		"nameJp": "メガヤミラミ&バンギラスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036801_P_MEGAYAMIRAMIBANGIRASUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "280",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "グリードクラッシュ",
+				"damage": "210",
+				"text": "このワザのダメージで、相手の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "ギガフォールGX",
+				"damage": "250",
+				"text": "追加でエネルギーが5個ついているなら、相手の山札を上から15枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36802,
+		"multiId": "650_055",
+		"nameJp": "ヤミラミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036802_P_YAMIRAMI.jpg",
+		"imageUrl": "",
+		"cardText": "硬いツメで 土を 掘り 太い キバで 宝石を バリバリかじる。 メレシーが 大好物だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ミラージェム",
+				"damage": "10",
+				"text": "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを8個のせる。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36803,
+		"multiId": "650_056",
+		"nameJp": "ドラピオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036803_P_DORAPION.jpg",
+		"imageUrl": "",
+		"cardText": "自慢の パワーで 相手を ばらばらに できるのに さらに 猛毒で とどめを 刺すのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クロスポイズン",
+				"damage": "50×",
+				"text": "コインを4回投げ、オモテの数×50ダメージ。オモテが2回以上なら、相手のバトルポケモンをどくにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "スライスブレード",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36804,
+		"multiId": "650_057",
+		"nameJp": "チョロネコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036804_P_CHORONEKO.jpg",
+		"imageUrl": "",
+		"cardText": "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おそうじ",
+				"damage": "",
+				"text": "相手の場のポケモンについている「ポケモンのどうぐ」を、1枚トラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36805,
+		"multiId": "650_058",
+		"nameJp": "レパルダス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036805_P_REPARUDASU.jpg",
+		"imageUrl": "",
+		"cardText": "美しい スタイルは 全身の 発達した 筋肉の おかげ。 音もたてずに 夜を 駆けぬける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シャドーネイル",
+				"damage": "90",
+				"text": "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36806,
+		"multiId": "650_059",
+		"nameJp": "ズルッグ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036806_P_ZURUGGU.jpg",
+		"imageUrl": "",
+		"cardText": "数匹のグループで 行動する。 ちんたら 歩きまわり 目が 合った 相手に いきなり 頭突きを かます。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いばる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はりたおす",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36807,
+		"multiId": "650_060",
+		"nameJp": "ズルズキン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036807_P_ZURUZUKIN.jpg",
+		"imageUrl": "",
+		"cardText": "粗暴だが 自分の 家族や 群れの仲間や 縄張りを とっても 大切にしている ポケモンなのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "カチコミ",
+				"damage": "20＋",
+				"text": "自分のサイドの枚数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ヘッドバング",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36808,
+		"multiId": "650_061",
+		"nameJp": "イベルタル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036808_P_IBERUTARU.jpg",
+		"imageUrl": "",
+		"cardText": "翼と 尾羽を 広げて 赤く 輝くとき 生き物の 命を 吸い取る 伝説の ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふきぬける",
+				"damage": "20＋",
+				"text": "場にスタジアムが出ているなら、20ダメージ追加。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シャドーインパクト",
+				"damage": "120",
+				"text": "自分のポケモン1匹に、ダメカンを3個のせる。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36809,
+		"multiId": "650_062",
+		"nameJp": "モンメン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036809_P_MONMEN.jpg",
+		"imageUrl": "",
+		"cardText": "綿を 飛ばして 身を 守る。 雨に 濡れると 綿が 湿って 重くなり 身動きが とれなくなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Asako Ito",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちりあつめ",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36810,
+		"multiId": "650_063",
+		"nameJp": "エルフーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036810_P_ERUFUN.jpg",
+		"imageUrl": "",
+		"cardText": "民家に 忍び込み 大切な ものを 隠したり 部屋中に 綿を まき散らす 厄介者だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "063",
+		"ability": {
+			"name": "でたとこサーチ",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "かぜおこし",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36811,
+		"multiId": "650_064",
+		"nameJp": "デデンネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036811_P_DEDENNE.jpg",
+		"imageUrl": "",
+		"cardText": "民家に 忍びこみ コンセントから 電気を 盗む。 電気代が おかしいときは こいつの 仕業。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おんがえし",
+				"damage": "20",
+				"text": "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36812,
+		"multiId": "650_065",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036812_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "まだ 弱いので 水底に 身を 潜め 沈んできた ものを 食らいながら ひそかに 暮らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Motofumi Fujiwara",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうそくいどう",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36813,
+		"multiId": "650_066",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036813_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "まだ 弱いので 水底に 身を 潜め 沈んできた ものを 食らいながら ひそかに 暮らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "066",
+		"ability": {
+			"name": "アクアフロート",
+			"text": "このポケモンに[water]エネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "とびつく",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36814,
+		"multiId": "650_067",
+		"nameJp": "ハクリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036814_P_HAKURYU.jpg",
+		"imageUrl": "",
+		"cardText": "天候を 操ると 信じられ ハクリューの 棲む 湖には お供え物が 絶えない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽではたく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はかいのうず",
+				"damage": "70",
+				"text": "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"water",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36815,
+		"multiId": "650_068",
+		"nameJp": "カイリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036815_P_KAIRYU.jpg",
+		"imageUrl": "",
+		"cardText": "荒れ狂う 海も ものともせずに 飛んでいく。 その姿を 見かけた 船長は 海の化身と 呼んだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "068",
+		"ability": {
+			"name": "ハリケーンチャージ",
+			"text": "自分の番に1回使える。自分の手札から[water]エネルギーと[electric]エネルギーをそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。"
+		},
+		"attacks": [
+			{
+				"name": "ドラゴンインパクト",
+				"damage": "170",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"water",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36816,
+		"multiId": "650_069",
+		"nameJp": "カイリューGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036816_P_KAIRYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "てんくうのさばき",
+				"damage": "270",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "マッハデリバリーGX",
+				"damage": "",
+				"text": "自分の手札が10枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36817,
+		"multiId": "650_070",
+		"nameJp": "オンバット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036817_P_ONBATTO.jpg",
+		"imageUrl": "",
+		"cardText": "好物は 果物。 超音波を あてて よく 熟した ものだけを 選び出して 食らう グルメなのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エアスラッシュ",
+				"damage": "50",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"psychic",
+					"dark"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36818,
+		"multiId": "650_071",
+		"nameJp": "オンバーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036818_P_ONBAN.jpg",
+		"imageUrl": "",
+		"cardText": "乱暴な 性質だが 好物の 熟した 果物を あげると 手のひらを 返したように 懐く。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ばくおんぱ",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "りゅうのはどう",
+				"damage": "120",
+				"text": "自分の山札を上から1枚トラッシュする。",
+				"costs": [
+					"psychic",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36819,
+		"multiId": "650_072",
+		"nameJp": "ケンタロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036819_P_KENTAROSU.jpg",
+		"imageUrl": "",
+		"cardText": "集団で 生活する。 群れの 中で １番 太く 長く キズだらけの ツノを持つのが ボス。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "KEIICHIRO ITO",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "あばれタックル",
+				"damage": "60",
+				"text": "このポケモンにも10ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36820,
+		"multiId": "650_073",
+		"nameJp": "ナマケロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036820_P_NAMAKERO.jpg",
+		"imageUrl": "",
+		"cardText": "ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "miki kudo",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なまけごえ",
+				"damage": "",
+				"text": "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、相手の番は終わる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶらさがる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36821,
+		"multiId": "650_074",
+		"nameJp": "ナマケロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036821_P_NAMAKERO.jpg",
+		"imageUrl": "",
+		"cardText": "ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "そこぢから",
+				"damage": "60",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36822,
+		"multiId": "650_075",
+		"nameJp": "ヤルキモノ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036822_P_YARUKIMONO.jpg",
+		"imageUrl": "",
+		"cardText": "心臓の 鼓動が 速く 全身の 血が たぎっているため １秒も じっと していられない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほえる",
+				"damage": "",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きりさく",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36823,
+		"multiId": "650_076",
+		"nameJp": "ケッキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036823_P_KEKKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "世界一 ぐうたらな ポケモン。 手が 届く 範囲の エサを 食べつくすと 居場所を 変える。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "R",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "076",
+		"ability": {
+			"name": "はんげき",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを4個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ダイナミックスイング",
+				"damage": "100＋",
+				"text": "のぞむなら、100ダメージ追加。その場合、次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36824,
+		"multiId": "650_077",
+		"nameJp": "ヤングース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036824_P_YANGUSU.jpg",
+		"imageUrl": "",
+		"cardText": "長い 胴体の 中身は ほとんど 胃袋。 大食いなので エサ代は バカに ならない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ばっくりバイト",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36825,
+		"multiId": "650_078",
+		"nameJp": "デカグース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036825_P_DEKAGUSU.jpg",
+		"imageUrl": "",
+		"cardText": "もともと アローラには いなかったが 昔 コラッタが 大量に 発生したときに 連れて来られた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アラートヘッド",
+				"damage": "90",
+				"text": "相手のバトルポケモンが「ポケモンGX・EX」なら、このワザのダメージは「30」になる。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36826,
+		"multiId": "650_079",
+		"nameJp": "ヤレユータン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036826_P_YAREYUTAN.jpg",
+		"imageUrl": "",
+		"cardText": "普段は 木の上で 瞑想して 過ごす。 勝手にモンスターボールを 投げて ポケモンに 命令する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けんじゃのといかけ",
+				"damage": "",
+				"text": "自分の手札からポケモンを1枚、ウラにして置く。その後、相手はそのポケモンのタイプを答える。そのカードをオモテにして、正解なら、相手は山札を4枚引く。不正解なら、自分は山札を4枚引く。そして置いたカードを手札にもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひっぱたく",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36827,
+		"multiId": "650_080",
+		"nameJp": "ネッコアラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036827_P_NEKKOARA.jpg",
+		"imageUrl": "",
+		"cardText": "生まれてから ずっと 眠ったまま。 深い 眠りに 落ちているときは 一切 動かなくなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "080",
+		"ability": {
+			"name": "ゆめうつつ",
+			"text": "このポケモンがねむりのとき、ポケモンチェックで、このポケモンがねむりから回復しなかったなら、相手のバトルポケモンに、ダメカンを6個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "うとうと",
+				"damage": "",
+				"text": "このポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36969,
+		"multiId": "650_095",
+		"nameJp": "ヤドン&コダックGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036969_P_YADONKODAKKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぽいぽいスプラッシュ",
+				"damage": "40×",
+				"text": "自分の手札にあるサポートを好きなだけトラッシュし、その枚数×40ダメージ。",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "どきどきタイムGX",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、100ダメージ追加。追加で[water]エネルギーが6個ついているなら、このワザで投げるコインの数は10回になり、オモテの数×100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36976,
+		"multiId": "650_096",
+		"nameJp": "ヤドン&コダックGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036976_P_YADONKODAKKUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "Miki Tanaka",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぽいぽいスプラッシュ",
+				"damage": "40×",
+				"text": "自分の手札にあるサポートを好きなだけトラッシュし、その枚数×40ダメージ。",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "どきどきタイムGX",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、100ダメージ追加。追加で[water]エネルギーが6個ついているなら、このワザで投げるコインの数は10回になり、オモテの数×100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"plus"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36977,
+		"multiId": "650_097",
+		"nameJp": "ミュウツー&ミュウGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036977_P_MYUUTSUMYUUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "097",
+		"ability": {
+			"name": "パーフェクション",
+			"text": "このポケモンは、自分のベンチまたはトラッシュにある「ポケモンGX・EX」が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］"
+		},
+		"attacks": [],
+		"addRule": "追加でエネルギーが1個ついているなら、自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36978,
+		"multiId": "650_098",
+		"nameJp": "ミュウツー&ミュウGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036978_P_MYUUTSUMYUUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "270",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "sui",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "098",
+		"ability": {
+			"name": "パーフェクション",
+			"text": "このポケモンは、自分のベンチまたはトラッシュにある「ポケモンGX・EX」が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］"
+		},
+		"attacks": [],
+		"addRule": "追加でエネルギーが1個ついているなら、自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36979,
+		"multiId": "650_099",
+		"nameJp": "ラティオスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036979_P_RATEIOSUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "099",
+		"ability": {
+			"name": "パワーバインド",
+			"text": "自分の場のポケモンの数が4匹以下なら、このポケモンはワザが使えない。"
+		},
+		"attacks": [
+			{
+				"name": "タッグパージ",
+				"damage": "120",
+				"text": "次の相手の番、このポケモンは「TAG TEAM」のポケモンからワザのダメージを受けない。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "クリアビジョンGX",
+				"damage": "",
+				"text": "この対戦が終わるまで、相手のポケモンはGXワザが使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36980,
+		"multiId": "650_100",
+		"nameJp": "プテラGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036980_P_PUTERAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "100",
+		"ability": {
+			"name": "げんしのかぜ",
+			"text": "このポケモンがバトル場にいるかぎり、相手のたねポケモンが使うワザに必要なエネルギーは、[colorless]エネルギー1個ぶん多くなる。"
+		},
+		"attacks": [
+			{
+				"name": "ロックスマッシュ",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ワイルドダイブGX",
+				"damage": "50×",
+				"text": "相手のバトルポケモンについているエネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36981,
+		"multiId": "650_101",
+		"nameJp": "メガヤミラミ&バンギラスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036981_P_MEGAYAMIRAMIBANGIRASUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "280",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "グリードクラッシュ",
+				"damage": "210",
+				"text": "このワザのダメージで、相手の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "ギガフォールGX",
+				"damage": "250",
+				"text": "追加でエネルギーが5個ついているなら、相手の山札を上から15枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36982,
+		"multiId": "650_102",
+		"nameJp": "メガヤミラミ&バンギラスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036982_P_MEGAYAMIRAMIBANGIRASUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "280",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": true
+		},
+		"author": "chibi",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "102",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "グリードクラッシュ",
+				"damage": "210",
+				"text": "このワザのダメージで、相手の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "ギガフォールGX",
+				"damage": "250",
+				"text": "追加でエネルギーが5個ついているなら、相手の山札を上から15枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark",
+					"colorless",
+					"plus"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "TAG TEAMがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36983,
+		"multiId": "650_103",
+		"nameJp": "カイリューGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036983_P_KAIRYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "ConceptLab",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "103",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"water",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "てんくうのさばき",
+				"damage": "270",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			},
+			{
+				"name": "マッハデリバリーGX",
+				"damage": "",
+				"text": "自分の手札が10枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36828,
+		"multiId": "650_081",
+		"nameJp": "グレートポーション",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036828_T_GURETOPOSHON.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトル場の「ポケモンGX」のHPを「50」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36829,
+		"multiId": "650_082",
+		"nameJp": "スタジアムナビ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036829_T_SUTAJIAMUNABI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを2回投げ、オモテの数ぶん、自分の山札にあるスタジアムを、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "082",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36830,
+		"multiId": "650_083",
+		"nameJp": "なぞの化石",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036830_T_NAZONOKASEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、HP60の[colorless]タイプのたねポケモンとして、場に出すことができる。\n自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。\n\nこのカードは、にげられない。",
+		"energyText": "",
+		"hp": "60",
+		"color": [],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36831,
+		"multiId": "650_084",
+		"nameJp": "ジャイアントボム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036831_T_JAIANTOBOMU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36832,
+		"multiId": "650_085",
+		"nameJp": "カスミのおねがい",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036832_T_KASUMINOONEGAI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるサポートを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36833,
+		"multiId": "650_086",
+		"nameJp": "きとうし",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036833_T_KITOUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードの持ち主と、自分のポケモン全員にかかっているワザの効果は、すべてなくなる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36834,
+		"multiId": "650_087",
+		"nameJp": "グリーンの戦略",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036834_T_GURINNOSENRYAKU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードを使った番の終わりに、自分の手札が8枚になるように、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36835,
+		"multiId": "650_088",
+		"nameJp": "まどろみの森",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036835_T_MADOROMINOMORI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーがねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36836,
+		"multiId": "650_089",
+		"nameJp": "ポケモンけんきゅうじょ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036836_T_POKEMONKENKYUUJO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札にある「なぞの化石」から進化するポケモンを2枚まで、ベンチに出してよい。その場合、山札を切る。この効果を使ったなら、自分の番は終わる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "aky CG Works",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36838,
+		"multiId": "650_091",
+		"nameJp": "ともだちてちょう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036838_T_TOMODACHITECHOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュにあるサポートを2枚、相手に見せてから、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "TR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36839,
+		"multiId": "650_092",
+		"nameJp": "ポケギア3.0",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036839_T_POKEGIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中にあるサポートを1枚、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "TR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36840,
+		"multiId": "650_093",
+		"nameJp": "ミステリートレジャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036840_T_MISUTERITOREJA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の山札にある[psychic]または[dragon]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "TR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36841,
+		"multiId": "650_094",
+		"nameJp": "かんこうきゃく",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036841_T_KANKOUKYAKU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札が5枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "TR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36984,
+		"multiId": "650_104",
+		"nameJp": "カスミのおねがい",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036984_T_KASUMINOONEGAI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるサポートを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "104",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36985,
+		"multiId": "650_105",
+		"nameJp": "きとうし",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036985_T_KITOUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードの持ち主と、自分のポケモン全員にかかっているワザの効果は、すべてなくなる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "105",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36986,
+		"multiId": "650_106",
+		"nameJp": "グリーンの戦略",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036986_T_GURINNOSENRYAKU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードを使った番の終わりに、自分の手札が8枚になるように、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "SR",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "106",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 36837,
+		"multiId": "650_090",
+		"nameJp": "ウィークガードエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036837_E_UIKUGADOENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは[colorless]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけているポケモンの弱点は、すべてなくなる。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "650",
+		"set": "サン&ムーン 拡張パック「ミラクルツイン」",
+		"setCode": "SM11",
+		"generation": "SM",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

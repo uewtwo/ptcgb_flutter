@@ -89,10 +89,11 @@ class CardList extends StatelessWidget {
   Image _cardImage(CardContent content) {
     // TODO: 個別のカードの画像用意
     // TODO: 画像について個別にダウンロードボタンを用意して、画像がなければsampleを利用するようにしたい。
-    // とりあえ試しにhttp通信で取得するようにしてみる？
     final String defaultTargetPath = 'assets/img/various/sample.png';
-    //    final String targetPath = 'assets/img/cards/jp/${content.generation.toLowerCase()}/${content.setCode.toLowerCase()}.png';
+    final String targetPath = 'assets/img/cards/jp/${content.generation.toLowerCase()}/${content.productNo}/${content.cardId}.png';
     try {
+      // FIXME: 非同期処理だからか try-catch で画像がないときにdefaultTargetPathをみてくれない
+//      return Image.asset(targetPath);
       return Image.asset(defaultTargetPath);
     } catch (e) {
       return Image.asset(defaultTargetPath);
@@ -102,8 +103,8 @@ class CardList extends StatelessWidget {
   Future<List<CardContent>> getCardListByExpansion(
       BuildContext context, ExpansionContent content) async {
     final String gen = content.generation;
-    final String name = content.name;
-    final String jsonPath = 'assets/text/cards/jp/$gen/$name.json';
+    final String productNo = content.productNo;
+    final String jsonPath = 'assets/text/cards/jp/$gen/$productNo.json';
     final List<dynamic> jsonRes =
         jsonDecode(await DefaultAssetBundle.of(context).loadString(jsonPath));
     final List<CardContent> _cardList =

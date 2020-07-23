@@ -1,0 +1,4728 @@
+[
+	{
+		"cardId": 38063,
+		"multiId": "707_001",
+		"nameJp": "バタフリーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038063_P_BATAFURIV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フラフラどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとこんらんにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ブラストウインド",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38064,
+		"multiId": "707_002",
+		"nameJp": "バタフリーVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038064_P_BATAFURIVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キョダイドクカゼ",
+				"damage": "150",
+				"text": "相手のバトルポケモンをどくとこんらんにする。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38065,
+		"multiId": "707_003",
+		"nameJp": "カブルモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038065_P_KABURUMO.jpg",
+		"imageUrl": "",
+		"cardText": "電気エネルギーに 反応する 不思議な 体質。 チョボマキと ともに いると 進化する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくずつき",
+				"damage": "20×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38066,
+		"multiId": "707_004",
+		"nameJp": "チョボマキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038066_P_CHOBOMAKI.jpg",
+		"imageUrl": "",
+		"cardText": "敵に 襲われると 殻の 蓋を がっちり 閉めて 身を 守る。 ただし カブルモには 開けられる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しるをとばす",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38067,
+		"multiId": "707_005",
+		"nameJp": "アギルダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038067_P_AGIRUDA.jpg",
+		"imageUrl": "",
+		"cardText": "素早い 動きで 毒を 飛ばし 戦う。 アギルダーが 主役の 映画や マンガは 大人気。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ジェットヘッド",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38068,
+		"multiId": "707_006",
+		"nameJp": "アマカジ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038068_P_AMAKAJI.jpg",
+		"imageUrl": "",
+		"cardText": "体から 漏れ出す 果実の 甘い においが 鳥ポケモンの 食欲を 激しく 刺激する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうごうせい",
+				"damage": "",
+				"text": "自分の山札から[grass]エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はねまわる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38069,
+		"multiId": "707_007",
+		"nameJp": "アママイコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038069_P_AMAMAIKO.jpg",
+		"imageUrl": "",
+		"cardText": "踊るように ターンして 甘い 香りを ふりまく。 その においを 嗅ぐと 幸せな 気持ちになる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ゆうわく",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひらてうち",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38070,
+		"multiId": "707_008",
+		"nameJp": "アマージョ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038070_P_AMAJO.jpg",
+		"imageUrl": "",
+		"cardText": "すらりと 伸びた 脚と 残忍な 心を もち 恐れられている。 敵を 容赦なく 踏みにじる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーウィップ",
+				"damage": "",
+				"text": "相手のポケモン1匹に、このポケモンについているエネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おあずけキック",
+				"damage": "100",
+				"text": "のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38071,
+		"multiId": "707_009",
+		"nameJp": "コソクムシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038071_P_KOSOKUMUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "腐ったものや ゴミでも なんでも 食べまわる 自然の 掃除屋。 巣の まわりは いつも きれい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじってにげる",
+				"damage": "10",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38072,
+		"multiId": "707_010",
+		"nameJp": "グソクムシャ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038072_P_GUSOKUMUSHA.jpg",
+		"imageUrl": "",
+		"cardText": "勝つためには 手段を 問わない。 相手の 隙を ついて 前脚の 小さな ツメで とどめを 刺す。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぎゃっきょうぎり",
+				"damage": "30＋",
+				"text": "相手の場の「ポケモンV・GX」の数×50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "スマッシュターン",
+				"damage": "70",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38073,
+		"multiId": "707_011",
+		"nameJp": "ヒードラン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038073_P_HIDORAN.jpg",
+		"imageUrl": "",
+		"cardText": "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおのキバ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "レイジングフレア",
+				"damage": "80＋",
+				"text": "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38074,
+		"multiId": "707_012",
+		"nameJp": "メラルバ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038074_P_MERARUBA.jpg",
+		"imageUrl": "",
+		"cardText": "炎を 使って 身を 守る。 昔の 人々は 太陽に 巣が あると 信じていた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こがす",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38075,
+		"multiId": "707_013",
+		"nameJp": "ウルガモス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038075_P_URUGAMOSU.jpg",
+		"imageUrl": "",
+		"cardText": "燃え盛る 炎の繭から 生まれ 寒さに 苦しむ人や ポケモンを 救ったという 伝説が ある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きずあぶり",
+				"damage": "80",
+				"text": "相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのおのつばさ",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38076,
+		"multiId": "707_014",
+		"nameJp": "ヒノヤコマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038076_P_HINOYAKOMA.jpg",
+		"imageUrl": "",
+		"cardText": "飛びはじめた 直後の スピードは すべての とりポケモンの 中でも トップクラスの 速さ なのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38077,
+		"multiId": "707_015",
+		"nameJp": "ファイアロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038077_P_FAIARO.jpg",
+		"imageUrl": "",
+		"cardText": "とりポケモンが 主な 獲物。 急接近からの 力強い キックで 地面に 叩き落す。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {
+			"name": "しゃくねつのはね",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。"
+		},
+		"attacks": [
+			{
+				"name": "おんそくひこう",
+				"damage": "120",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38078,
+		"multiId": "707_016",
+		"nameJp": "マルヤクデV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038078_P_MARUYAKUDEV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねつほうしゃ",
+				"damage": "20",
+				"text": "のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュする。その場合、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バーニングトレイン",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"fire"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38079,
+		"multiId": "707_017",
+		"nameJp": "マルヤクデVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038079_P_MARUYAKUDEVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キョダイヒャッカ",
+				"damage": "40＋",
+				"text": "このポケモンについている[fire]エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから[fire]エネルギーを1枚選び、このポケモンにつける。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38080,
+		"multiId": "707_018",
+		"nameJp": "ガラル バリヤード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038080_P_GARARUBARIYADO.jpg",
+		"imageUrl": "",
+		"cardText": "タップダンスが 得意。 冷気で つくった 氷の 床を 蹴り上げ バリヤーの ごとく 身を 守る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "リフレクター",
+				"damage": "",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スノーアイス",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38081,
+		"multiId": "707_019",
+		"nameJp": "ガラル バリコオル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038081_P_GARARUBARIKOORU.jpg",
+		"imageUrl": "",
+		"cardText": "タップダンスの 達人。 氷で できた ステッキを 振り 軽やかな ステップを 披露する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {
+			"name": "シャッフルダンス",
+			"text": "自分の番に1回使える。ウラになっている相手のサイドを1枚選び、相手の山札の一番上のカードと、ウラのまま入れ替える。"
+		},
+		"attacks": [
+			{
+				"name": "マッドパーティ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38082,
+		"multiId": "707_020",
+		"nameJp": "ヒンバス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038082_P_HINBASU.jpg",
+		"imageUrl": "",
+		"cardText": "見た目が 悪いので 人気はないが 脅威の 生命力が あり 研究対象には なっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひとやすみ",
+				"damage": "",
+				"text": "このポケモンのHPを「20」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38083,
+		"multiId": "707_021",
+		"nameJp": "ミロカロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038083_P_MIROKAROSU.jpg",
+		"imageUrl": "",
+		"cardText": "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {
+			"name": "ブライトヒール",
+			"text": "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「20」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "なみのり",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38084,
+		"multiId": "707_022",
+		"nameJp": "クマシュン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038084_P_KUMASHUN.jpg",
+		"imageUrl": "",
+		"cardText": "体調が いいと 鼻水の 粘り気が 増す。 嫌な 相手に 鼻水を ぺとりと なすりつける。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "チョップ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つらら",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38085,
+		"multiId": "707_023",
+		"nameJp": "ツンベアー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038085_P_TSUNBEA.jpg",
+		"imageUrl": "",
+		"cardText": "吐息を 凍らせ つくった キバは 鋼より 硬い。 寒い 海を エサを 探して 泳ぎまわる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きりさく",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ひょうけつざん",
+				"damage": "150",
+				"text": "このポケモンにも50ダメージ。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38086,
+		"multiId": "707_024",
+		"nameJp": "ヨワシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038086_P_YOWASHI.jpg",
+		"imageUrl": "",
+		"cardText": "１匹では とても ひ弱なため 群れることで 敵に 立ち向かう 能力を 獲得した。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しんかいのうず",
+				"damage": "",
+				"text": "自分の手札をすべて山札にもどして切る。その後、山札を8枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スプラッシュ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38087,
+		"multiId": "707_025",
+		"nameJp": "クワガノンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038087_P_KUWAGANONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パラライズボルト",
+				"damage": "50",
+				"text": "次の相手の番、相手は手札からグッズを出して使えない。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ちょうでんじほう",
+				"damage": "190",
+				"text": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38088,
+		"multiId": "707_026",
+		"nameJp": "エレズン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038088_P_EREZUN.jpg",
+		"imageUrl": "",
+		"cardText": "体内の 毒袋に 溜めた 毒素を 皮膚から 分泌。 触ると ピリピリと 痺れる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビンタ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バチバチ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38089,
+		"multiId": "707_027",
+		"nameJp": "ストリンダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038089_P_SUTORINDA.jpg",
+		"imageUrl": "",
+		"cardText": "１５０００ボルトもの 電気を 発生させることが できる。 どんな 相手も 舐めている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "リスクテイカー",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手の山札を上から5枚トラッシュする。ウラなら、自分の山札を上から5枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "でんげき",
+				"damage": "160",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38090,
+		"multiId": "707_028",
+		"nameJp": "ブルー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038090_P_BURU.jpg",
+		"imageUrl": "",
+		"cardText": "見た目と 違って 臆病なので 他の こいぬポケモンと 一緒に すると いじめられることも ある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "するどいキバ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38091,
+		"multiId": "707_029",
+		"nameJp": "グランブル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038091_P_GURANBURU.jpg",
+		"imageUrl": "",
+		"cardText": "若い 女性に 大人気だが 臆病な上に 繊細なので 番犬 としては 無能だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くらいつく",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "とびだしヘッド",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38092,
+		"multiId": "707_030",
+		"nameJp": "サーナイトV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038092_P_SANAITOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マジカルショット",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みなぎるはどう",
+				"damage": "120＋",
+				"text": "この番、このポケモンのHPを回復していたなら、80ダメージ追加。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38093,
+		"multiId": "707_031",
+		"nameJp": "サーナイトVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038093_P_SANAITOVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイキュアー",
+				"damage": "180",
+				"text": "このポケモンのHPを「50」回復する。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38094,
+		"multiId": "707_032",
+		"nameJp": "ルナトーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038094_P_RUNATON.jpg",
+		"imageUrl": "",
+		"cardText": "月の 満ち欠けと パワーの 増減が 関係 しているらしく 満月の 夜 活発になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みらいよち",
+				"damage": "",
+				"text": "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコキネシス",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38095,
+		"multiId": "707_033",
+		"nameJp": "デデンネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038095_P_DEDENNE.jpg",
+		"imageUrl": "",
+		"cardText": "上の ヒゲは 辺りを 探る センサーで 下に 生えた ヒゲは 電気を 放つ 器官 なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マッドパーティ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38096,
+		"multiId": "707_034",
+		"nameJp": "ネマシュ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038096_P_NEMASHU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 傘は とても 美味しい。 森の ポケモンたちに 食べられるが 一晩で 再生する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キノコのほうし",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はねまわる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38097,
+		"multiId": "707_035",
+		"nameJp": "マシェード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038097_P_MASHIEDO.jpg",
+		"imageUrl": "",
+		"cardText": "点滅する 胞子の 光りで 獲物を おびき寄せて 眠らせる。 指先から 生気を 吸い取る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "またたくひかり",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "フォレストフィアー",
+				"damage": "60＋",
+				"text": "場に「ルミナスメイズの森」が出ているなら、60ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38098,
+		"multiId": "707_036",
+		"nameJp": "ヤバチャ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038098_P_YABACHA.jpg",
+		"imageUrl": "",
+		"cardText": "残され 冷えきった 紅茶に さみしがりやな 魂が 宿り ポケモンに なったと いわれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっそりのせる",
+				"damage": "",
+				"text": "相手のバトルポケモンに、ダメカンを2個のせる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38099,
+		"multiId": "707_037",
+		"nameJp": "ポットデス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038099_P_POTTODESU.jpg",
+		"imageUrl": "",
+		"cardText": "アンティークの ポットに 棲みつく。 ほとんどが 贋作だが ごくまれに 真作が 見つかる ことも。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {
+			"name": "ティーブレイク",
+			"text": "自分の番に、自分の手札からワザ「マッドパーティ」を持つポケモンを1枚トラッシュするなら、1回使える。自分の山札を2枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "マッドパーティ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38100,
+		"multiId": "707_038",
+		"nameJp": "ディグダ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038100_P_DEIGUDA.jpg",
+		"imageUrl": "",
+		"cardText": "ディグダが 通ったあとの 大地は ほどよく 耕されて 最高の 畑に なる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38101,
+		"multiId": "707_039",
+		"nameJp": "ダグトリオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038101_P_DAGUTORIO.jpg",
+		"imageUrl": "",
+		"cardText": "チームワークに すぐれた 三つ子の ディグダ。 地下 １００キロまで 掘って 地震を 起こすこともある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あなをほる",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どろばくだん",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38102,
+		"multiId": "707_040",
+		"nameJp": "ヨーギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038102_P_YOGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すなしぶき",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つきさす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38103,
+		"multiId": "707_041",
+		"nameJp": "サナギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038103_P_SANAGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "殻に 被われているが 自由に 飛びまわれる。 硬さと 速さを もつので 破壊力 抜群だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すなしぶき",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ロケットしんか",
+				"damage": "40",
+				"text": "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38104,
+		"multiId": "707_042",
+		"nameJp": "バンギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038104_P_BANGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "どんな 攻撃にも びくともしない 体を もっているため どんどん 勝負を 仕掛けてくる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんばんくずし",
+				"damage": "120",
+				"text": "場に出ているスタジアムをトラッシュする。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "マウンテンスイング",
+				"damage": "250",
+				"text": "自分の山札を上から5枚トラッシュする。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38105,
+		"multiId": "707_043",
+		"nameJp": "ソルロック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038105_P_SORUROKKU.jpg",
+		"imageUrl": "",
+		"cardText": "体を 回転 させると 太陽の ような 光を 放ち 敵の 目を 眩ませる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {
+			"name": "レジストシェード",
+			"text": "自分の場に「ルナトーン」がいるなら、相手のポケモン全員の抵抗力は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "いわおとし",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38106,
+		"multiId": "707_044",
+		"nameJp": "ホルード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038106_P_HORUDO.jpg",
+		"imageUrl": "",
+		"cardText": "ショベルカーに 負けない パワーで 硬い 岩盤も 掘り進む。 トンネル工事で 大活躍。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ランドクラッシュ",
+				"damage": "140",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38107,
+		"multiId": "707_045",
+		"nameJp": "オトスパスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038107_P_OTOSUPASUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんじがらめ",
+				"damage": "20",
+				"text": "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ムーンサルトプレス",
+				"damage": "120＋",
+				"text": "コインを1回投げオモテなら、100ダメージ追加。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38108,
+		"multiId": "707_046",
+		"nameJp": "ベトベター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038108_P_BETOBETA.jpg",
+		"imageUrl": "",
+		"cardText": "最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふみならす",
+				"damage": "",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘドロのうず",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38109,
+		"multiId": "707_047",
+		"nameJp": "ベトベトン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038109_P_BETOBETON.jpg",
+		"imageUrl": "",
+		"cardText": "病原菌を まき散らすので 駆除 し続けた 結果 数が 激減して しまった。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さんばいどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘドロのうず",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38110,
+		"multiId": "707_048",
+		"nameJp": "ダークライ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038110_P_DAKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "人々を 深い 眠りに 誘い 夢を 見せる 能力を 持つ。 新月の 夜に 活動する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {
+			"name": "ダークガード",
+			"text": "このポケモンに[dark]エネルギーがついているなら、このポケモンが受けるワザのダメージは「ー20」される。"
+		},
+		"attacks": [
+			{
+				"name": "やみのらせん",
+				"damage": "60＋",
+				"text": "このポケモンについている[dark]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38111,
+		"multiId": "707_049",
+		"nameJp": "チョロネコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038111_P_CHORONEKO.jpg",
+		"imageUrl": "",
+		"cardText": "困った 姿を 見るために ひとの ものを 盗みだす。 クスネとは ライバルなのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメをたてる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ねこだまし",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38112,
+		"multiId": "707_050",
+		"nameJp": "レパルダス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038112_P_REPARUDASU.jpg",
+		"imageUrl": "",
+		"cardText": "美しい 毛並みと スタイルに 惑わされがちだが 気まぐれで 狂暴な ポケモンなのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {
+			"name": "じゅうなん",
+			"text": "このポケモンはマヒにならない。"
+		},
+		"attacks": [
+			{
+				"name": "スラッシュクロー",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38113,
+		"multiId": "707_051",
+		"nameJp": "ココドラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038113_P_KOKODORA.jpg",
+		"imageUrl": "",
+		"cardText": "体を 覆う 鋼の よろいは 進化するとき ポロリと はがれ落ち 新しい よろいが 作られる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ずつき",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38114,
+		"multiId": "707_052",
+		"nameJp": "コドラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038114_P_KODORA.jpg",
+		"imageUrl": "",
+		"cardText": "鋼の よろいを 岩に ぶつけた ときに 出る 火花の 大きさで 強さを アピールする 習性。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はねとばす",
+				"damage": "30＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "つきたおし",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38115,
+		"multiId": "707_053",
+		"nameJp": "ボスゴドラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038115_P_BOSUGODORA.jpg",
+		"imageUrl": "",
+		"cardText": "鋼の ツノで 硬い 岩盤を 突き崩しながら 食料の 鉄を 探して トンネルを 掘る。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {
+			"name": "がんじょう",
+			"text": "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。"
+		},
+		"attacks": [
+			{
+				"name": "ギガトンスタンプ",
+				"damage": "160",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38116,
+		"multiId": "707_054",
+		"nameJp": "シュバルゴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038116_P_SHUBARUGO.jpg",
+		"imageUrl": "",
+		"cardText": "チョボマキの 殻を 奪って 完全武装。 ガラル地方では 非常に 人気が 高い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくぎり",
+				"damage": "10＋",
+				"text": "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、70ダメージ追加。すべてオモテなら、140ダメージ追加。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シェルアタック",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38117,
+		"multiId": "707_055",
+		"nameJp": "ガラル マッギョV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038117_P_GARARUMAGGYOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "RR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {
+			"name": "メタルはだ",
+			"text": "このポケモンの最大HPは、このポケモンについている[steel]エネルギー1個につき「20」大きくなる。"
+		},
+		"attacks": [
+			{
+				"name": "トラップバイト",
+				"damage": "60",
+				"text": "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを12個のせる。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38118,
+		"multiId": "707_056",
+		"nameJp": "オタチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038118_P_OTACHI.jpg",
+		"imageUrl": "",
+		"cardText": "遠くまで 見れるように 尻尾を 使って 立つ。 敵を 見つけると 大声で 仲間に 知らせる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札からポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38119,
+		"multiId": "707_057",
+		"nameJp": "オオタチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038119_P_OOTACHI.jpg",
+		"imageUrl": "",
+		"cardText": "細長い 体の 形に 合わせた 巣を 作り 他の ポケモンは 入れなくしている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じょうきげん",
+				"damage": "",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "テールスマッシュ",
+				"damage": "90",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38120,
+		"multiId": "707_058",
+		"nameJp": "ホルビー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038120_P_HORUBI.jpg",
+		"imageUrl": "",
+		"cardText": "耳で 穴を 掘るのが 得意。 地下１０メートルに とどく 巣穴を 一晩で つくってしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マッドパーティ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38121,
+		"multiId": "707_059",
+		"nameJp": "ヤヤコマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038121_P_YAYAKOMA.jpg",
+		"imageUrl": "",
+		"cardText": "身体は いつでも 暖かい。 寒い 地域の トレーナーは ベッドで 一緒に 寝るらしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38122,
+		"multiId": "707_060",
+		"nameJp": "ココガラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038122_P_KOKOGARA.jpg",
+		"imageUrl": "",
+		"cardText": "どんな 強敵にも 挑みかかる 勇敢な 性質。 返り討ちに 遭いながらも 鍛えられていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ついばむ",
+				"damage": "10",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38123,
+		"multiId": "707_061",
+		"nameJp": "アオガラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038123_P_AOGARASU.jpg",
+		"imageUrl": "",
+		"cardText": "足で 小石を つかんで 投げたり ロープを 敵に 巻きつけるなど 道具を あつかう 知恵を もつ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みだれづき",
+				"damage": "40×",
+				"text": "コインを3回投げ、オモテの数×40ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38124,
+		"multiId": "707_062",
+		"nameJp": "アーマーガア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038124_P_AMAGAA.jpg",
+		"imageUrl": "",
+		"cardText": "ガラル地方の 空では 敵なし。 黒光りする 鋼の 姿は 相手を 威圧し 恐れさせる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "R",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {
+			"name": "そらとぶタクシー",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン（「アーマーガア」をのぞく）を1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "ブラストウインド",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38239,
+		"multiId": "707_071",
+		"nameJp": "バタフリーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038239_P_BATAFURIV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フラフラどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとこんらんにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ブラストウインド",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38240,
+		"multiId": "707_072",
+		"nameJp": "マルヤクデV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038240_P_MARUYAKUDEV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねつほうしゃ",
+				"damage": "20",
+				"text": "のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュする。その場合、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バーニングトレイン",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"fire"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38241,
+		"multiId": "707_073",
+		"nameJp": "クワガノンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038241_P_KUWAGANONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パラライズボルト",
+				"damage": "50",
+				"text": "次の相手の番、相手は手札からグッズを出して使えない。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ちょうでんじほう",
+				"damage": "190",
+				"text": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38242,
+		"multiId": "707_074",
+		"nameJp": "サーナイトV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038242_P_SANAITOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マジカルショット",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みなぎるはどう",
+				"damage": "120＋",
+				"text": "この番、このポケモンのHPを回復していたなら、80ダメージ追加。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38243,
+		"multiId": "707_075",
+		"nameJp": "オトスパスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038243_P_OTOSUPASUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんじがらめ",
+				"damage": "20",
+				"text": "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ムーンサルトプレス",
+				"damage": "120＋",
+				"text": "コインを1回投げオモテなら、100ダメージ追加。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38244,
+		"multiId": "707_076",
+		"nameJp": "ガラル マッギョV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038244_P_GARARUMAGGYOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {
+			"name": "メタルはだ",
+			"text": "このポケモンの最大HPは、このポケモンについている[steel]エネルギー1個につき「20」大きくなる。"
+		},
+		"attacks": [
+			{
+				"name": "トラップバイト",
+				"damage": "60",
+				"text": "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを12個のせる。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38125,
+		"multiId": "707_063",
+		"nameJp": "妖しいカンヅメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038125_T_AYASHIIKANDUME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモンを1匹選び、HPを「80」回復する。その後、そのポケモンについている[psychic]エネルギーを1個選び、トラッシュする。（[psychic]エネルギーがついていないポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38126,
+		"multiId": "707_064",
+		"nameJp": "そっくりベル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038126_T_SOKKURIBERU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札から、自分のトラッシュにあるポケモンと同じ名前のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38127,
+		"multiId": "707_065",
+		"nameJp": "ボロのパソコン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038127_T_BORONOPASOKON.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを2回投げ、すべてオモテなら、自分のトラッシュから好きなカードを1枚選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38129,
+		"multiId": "707_067",
+		"nameJp": "カブ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038129_T_KABU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべて山札にもどして切る。その後、山札を4枚引く。自分の場のポケモンがバトルポケモンだけなら、引く枚数は8枚になる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38130,
+		"multiId": "707_068",
+		"nameJp": "ポケモンブリーダーの育成",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038130_T_POKEMONBURIDANOIKUSEI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の場のポケモンを2匹まで選び、そのポケモンから進化するカードを、自分の山札からそれぞれ1枚選び、それぞれにのせて進化させる。そして山札を切る。（最初の自分の番や、出したばかりのポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38131,
+		"multiId": "707_069",
+		"nameJp": "ルミナスメイズの森",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038131_T_RUMINASUMEIZUNOMORI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分のポケモンのワザでコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38245,
+		"multiId": "707_077",
+		"nameJp": "カブ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038245_T_KABU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべて山札にもどして切る。その後、山札を4枚引く。自分の場のポケモンがバトルポケモンだけなら、引く枚数は8枚になる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38246,
+		"multiId": "707_078",
+		"nameJp": "ポケモンブリーダーの育成",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038246_T_POKEMONBURIDANOIKUSEI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の場のポケモンを2匹まで選び、そのポケモンから進化するカードを、自分の山札からそれぞれ1枚選び、それぞれにのせて進化させる。そして山札を切る。（最初の自分の番や、出したばかりのポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "SR",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38132,
+		"multiId": "707_070",
+		"nameJp": "ヒート炎エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2a/038132_E_HITOHONOOENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[fire]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[fire]ポケモンの最大HPは「20」大きくなる。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "707",
+		"set": "強化拡張パック「爆炎ウォーカー」",
+		"setCode": "S2a",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

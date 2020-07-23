@@ -36,6 +36,7 @@ CardContent _$CardContentFromJson(Map<String, dynamic> json) {
     optionValue: json['optionValue'] as Map<String, dynamic>,
     author: json['author'] as String,
     rarity: json['rarity'] as String,
+    productNo: json['productNo'] as String,
     set: json['set'] as String,
     setCode: json['setCode'] as String,
     generation: json['generation'] as String,
@@ -49,7 +50,7 @@ CardContent _$CardContentFromJson(Map<String, dynamic> json) {
     nationalPokedexNumbers: (json['nationalPokedexNumbers'] as List)
         ?.map((e) => e as int)
         ?.toList(),
-    evloves: json['evloves'] as String,
+    evolves: json['evolves'] as String,
     cardId: json['cardId'] as int,
     multiId: json['multiId'] as String,
     attacks: (json['attacks'] as List)
@@ -79,6 +80,7 @@ Map<String, dynamic> _$CardContentToJson(CardContent instance) =>
       'optionValue': instance.optionValue,
       'author': instance.author,
       'rarity': instance.rarity,
+      'productNo': instance.productNo,
       'set': instance.set,
       'setCode': instance.setCode,
       'generation': instance.generation,
@@ -90,5 +92,5 @@ Map<String, dynamic> _$CardContentToJson(CardContent instance) =>
       'retreats': instance.retreats,
       'resistances': instance.resistances,
       'nationalPokedexNumbers': instance.nationalPokedexNumbers,
-      'evloves': instance.evloves,
+      'evolves': instance.evolves,
     };
