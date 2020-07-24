@@ -1,0 +1,3713 @@
+[
+	{
+		"cardId": 35400,
+		"multiId": "609_001",
+		"nameJp": "ニャビー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035400_P_NYABI.jpg",
+		"imageUrl": "",
+		"cardText": "感情を ださず 独りで いることを 好む。 信頼を 得るまでには 時間が かかるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメをだす",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、10ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35401,
+		"multiId": "609_002",
+		"nameJp": "ニャヒート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035401_P_NYAHITO.jpg",
+		"imageUrl": "",
+		"cardText": "前足の 力が 自慢。 パンチの 一撃で 鉄の棒も へし曲げて しまうのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほえる",
+				"damage": "",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ツメできりさく",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35402,
+		"multiId": "609_003",
+		"nameJp": "サンダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035402_P_SANDA.jpg",
+		"imageUrl": "",
+		"cardText": "雷雲の 中に いると 言われる 伝説の ポケモン。 雷を 自在に 操る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アサルトサンダー",
+				"damage": "10＋",
+				"text": "この番、このポケモンがベンチからバトル場に出ていたなら、70ダメージ追加。このワザのダメージは弱点を計算しない。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35403,
+		"multiId": "609_004",
+		"nameJp": "メリープ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035403_P_MERIPU.jpg",
+		"imageUrl": "",
+		"cardText": "ふかふかの 体毛は 空気を たくさん 含んで 夏は 涼しく 冬は 温かいのが 特徴。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ショックボルト",
+				"damage": "30",
+				"text": "このポケモンについている[electric]エネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35404,
+		"multiId": "609_005",
+		"nameJp": "モココ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035404_P_MOKOKO.jpg",
+		"imageUrl": "",
+		"cardText": "体毛に ためた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビリリパンチ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ショックボルト",
+				"damage": "60",
+				"text": "このポケモンについている[electric]エネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35405,
+		"multiId": "609_006",
+		"nameJp": "デンリュウGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035405_P_DENRYUUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーリチャージ",
+				"damage": "30",
+				"text": "自分のトラッシュにある「エレキパワー」をすべて、相手に見せてから、手札に加える。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "インパクトボルト",
+				"damage": "150",
+				"text": "このポケモンについている[electric]エネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エレクトリカルGX",
+				"damage": "",
+				"text": "自分の山札にあるポケモンを7枚まで、相手に見せてから、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35406,
+		"multiId": "609_007",
+		"nameJp": "シママ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035406_P_SHIMAMA.jpg",
+		"imageUrl": "",
+		"cardText": "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おとどけダッシュ",
+				"damage": "",
+				"text": "自分の山札にある「エレキパワー」を2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35407,
+		"multiId": "609_008",
+		"nameJp": "ゼブライカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035407_P_ZEBURAIKA.jpg",
+		"imageUrl": "",
+		"cardText": "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しゅうげき",
+				"damage": "30＋",
+				"text": "この番、このポケモンが「シママ」から進化していたなら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "マッハボルト",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35408,
+		"multiId": "609_009",
+		"nameJp": "エモンガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035408_P_EMONGA.jpg",
+		"imageUrl": "",
+		"cardText": "電撃で 木の実や むしポケモンを こんがり 焼いて 喰う。 ツツケラが 空けた 木の穴が 主な 巣だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {
+			"name": "ほっぺのつどい",
+			"text": "自分の番に1回使える。自分の山札にあるワザ「ほっぺすりすり」を持つポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "ほっぺすりすり",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35409,
+		"multiId": "609_010",
+		"nameJp": "バチュル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035409_P_BACHURU.jpg",
+		"imageUrl": "",
+		"cardText": "体の 大きな ポケモンに とりついて 静電気を 吸い取り 蓄電袋に 電気を ためる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きゅうけつ",
+				"damage": "10",
+				"text": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35410,
+		"multiId": "609_011",
+		"nameJp": "デンチュラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035410_P_DENCHURA.jpg",
+		"imageUrl": "",
+		"cardText": "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {
+			"name": "きんちょうかん",
+			"text": "このポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "スパイダースレッド",
+				"damage": "40",
+				"text": "自分のトラッシュにある好きなカードを1枚、相手に見せてから、手札に加える。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35411,
+		"multiId": "609_012",
+		"nameJp": "エリキテル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035411_P_ERIKITERU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 両わきの ひだには 太陽の 光を 浴びると 発電する 細胞が あるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はたく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バチバチ",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35412,
+		"multiId": "609_013",
+		"nameJp": "エレザード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035412_P_EREZADO.jpg",
+		"imageUrl": "",
+		"cardText": "電気で 筋肉を 刺激すると １００メートルを ５秒で 走る 脚力に パワーアップする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんじスパーク",
+				"damage": "",
+				"text": "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ボルトチェンジ",
+				"damage": "90",
+				"text": "このポケモンをベンチの[electric]ポケモンと入れ替える。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35413,
+		"multiId": "609_014",
+		"nameJp": "カプ・コケコPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035413_P_KAPUKOKEKO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "PRISMSTAR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {
+			"name": "せんじんのまい",
+			"text": "このポケモンがベンチにいるなら、自分の番に1回使える。自分のベンチポケモン2匹に、トラッシュにある[electric]エネルギーを1枚ずつつける。その後、このカードをロストゾーンに置く。（ついているカードは、すべてトラッシュする。）"
+		},
+		"attacks": [
+			{
+				"name": "マッハボルト",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "同じ名前の（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35414,
+		"multiId": "609_015",
+		"nameJp": "ヨーギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035414_P_YOGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なしくずし",
+				"damage": "30",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35415,
+		"multiId": "609_016",
+		"nameJp": "サナギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035415_P_SANAGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "岩盤のような 硬い 殻に 覆われているが 力は 強く 暴れると 山も 崩れてしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぺがえし",
+				"damage": "30＋",
+				"text": "相手のサイドの残り枚数が1枚なら、90ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35416,
+		"multiId": "609_017",
+		"nameJp": "ヤンチャム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035416_P_YANCHAMU.jpg",
+		"imageUrl": "",
+		"cardText": "咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つっぱり",
+				"damage": "40",
+				"text": "コインを1回投げウラなら、このワザは失敗。オモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35417,
+		"multiId": "609_018",
+		"nameJp": "アローラベトベター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035417_P_ARORABETOBETA.jpg",
+		"imageUrl": "",
+		"cardText": "結晶は 毒素の 塊。 ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ケミカルブレス",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンが受けている特殊状態の数×50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35418,
+		"multiId": "609_019",
+		"nameJp": "アローラベトベトン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035418_P_ARORABETOBETON.jpg",
+		"imageUrl": "",
+		"cardText": "意外に 大人しく なつくが 餌の ゴミを ずっと あげていないと 家の 家具を 壊して 喰らいだす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {
+			"name": "いかものぐい",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から6枚見て、その中にあるグッズを、好きなだけトラッシュする。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "ダストシュート",
+				"damage": "80",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35419,
+		"multiId": "609_020",
+		"nameJp": "バンギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035419_P_BANGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スピンテール",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かみちぎる",
+				"damage": "130＋",
+				"text": "相手のバトルポケモンが「ポケモンGX・EX」なら、100ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35420,
+		"multiId": "609_021",
+		"nameJp": "ポチエナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035420_P_POCHIENA.jpg",
+		"imageUrl": "",
+		"cardText": "鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やみのとおぼえ",
+				"damage": "",
+				"text": "自分の山札にある[dark]ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35421,
+		"multiId": "609_022",
+		"nameJp": "グラエナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035421_P_GURAENA.jpg",
+		"imageUrl": "",
+		"cardText": "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "あんこくのキバ",
+				"damage": "50",
+				"text": "相手の手札からオモテを見ないで、1枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35422,
+		"multiId": "609_023",
+		"nameJp": "アブソル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035422_P_ABUSORU.jpg",
+		"imageUrl": "",
+		"cardText": "災いを もたらすと いわれるが 実際には おだやかな 性質。 災害の 危機を 人に 伝える。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {
+			"name": "あくのはき",
+			"text": "このポケモンがいるかぎり、相手のバトル場のたねポケモンのにげるためのエネルギーは、1個ぶん多くなる。"
+		},
+		"attacks": [
+			{
+				"name": "シャドーシーカー",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35423,
+		"multiId": "609_024",
+		"nameJp": "ミカルゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035423_P_MIKARUGE.jpg",
+		"imageUrl": "",
+		"cardText": "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ソウルコンプレッサー",
+				"damage": "",
+				"text": "自分の山札にあるポケモンを4枚まで、トラッシュする。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ホロウショット",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35424,
+		"multiId": "609_025",
+		"nameJp": "ゾロア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035424_P_ZOROA.jpg",
+		"imageUrl": "",
+		"cardText": "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やみにかくれる",
+				"damage": "",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35425,
+		"multiId": "609_026",
+		"nameJp": "ゾロアーク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035425_P_ZOROAKU.jpg",
+		"imageUrl": "",
+		"cardText": "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちょうはつ",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ナイトパニッシュ",
+				"damage": "20×",
+				"text": "自分のトラッシュにあるポケモンの枚数×20ダメージ。与えられるダメージはポケモン10枚ぶんまで。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35426,
+		"multiId": "609_027",
+		"nameJp": "バルチャイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035426_P_BARUCHAI.jpg",
+		"imageUrl": "",
+		"cardText": "まだまだ 遊び盛り。 羽が 未熟で 飛べないので ぴょんぴょん 跳ね回っているよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35427,
+		"multiId": "609_028",
+		"nameJp": "バルジーナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035427_P_BARUJINA.jpg",
+		"imageUrl": "",
+		"cardText": "大空を 旋回 しながら 弱った ポケモンを 狙っている。 大好物は カラカラ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ゴミおとし",
+				"damage": "",
+				"text": "自分の手札にあるグッズを1枚トラッシュし、相手のポケモン1匹に、弱点・抵抗力を計算せず、60ダメージ。トラッシュできないなら、このワザは失敗。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ブレイブバード",
+				"damage": "120",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35428,
+		"multiId": "609_029",
+		"nameJp": "ゴロンダ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035428_P_GORONDA.jpg",
+		"imageUrl": "",
+		"cardText": "竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "シメる",
+				"damage": "60",
+				"text": "相手は相手自身の手札を、2枚トラッシュする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "あばれまわる",
+				"damage": "170",
+				"text": "このポケモンをこんらんにする。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35429,
+		"multiId": "609_030",
+		"nameJp": "イベルタル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035429_P_IBERUTARU.jpg",
+		"imageUrl": "",
+		"cardText": "寿命が つきるとき あらゆる 生き物の 命を 吸いつくし 繭の 姿に 戻るという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くつがえす",
+				"damage": "30",
+				"text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "わしづかみ",
+				"damage": "60",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"dark",
+					"dark"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35430,
+		"multiId": "609_031",
+		"nameJp": "フーパGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035430_P_FUPAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ローグリング",
+				"damage": "",
+				"text": "自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダークストライク",
+				"damage": "160",
+				"text": "次の自分の番、このポケモンは「ダークストライク」が使えない。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "デビルハンドGX",
+				"damage": "",
+				"text": "相手の「ポケモンGX・EX」を6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×30ダメージ。（1匹を2回以上選べる。）［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"dark"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35431,
+		"multiId": "609_032",
+		"nameJp": "ガオガエンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035431_P_GAOGAENGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {
+			"name": "スカーチャージ",
+			"text": "自分の番に1回使える。このポケモンにダメカンを3個のせる。その後、自分の山札にある[dark]エネルギーを3枚まで、このポケモンにつける。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "クラッシュパンチ",
+				"damage": "130",
+				"text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "DDトルネードGX",
+				"damage": "10＋",
+				"text": "このポケモンにのっているダメカンの数×50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35432,
+		"multiId": "609_033",
+		"nameJp": "エアームド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035432_P_EAMUDO.jpg",
+		"imageUrl": "",
+		"cardText": "鉄の 身体は 頑丈だが さびやすいので 雨の 日は 巣穴で じっと しているよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "カームストライク",
+				"damage": "20＋",
+				"text": "自分がすでにGXワザを使っていたなら、70ダメージ追加。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "はがねのつばさ",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35433,
+		"multiId": "609_034",
+		"nameJp": "ジラーチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035433_P_JIRACHI.jpg",
+		"imageUrl": "",
+		"cardText": "１０００年間で ７日だけ 目を 覚まし どんな 願い事でも かなえる 力を 使うという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {
+			"name": "ねがいぼし",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から5枚見る。その中にあるトレーナーズを1枚、相手に見せてから、手札に加える。残りのカードは山札にもどして切る。その後、このポケモンをねむりにする。"
+		},
+		"attacks": [
+			{
+				"name": "ビンタ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35434,
+		"multiId": "609_035",
+		"nameJp": "ドーミラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035434_P_DOMIRA.jpg",
+		"imageUrl": "",
+		"cardText": "古い お墓から ドーミラーに そっくりな 道具が 掘り出されたが 関係は わかっていない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {
+			"name": "ぬけがけしんか",
+			"text": "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。"
+		},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35435,
+		"multiId": "609_036",
+		"nameJp": "ドータクン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035435_P_DOTAKUN.jpg",
+		"imageUrl": "",
+		"cardText": "ドータクンに 祈りを ささげると 雨が 降り 作物を 育てると 古代の 人々は 信じていた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {
+			"name": "たいねつ",
+			"text": "このポケモンは、相手の[fire]ポケモンからワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "あやしいこくいん",
+				"damage": "70",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35436,
+		"multiId": "609_037",
+		"nameJp": "テッシード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035436_P_TESSHIDO.jpg",
+		"imageUrl": "",
+		"cardText": "洞穴の 天井に 突きささり 岩の 鉄分を 吸いとる。 危険がせまると トゲを 撃ち出す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくころがり",
+				"damage": "20×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35437,
+		"multiId": "609_038",
+		"nameJp": "ナットレイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035437_P_NATTOREI.jpg",
+		"imageUrl": "",
+		"cardText": "洞穴の 天井に はりつき 下を 通る 獲物に 向かって 鉄の トゲを 打ちこみ 襲う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガードプレス",
+				"damage": "20",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スローンポッドスロー",
+				"damage": "80",
+				"text": "相手のベンチポケモン1匹にも、このポケモンについている[steel]エネルギーの数×20ダメージ。ベンチへのダメージは[steel]エネルギー5個ぶんまで。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35438,
+		"multiId": "609_039",
+		"nameJp": "コマタナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035438_P_KOMATANA.jpg",
+		"imageUrl": "",
+		"cardText": "自分が 傷ついても 気にせず 集団で 全身の 刃物を 食いこませ 相手を 攻撃する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうちょく",
+				"damage": "",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひっかく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35439,
+		"multiId": "609_040",
+		"nameJp": "キリキザン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035439_P_KIRIKIZAN.jpg",
+		"imageUrl": "",
+		"cardText": "大勢の コマタナを 従えて 獲物を 群れで 追いつめる。 とどめは キリキザンが 刺す。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いってんづき",
+				"damage": "30＋",
+				"text": "このポケモンにダメカンがのっていないなら、90ダメージ追加。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "パワーエッジ",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35440,
+		"multiId": "609_041",
+		"nameJp": "コバルオンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035440_P_KOBARUONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {
+			"name": "メタルシンボル",
+			"text": "このポケモンがいるかぎり、[steel]エネルギーがついている自分のポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。"
+		},
+		"attacks": [
+			{
+				"name": "デュエルセーバー",
+				"damage": "50＋",
+				"text": "場にスタジアムが出ているなら、60ダメージ追加。",
+				"costs": [
+					"steel",
+					"steel"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "てつのおきてGX",
+				"damage": "",
+				"text": "次の相手の番、相手のポケモン全員はワザが使えない。（新しく出したポケモンも含む。）［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35441,
+		"multiId": "609_042",
+		"nameJp": "ヒトツキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035441_P_HITOTSUKI.jpg",
+		"imageUrl": "",
+		"cardText": "剣の 柄を 握った 人の 腕に 青い 布を 巻きつけて 倒れるまで 命を 吸い取る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きりおとす",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35442,
+		"multiId": "609_043",
+		"nameJp": "ニダンギル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035442_P_NIDANGIRU.jpg",
+		"imageUrl": "",
+		"cardText": "２本の 剣による 複雑な 連続攻撃を 防ぐことは 剣の 達人でも 不可能だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どうぐおとし",
+				"damage": "30×",
+				"text": "おたがいの場のポケモンについている「ポケモンのどうぐ」の数×30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35443,
+		"multiId": "609_044",
+		"nameJp": "ギルガルド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035443_P_GIRUGARUDO.jpg",
+		"imageUrl": "",
+		"cardText": "王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {
+			"name": "ロイヤルガード",
+			"text": "このポケモンが受けるワザのダメージは「-40」される。"
+		},
+		"attacks": [
+			{
+				"name": "シールドバッシュ",
+				"damage": "100",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35444,
+		"multiId": "609_045",
+		"nameJp": "クレッフィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035444_P_KUREFFI.jpg",
+		"imageUrl": "",
+		"cardText": "頭の角を 金属の すき間に 突っ込んで 金属イオンを 吸う。 なぜか カギを 集めている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {
+			"name": "ないしょのカギ",
+			"text": "このポケモンがいるかぎり、自分の[steel]ポケモン全員の抵抗力は、すべて「-40」になる。"
+		},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35752,
+		"multiId": "609_053",
+		"nameJp": "デンリュウGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035752_P_DENRYUUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "240",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーリチャージ",
+				"damage": "30",
+				"text": "自分のトラッシュにある「エレキパワー」をすべて、相手に見せてから、手札に加える。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "インパクトボルト",
+				"damage": "150",
+				"text": "このポケモンについている[electric]エネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エレクトリカルGX",
+				"damage": "",
+				"text": "自分の山札にあるポケモンを7枚まで、相手に見せてから、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35753,
+		"multiId": "609_054",
+		"nameJp": "フーパGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035753_P_FUPAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ローグリング",
+				"damage": "",
+				"text": "自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダークストライク",
+				"damage": "160",
+				"text": "次の自分の番、このポケモンは「ダークストライク」が使えない。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "デビルハンドGX",
+				"damage": "",
+				"text": "相手の「ポケモンGX・EX」を6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×30ダメージ。（1匹を2回以上選べる。）［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"dark"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35754,
+		"multiId": "609_055",
+		"nameJp": "ガオガエンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035754_P_GAOGAENGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {
+			"name": "スカーチャージ",
+			"text": "自分の番に1回使える。このポケモンにダメカンを3個のせる。その後、自分の山札にある[dark]エネルギーを3枚まで、このポケモンにつける。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "クラッシュパンチ",
+				"damage": "130",
+				"text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "DDトルネードGX",
+				"damage": "10＋",
+				"text": "このポケモンにのっているダメカンの数×50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35755,
+		"multiId": "609_056",
+		"nameJp": "コバルオンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035755_P_KOBARUONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {
+			"name": "メタルシンボル",
+			"text": "このポケモンがいるかぎり、[steel]エネルギーがついている自分のポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。"
+		},
+		"attacks": [
+			{
+				"name": "デュエルセーバー",
+				"damage": "50＋",
+				"text": "場にスタジアムが出ているなら、60ダメージ追加。",
+				"costs": [
+					"steel",
+					"steel"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "てつのおきてGX",
+				"damage": "",
+				"text": "次の相手の番、相手のポケモン全員はワザが使えない。（新しく出したポケモンも含む。）［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35445,
+		"multiId": "609_046",
+		"nameJp": "エレキチャージャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035445_T_EREKICHAJA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを2回投げ、オモテの数ぶん、自分のトラッシュにある「エレキパワー」を、相手に見せてから、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35446,
+		"multiId": "609_047",
+		"nameJp": "エレキパワー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035446_T_EREKIPAWA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "この番、自分の[electric]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35447,
+		"multiId": "609_048",
+		"nameJp": "デンジャラスドリル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035447_T_DENJARASUDORIRU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札にある[dark]ポケモンを1枚トラッシュしなければ使えない。\n\n相手の場のポケモンについている「ポケモンのどうぐ」「特殊エネルギー」と場に出ている「スタジアム」の中から、1枚トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35448,
+		"multiId": "609_049",
+		"nameJp": "メタルゴーグル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035448_T_METARUGOGURU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35449,
+		"multiId": "609_050",
+		"nameJp": "クチナシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035449_T_KUCHINASHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにある[dark]タイプのたねポケモン1枚を、自分の場のポケモン1匹と入れ替える（ついているカード・ダメカン・特殊状態・かかっている効果などは、すべて引きつぐ）。入れ替えたポケモンはトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35450,
+		"multiId": "609_051",
+		"nameJp": "ミカン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035450_T_MIKAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にある[steel]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。後攻プレイヤーの最初の番に使ったなら、手札に加えられる[steel]ポケモンの枚数は5枚までになる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35451,
+		"multiId": "609_052",
+		"nameJp": "ブラックマーケットPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035451_T_BURAKKUMAKETTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいの[dark]エネルギーがついている[dark]ポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。\n\nこのスタジアムは、場に出ているかぎり、おたがいのプレイヤーが手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PRISMSTAR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [],
+		"addRule": "スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35756,
+		"multiId": "609_057",
+		"nameJp": "クチナシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035756_T_KUCHINASHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにある[dark]タイプのたねポケモン1枚を、自分の場のポケモン1匹と入れ替える（ついているカード・ダメカン・特殊状態・かかっている効果などは、すべて引きつぐ）。入れ替えたポケモンはトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35757,
+		"multiId": "609_058",
+		"nameJp": "ミカン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8a/035757_T_MIKAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にある[steel]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。後攻プレイヤーの最初の番に使ったなら、手札に加えられる[steel]ポケモンの枚数は5枚までになる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "SR",
+		"productNo": "609",
+		"set": "サン&ムーン 強化拡張パック「ダークオーダー」",
+		"setCode": "SM8a",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

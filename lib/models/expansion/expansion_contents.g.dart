@@ -23,7 +23,7 @@ Map<String, dynamic> _$ExpansionContentsToJson(ExpansionContents instance) =>
 
 ExpansionContent _$ExpansionContentFromJson(Map<String, dynamic> json) {
   return ExpansionContent(
-    json['number'] as String,
+    json['productNo'] as String,
     json['name'] as String,
     json['releaseDate'] as String,
     json['generation'] as String,
@@ -32,7 +32,7 @@ ExpansionContent _$ExpansionContentFromJson(Map<String, dynamic> json) {
 
 Map<String, dynamic> _$ExpansionContentToJson(ExpansionContent instance) =>
     <String, dynamic>{
-      'number': instance.number,
+      'productNo': instance.productNo,
       'name': instance.name,
       'releaseDate': instance.releaseDate,
       'generation': instance.generation,

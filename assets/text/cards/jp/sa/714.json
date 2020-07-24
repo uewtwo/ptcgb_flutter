@@ -1,0 +1,1077 @@
+[
+	{
+		"cardId": 38300,
+		"multiId": "714_028",
+		"nameJp": "ピカチュウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038300_P_PIKACHUUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ピカボール",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキサークル",
+				"damage": "30×",
+				"text": "自分のベンチポケモンの数×30ダメージ。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38301,
+		"multiId": "714_029",
+		"nameJp": "エレブー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038301_P_EREBU.jpg",
+		"imageUrl": "",
+		"cardText": "停電が 起こる 原因に されることが 多いが 実は 会社の ミスの ほうが多い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Midori Harada",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "げんこつ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキスラッグ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38302,
+		"multiId": "714_030",
+		"nameJp": "メリープ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038302_P_MERIPU.jpg",
+		"imageUrl": "",
+		"cardText": "綿毛が こすれ 電気が たまる。 かわいいからと 素手で 触ると バチッと 痺れて 痛いのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バチバチ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38303,
+		"multiId": "714_031",
+		"nameJp": "モココ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038303_P_MOKOKO.jpg",
+		"imageUrl": "",
+		"cardText": "ふかふかの 毛に 電気を ためこむ。 蓄えすぎて ところどころ つるつるに 禿げあがって しまった。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バチバチ",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38304,
+		"multiId": "714_032",
+		"nameJp": "デンリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038304_P_DENRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "シッポは 強く 明るく 輝く。 船乗りたちの 道しるべ として 昔から 大切に されてきた。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "せんこうだん",
+				"damage": "50",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ライトニングボール",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38305,
+		"multiId": "714_033",
+		"nameJp": "エリキテル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038305_P_ERIKITERU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の ひだを 広げ 太陽の 光で 発電すると パワフルな 電気技を 出せるようになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんげき",
+				"damage": "30",
+				"text": "このポケモンにも10ダメージ。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38306,
+		"multiId": "714_034",
+		"nameJp": "エレザード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038306_P_EREZADO.jpg",
+		"imageUrl": "",
+		"cardText": "かつて 滅びた 砂漠の 国で 大事に されていた。 財宝と ともに ガラル地方へ やってきた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かいでんぱ",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみなり",
+				"damage": "120",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38307,
+		"multiId": "714_035",
+		"nameJp": "ワンパチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038307_P_WANPACHI.jpg",
+		"imageUrl": "",
+		"cardText": "走る ときに しっぽの 根元から 電気を 生み出す。 ガラルでは 牧羊犬として 人気。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほえる",
+				"damage": "",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バチバチ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38308,
+		"multiId": "714_036",
+		"nameJp": "パルスワン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038308_P_PARUSUWAN.jpg",
+		"imageUrl": "",
+		"cardText": "電気を つくって 脚に 送り 走りを アシスト。 三日三晩 休まず 走れるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじりつく",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "とうしのキバ",
+				"damage": "90＋",
+				"text": "相手のバトルポケモンが「ポケモンV・GX」なら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38309,
+		"multiId": "714_037",
+		"nameJp": "バチンウニ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038309_P_BACHINUNI.jpg",
+		"imageUrl": "",
+		"cardText": "棘の 先から 電気を 放つ。 鋭い 歯で 岩に ついた 海藻を こそいで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビリビリニードル",
+				"damage": "30×",
+				"text": "コインを4回投げ、オモテの数×30ダメージ。オモテが2回以上なら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38360,
+		"multiId": "714_088",
+		"nameJp": "クイックボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038360_T_KUIKKUBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の山札からたねポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38363,
+		"multiId": "714_091",
+		"nameJp": "スーパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038363_T_SUPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38367,
+		"multiId": "714_095",
+		"nameJp": "ふしぎなアメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038367_T_FUSHIGINAAME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。（最初の自分の番と、この番出したばかりのポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38369,
+		"multiId": "714_097",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038369_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38370,
+		"multiId": "714_098",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038370_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38373,
+		"multiId": "714_101",
+		"nameJp": "ロトムじてんしゃ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038373_T_ROTOMUJITENSHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードを使ったら、自分の番は終わる。\n\n自分の手札が6枚になるように、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38385,
+		"multiId": "714_113",
+		"nameJp": "博士の研究（マグノリア博士）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038385_T_HAKASENOKENKYUUMAGUNORIAHAKASE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "113",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38387,
+		"multiId": "714_115",
+		"nameJp": "ポケモンごっこ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038387_T_POKEMONGOKKO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "115",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38389,
+		"multiId": "714_117",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038389_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "117",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38391,
+		"multiId": "714_119",
+		"nameJp": "マチスの作戦",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038391_T_MACHISUNOSAKUSEN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分のサイドの残り枚数が、相手より多いときにしか使えない。\n\nこの番、自分が使えるサポートの枚数は3枚になる。（このカードをふくむ。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "119",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38392,
+		"multiId": "714_120",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038392_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "120",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38395,
+		"multiId": "714_123",
+		"nameJp": "レッドの挑戦",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038395_T_REDDONOCHOUSEN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "123",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37745,
+		"multiId": "714_LIG",
+		"nameJp": "基本雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large//037745_E_KIHONKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "714",
+		"set": "Vスタートデッキ雷　ピカチュウ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "LIG",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

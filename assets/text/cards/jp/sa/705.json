@@ -1,0 +1,6552 @@
+[
+	{
+		"cardId": 37885,
+		"multiId": "705_001",
+		"nameJp": "ストライク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037885_P_SUTORAIKU.jpg",
+		"imageUrl": "",
+		"cardText": "鋭い ２つの カマは 単なる 武器では ない。 器用に 操り 獲物を さばいて 食らうのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "KEIICHIRO ITO",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つるぎのまい",
+				"damage": "",
+				"text": "次の自分の番、このポケモンの「こうそくカマ」のダメージは「＋70」される。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "こうそくカマ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37886,
+		"multiId": "705_002",
+		"nameJp": "ヘラクロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037886_P_HERAKUROSU.jpg",
+		"imageUrl": "",
+		"cardText": "甘いミツを 求め 森の 中を 探しまわる。 怪力は 自慢だが 飛ぶのは あまり 得意では ない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つきとばす",
+				"damage": "30",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "かいりきホーン",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37887,
+		"multiId": "705_003",
+		"nameJp": "ハスボー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037887_P_HASUBO.jpg",
+		"imageUrl": "",
+		"cardText": "きれいな 水を 探して 歩く。 長い 時間 水を 飲まないと 頭の 葉っぱが 枯れてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "プチドレイン",
+				"damage": "10",
+				"text": "このポケモンのHPを「10」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37888,
+		"multiId": "705_004",
+		"nameJp": "ハスブレロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037888_P_HASUBURERO.jpg",
+		"imageUrl": "",
+		"cardText": "夕暮れどきに なると 活動を はじめる 夜行性の ポケモン。 川底の 水苔を 食べる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {
+			"name": "トップエントリー",
+			"text": "自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。"
+		},
+		"attacks": [
+			{
+				"name": "みだれひっかき",
+				"damage": "40×",
+				"text": "コインを3回投げオモテの数×40ダメージ。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37889,
+		"multiId": "705_005",
+		"nameJp": "ルンパッパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037889_P_RUNPAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "楽しい 音楽の リズムが ルンパッパの 細胞を 活性化 させて パワーを 発揮するのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アゲアゲラッシュ",
+				"damage": "60×",
+				"text": "自分がすでにとったサイドの枚数×60ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "メガドレイン",
+				"damage": "120",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37890,
+		"multiId": "705_006",
+		"nameJp": "アメタマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037890_P_AMETAMA.jpg",
+		"imageUrl": "",
+		"cardText": "水草の 多い 池や 沼に 棲む。 棲息地も 食う エサも 近い シズクモと よく 争う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうそくいどう",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37891,
+		"multiId": "705_007",
+		"nameJp": "アメモース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037891_P_AMEMOSU.jpg",
+		"imageUrl": "",
+		"cardText": "薄い ハネの ような 触角は 湿気を 吸いやすい。 雨の 日は 木の ウロなどで じっと 過ごす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "chibi",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もようでおどす",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、手札からエネルギーを出してつけられない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "とんぼがえり",
+				"damage": "40",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37892,
+		"multiId": "705_008",
+		"nameJp": "ボクレー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037892_P_BOKURE.jpg",
+		"imageUrl": "",
+		"cardText": "森で さまよい 命を 落とした 子どもの 魂が 切り株に 宿り ポケモンに 生まれ変わった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やみあんない",
+				"damage": "",
+				"text": "自分のトラッシュからたねポケモンを1枚選び、ベンチに出す。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "タネばくだん",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37893,
+		"multiId": "705_009",
+		"nameJp": "オーロット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037893_P_OROTTO.jpg",
+		"imageUrl": "",
+		"cardText": "森の 木を 伐り倒す 人間を 食べると 恐れられているが 森で 暮らす ポケモンたちには 優しい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タネばくだん",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シャドーコープ",
+				"damage": "120",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37894,
+		"multiId": "705_010",
+		"nameJp": "ワタシラガV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037894_P_WATASHIRAGAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {
+			"name": "ハッピーマッチ",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。"
+		},
+		"attacks": [
+			{
+				"name": "まいあがる",
+				"damage": "50",
+				"text": "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37895,
+		"multiId": "705_011",
+		"nameJp": "カジッチュ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037895_P_KAJICCHU.jpg",
+		"imageUrl": "",
+		"cardText": "一生 りんごの 中で 暮らし 天敵の 鳥ポケモンに 出会うと りんごの 振りをして 身を守る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "からにこもる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37896,
+		"multiId": "705_012",
+		"nameJp": "アップリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037896_P_APPURYU.jpg",
+		"imageUrl": "",
+		"cardText": "すっぱい りんごを 食べて 進化。 火傷する ほど 強酸性の 液体を 頬袋に 溜める。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {
+			"name": "アップルドロップ",
+			"text": "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。その後、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "アシッドボム",
+				"damage": "60",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37897,
+		"multiId": "705_013",
+		"nameJp": "キュウコンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037897_P_KYUUKONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きゅうびへんげ",
+				"damage": "",
+				"text": "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "180",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37898,
+		"multiId": "705_014",
+		"nameJp": "ブーバー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037898_P_BUBA.jpg",
+		"imageUrl": "",
+		"cardText": "全身が 燃えていて 息を するだけでも 熱い。 くしゃみと 同時に 炎が 噴きだすぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パンチ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヒートブレス",
+				"damage": "20＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37899,
+		"multiId": "705_015",
+		"nameJp": "ブーバーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037899_P_BUBAN.jpg",
+		"imageUrl": "",
+		"cardText": "火の玉を 撃ちだして 敵を 仕留める。 まっくろコゲに なるので 獲物を とるときには 使わない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kazuma Koda",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バーストパンチ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "グラウンドバーン",
+				"damage": "80＋",
+				"text": "おたがいの山札を上から1枚ずつトラッシュし、その中のエネルギーの枚数×100ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37900,
+		"multiId": "705_016",
+		"nameJp": "ヒトモシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037900_P_HITOMOSHI.jpg",
+		"imageUrl": "",
+		"cardText": "炎で 熱せられた 体は ほんのり 温かい。 迷子の 手を 引き 霊界へと 誘う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こげこげ",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37901,
+		"multiId": "705_017",
+		"nameJp": "ランプラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037901_P_RANPURA.jpg",
+		"imageUrl": "",
+		"cardText": "誰かが 死ぬ 直前に 現れる ことから 死神の使い として 恐れられている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {
+			"name": "トップエントリー",
+			"text": "自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。"
+		},
+		"attacks": [
+			{
+				"name": "やきなおす",
+				"damage": "20",
+				"text": "自分のトラッシュから[fire]エネルギーを1枚選び、自分のポケモンにつける。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37902,
+		"multiId": "705_018",
+		"nameJp": "シャンデラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037902_P_SHANDERA.jpg",
+		"imageUrl": "",
+		"cardText": "古びた 洋館に 棲みつく。 腕の 炎を 妖しく 揺らし 相手を 催眠に かけるぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Taira Akitsu",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {
+			"name": "まもりのともしび",
+			"text": "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員の弱点は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "ミラージュフレア",
+				"damage": "110",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37903,
+		"multiId": "705_019",
+		"nameJp": "クイタラン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037903_P_KUITARAN.jpg",
+		"imageUrl": "",
+		"cardText": "しっぽの 穴から 空気を 取りこみ 炎を 燃やす。 穴を 塞がれると 具合が 悪くなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "したでなめる",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37904,
+		"multiId": "705_020",
+		"nameJp": "キャモメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037904_P_KYAMOME.jpg",
+		"imageUrl": "",
+		"cardText": "切り立った 崖に 巣を つくり 海風を 利用して 広い空を 上昇し 滑空 するのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スプラッシュ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37905,
+		"multiId": "705_021",
+		"nameJp": "ペリッパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037905_P_PERIPPA.jpg",
+		"imageUrl": "",
+		"cardText": "口の中に 小さなポケモンや タマゴを入れて 安全な 場所に 届けてくれる 空の 運び屋。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つばさでうつ",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "パワーサイクロン",
+				"damage": "110",
+				"text": "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37906,
+		"multiId": "705_022",
+		"nameJp": "ミロカロスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037906_P_MIROKAROSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アクアインパクト",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヒプノスプラッシュ",
+				"damage": "150",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37907,
+		"multiId": "705_023",
+		"nameJp": "オタマロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037907_P_OTAMARO.jpg",
+		"imageUrl": "",
+		"cardText": "きれいな 波紋が 広がる 水の 下では オタマロが 甲高い 声で 鳴いている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Aya Kusube",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くるくる",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37908,
+		"multiId": "705_024",
+		"nameJp": "ガマガル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037908_P_GAMAGARU.jpg",
+		"imageUrl": "",
+		"cardText": "頭痛を 起こすほどの 音波で 獲物を じゅうぶん 弱らせて ネバネバした ベロで 絡めとる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぐるぐるサイン",
+				"damage": "30",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37909,
+		"multiId": "705_025",
+		"nameJp": "ガマゲロゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037909_P_GAMAGEROGE.jpg",
+		"imageUrl": "",
+		"cardText": "全身の コブを 震わせて 地震のような 揺れを 起こす。 グレッグルと 近い 種類。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぐるぐるパンチ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きょうしん",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンがこんらんなら、120ダメージ追加。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37910,
+		"multiId": "705_026",
+		"nameJp": "ガラル ダルマッカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037910_P_GARARUDARUMAKKA.jpg",
+		"imageUrl": "",
+		"cardText": "雪深い 土地で 暮らすうち 炎袋は 冷えきり 退化。 冷気を つくる 器官が できた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れいとうパンチ",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37911,
+		"multiId": "705_027",
+		"nameJp": "ガラル ヒヒダルマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037911_P_GARARUHIHIDARUMA.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 上の 雪玉に エサを しまって 持ち帰る。 吹雪の 日は 人里まで 降りてくる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふぶき",
+				"damage": "80",
+				"text": "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かちわりヘッド",
+				"damage": "170",
+				"text": "次の自分の番、このポケモンは「かちわりヘッド」が使えない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37912,
+		"multiId": "705_028",
+		"nameJp": "コオリッポ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037912_P_KOORIPPO.jpg",
+		"imageUrl": "",
+		"cardText": "とても 寒い 場所から 流れ 流されて やってきた。 氷で 顔を つねに 冷やして いるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {
+			"name": "アイスフェイス",
+			"text": "このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-60」される。"
+		},
+		"attacks": [
+			{
+				"name": "ふぶき",
+				"damage": "70",
+				"text": "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37913,
+		"multiId": "705_029",
+		"nameJp": "ビリリダマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037913_P_BIRIRIDAMA.jpg",
+		"imageUrl": "",
+		"cardText": "発電所などに 現れる。 モンスターボールと 間違えて 触って しびれる 人が 多い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasegawa Saki",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくころがり",
+				"damage": "20×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37914,
+		"multiId": "705_030",
+		"nameJp": "マルマイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037914_P_MARUMAIN.jpg",
+		"imageUrl": "",
+		"cardText": "あふれるほどの 電気エネルギーを 体内に ためこんでいるので 少しの 刺激で 爆発する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たまあつめ",
+				"damage": "",
+				"text": "自分の山札からエネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ボールアタック",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37915,
+		"multiId": "705_031",
+		"nameJp": "エレブー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037915_P_EREBU.jpg",
+		"imageUrl": "",
+		"cardText": "停電が 起こる 原因に されることが 多いが 実は 会社の ミスの ほうが多い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "げんこつ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキスラッグ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37916,
+		"multiId": "705_032",
+		"nameJp": "エレキブル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037916_P_EREKIBURU.jpg",
+		"imageUrl": "",
+		"cardText": "エレキブル １匹で 大都市の 建物 すべての 電力を １年分 まかなうことが できる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんきショック",
+				"damage": "50",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "パワードボルト",
+				"damage": "90＋",
+				"text": "このポケモンに特殊エネルギーがついているなら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37917,
+		"multiId": "705_033",
+		"nameJp": "コリンク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037917_P_KORINKU.jpg",
+		"imageUrl": "",
+		"cardText": "危険を 感じると 全身の 体毛が 光る。 相手が 目を くらませている あいだに 逃げる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぎゃっきょう",
+				"damage": "10＋",
+				"text": "相手のサイドの残り枚数が3枚以下なら、50ダメージ追加。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37918,
+		"multiId": "705_034",
+		"nameJp": "ルクシオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037918_P_RUKUSHIO.jpg",
+		"imageUrl": "",
+		"cardText": "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 相手を気絶させる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {
+			"name": "トップエントリー",
+			"text": "自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。"
+		},
+		"attacks": [
+			{
+				"name": "エレキック",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37919,
+		"multiId": "705_035",
+		"nameJp": "レントラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037919_P_RENTORA.jpg",
+		"imageUrl": "",
+		"cardText": "レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しゅうげき",
+				"damage": "60＋",
+				"text": "この番、このポケモンが「ルクシオ」から進化していたなら、100ダメージ追加。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘッドボルト",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37920,
+		"multiId": "705_036",
+		"nameJp": "ストリンダーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037920_P_SUTORINDAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくづき",
+				"damage": "20",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキライオット",
+				"damage": "90＋",
+				"text": "相手のバトルポケモンがどくなら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37921,
+		"multiId": "705_037",
+		"nameJp": "ストリンダーVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037921_P_SUTORINDAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キョダイライオット",
+				"damage": "160＋",
+				"text": "相手のバトルポケモンがどくなら、80ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37922,
+		"multiId": "705_038",
+		"nameJp": "モルペコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037922_P_MORUPEKO.jpg",
+		"imageUrl": "",
+		"cardText": "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いちゃもん",
+				"damage": "20",
+				"text": "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザが使えない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スパーク",
+				"damage": "50",
+				"text": "相手のベンチポケモン1匹にも、20ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37923,
+		"multiId": "705_039",
+		"nameJp": "ピッピ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037923_P_PIPPI.jpg",
+		"imageUrl": "",
+		"cardText": "満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひかるゆび",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マジカルショット",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37924,
+		"multiId": "705_040",
+		"nameJp": "ピクシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037924_P_PIKUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "妖精の 仲間で めったに 人前に 出てこない。 気配を 感じて すぐに 逃げてしまうようだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "miki kudo",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {
+			"name": "ちゃめっけ",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手の山札の上にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "ムーンキック",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37925,
+		"multiId": "705_041",
+		"nameJp": "シンボラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037925_P_SHINBORA.jpg",
+		"imageUrl": "",
+		"cardText": "サイコパワーで 空を 飛ぶ。 古代都市の 守り神 とも その遣いとも いわれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {
+			"name": "はんげき",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "サイコダメージ",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37926,
+		"multiId": "705_042",
+		"nameJp": "スナバァ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037926_P_SUNABAA.jpg",
+		"imageUrl": "",
+		"cardText": "砂遊びで 作った 砂山は 帰るとき 壊さないと 魂が 宿り スナバァに なるかもしれない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "そっとのせる",
+				"damage": "",
+				"text": "相手のポケモン1匹に、ダメカンを1個のせる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37927,
+		"multiId": "705_043",
+		"nameJp": "シロデスナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037927_P_SHIRODESUNA.jpg",
+		"imageUrl": "",
+		"cardText": "砂嵐を 巻き起こし 相手の 身動きを 封じてから 生気を 奪う 恐ろしい ポケモンだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すなにしずめる",
+				"damage": "",
+				"text": "相手の山札を上から1枚トラッシュする。このポケモンに「のろいのスコップ」がついているなら、さらに2枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ちょうきゅうしゅう",
+				"damage": "90",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37928,
+		"multiId": "705_044",
+		"nameJp": "ミブリム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037928_P_MIBURIMU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 突起で 生物の 気持ちを 感じとる。 穏やかな ものにしか 心を 開かない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ともだちをさがす",
+				"damage": "",
+				"text": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコショット",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37929,
+		"multiId": "705_045",
+		"nameJp": "テブリム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037929_P_TEBURIMU.jpg",
+		"imageUrl": "",
+		"cardText": "強い 感情を もつ ものは それが 誰であれ 黙らせる。 その手段は じつに 乱暴。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "めいそう",
+				"damage": "",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶんまわす",
+				"damage": "30＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37930,
+		"multiId": "705_046",
+		"nameJp": "ブリムオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037930_P_BURIMUON.jpg",
+		"imageUrl": "",
+		"cardText": "頭痛になるほどの サイコパワーを 周囲に 放って ほかの 生物を 遠ざけているのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {
+			"name": "マインドハット",
+			"text": "自分の番に1回使える。おたがいのプレイヤーは、それぞれ自分の手札を1枚選び、トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）"
+		},
+		"attacks": [
+			{
+				"name": "むねんのしずく",
+				"damage": "",
+				"text": "自分のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のバトルポケモンにのせる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37931,
+		"multiId": "705_047",
+		"nameJp": "マホミル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037931_P_MAHOMIRU.jpg",
+		"imageUrl": "",
+		"cardText": "クリームで できた 体を もつ。 空気中の 甘い 香りの 成分が 集まって 生まれた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アロマセラピー",
+				"damage": "",
+				"text": "自分のポケモン全員のHPを「10」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37932,
+		"multiId": "705_048",
+		"nameJp": "マホイップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037932_P_MAHOIPPU.jpg",
+		"imageUrl": "",
+		"cardText": "信頼する トレーナーには クリームで デコレーションした 木の実を ふるまって くれるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "デコレーション",
+				"damage": "",
+				"text": "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ドレインキッス",
+				"damage": "50",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37933,
+		"multiId": "705_049",
+		"nameJp": "ドラパルトV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037933_P_DORAPARUTOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アサルトジェット",
+				"damage": "60＋",
+				"text": "この番、このポケモンがベンチからバトル場に出ていたなら、80ダメージ追加。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37934,
+		"multiId": "705_050",
+		"nameJp": "ドラパルトVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037934_P_DORAPARUTOVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきさく",
+				"damage": "60",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイファントム",
+				"damage": "130",
+				"text": "ダメカン5個を、相手のベンチポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37935,
+		"multiId": "705_051",
+		"nameJp": "ノズパス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037935_P_NOZUPASU.jpg",
+		"imageUrl": "",
+		"cardText": "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ころがりタックル",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37936,
+		"multiId": "705_052",
+		"nameJp": "アサナン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037936_P_ASANAN.jpg",
+		"imageUrl": "",
+		"cardText": "１日 １個だけ 木の実を 食べる。 空腹に 耐えることで 心が 研ぎ澄まされていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヨガショック",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37937,
+		"multiId": "705_053",
+		"nameJp": "チャーレム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037937_P_CHAREMU.jpg",
+		"imageUrl": "",
+		"cardText": "ヨガの 修行で 鍛えられた サイコパワーで 相手の 動きを 予測する ことが できるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヨガキック",
+				"damage": "40",
+				"text": "このワザのダメージは弱点・抵抗力を計算しない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコキネシス",
+				"damage": "60＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37938,
+		"multiId": "705_054",
+		"nameJp": "ドジョッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037938_P_DOJOCCHI.jpg",
+		"imageUrl": "",
+		"cardText": "ぬるぬるの 体は 掴みにくい。 ある 地方では 泥が 固まって ドジョッチが 生まれたと いわれる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひれカッター",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37939,
+		"multiId": "705_055",
+		"nameJp": "ナマズン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037939_P_NAMAZUN.jpg",
+		"imageUrl": "",
+		"cardText": "沼の 底に すみかを つくる。 生き物なら 好き嫌いなく なんでも 食べてしまう 大食らい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {
+			"name": "もぐる",
+			"text": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "じしん",
+				"damage": "140",
+				"text": "自分のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting",
+					"fighting"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37940,
+		"multiId": "705_056",
+		"nameJp": "ガラル デスマス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037940_P_GARARUDESUMASU.jpg",
+		"imageUrl": "",
+		"cardText": "呪いが 刻まれた 粘土板が デスマスに 憑りついた。 怨念 パワーを 吸いとっていると いう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とつげき",
+				"damage": "50",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37941,
+		"multiId": "705_057",
+		"nameJp": "ガラル デスバーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037941_P_GARARUDESUBAN.jpg",
+		"imageUrl": "",
+		"cardText": "強い 呪いを こめて 描かれた 古代の 絵が デスマスの 魂を 取り込み 動きだした。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "TOKIYA",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "うらみをばらまく",
+				"damage": "",
+				"text": "この「ガラル デスバーン」にのっているダメカンの数×2個ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "マッドハンマー",
+				"damage": "120",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37942,
+		"multiId": "705_058",
+		"nameJp": "タンドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037942_P_TANDON.jpg",
+		"imageUrl": "",
+		"cardText": "およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37943,
+		"multiId": "705_059",
+		"nameJp": "トロッゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037943_P_TOROGGON.jpg",
+		"imageUrl": "",
+		"cardText": "体内で 石炭を つくりだす。 昔の ガラルでは 落とした 石炭を 生活に 利用した。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ヒートスタンプ",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37944,
+		"multiId": "705_060",
+		"nameJp": "セキタンザン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037944_P_SEKITANZAN.jpg",
+		"imageUrl": "",
+		"cardText": "普段は 穏やかだが 人間が 鉱山を 荒らすと 怒りくるい １５００度の 炎で 焼きつくす。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {
+			"name": "タールジェネレート",
+			"text": "自分の番に1回使える。自分のトラッシュから[fire]エネルギーと[fighting]エネルギーをそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。"
+		},
+		"attacks": [
+			{
+				"name": "やきなだれ",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37945,
+		"multiId": "705_061",
+		"nameJp": "タイレーツV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037945_P_TAIRETSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {
+			"name": "てっぺきのじん",
+			"text": "このポケモンがいるかぎり、自分の場の、名前に「タイレーツ」とつくポケモン全員が、相手のポケモンから受けるワザのダメージは「-20」される。"
+		},
+		"attacks": [
+			{
+				"name": "ギガインパクト",
+				"damage": "210",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37946,
+		"multiId": "705_062",
+		"nameJp": "イシヘンジン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037946_P_ISHIHENJIN.jpg",
+		"imageUrl": "",
+		"cardText": "大草原の 中で たたずみ 陽の 傾きを 眺めて 暮らす。 ダイナミックな 蹴り技が 得意。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "メガトンキック",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "パワープレス",
+				"damage": "120＋",
+				"text": "このワザを使うためのエネルギーより、1個多くエネルギーがついているなら、60ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37947,
+		"multiId": "705_063",
+		"nameJp": "ドガース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037947_P_DOGASU.jpg",
+		"imageUrl": "",
+		"cardText": "毒ガスで パンパンの 体。 生ゴミの 腐った においを 求め ゴミ捨て場に やってくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガスでつつむ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37948,
+		"multiId": "705_064",
+		"nameJp": "ガラル マタドガス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037948_P_GARARUMATADOGASU.jpg",
+		"imageUrl": "",
+		"cardText": "大気の 汚い 成分を 吸収し きれいな 空気を フンの 代わりに 吐き出している。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {
+			"name": "かがくへんかガス",
+			"text": "このポケモンがバトル場にいるかぎり、相手の場のポケモンの特性（「かがくへんかガス」をのぞく）は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "バッドポイズン",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は4個になる。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37949,
+		"multiId": "705_065",
+		"nameJp": "ミカルゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037949_P_MIKARUGE.jpg",
+		"imageUrl": "",
+		"cardText": "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "うらみわけ",
+				"damage": "",
+				"text": "おたがいの山札を上から1枚ずつトラッシュする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "むねんのしずく",
+				"damage": "",
+				"text": "自分のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のバトルポケモンにのせる。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37950,
+		"multiId": "705_066",
+		"nameJp": "ヤブクロン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037950_P_YABUKURON.jpg",
+		"imageUrl": "",
+		"cardText": "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ベノムショック",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37951,
+		"multiId": "705_067",
+		"nameJp": "ダストダス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037951_P_DASUTODASU.jpg",
+		"imageUrl": "",
+		"cardText": "食った ゴミが 体内で 毒に 変化する。 食う ゴミ しだいで 毒の 主成分も 変わる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "067",
+		"ability": {
+			"name": "どくだまり",
+			"text": "場にスタジアムが出ているなら、自分の番に1回使える。相手のバトルポケモンをどくにする。"
+		},
+		"attacks": [
+			{
+				"name": "ヘドロばくだん",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37952,
+		"multiId": "705_068",
+		"nameJp": "バルチャイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037952_P_BARUCHAI.jpg",
+		"imageUrl": "",
+		"cardText": "骸骨を はき お尻を ガード。 はき心地の いい 骸骨を めぐり 仲間同士で 小競り合う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ついばむ",
+				"damage": "10",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37953,
+		"multiId": "705_069",
+		"nameJp": "バルジーナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037953_P_BARUJINA.jpg",
+		"imageUrl": "",
+		"cardText": "荒っぽい 性質だが 迷子の バルチャイを 見かけると 巣立つまで 大切に 面倒を みる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ボーンラッシュ",
+				"damage": "30×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やみうち",
+				"damage": "",
+				"text": "ダメカンがのっている相手のポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"dark",
+					"dark"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37954,
+		"multiId": "705_070",
+		"nameJp": "カラマネロV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037954_P_KARAMANEROV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきずりだす",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ブレインシェイク",
+				"damage": "130",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37955,
+		"multiId": "705_071",
+		"nameJp": "カラマネロVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037955_P_KARAMANEROVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "310",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイジャマー",
+				"damage": "180",
+				"text": "相手の手札を見て、その中からカードを1枚選び、相手の山札の下にもどす。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37956,
+		"multiId": "705_072",
+		"nameJp": "ハッサム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037956_P_HASSAMU.jpg",
+		"imageUrl": "",
+		"cardText": "１度 敵と 判断した ものは 鋼鉄の 硬さを もつ ハサミで 粉々になるまで 殴り続ける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しゅうげき",
+				"damage": "30＋",
+				"text": "この番、このポケモンが「ストライク」から進化していたなら、90ダメージ追加。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ガードクロー",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37957,
+		"multiId": "705_073",
+		"nameJp": "ダイノーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037957_P_DAINOZU.jpg",
+		"imageUrl": "",
+		"cardText": "３つの 小さな ユニットを 使い エサを とったり 敵と 戦う。 本体は ほぼ 命令するだけ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じゅうりょくおとし",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘビーインパクト",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37958,
+		"multiId": "705_074",
+		"nameJp": "アイアント",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037958_P_AIANTO.jpg",
+		"imageUrl": "",
+		"cardText": "巣の 奥深くに タマゴを 産む。 クイタランに 襲われると 大きな 顎で 噛みついて 反撃。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "えさあつめ",
+				"damage": "",
+				"text": "このポケモンについているエネルギーの数ぶんまで、自分の山札からトレーナーズを選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メタルクロー",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37959,
+		"multiId": "705_075",
+		"nameJp": "ダイオウドウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037959_P_DAIOUDOUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こんごうプレス",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "たたきつぶす",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37960,
+		"multiId": "705_076",
+		"nameJp": "ダイオウドウVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037960_P_DAIOUDOUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "340",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "デンジャラスノーズ",
+				"damage": "100＋",
+				"text": "相手のバトルポケモンがたねポケモンなら、100ダメージ追加。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "キョダイハンマー",
+				"damage": "240",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37961,
+		"multiId": "705_077",
+		"nameJp": "カビゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037961_P_KABIGON.jpg",
+		"imageUrl": "",
+		"cardText": "１日に 食べ物を ４００キロ 食べないと 気がすまない。 食べ終わると 眠ってしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を2枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たおれこむ",
+				"damage": "120",
+				"text": "このポケモンをねむりにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37962,
+		"multiId": "705_078",
+		"nameJp": "ペラップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037962_P_PERAPPU.jpg",
+		"imageUrl": "",
+		"cardText": "人の 言葉を 覚えて 鳴く。 仲間が 一か所に 集まると みんな 同じ 言葉を 覚える。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "078",
+		"ability": {
+			"name": "ラッキーマッチ",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。コインを1回投げオモテなら、自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。"
+		},
+		"attacks": [
+			{
+				"name": "かっくう",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37963,
+		"multiId": "705_079",
+		"nameJp": "マメパト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037963_P_MAMEPATO.jpg",
+		"imageUrl": "",
+		"cardText": "人の住む 場所に 現れる。 エサを まくと 何百匹でも 集まってくるので 注意だぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とりぶえ",
+				"damage": "",
+				"text": "自分の山札から、抵抗力が[fighting]タイプのポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "するどいはね",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37964,
+		"multiId": "705_080",
+		"nameJp": "ハトーボー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037964_P_HATOBO.jpg",
+		"imageUrl": "",
+		"cardText": "空を飛ぶ 速さは そこそこ。 どんな 遠く 離れても 主と 自分の 巣を 憶えている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "080",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "するどいはね",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "かぜおこし",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37965,
+		"multiId": "705_081",
+		"nameJp": "ケンホロウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037965_P_KENHOROU.jpg",
+		"imageUrl": "",
+		"cardText": "高い 飛行能力を もち メスは 持久力に 優れる。 飛行スピードは オスが 勝る。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひるませる",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エアスラッシュ",
+				"damage": "150",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37966,
+		"multiId": "705_082",
+		"nameJp": "ヌイコグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037966_P_NUIKOGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "ふわふわの 毛並みは 触り心地が 抜群だが うかつに 手を だすと 手痛い 反撃を 受けてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "082",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "とびつく",
+				"damage": "40＋",
+				"text": "コインを1回投げオモテなら、40ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37967,
+		"multiId": "705_083",
+		"nameJp": "キテルグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037967_P_KITERUGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "仲間と 認めると 愛情を 示すために 抱きしめようとするが 骨を 砕かれるので 危険。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アームハンマー",
+				"damage": "90",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ビッグスロー",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37968,
+		"multiId": "705_084",
+		"nameJp": "ホシガリス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037968_P_HOSHIGARISU.jpg",
+		"imageUrl": "",
+		"cardText": "ガラルの いたるところに いる。 左右の ほっぺに 木の実を 蓄えていないと 不安。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37969,
+		"multiId": "705_085",
+		"nameJp": "ヨクバリス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037969_P_YOKUBARISU.jpg",
+		"imageUrl": "",
+		"cardText": "しっぽに 木の実を 溜めこむ。 溜めこみすぎて ポロポロ こぼすが 鈍いので 気がつかない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "085",
+		"ability": {
+			"name": "がめついしっぽ",
+			"text": "自分の番に1回使える。自分の山札から「ポケモンのどうぐ」を1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "しっぽでたたく",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38053,
+		"multiId": "705_097",
+		"nameJp": "ワタシラガV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038053_P_WATASHIRAGAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {
+			"name": "ハッピーマッチ",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。"
+		},
+		"attacks": [
+			{
+				"name": "まいあがる",
+				"damage": "50",
+				"text": "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38054,
+		"multiId": "705_098",
+		"nameJp": "キュウコンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038054_P_KYUUKONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きゅうびへんげ",
+				"damage": "",
+				"text": "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "180",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38055,
+		"multiId": "705_099",
+		"nameJp": "ミロカロスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038055_P_MIROKAROSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "099",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アクアインパクト",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヒプノスプラッシュ",
+				"damage": "150",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38056,
+		"multiId": "705_100",
+		"nameJp": "ストリンダーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038056_P_SUTORINDAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくづき",
+				"damage": "20",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキライオット",
+				"damage": "90＋",
+				"text": "相手のバトルポケモンがどくなら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38057,
+		"multiId": "705_101",
+		"nameJp": "ドラパルトV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038057_P_DORAPARUTOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アサルトジェット",
+				"damage": "60＋",
+				"text": "この番、このポケモンがベンチからバトル場に出ていたなら、80ダメージ追加。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38058,
+		"multiId": "705_102",
+		"nameJp": "タイレーツV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038058_P_TAIRETSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "102",
+		"ability": {
+			"name": "てっぺきのじん",
+			"text": "このポケモンがいるかぎり、自分の場の、名前に「タイレーツ」とつくポケモン全員が、相手のポケモンから受けるワザのダメージは「-20」される。"
+		},
+		"attacks": [
+			{
+				"name": "ギガインパクト",
+				"damage": "210",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38059,
+		"multiId": "705_103",
+		"nameJp": "カラマネロV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038059_P_KARAMANEROV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "103",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきずりだす",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ブレインシェイク",
+				"damage": "130",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38060,
+		"multiId": "705_104",
+		"nameJp": "ダイオウドウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038060_P_DAIOUDOUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "104",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こんごうプレス",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "たたきつぶす",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37970,
+		"multiId": "705_086",
+		"nameJp": "回収ネット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037970_T_KAISHUUNETTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモン（「ポケモンV・GX」をのぞく）を1匹選び、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37971,
+		"multiId": "705_087",
+		"nameJp": "きんのたま",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037971_T_KINNOTAMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の番のはじめに、山札からこのカードを引いたとき、手札に加える前に使う。\n\n自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37972,
+		"multiId": "705_088",
+		"nameJp": "ツールスクラッパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037972_T_TSURUSUKURAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37973,
+		"multiId": "705_089",
+		"nameJp": "のろいのスコップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037973_T_NOROINOSUKOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37974,
+		"multiId": "705_090",
+		"nameJp": "オリーヴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037974_T_ORIVU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n相手の手札を見て、その中からトレーナーズを1枚選び、相手の山札の下にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37975,
+		"multiId": "705_091",
+		"nameJp": "ダンペイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037975_T_DANPEI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を2枚引く。相手プレイヤーとジャンケンをし、自分が勝ったなら、さらに2枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37976,
+		"multiId": "705_092",
+		"nameJp": "ボスの指令（サカキ）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037976_T_BOSUNOSHIREISAKAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37977,
+		"multiId": "705_093",
+		"nameJp": "ガラル鉱山",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037977_T_GARARUKOUZAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのバトルポケモンのにげるためのエネルギーは、それぞれ2個ぶん多くなる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38061,
+		"multiId": "705_105",
+		"nameJp": "オリーヴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038061_T_ORIVU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n相手の手札を見て、その中からトレーナーズを1枚選び、相手の山札の下にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "105",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38062,
+		"multiId": "705_106",
+		"nameJp": "ボスの指令（サカキ）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/038062_T_BOSUNOSHIREISAKAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "SR",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "106",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37978,
+		"multiId": "705_094",
+		"nameJp": "スピード雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037978_E_SUPIDOKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[electric]エネルギー1個ぶんとしてはたらく。\n\nこのカードを手札から[electric]ポケモンにつけたとき、自分の山札を2枚引く。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37979,
+		"multiId": "705_095",
+		"nameJp": "ホラー超エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037979_E_HORACHOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[psychic]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[psychic]ポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37980,
+		"multiId": "705_096",
+		"nameJp": "キャプチャーエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S2/037980_E_KYAPUCHAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[colorless]エネルギー1個ぶんとしてはたらく。\n\nこのカードを手札からポケモンにつけたとき、自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "705",
+		"set": "拡張パック「反逆クラッシュ」",
+		"setCode": "S2",
+		"generation": "SA",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

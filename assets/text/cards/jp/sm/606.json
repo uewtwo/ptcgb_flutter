@@ -1,0 +1,6129 @@
+[
+	{
+		"cardId": 35293,
+		"multiId": "606_001",
+		"nameJp": "ストライク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035293_P_SUTORAIKU.jpg",
+		"imageUrl": "",
+		"cardText": "若いうちは 山奥で 群れて 暮らし 鎌での 戦いかたや 高速移動を 修行する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくぎり",
+				"damage": "10＋",
+				"text": "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、50ダメージ追加。すべてオモテなら、70ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35294,
+		"multiId": "606_002",
+		"nameJp": "チコリータ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035294_P_CHIKORITA.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 葉っぱで まわりの 温度や 湿度を 探る。 日差しを 浴びることが 大好き。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Aya Kusube",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうごうせい",
+				"damage": "",
+				"text": "自分の山札にある[grass]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はっぱカッター",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35295,
+		"multiId": "606_003",
+		"nameJp": "チコリータ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035295_P_CHIKORITA.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 葉っぱで まわりの 温度や 湿度を 探る。 日差しを 浴びることが 大好き。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "プチドレイン",
+				"damage": "10",
+				"text": "このポケモンのHPを「10」回復する。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35296,
+		"multiId": "606_004",
+		"nameJp": "ベイリーフ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035296_P_BEIRIFU.jpg",
+		"imageUrl": "",
+		"cardText": "首回りの つぼみから におう スパイシーな 香りは かいだ 人を 元気に させる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アロマスリープ",
+				"damage": "20",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はっぱカッター",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35297,
+		"multiId": "606_005",
+		"nameJp": "メガニウム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035297_P_MEGANIUMU.jpg",
+		"imageUrl": "",
+		"cardText": "メガニウムが 吐き出す 息には 枯れた 草木を よみがえらせる 力が 秘められている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {
+			"name": "そうじゅくハーブ",
+			"text": "自分の番に1回使える。自分の手札にある2進化ポケモンを1枚、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。"
+		},
+		"attacks": [
+			{
+				"name": "ソーラービーム",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35298,
+		"multiId": "606_006",
+		"nameJp": "イトマル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035298_P_ITOMARU.jpg",
+		"imageUrl": "",
+		"cardText": "丈夫な 糸を より合わせ さかなポケモンを 捕らえる 網を こしらえる 漁師も いるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クモがくれ",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとマヒにする。このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "チクチクさす",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35299,
+		"multiId": "606_007",
+		"nameJp": "アリアドス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035299_P_ARIADOSU.jpg",
+		"imageUrl": "",
+		"cardText": "尻からも 口からも 糸をだす。 糸で 獲物を 絡め取り ゆっくりと 体液を すする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トラップスレッド",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "どくづき",
+				"damage": "70",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35300,
+		"multiId": "606_008",
+		"nameJp": "ハネッコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035300_P_HANEKKO.jpg",
+		"imageUrl": "",
+		"cardText": "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふえる",
+				"damage": "",
+				"text": "自分の山札にある「ハネッコ」を1枚、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35301,
+		"multiId": "606_009",
+		"nameJp": "ハネッコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035301_P_HANEKKO.jpg",
+		"imageUrl": "",
+		"cardText": "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35302,
+		"multiId": "606_010",
+		"nameJp": "ポポッコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035302_P_POPOKKO.jpg",
+		"imageUrl": "",
+		"cardText": "太陽の 光を 浴びるため 花びらを 広げるだけでなく 近づこうと 空に 浮かんでしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {
+			"name": "そらのはなみち",
+			"text": "自分の番に1回使える。自分の山札から「ワタッコ」を1枚選ぶ。その後、このポケモンと、ついているすべてのカードを、ロストゾーンに置き、このポケモンがいた場所に、選んだ「ワタッコ」を出す。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35303,
+		"multiId": "606_011",
+		"nameJp": "ワタッコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035303_P_WATAKKO.jpg",
+		"imageUrl": "",
+		"cardText": "どんな 風に あおられても 綿毛を 自在に 操って 世界の 好きなところへ 行ける。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ロストマーチ",
+				"damage": "20×",
+				"text": "自分のロストゾーンにあるポケモン（（プリズムスター）をのぞく）の枚数×20ダメージ。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35304,
+		"multiId": "606_012",
+		"nameJp": "クヌギダマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035304_P_KUNUGIDAMA.jpg",
+		"imageUrl": "",
+		"cardText": "木の実に そっくり。 間違われて とりポケモンに つつかれてしまうが 硬い 殻で 守られている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくずつき",
+				"damage": "20×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35305,
+		"multiId": "606_013",
+		"nameJp": "ツボツボGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035305_P_TSUBOTSUBOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {
+			"name": "まもりのツボ",
+			"text": "このポケモンは、ついているエネルギーが2個以下の相手のポケモンから、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "さんばいどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "まきつくGX",
+				"damage": "40",
+				"text": "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35306,
+		"multiId": "606_014",
+		"nameJp": "ヘラクロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035306_P_HERAKUROSU.jpg",
+		"imageUrl": "",
+		"cardText": "ものすごい 怪力の 持ち主。 自分の 体重の １００倍の 重さでも 楽に ぶん投げる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひゃくにんりき",
+				"damage": "30＋",
+				"text": "自分のベンチに2進化ポケモンがいるなら、90ダメージ追加。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35307,
+		"multiId": "606_015",
+		"nameJp": "セレビィPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035307_P_SEREBII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "PRISMSTAR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ときのひずみ",
+				"damage": "",
+				"text": "自分のベンチの進化しているポケモンを好きなだけ選ぶ。その後、選んだポケモン全員の上から、それぞれ「進化カード」を好きなだけはがして退化させる。はがしたカードは、手札にもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やどりぎのタネ",
+				"damage": "20",
+				"text": "このポケモンのHPを「20」回復する。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "同じ名前の（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35308,
+		"multiId": "606_016",
+		"nameJp": "ヒノアラシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035308_P_HINOARASHI.jpg",
+		"imageUrl": "",
+		"cardText": "臆病な 性格。 驚くと 背中の 炎が 一段と 強く 燃え上がる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "えんまく",
+				"damage": "10",
+				"text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35309,
+		"multiId": "606_017",
+		"nameJp": "ヒノアラシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035309_P_HINOARASHI.jpg",
+		"imageUrl": "",
+		"cardText": "臆病な 性格。 驚くと 背中の 炎が 一段と 強く 燃え上がる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35310,
+		"multiId": "606_018",
+		"nameJp": "マグマラシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035310_P_MAGUMARASHI.jpg",
+		"imageUrl": "",
+		"cardText": "戦闘中 背中を 向けたら 要注意。 背中の 炎で 攻撃してくる 前触れだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ほのおでこがす",
+				"damage": "60",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35311,
+		"multiId": "606_019",
+		"nameJp": "バクフーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035311_P_BAKUFUN.jpg",
+		"imageUrl": "",
+		"cardText": "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する。 大技を 隠し持っている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {
+			"name": "バーニングエナジー",
+			"text": "自分の番に1回使える。この番の終わりまで、自分の場のポケモンについているエネルギーは、すべて[fire]エネルギーとしてあつかう。（新しく場に出したカードもふくむ。）"
+		},
+		"attacks": [
+			{
+				"name": "ロストフレイム",
+				"damage": "120",
+				"text": "相手のバトルポケモンについているエネルギーを2個、ロストゾーンに置く。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"fire"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35312,
+		"multiId": "606_020",
+		"nameJp": "デルビル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035312_P_DERUBIRU.jpg",
+		"imageUrl": "",
+		"cardText": "仲間だけで わかりあえる 鳴き声で お互いの 位置を 確かめながら 獲物を 追いつめる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "チームハント",
+				"damage": "",
+				"text": "自分の場の「デルビル」の数ぶん、自分の山札を引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのお",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35313,
+		"multiId": "606_021",
+		"nameJp": "ヘルガー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035313_P_HERUGA.jpg",
+		"imageUrl": "",
+		"cardText": "怒ったときに 口から 噴き出す 炎には 毒素も 混じっていて やけどになると いつまでも うずく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "わるだくみ",
+				"damage": "",
+				"text": "自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "オペレーションアタック",
+				"damage": "50＋",
+				"text": "自分の手札の枚数が、相手より多いなら、80ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35314,
+		"multiId": "606_022",
+		"nameJp": "エンテイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035314_P_ENTEI.jpg",
+		"imageUrl": "",
+		"cardText": "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおのキバ",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ふんか",
+				"damage": "80＋",
+				"text": "おたがいの山札を上から1枚ずつトラッシュし、その中のエネルギーの枚数×60ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35315,
+		"multiId": "606_023",
+		"nameJp": "ズガドーンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035315_P_ZUGADONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さくれつバーナー",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどとこんらんにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ビックリヘッド",
+				"damage": "50×",
+				"text": "自分の場のポケモンについている[fire]エネルギーを好きなだけロストゾーンに置き、その枚数×50ダメージ。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "バーストGX",
+				"damage": "",
+				"text": "自分のサイドを1枚トラッシュし、そのカードがエネルギーなら、自分のポケモンにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35316,
+		"multiId": "606_024",
+		"nameJp": "ヤドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035316_P_YADON.jpg",
+		"imageUrl": "",
+		"cardText": "ヤドンの尻尾を 干したあと 塩水で 煮込んだ 料理は アローラの 家庭の 味。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あくび",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35317,
+		"multiId": "606_025",
+		"nameJp": "ヤドキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035317_P_YADOKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "迷ったら ヤドキングに聞け という ことわざが 残る 地域も あるほど 賢いことで 有名 なのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きおくをとろかす",
+				"damage": "",
+				"text": "相手の手札を見て、その中にあるカードを1枚、ロストゾーンに置く。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコキネシス",
+				"damage": "60＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35318,
+		"multiId": "606_026",
+		"nameJp": "デリバード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035318_P_DERIBADO.jpg",
+		"imageUrl": "",
+		"cardText": "自分の 餌を 人や ポケモンに 分け与える 習性が あるため いつも 餌を 探しまわっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハッピーデリバリー",
+				"damage": "",
+				"text": "「ポケモンのどうぐ」がついていない自分のベンチポケモンを好きなだけ選ぶ。その後、選んだ数ぶんまでの「ポケモンのどうぐ」を自分の山札から選び、選んだポケモンにそれぞれつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はばたく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35319,
+		"multiId": "606_027",
+		"nameJp": "マンタイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035319_P_MANTAIN.jpg",
+		"imageUrl": "",
+		"cardText": "悠然と 海を 泳ぐうちに 食べ残しを ねらった テッポウオが ヒレに くっつくが 気にしていない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {
+			"name": "マンタインサーフ",
+			"text": "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "なみのり",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35320,
+		"multiId": "606_028",
+		"nameJp": "スイクンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035320_P_SUIKUNGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {
+			"name": "げんえいのかぜ",
+			"text": "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "キュアストリーム",
+				"damage": "120",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ブライニクルGX",
+				"damage": "150",
+				"text": "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35321,
+		"multiId": "606_029",
+		"nameJp": "ヒドイデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035321_P_HIDOIDE.jpg",
+		"imageUrl": "",
+		"cardText": "海底や 海岸を はいまわる。 サニーゴの 頭に 生える サンゴが 大好物だぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Aya Kusube",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とげキャノン",
+				"damage": "30×",
+				"text": "コインを2回投げ、オモテの数×30ダメージ。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35322,
+		"multiId": "606_030",
+		"nameJp": "ドヒドイデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035322_P_DOHIDOIDE.jpg",
+		"imageUrl": "",
+		"cardText": "ドヒドイデの 毒に やられると ３日３晩 激痛に 苦しみ 助かっても 後遺症が 残る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくばり",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ベノムフィーバー",
+				"damage": "50×",
+				"text": "相手のバトルポケモンがどくなら、相手のバトルポケモンにのっているダメカンの数×50ダメージ。",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35323,
+		"multiId": "606_031",
+		"nameJp": "チョンチー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035323_P_CHONCHI.jpg",
+		"imageUrl": "",
+		"cardText": "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんじは",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ピッカリだま",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35324,
+		"multiId": "606_032",
+		"nameJp": "ランターン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035324_P_RANTAN.jpg",
+		"imageUrl": "",
+		"cardText": "強い 光を 放ち 獲物の 目を くらませる。 隙が できたら 電撃を お見舞いする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サルベージ",
+				"damage": "",
+				"text": "自分のトラッシュにあるグッズを4枚、相手に見せてから、山札にもどして切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シグナルビーム",
+				"damage": "50",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35325,
+		"multiId": "606_033",
+		"nameJp": "メリープ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035325_P_MERIPU.jpg",
+		"imageUrl": "",
+		"cardText": "ふかふかの 体毛は 空気を たくさん 含んで 夏は 涼しく 冬は 温かいのが 特徴。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {
+			"name": "ふわふわまくら",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをねむりにする。"
+		},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35326,
+		"multiId": "606_034",
+		"nameJp": "メリープ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035326_P_MERIPU.jpg",
+		"imageUrl": "",
+		"cardText": "ふかふかの 体毛は 空気を たくさん 含んで 夏は 涼しく 冬は 温かいのが 特徴。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんきショック",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35327,
+		"multiId": "606_035",
+		"nameJp": "モココ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035327_P_MOKOKO.jpg",
+		"imageUrl": "",
+		"cardText": "体毛に ためた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "シグナルビーム",
+				"damage": "40",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35328,
+		"multiId": "606_036",
+		"nameJp": "デンリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035328_P_DENRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾の 先が 光り輝く。 光は はるか 遠くまで 届き 迷った者の 道標となる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {
+			"name": "みえざるせんこう",
+			"text": "自分の番に1回使える。自分の手札にある[electric]エネルギーを2枚、ロストゾーンに置く。その後、相手のバトルポケモンをマヒにする。"
+		},
+		"attacks": [
+			{
+				"name": "ばくれつだん",
+				"damage": "",
+				"text": "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35329,
+		"multiId": "606_037",
+		"nameJp": "ライコウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035329_P_RAIKOU.jpg",
+		"imageUrl": "",
+		"cardText": "体内で 渦巻く 力を 電撃として 出しながら 大地を 駆け巡る 荒々しい ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ロストボルテージ",
+				"damage": "30＋",
+				"text": "自分のロストゾーンに[electric]エネルギーがあるなら、90ダメージ追加。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "steel",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35330,
+		"multiId": "606_038",
+		"nameJp": "ネイティ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035330_P_NEITEI.jpg",
+		"imageUrl": "",
+		"cardText": "普段は 地上で エサを 探すが ごくたまに 木の枝に 飛び乗って 木の芽を ついばんだりする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ロストマーチ",
+				"damage": "20×",
+				"text": "自分のロストゾーンにあるポケモン（（プリズムスター）をのぞく）の枚数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35331,
+		"multiId": "606_039",
+		"nameJp": "ネイティオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035331_P_NEITEIO.jpg",
+		"imageUrl": "",
+		"cardText": "ほとんど 動かず 鳴きもせず じっとするのは 過去と 未来を 見ているからだと 信じられている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エナジーゲイズ",
+				"damage": "30＋",
+				"text": "相手の手札を見て、その中にエネルギーがあるなら、60ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ねんどうだん",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35332,
+		"multiId": "606_040",
+		"nameJp": "エーフィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035332_P_EFI.jpg",
+		"imageUrl": "",
+		"cardText": "額の 玉から サイコパワーを 放射して 戦う。 パワーが 尽きると 玉の 色が くすむ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきつける",
+				"damage": "",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エナジークラッシュ",
+				"damage": "20＋",
+				"text": "相手の場のポケモンについているエネルギーの数×20ダメージ追加。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35333,
+		"multiId": "606_041",
+		"nameJp": "アンノーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035333_P_ANNON.jpg",
+		"imageUrl": "",
+		"cardText": "古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {
+			"name": "DAMAGE[ダメージ]",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のベンチポケモン全員にのっているダメカンの数が66個以上なら、この対戦は自分の勝ちになる。"
+		},
+		"attacks": [
+			{
+				"name": "めざめるパワー",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35334,
+		"multiId": "606_042",
+		"nameJp": "アンノーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035334_P_ANNON.jpg",
+		"imageUrl": "",
+		"cardText": "古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {
+			"name": "HAND[ハンド]",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の手札の枚数が35枚以上なら、この対戦は自分の勝ちになる。"
+		},
+		"attacks": [
+			{
+				"name": "めざめるパワー",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35335,
+		"multiId": "606_043",
+		"nameJp": "アンノーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035335_P_ANNON.jpg",
+		"imageUrl": "",
+		"cardText": "古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {
+			"name": "MISSING[ミッシング]",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のロストゾーンにあるサポートの枚数が12枚以上なら、この対戦は自分の勝ちになる。"
+		},
+		"attacks": [
+			{
+				"name": "めざめるパワー",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35336,
+		"multiId": "606_044",
+		"nameJp": "ソーナンス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035336_P_SONANSU.jpg",
+		"imageUrl": "",
+		"cardText": "真っ黒な 尻尾を 隠すため 暗闇で ひっそりと 生きている。 自分からは 攻撃しない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {
+			"name": "シェードテール",
+			"text": "このポケモンがベンチにいるかぎり、おたがいの場の（プリズムスター）のポケモンは、ワザが使えず、特性もすべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "はねとばす",
+				"damage": "30＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35337,
+		"multiId": "606_045",
+		"nameJp": "キリンリキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035337_P_KIRINRIKI.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ロストおくり",
+				"damage": "",
+				"text": "相手のトラッシュにある好きなカードを2枚、ロストゾーンに置く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マインドショック",
+				"damage": "70",
+				"text": "このワザのダメージは弱点・抵抗力を計算しない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35338,
+		"multiId": "606_046",
+		"nameJp": "ウツロイド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035338_P_UTSUROIDO.jpg",
+		"imageUrl": "",
+		"cardText": "ＵＢの 一種。 意思が あるかは 不明だが 時折 少女の ような 仕草を みせる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ナイトキャップ",
+				"damage": "",
+				"text": "このワザは、相手のサイドの残り枚数が2枚のときにだけ使える。相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うつろなしょくしゅ",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとこんらんにする。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35339,
+		"multiId": "606_047",
+		"nameJp": "ベベノム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035339_P_BEBENOMU.jpg",
+		"imageUrl": "",
+		"cardText": "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アイオープナー",
+				"damage": "",
+				"text": "ウラになっている自分のサイドのオモテをすべて見てから、もとにもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35340,
+		"multiId": "606_048",
+		"nameJp": "アーゴヨン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035340_P_AGOYON.jpg",
+		"imageUrl": "",
+		"cardText": "体内に 数百リットルの 毒液を ためている。 ＵＢと 呼ばれる 生物の 一種。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {
+			"name": "チャージアップ",
+			"text": "自分の番に1回使える。自分のトラッシュにある基本エネルギーを1枚、このポケモンにつける。"
+		},
+		"attacks": [
+			{
+				"name": "ターニングポイント",
+				"damage": "80＋",
+				"text": "自分のサイドの残り枚数が3枚なら、80ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35341,
+		"multiId": "606_049",
+		"nameJp": "ウソッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035341_P_USOKKI.jpg",
+		"imageUrl": "",
+		"cardText": "お年寄りを 中心に 人気。 緑の 部分が 大きいほど マニアの 評価は あがるらしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つよめにかえす",
+				"damage": "20＋",
+				"text": "前の相手の番に、このポケモンがバトル場でワザのダメージを受けていたなら、80ダメージ追加。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35342,
+		"multiId": "606_050",
+		"nameJp": "ゴマゾウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035342_P_GOMAZOU.jpg",
+		"imageUrl": "",
+		"cardText": "体は 小さいが 力持ち。 大人の 人を 軽々と 背中に 乗せて 歩いてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Asako Ito",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とっておき",
+				"damage": "50",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35343,
+		"multiId": "606_051",
+		"nameJp": "ドンファン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035343_P_DONFAN.jpg",
+		"imageUrl": "",
+		"cardText": "キバが 長くて 大きいほど 群れの中での ランクが 高い。 キバが 伸びるには 時間が かかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {
+			"name": "がんじょう",
+			"text": "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。"
+		},
+		"attacks": [
+			{
+				"name": "ローリングスピン",
+				"damage": "70",
+				"text": "次の自分の番、このポケモンの「ローリングスピン」のダメージは「+70」される。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35344,
+		"multiId": "606_052",
+		"nameJp": "カポエラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035344_P_KAPOERA.jpg",
+		"imageUrl": "",
+		"cardText": "踊るように 華麗で 滑らかな キック技に 見とれていると きつい 一撃を お見舞いされる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうそくスピン",
+				"damage": "30",
+				"text": "このポケモンをベンチポケモンと入れ替える。その後、相手は相手自身のバトルポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "トリプルキック",
+				"damage": "40×",
+				"text": "コインを3回投げ、オモテの数×40ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35345,
+		"multiId": "606_053",
+		"nameJp": "ヨーギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035345_P_YOGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {
+			"name": "もぐる",
+			"text": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35346,
+		"multiId": "606_054",
+		"nameJp": "ヨーギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035346_P_YOGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きずをえぐる",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンにダメカンが3個以上のっているなら、70ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35347,
+		"multiId": "606_055",
+		"nameJp": "サナギラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035347_P_SANAGIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "岩盤のような 硬い 殻に 覆われているが 力は 強く 暴れると 山も 崩れてしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {
+			"name": "だんがんしんか",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。次の相手の番の終わりまで、このポケモンは、相手のポケモンからワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35348,
+		"multiId": "606_056",
+		"nameJp": "アローラニャース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035348_P_ARORANYASU.jpg",
+		"imageUrl": "",
+		"cardText": "高いプライドを 傷つけられたり 額の 小判を 汚されると 狂ったような ヒステリーを 起こす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でばなをくじく",
+				"damage": "10＋",
+				"text": "後攻プレイヤーの最初の番なら、60ダメージ追加。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35349,
+		"multiId": "606_057",
+		"nameJp": "アローラペルシアン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035349_P_ARORAPERUSHIAN.jpg",
+		"imageUrl": "",
+		"cardText": "自分以外の すべてを 見下す。 不意打ちや 闇討ちなど ひれつで ひきょうな 戦法を 好む。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "コケおどし",
+				"damage": "90－",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージぶん、このワザのダメージは小さくなる。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35350,
+		"multiId": "606_058",
+		"nameJp": "ブラッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035350_P_BURAKKI.jpg",
+		"imageUrl": "",
+		"cardText": "闇に 溶け込む 黒い 体毛。 じっと 獲物の 隙を うかがい 喉笛 目掛けて 喰いかかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かたきうち",
+				"damage": "30＋",
+				"text": "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダークカッター",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35351,
+		"multiId": "606_059",
+		"nameJp": "バンギラスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035351_P_BANGIRASUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {
+			"name": "ロストアウト",
+			"text": "このポケモンのワザのダメージで、相手のポケモンがきぜつしたなら、そのポケモンと、ついているすべてのカードはトラッシュせず、ロストゾーンに置く。"
+		},
+		"attacks": [
+			{
+				"name": "あばれさじん",
+				"damage": "130",
+				"text": "相手のベンチのたねポケモン全員にも、それぞれ30ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "スマックダウンGX",
+				"damage": "220",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35352,
+		"multiId": "606_060",
+		"nameJp": "フォレトス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035352_P_FORETOSU.jpg",
+		"imageUrl": "",
+		"cardText": "木に くっついたまま 動かない。 硬い殻の 破片を ばらまいて 近づくものを 追い払う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トゲトゲふんしゃ",
+				"damage": "",
+				"text": "コインを3回投げ、オモテの数×10ダメージを、相手のポケモン全員にそれぞれ与える。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ロストボンバー",
+				"damage": "190",
+				"text": "このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35353,
+		"multiId": "606_061",
+		"nameJp": "ハッサム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035353_P_HASSAMU.jpg",
+		"imageUrl": "",
+		"cardText": "ひとたび 敵と 認識すると 鋼鉄の 硬度を 持つ ハサミで 容赦なく 叩き潰す。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {
+			"name": "かたいからだ",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "スペシャルブロー",
+				"damage": "60＋",
+				"text": "相手のバトルポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35354,
+		"multiId": "606_062",
+		"nameJp": "マリル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035354_P_MARIRU.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾の 先には 水より 軽い 油が つまっているので 浮き袋の かわりに なるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マジカルショット",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fairy",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35355,
+		"multiId": "606_063",
+		"nameJp": "マリルリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035355_P_MARIRURI.jpg",
+		"imageUrl": "",
+		"cardText": "お腹の 泡のような 模様は 水の 中で 自分の 姿を カモフラージュ してくれる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずたまさがし",
+				"damage": "",
+				"text": "自分の山札を上から8枚見て、その中にあるエネルギーを好きなだけ、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。",
+				"costs": [
+					"fairy"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "じゃれつく",
+				"damage": "60＋",
+				"text": "コインを1回投げオモテなら、30ダメージ追加。",
+				"costs": [
+					"fairy",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35356,
+		"multiId": "606_064",
+		"nameJp": "ブルー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035356_P_BURU.jpg",
+		"imageUrl": "",
+		"cardText": "唸り声は 相手を 不安に させる。 普段は のんびり屋で １日の 半分は 寝ているよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちらかす",
+				"damage": "20×",
+				"text": "自分の手札にあるトレーナーズを2枚までトラッシュし、その枚数×20ダメージ。",
+				"costs": [
+					"fairy"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35357,
+		"multiId": "606_065",
+		"nameJp": "グランブル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035357_P_GURANBURU.jpg",
+		"imageUrl": "",
+		"cardText": "ブルー 以上に 臆病。 見た目との ギャップが うけて 若い 女性に 大人気。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fairy"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スッカラカン",
+				"damage": "30＋",
+				"text": "自分の手札が1枚もないなら、130ダメージ追加。",
+				"costs": [
+					"fairy"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きょだいなキバ",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"fairy",
+					"fairy",
+					"fairy"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "dark",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35358,
+		"multiId": "606_066",
+		"nameJp": "ラッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035358_P_RAKKI.jpg",
+		"imageUrl": "",
+		"cardText": "数が 少ないうえに 逃げ足の 速い ポケモンなので 見つけた 人は 運が いいぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いやしのまい",
+				"damage": "",
+				"text": "自分のポケモン全員のHPを、それぞれ「20」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いたわりビンタ",
+				"damage": "100",
+				"text": "相手のバトルポケモンにダメカンがのっているなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35359,
+		"multiId": "606_067",
+		"nameJp": "ハピナス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035359_P_HAPINASU.jpg",
+		"imageUrl": "",
+		"cardText": "ふわふわの 体毛は センサー。 ポケモンや 人の 気持ちを キャッチすることが できるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "R",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "067",
+		"ability": {
+			"name": "ハッピーサプリ",
+			"text": "自分の番に1回使える。自分のバトルポケモンの特殊状態を1つ回復する。"
+		},
+		"attacks": [
+			{
+				"name": "パワフルビンタ",
+				"damage": "80×",
+				"text": "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35360,
+		"multiId": "606_068",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035360_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35361,
+		"multiId": "606_069",
+		"nameJp": "オドシシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035361_P_ODOSHISHI.jpg",
+		"imageUrl": "",
+		"cardText": "ツノの 曲がり具合が まわりの 空気の 流れを 微妙に 変え 不思議な 空間を 作り出す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つのでまどわす",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きょうかホーン",
+				"damage": "20＋",
+				"text": "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35362,
+		"multiId": "606_070",
+		"nameJp": "ドーブル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035362_P_DOBURU.jpg",
+		"imageUrl": "",
+		"cardText": "自分の 縄張りを 示す マークを 描き散らすので ドーブルの 多い 街の 壁は 落書き だらけ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "そっくりなぞる",
+				"damage": "",
+				"text": "相手の手札を見る。のぞむなら、その中にあるサポートを1枚選び、その効果を、このワザの効果として使う。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "テールスマッシュ",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35363,
+		"multiId": "606_071",
+		"nameJp": "ミルタンク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035363_P_MIRUTANKU.jpg",
+		"imageUrl": "",
+		"cardText": "ミルクを 採るため 育てる 人が ほとんどだが かなり たくましくて タフなので 戦いにも 向いている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ミルクほう",
+				"damage": "60×",
+				"text": "自分の手札にある「モーモーミルク」を好きなだけ相手に見せて、その枚数×60ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35364,
+		"multiId": "606_072",
+		"nameJp": "ルギアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035364_P_RUGIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコキネシス",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "わだつみのやいば",
+				"damage": "170",
+				"text": "次の自分の番、このポケモンは「わだつみのやいば」が使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ロストパージGX",
+				"damage": "",
+				"text": "相手のバトルポケモンと、ついているすべてのカードを、ロストゾーンに置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35365,
+		"multiId": "606_073",
+		"nameJp": "ツツケラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035365_P_TSUTSUKERA.jpg",
+		"imageUrl": "",
+		"cardText": "きのみが 餌。 喰らった後の タネを 弾として 口から 発射し 攻撃に 利用。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つつきおとす",
+				"damage": "10",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35366,
+		"multiId": "606_074",
+		"nameJp": "ツツケラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035366_P_TSUTSUKERA.jpg",
+		"imageUrl": "",
+		"cardText": "きのみが 餌。 喰らった後の タネを 弾として 口から 発射し 攻撃に 利用。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つきかえす",
+				"damage": "",
+				"text": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35367,
+		"multiId": "606_075",
+		"nameJp": "ケララッパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035367_P_KERARAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "クチバシを 反り返らせ 色んな 音で 鳴く。 かなり うるさいので 周りの 御宅には 嫌われるぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "075",
+		"ability": {
+			"name": "やまわたり",
+			"text": "このカードが手札にあるなら、自分の番に1回使えて、使ったなら、このカードをロストゾーンに置く。相手の山札を上から1枚見て、もとにもどす。そのカードがサポートの場合、のぞむなら、ロストゾーンに置く。"
+		},
+		"attacks": [
+			{
+				"name": "つつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35368,
+		"multiId": "606_076",
+		"nameJp": "ドデカバシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035368_P_DODEKABASHI.jpg",
+		"imageUrl": "",
+		"cardText": "体内の ガスを クチバシの 中で 爆発させ 木のタネを 発射。 大岩も 粉々にする パワー。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヒートビーク",
+				"damage": "40",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ドデカほう",
+				"damage": "160",
+				"text": "この番、このポケモンに進化していたなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35744,
+		"multiId": "606_096",
+		"nameJp": "ツボツボGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035744_P_TSUBOTSUBOGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "096",
+		"ability": {
+			"name": "まもりのツボ",
+			"text": "このポケモンは、ついているエネルギーが2個以下の相手のポケモンから、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "さんばいどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "まきつくGX",
+				"damage": "40",
+				"text": "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35745,
+		"multiId": "606_097",
+		"nameJp": "ズガドーンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035745_P_ZUGADONGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さくれつバーナー",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどとこんらんにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ビックリヘッド",
+				"damage": "50×",
+				"text": "自分の場のポケモンについている[fire]エネルギーを好きなだけロストゾーンに置き、その枚数×50ダメージ。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "バーストGX",
+				"damage": "",
+				"text": "自分のサイドを1枚トラッシュし、そのカードがエネルギーなら、自分のポケモンにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35746,
+		"multiId": "606_098",
+		"nameJp": "スイクンGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035746_P_SUIKUNGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "098",
+		"ability": {
+			"name": "げんえいのかぜ",
+			"text": "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "キュアストリーム",
+				"damage": "120",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ブライニクルGX",
+				"damage": "150",
+				"text": "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35747,
+		"multiId": "606_099",
+		"nameJp": "バンギラスGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035747_P_BANGIRASUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "099",
+		"ability": {
+			"name": "ロストアウト",
+			"text": "このポケモンのワザのダメージで、相手のポケモンがきぜつしたなら、そのポケモンと、ついているすべてのカードはトラッシュせず、ロストゾーンに置く。"
+		},
+		"attacks": [
+			{
+				"name": "あばれさじん",
+				"damage": "130",
+				"text": "相手のベンチのたねポケモン全員にも、それぞれ30ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "スマックダウンGX",
+				"damage": "220",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35748,
+		"multiId": "606_100",
+		"nameJp": "ルギアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035748_P_RUGIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコキネシス",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "わだつみのやいば",
+				"damage": "170",
+				"text": "次の自分の番、このポケモンは「わだつみのやいば」が使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ロストパージGX",
+				"damage": "",
+				"text": "相手のバトルポケモンと、ついているすべてのカードを、ロストゾーンに置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35369,
+		"multiId": "606_077",
+		"nameJp": "あとだしハンマー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035369_T_ATODASHIHANMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、後攻プレイヤーの最初の番しか使えない。\n\n相手の場のポケモンについているエネルギーを、1個トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35370,
+		"multiId": "606_078",
+		"nameJp": "ハイパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035370_T_HAIPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35371,
+		"multiId": "606_079",
+		"nameJp": "ふしぎなアメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035371_T_FUSHIGINAAME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札にある2進化ポケモンを1枚、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。（最初の自分の番と、この番出したばかりのたねポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35372,
+		"multiId": "606_080",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035372_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "080",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35373,
+		"multiId": "606_081",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035373_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35374,
+		"multiId": "606_082",
+		"nameJp": "モーモーミルク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035374_T_MOMOMIRUKU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモンを1匹選ぶ。コインを2回投げ、オモテの数×30ダメージぶん、そのポケモンのHPを回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "082",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35375,
+		"multiId": "606_083",
+		"nameJp": "ロストミキサー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035375_T_ROSUTOMIKISA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札を2枚、ロストゾーンに置く。その後、自分の山札を1枚引く。（自分の手札を2枚、ロストゾーンに置けないなら、このカードは使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35376,
+		"multiId": "606_084",
+		"nameJp": "こだわりハチマキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035376_T_KODAWARIHACHIMAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35377,
+		"multiId": "606_085",
+		"nameJp": "こだわりメット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035377_T_KODAWARIMETTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35378,
+		"multiId": "606_086",
+		"nameJp": "フェアリーチャーム草",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035378_T_FEARICHAMUKUSA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35379,
+		"multiId": "606_087",
+		"nameJp": "アカネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035379_T_AKANE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を1枚引く。自分のトラッシュに「アカネ」（このカードをのぞく）があるなら、その枚数×2枚ぶん、さらに山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35380,
+		"multiId": "606_088",
+		"nameJp": "ウツギ博士のレクチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035380_T_UTSUGIHAKASENOREKUCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にある、HPが「60」以下のポケモンを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35381,
+		"multiId": "606_089",
+		"nameJp": "ザオボー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035381_T_ZAOBO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の場のポケモンについている「ポケモンのどうぐ」「特殊エネルギー」と場に出ている「スタジアム」の中から1枚、ロストゾーンに置く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35382,
+		"multiId": "606_090",
+		"nameJp": "ハウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035382_T_HAU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35383,
+		"multiId": "606_091",
+		"nameJp": "リーリエ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035383_T_RIRIE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35384,
+		"multiId": "606_092",
+		"nameJp": "ルザミーネPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035384_T_RUZAMINE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、相手のサイドの残り枚数が3枚でなければ使えない。\n\n次の相手の番、自分の「ウルトラビースト」全員は、相手のポケモンからワザのダメージを受けない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "PRISMSTAR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "サポートは、自分の番に1枚しか使えない。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35385,
+		"multiId": "606_093",
+		"nameJp": "ヒートファクトリーPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035385_T_HITOFAKUTORI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札にある[fire]エネルギーを、1枚トラッシュしてよい。トラッシュした場合、自分の山札を3枚引く。\n\nこのスタジアムは、場に出ているかぎり、おたがいのプレイヤーが手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PRISMSTAR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35749,
+		"multiId": "606_101",
+		"nameJp": "アカネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035749_T_AKANE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を1枚引く。自分のトラッシュに「アカネ」（このカードをのぞく）があるなら、その枚数×2枚ぶん、さらに山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35750,
+		"multiId": "606_102",
+		"nameJp": "ウツギ博士のレクチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035750_T_UTSUGIHAKASENOREKUCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にある、HPが「60」以下のポケモンを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "102",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35751,
+		"multiId": "606_103",
+		"nameJp": "ザオボー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035751_T_ZAOBO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の場のポケモンについている「ポケモンのどうぐ」「特殊エネルギー」と場に出ている「スタジアム」の中から1枚、ロストゾーンに置く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "take",
+		"rarity": "SR",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "103",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35386,
+		"multiId": "606_094",
+		"nameJp": "ダブル無色エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035386_E_DABURUMUSHOKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、[colorless]エネルギー2個ぶんとしてはたらく。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35387,
+		"multiId": "606_095",
+		"nameJp": "メモリーエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM8/035387_E_MEMORIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、[colorless]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけているポケモンは、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "C",
+		"productNo": "606",
+		"set": "サン&ムーン 拡張パック「超爆インパクト」",
+		"setCode": "SM8",
+		"generation": "SM",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

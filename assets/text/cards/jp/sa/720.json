@@ -1,0 +1,4632 @@
+[
+	{
+		"cardId": 38407,
+		"multiId": "720_001",
+		"nameJp": "ビードル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038407_P_BIDORU.jpg",
+		"imageUrl": "",
+		"cardText": "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "むしのよかん",
+				"damage": "",
+				"text": "自分の山札から[grass]ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38408,
+		"multiId": "720_002",
+		"nameJp": "コクーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038408_P_KOKUN.jpg",
+		"imageUrl": "",
+		"cardText": "天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "だっぴ",
+				"damage": "",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "むしくい",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38409,
+		"multiId": "720_003",
+		"nameJp": "スピアー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038409_P_SUPIA.jpg",
+		"imageUrl": "",
+		"cardText": "集団で 現れることもある。 猛スピードで 飛び回り お尻の 毒針で 刺しまくる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "KEIICHIRO ITO",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {
+			"name": "しんしゅつきぼつ",
+			"text": "自分の番に、自分の手札がこのカード1枚だけなら、1回使える。このカードをベンチに出す。その後、自分の山札を3枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "するどいはり",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38410,
+		"multiId": "720_004",
+		"nameJp": "タマタマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038410_P_TAMATAMA.jpg",
+		"imageUrl": "",
+		"cardText": "６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タネばくだん",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38411,
+		"multiId": "720_005",
+		"nameJp": "ナッシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038411_P_NASSHI.jpg",
+		"imageUrl": "",
+		"cardText": "３つの頭は 皆 別の ことを 考えている。 行きたい 方向が 違うと 身動きが とれなくなる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "miki kudo",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドタマわり",
+				"damage": "30",
+				"text": "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザが使えない。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ソーラービーム",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38412,
+		"multiId": "720_006",
+		"nameJp": "ヤンヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038412_P_YANYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とんぼがえり",
+				"damage": "10",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カッターウインド",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38413,
+		"multiId": "720_007",
+		"nameJp": "メガヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038413_P_MEGAYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とんぼがえり",
+				"damage": "50",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "カッターウインド",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38414,
+		"multiId": "720_008",
+		"nameJp": "クヌギダマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038414_P_KUNUGIDAMA.jpg",
+		"imageUrl": "",
+		"cardText": "木の皮を 唾液で 貼り合わせ 厚く 大きくしていく。 年老いた クヌギダマは とてつもない でかさ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "てっぺき",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38415,
+		"multiId": "720_009",
+		"nameJp": "セレビィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038415_P_SEREBII.jpg",
+		"imageUrl": "",
+		"cardText": "時を 超える 力を もつ。 森の 神様として さまざまな 時代に 記録が 残されている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エナジープレス",
+				"damage": "30×",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージ。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アメイジングブルーム",
+				"damage": "",
+				"text": "自分のベンチポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。",
+				"costs": [
+					"electric",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38416,
+		"multiId": "720_010",
+		"nameJp": "シェイミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038416_P_SHIEIMI.jpg",
+		"imageUrl": "",
+		"cardText": "グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やどりぎのタネ",
+				"damage": "20",
+				"text": "このポケモンのHPを「20」回復する。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はなはこび",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、すべてウラにして切り、相手の山札の下にもどす。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38417,
+		"multiId": "720_011",
+		"nameJp": "ゲノセクト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038417_P_GENOSEKUTO.jpg",
+		"imageUrl": "",
+		"cardText": "３億年前に いた ポケモン。 プラズマ団に 改造 され 背中に 砲台を つけられた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちょくげきだん",
+				"damage": "",
+				"text": "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "テクノバスター",
+				"damage": "120",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38418,
+		"multiId": "720_012",
+		"nameJp": "ダダリン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038418_P_DADARIN.jpg",
+		"imageUrl": "",
+		"cardText": "海底を 漂う 藻屑が 沈没船の 部品を 取りこんで ゴーストポケモンに 生まれ変わった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかける",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スペシャルアンカー",
+				"damage": "60＋",
+				"text": "このポケモンに特殊エネルギーがついているなら、60ダメージ追加。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38419,
+		"multiId": "720_013",
+		"nameJp": "ザルードV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038419_P_ZARUDOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しばりつける",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ジャングルライズ",
+				"damage": "100",
+				"text": "のぞむなら、自分の手札から基本エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。その後、つけたポケモンのHPをすべて回復する。",
+				"costs": [
+					"grass",
+					"grass"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38420,
+		"multiId": "720_014",
+		"nameJp": "デンリュウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038420_P_DENRYUUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "せんこうだん",
+				"damage": "50",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ダメージスパーク",
+				"damage": "120",
+				"text": "ダメカンがのっている相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38421,
+		"multiId": "720_015",
+		"nameJp": "ライコウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038421_P_RAIKOU.jpg",
+		"imageUrl": "",
+		"cardText": "体内で 渦巻く 力を 電撃として 出しながら 大地を 駆け巡る 荒々しい ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アメイジングシュート",
+				"damage": "120",
+				"text": "相手のベンチポケモン1匹にも、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"grass",
+					"electric",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38422,
+		"multiId": "720_016",
+		"nameJp": "ラクライ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038422_P_RAKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38423,
+		"multiId": "720_017",
+		"nameJp": "ライボルト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038423_P_RAIBORUTO.jpg",
+		"imageUrl": "",
+		"cardText": "電気で 筋肉を 刺激するので 素早く 動ける。 筋肉痛も 電気で ほぐすので すぐ 治る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {
+			"name": "ハイスピード",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を3枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "ライトニングボール",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38424,
+		"multiId": "720_018",
+		"nameJp": "バチュル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038424_P_BACHURU.jpg",
+		"imageUrl": "",
+		"cardText": "ポケモンの 体に くっついて 静電気を 吸い取る。 自分では 電気を つくることが できない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "むしくい",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38425,
+		"multiId": "720_019",
+		"nameJp": "デンチュラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038425_P_DENCHURA.jpg",
+		"imageUrl": "",
+		"cardText": "電気を 帯びた お腹の 毛を 飛ばして 攻撃。 毛が 刺さると 三日三晩 全身が 痺れる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しびればり",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おいうちショック",
+				"damage": "20×",
+				"text": "相手のバトルポケモンにのっているダメカンの数×20ダメージ。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38426,
+		"multiId": "720_020",
+		"nameJp": "ゼクロム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038426_P_ZEKUROMU.jpg",
+		"imageUrl": "",
+		"cardText": "しっぽの 内部が モーターのように 回ると 何本もの 稲妻が 発生して 周囲を つらぬく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "hatachu",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きりさく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ワイルドショック",
+				"damage": "130",
+				"text": "このポケモンにも60ダメージ。相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38427,
+		"multiId": "720_021",
+		"nameJp": "ゼラオラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038427_P_ZERAORA.jpg",
+		"imageUrl": "",
+		"cardText": "雷に 匹敵する スピードで 走り 大電圧を 発する ツメで 敵を 八つ裂きにする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とうしのいかずち",
+				"damage": "30＋",
+				"text": "相手のバトルポケモンが「ポケモンV・GX」なら、80ダメージ追加。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38428,
+		"multiId": "720_022",
+		"nameJp": "バチンウニ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038428_P_BACHINUNI.jpg",
+		"imageUrl": "",
+		"cardText": "棘の 先から 電気を 放つ。 鋭い 歯で 岩に ついた 海藻を こそいで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くるくるスピン",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38429,
+		"multiId": "720_023",
+		"nameJp": "ピッピ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038429_P_PIPPI.jpg",
+		"imageUrl": "",
+		"cardText": "満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はたく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ちいさくゆびをふる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38430,
+		"multiId": "720_024",
+		"nameJp": "ピクシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038430_P_PIKUSHI.jpg",
+		"imageUrl": "",
+		"cardText": "妖精の 仲間で めったに 人前に 出てこない。 気配を 感じて すぐに 逃げてしまうようだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {
+			"name": "つきのめぐみ",
+			"text": "自分の番に1回使える。[psychic]エネルギーがついている自分のバトルポケモンのHPを「20」回復し、特殊状態も1つ回復する。"
+		},
+		"attacks": [
+			{
+				"name": "マジカルショット",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38431,
+		"multiId": "720_025",
+		"nameJp": "キリンリキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038431_P_KIRINRIKI.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコパワー",
+				"damage": "",
+				"text": "ダメカン2個を、相手のポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっぽでさしず",
+				"damage": "30",
+				"text": "のぞむなら、相手に相手自身の手札をすべて山札にもどして切らせる。その場合、相手は山札を4枚引く。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38432,
+		"multiId": "720_026",
+		"nameJp": "カゲボウズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038432_P_KAGEBOUZU.jpg",
+		"imageUrl": "",
+		"cardText": "日暮れに カゲボウズが 並ぶような 家とは 付き合うな と いう 古い ことわざが 残っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "のろう",
+				"damage": "",
+				"text": "相手のバトルポケモンに、ダメカンを1個のせる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38433,
+		"multiId": "720_027",
+		"nameJp": "ジュペッタ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038433_P_JUPETTA.jpg",
+		"imageUrl": "",
+		"cardText": "捨てられた 怨念で 生まれる。 大切に されると 満足して 元の ヌイグルミに 戻るという。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {
+			"name": "たいかののろい",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の進化しているベンチポケモンを1匹選び、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "ホロウショット",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38434,
+		"multiId": "720_028",
+		"nameJp": "デデンネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038434_P_DEDENNE.jpg",
+		"imageUrl": "",
+		"cardText": "上の ヒゲは 辺りを 探る センサーで 下に 生えた ヒゲは 電気を 放つ 器官 なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽでまどわす",
+				"damage": "10",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38435,
+		"multiId": "720_029",
+		"nameJp": "ゼルネアス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038435_P_ZERUNEASU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の ツノが 七色に 輝くとき 永遠の 命を 分け与えると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ジオハント",
+				"damage": "",
+				"text": "自分のトラッシュから好きなカードを1枚選び、相手に見せて、手札に加える。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "オーロラゲイン",
+				"damage": "100",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"psychic",
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38436,
+		"multiId": "720_030",
+		"nameJp": "ディアンシー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038436_P_DEIANSHI.jpg",
+		"imageUrl": "",
+		"cardText": "両手の すきまで 空気中の 炭素を 圧縮して たくさんの ダイヤを 一瞬で 生み出す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {
+			"name": "きらめきのベール",
+			"text": "このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "センシングレイ",
+				"damage": "50＋",
+				"text": "この番、手札からサポートを出して使っていたなら、70ダメージ追加。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38437,
+		"multiId": "720_031",
+		"nameJp": "マホイップV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038437_P_MAHOIPPUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぱらぱらシュガー",
+				"damage": "",
+				"text": "自分のベンチポケモン全員のHPを、それぞれ「30」回復する。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スイートスプラッシュ",
+				"damage": "100",
+				"text": "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38438,
+		"multiId": "720_032",
+		"nameJp": "マホイップVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038438_P_MAHOIPPUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "310",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かざりつけ",
+				"damage": "",
+				"text": "自分のベンチポケモン全員に、山札から[psychic]エネルギーを1枚ずつつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "キョダイホイッパー",
+				"damage": "60×",
+				"text": "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38439,
+		"multiId": "720_033",
+		"nameJp": "ザシアン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038439_P_ZASHIAN.jpg",
+		"imageUrl": "",
+		"cardText": "かつての 得物で 武装した。 キョダイマックスポケモンも 一刀の もとに 切り捨てる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きんぞくぶそう",
+				"damage": "30",
+				"text": "自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アメイジングソード",
+				"damage": "150＋",
+				"text": "相手の場に「ポケモンVMAX」がいるなら、150ダメージ追加。",
+				"costs": [
+					"grass",
+					"psychic",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38440,
+		"multiId": "720_034",
+		"nameJp": "ウパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038440_P_UPA.jpg",
+		"imageUrl": "",
+		"cardText": "冷たい 水の中で 生活。 あたりが 涼しくなると エサを 探しに 地上にも 現れる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マッドショット",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たたく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38441,
+		"multiId": "720_035",
+		"nameJp": "ヌオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038441_P_NUO.jpg",
+		"imageUrl": "",
+		"cardText": "船底や 川の岩に 頭を ぶつけまくっても 気にせず 気ままに 泳いでいる のんきな ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "otumami",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たたく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "きまぐれインパクト",
+				"damage": "180",
+				"text": "自分のサイドの残り枚数が6枚・4枚・2枚なら、このワザは失敗。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38442,
+		"multiId": "720_036",
+		"nameJp": "ツボツボ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038442_P_TSUBOTSUBO.jpg",
+		"imageUrl": "",
+		"cardText": "甲羅に 木の実を たくわえている。 襲われないように 岩の 下に こもって じっとしている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やましぼり",
+				"damage": "",
+				"text": "ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いわおとし",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38443,
+		"multiId": "720_037",
+		"nameJp": "レジロック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038443_P_REJIROKKU.jpg",
+		"imageUrl": "",
+		"cardText": "体を 作っている 岩石と 同じ 物が 世界中の あらゆる 地層で 見つかっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "がんせきおとし",
+				"damage": "40",
+				"text": "このワザのダメージは抵抗力を計算しない。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "メガトンフォール",
+				"damage": "130",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38444,
+		"multiId": "720_038",
+		"nameJp": "リオル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038444_P_RIORU.jpg",
+		"imageUrl": "",
+		"cardText": "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぜんりょくパンチ",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38445,
+		"multiId": "720_039",
+		"nameJp": "ジガルデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038445_P_JIGARUDE.jpg",
+		"imageUrl": "",
+		"cardText": "すべての ジガルデ・セルが 集まり 誕生する。 生態系を 乱すものを 武力で 鎮める。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビーム",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "コアリベンジャー",
+				"damage": "80＋",
+				"text": "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、80ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38446,
+		"multiId": "720_040",
+		"nameJp": "イワンコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038446_P_IWANKO.jpg",
+		"imageUrl": "",
+		"cardText": "首の 岩を こすりつけてくるのは 親愛の 証。 ただし 岩は 鋭いので かなり 痛いぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うしろげり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38447,
+		"multiId": "720_041",
+		"nameJp": "ルガルガン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038447_P_RUGARUGAN.jpg",
+		"imageUrl": "",
+		"cardText": "群れを 作らず １匹で 暮らす。 自分の 力を 引き出してくれる トレーナーの いうことしか 聞かない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いわおとし",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "するどいたてがみ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38448,
+		"multiId": "720_042",
+		"nameJp": "セキタンザンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038448_P_SEKITANZANV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "90",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ロックスマッシュ",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38449,
+		"multiId": "720_043",
+		"nameJp": "セキタンザンVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038449_P_SEKITANZANVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "330",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふんかだん",
+				"damage": "40＋",
+				"text": "自分の山札を上から1枚トラッシュし、そのカードがエネルギーなら、90ダメージ追加。その後、トラッシュしたエネルギーをこのポケモンにつける。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "キョダイガンセキ",
+				"damage": "240",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38450,
+		"multiId": "720_044",
+		"nameJp": "ザマゼンタ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038450_P_ZAMAZENTA.jpg",
+		"imageUrl": "",
+		"cardText": "いかなる 攻撃も 弾き返す 姿は 格闘王の盾 と 呼ばれ 恐れ 崇められた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きんぞくぶそう",
+				"damage": "30",
+				"text": "自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アメイジングシールド",
+				"damage": "180",
+				"text": "次の相手の番、このポケモンは「ポケモンVMAX」からワザのダメージを受けない。",
+				"costs": [
+					"electric",
+					"fighting",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38451,
+		"multiId": "720_045",
+		"nameJp": "フォレトス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038451_P_FORETOSU.jpg",
+		"imageUrl": "",
+		"cardText": "獲物を 呑み込む 一瞬だけ カラの 中身が 現れるが その 姿を 見た者は まだいない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とっしん",
+				"damage": "120",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "あいうちボンバー",
+				"damage": "",
+				"text": "おたがいのバトルポケモンをきぜつさせる。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38452,
+		"multiId": "720_046",
+		"nameJp": "ハガネールV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038452_P_HAGANERUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "レイジングハンマー",
+				"damage": "30＋",
+				"text": "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "アイアンタックル",
+				"damage": "210",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38453,
+		"multiId": "720_047",
+		"nameJp": "ダンバル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038453_P_DANBARU.jpg",
+		"imageUrl": "",
+		"cardText": "怒らせると 暴れるだけでなく 強い 磁力を 放つので 機械の 類は 壊れてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Aya Kusube",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38454,
+		"multiId": "720_048",
+		"nameJp": "メタング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038454_P_METANGU.jpg",
+		"imageUrl": "",
+		"cardText": "高速で 空を 飛びまわり 獲物を 見つけると 鋭いツメで がっちり つかんで 離さないのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kazuma Koda",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "メタルクロー",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "マグネブラスト",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38455,
+		"multiId": "720_049",
+		"nameJp": "メタグロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038455_P_METAGUROSU.jpg",
+		"imageUrl": "",
+		"cardText": "スーパーコンピュータよりも すごい 判断で 相手を 分析し 冷静に 追い詰めていくのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {
+			"name": "ふゆうじば",
+			"text": "このポケモンがいるかぎり、自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "レッグクエイク",
+				"damage": "100",
+				"text": "次の相手の番、このワザを受けた進化ポケモンは、ワザが使えない。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38456,
+		"multiId": "720_050",
+		"nameJp": "ジラーチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038456_P_JIRACHI.jpg",
+		"imageUrl": "",
+		"cardText": "１０００年に 一度 清らかな 歌声を 聞くことで ７日の あいだ だけ 目を 覚ます。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {
+			"name": "ゆめのおつげ",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を選び、手札に加える。残りのカードは、山札の上にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "アメイジングスター",
+				"damage": "",
+				"text": "自分の山札から基本エネルギーを7枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"psychic",
+					"fighting",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38457,
+		"multiId": "720_051",
+		"nameJp": "ルカリオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038457_P_RUKARIO.jpg",
+		"imageUrl": "",
+		"cardText": "大岩も 粉々に 砕く 波動と 呼ばれる 力を 操って 獲物を 狩る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スパイクドロー",
+				"damage": "40",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ナックルインパクト",
+				"damage": "160",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38458,
+		"multiId": "720_052",
+		"nameJp": "ディアルガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038458_P_DEIARUGA.jpg",
+		"imageUrl": "",
+		"cardText": "時間を 操る 力を 持つ。 シンオウ地方では 神様と 呼ばれ 神話に 登場する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クロックバック",
+				"damage": "",
+				"text": "自分のトラッシュから[steel]エネルギーを2枚まで選び、自分のポケモン1匹につける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はかいのせんこう",
+				"damage": "130",
+				"text": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38459,
+		"multiId": "720_053",
+		"nameJp": "ガラル マッギョ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038459_P_GARARUMAGGYO.jpg",
+		"imageUrl": "",
+		"cardText": "鉄分 たっぷりの 泥の 中で 生息していたため 頑丈な 鋼の 体に 変化した。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {
+			"name": "はんげき",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "はさんでしめる",
+				"damage": "90",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38460,
+		"multiId": "720_054",
+		"nameJp": "マギアナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038460_P_MAGIANA.jpg",
+		"imageUrl": "",
+		"cardText": "およそ ５００年前 科学者に よって 作られた。 ソウルハートと 呼ばれる パーツが 本体なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "オーバーホール",
+				"damage": "",
+				"text": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "からくりカノン",
+				"damage": "10＋",
+				"text": "相手のベンチポケモンの数×20ダメージ追加。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38461,
+		"multiId": "720_055",
+		"nameJp": "ルギア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038461_P_RUGIA.jpg",
+		"imageUrl": "",
+		"cardText": "海の神様と 伝えられる ポケモン。 嵐の 夜 姿を 見たという 話が 伝えられる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かぜおこし",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ウインドプレッシャー",
+				"damage": "250",
+				"text": "相手の手札が5枚以下なら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38462,
+		"multiId": "720_056",
+		"nameJp": "レックウザ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038462_P_REKKUUZA.jpg",
+		"imageUrl": "",
+		"cardText": "はるか 上空の オゾン層の 中を 飛んでいるため 最近まで 姿を 見た 者は いなかった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アメイジングバースト",
+				"damage": "80×",
+				"text": "このポケモンについている基本エネルギーをすべてトラッシュし、トラッシュした基本エネルギーのタイプの数×80ダメージ。",
+				"costs": [
+					"grass",
+					"electric",
+					"fighting"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38463,
+		"multiId": "720_057",
+		"nameJp": "ペラップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038463_P_PERAPPU.jpg",
+		"imageUrl": "",
+		"cardText": "人の 言葉を 覚えて 鳴く。 仲間が 一か所に 集まると みんな 同じ 言葉を 覚える。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちいさなおつかい",
+				"damage": "",
+				"text": "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38464,
+		"multiId": "720_058",
+		"nameJp": "トゲキッスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038464_P_TOGEKISSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "RR",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しろきかぜ",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンが進化ポケモンなら、70ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スピードウイング",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38465,
+		"multiId": "720_059",
+		"nameJp": "トゲキッスVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038465_P_TOGEKISSUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "310",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイグライド",
+				"damage": "120",
+				"text": "のぞむなら、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38466,
+		"multiId": "720_060",
+		"nameJp": "トルネロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038466_P_TORUNEROSU.jpg",
+		"imageUrl": "",
+		"cardText": "トルネロスの 尻尾から 噴き出した エネルギーが 大嵐を 起こす。 民家を 吹き飛ばす パワー。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "R",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ジェットドラフト",
+				"damage": "30",
+				"text": "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エアスラッシュ",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38467,
+		"multiId": "720_061",
+		"nameJp": "ツツケラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038467_P_TSUTSUKERA.jpg",
+		"imageUrl": "",
+		"cardText": "細く 見えるが 強靭な 首の 筋肉を持つ。 秒間 １６連打で 木を 突きまくるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38468,
+		"multiId": "720_062",
+		"nameJp": "ケララッパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038468_P_KERARAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "食べた きのみのタネを 口から 発射。 タネは大地に 散らばり 新たな 草木が 生まれるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {
+			"name": "とつげきラッパ",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から3枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "ドリルくちばし",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38469,
+		"multiId": "720_063",
+		"nameJp": "ドデカバシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038469_P_DODEKABASHI.jpg",
+		"imageUrl": "",
+		"cardText": "番いが 仲睦まじいことで 知られる。 縁起物 の 代わりに 結婚式に 連れて こられる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sekio",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エナジーカット",
+				"damage": "60",
+				"text": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ループキャノン",
+				"damage": "160",
+				"text": "このポケモンについているエネルギーを2個選び、手札にもどす。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38470,
+		"multiId": "720_064",
+		"nameJp": "スーパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038470_T_SUPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38471,
+		"multiId": "720_065",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038471_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38472,
+		"multiId": "720_066",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038472_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38473,
+		"multiId": "720_067",
+		"nameJp": "モーモーチーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038473_T_MOMOCHIZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "エネルギーがついている自分のポケモンを2匹まで選び、HPをそれぞれ「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38474,
+		"multiId": "720_068",
+		"nameJp": "英雄のメダル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038474_T_EIYUUNOMEDARU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38475,
+		"multiId": "720_069",
+		"nameJp": "ゴツゴツメット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038475_T_GOTSUGOTSUMETTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38476,
+		"multiId": "720_070",
+		"nameJp": "おとなのおねえさん",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038476_T_OTONANOONEESAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、先攻プレイヤーの最初の番でも使える。\n\n自分の山札を2枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38477,
+		"multiId": "720_071",
+		"nameJp": "オニオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038477_T_ONION.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。その後、自分の手札を3枚まで選び、トラッシュする。（必ず1枚はトラッシュする。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38478,
+		"multiId": "720_072",
+		"nameJp": "ポプラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038478_T_POPURA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "コインを2回投げ、オモテの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38479,
+		"multiId": "720_073",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038479_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38480,
+		"multiId": "720_074",
+		"nameJp": "アロマ草エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038480_E_AROMAKUSAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[grass]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[grass]ポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38481,
+		"multiId": "720_075",
+		"nameJp": "ストーン闘エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038481_E_SUTONTOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[fighting]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[fighting]ポケモンが、相手のポケモンから受けるワザのダメージは「-20」される。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38482,
+		"multiId": "720_076",
+		"nameJp": "ツインエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3a/038482_E_TSUINENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、【無】エネルギー2個ぶんとしてはたらく。\n\n「ポケモンV・GX」についているなら、【無】エネルギー1個ぶんとしてはたらく。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "720",
+		"set": "強化拡張パック「伝説の鼓動」",
+		"setCode": "S3a",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

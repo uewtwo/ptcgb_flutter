@@ -1,0 +1,1040 @@
+[
+	{
+		"cardId": 38320,
+		"multiId": "716_048",
+		"nameJp": "エビワラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038320_P_EBIWARA.jpg",
+		"imageUrl": "",
+		"cardText": "腕を ねじりながら 繰り出す パンチは コンクリートも 粉砕。 ３分 戦うと ひとやすみする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヒット&アウェー",
+				"damage": "30",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マグナムパンチ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38321,
+		"multiId": "716_049",
+		"nameJp": "グラードン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038321_P_GURADON.jpg",
+		"imageUrl": "",
+		"cardText": "高熱で 水を 蒸発させて 大地を 広げたと 言われている。 カイオーガと 激しく 戦った。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひでり",
+				"damage": "",
+				"text": "自分の手札にある[fighting]エネルギーを2枚まで、自分のポケモン1匹につける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ふるえるだいち",
+				"damage": "130",
+				"text": "次の自分の番、このポケモンは「ふるえるだいち」が使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38322,
+		"multiId": "716_050",
+		"nameJp": "ルカリオV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038322_P_RUKARIOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はどうだん",
+				"damage": "40",
+				"text": "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ビートスマッシュ",
+				"damage": "180",
+				"text": "次の自分の番、このポケモンは「ビートスマッシュ」が使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38323,
+		"multiId": "716_051",
+		"nameJp": "ヤンチャム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038323_P_YANCHAMU.jpg",
+		"imageUrl": "",
+		"cardText": "ゴロンダの あとを 子分の ように ついていく。 大きな 失敗を すると 葉っぱを 取られてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Motofumi Fujiwara",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パンチ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38324,
+		"multiId": "716_052",
+		"nameJp": "ゴロンダ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038324_P_GORONDA.jpg",
+		"imageUrl": "",
+		"cardText": "腕っ節が 自慢の ワイルドな ポケモン。 豪快な 性質に 惚れこむ トレーナーも 多い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なぐる",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マグナムパンチ",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38325,
+		"multiId": "716_053",
+		"nameJp": "イワンコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038325_P_IWANKO.jpg",
+		"imageUrl": "",
+		"cardText": "首の 岩を こすりつけてくるのは 親愛の 証。 ただし 岩は 鋭いので かなり 痛いぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38326,
+		"multiId": "716_054",
+		"nameJp": "ルガルガン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038326_P_RUGARUGAN.jpg",
+		"imageUrl": "",
+		"cardText": "タテガミの 岩は ナイフより 鋭い 切れ味。 欠けた 破片は お守り として 大切に される。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いわおとし",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スラッシュダウン",
+				"damage": "150",
+				"text": "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38327,
+		"multiId": "716_055",
+		"nameJp": "スナヘビ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038327_P_SUNAHEBI.jpg",
+		"imageUrl": "",
+		"cardText": "鼻の 穴から 砂を 噴射。 敵の 目を くらました 隙に 地中に 潜って 身を 隠す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すなかけ",
+				"damage": "",
+				"text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38328,
+		"multiId": "716_056",
+		"nameJp": "サダイジャ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038328_P_SADAIJA.jpg",
+		"imageUrl": "",
+		"cardText": "独特の とぐろの 巻き方は 砂袋の 砂を より 効率 よく 噴射 するため なのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とぐろをまく",
+				"damage": "10",
+				"text": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「＋120」される。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ロケットずつき",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38360,
+		"multiId": "716_088",
+		"nameJp": "クイックボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038360_T_KUIKKUBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の山札からたねポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38363,
+		"multiId": "716_091",
+		"nameJp": "スーパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038363_T_SUPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38369,
+		"multiId": "716_097",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038369_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38370,
+		"multiId": "716_098",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038370_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38372,
+		"multiId": "716_100",
+		"nameJp": "リセットスタンプ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038372_T_RISETTOSUTANPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "相手は相手自身の手札をすべて山札にもどして切る。その後、相手は相手自身のサイドの残り枚数ぶん、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38376,
+		"multiId": "716_104",
+		"nameJp": "しあわせタマゴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038376_T_SHIAWASETAMAGO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "104",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38383,
+		"multiId": "716_111",
+		"nameJp": "ダンペイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038383_T_DANPEI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を2枚引く。相手プレイヤーとジャンケンをし、自分が勝ったなら、さらに2枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "111",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38385,
+		"multiId": "716_113",
+		"nameJp": "博士の研究（マグノリア博士）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038385_T_HAKASENOKENKYUUMAGUNORIAHAKASE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "113",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38387,
+		"multiId": "716_115",
+		"nameJp": "ポケモンごっこ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038387_T_POKEMONGOKKO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "115",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38389,
+		"multiId": "716_117",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038389_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "117",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38392,
+		"multiId": "716_120",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038392_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "120",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38397,
+		"multiId": "716_125",
+		"nameJp": "格闘道場",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038397_T_KAKUTOUDOUJOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいの基本[fighting]エネルギーがついているポケモン（「ウルトラビースト」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「＋10」され、自分のサイドの残り枚数が、相手より多いなら「＋40」になる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "125",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37747,
+		"multiId": "716_FIG",
+		"nameJp": "基本闘エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large//037747_E_KIHONTOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "716",
+		"set": "Vスタートデッキ闘　ルカリオ",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "FIG",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

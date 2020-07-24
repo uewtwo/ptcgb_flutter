@@ -1,0 +1,4698 @@
+[
+	{
+		"cardId": 38493,
+		"multiId": "S-P_108",
+		"nameJp": "ザルードV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038493_P_ZARUDOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "108",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しばりつける",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ジャングルライズ",
+				"damage": "100",
+				"text": "のぞむなら、自分の手札から基本エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。その後、つけたポケモンのHPをすべて回復する。",
+				"costs": [
+					"grass",
+					"grass"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38272,
+		"multiId": "S-P_099",
+		"nameJp": "名探偵ピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038272_P_MEITANTEIPIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "ウンチクを 語るのが 好き。 表情 豊かで おっさん みたいな ピカチュウ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "099",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とぼとぼかえる",
+				"damage": "",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっぽではたく",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38271,
+		"multiId": "S-P_098",
+		"nameJp": "基本フェアリーエネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038271_E_KIHONFEARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38270,
+		"multiId": "S-P_097",
+		"nameJp": "基本鋼エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038270_E_KIHONKOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38269,
+		"multiId": "S-P_096",
+		"nameJp": "基本悪エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038269_E_KIHONAKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38268,
+		"multiId": "S-P_095",
+		"nameJp": "基本闘エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038268_E_KIHONTOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38267,
+		"multiId": "S-P_094",
+		"nameJp": "基本超エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038267_E_KIHONCHOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38266,
+		"multiId": "S-P_093",
+		"nameJp": "基本雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038266_E_KIHONKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38265,
+		"multiId": "S-P_092",
+		"nameJp": "基本水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038265_E_KIHONMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38264,
+		"multiId": "S-P_091",
+		"nameJp": "基本炎エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038264_E_KIHONHONOOENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38263,
+		"multiId": "S-P_090",
+		"nameJp": "基本草エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038263_E_KIHONKUSAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38262,
+		"multiId": "S-P_084",
+		"nameJp": "フォクスライ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038262_P_FOKUSURAI.jpg",
+		"imageUrl": "",
+		"cardText": "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "てしたをよぶ",
+				"damage": "",
+				"text": "自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おいつめる",
+				"damage": "80",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38261,
+		"multiId": "S-P_083",
+		"nameJp": "基本悪エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038261_E_KIHONAKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "※ロゴあり（専用キャンペーン）",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38260,
+		"multiId": "S-P_082",
+		"nameJp": "ガラル タチフサグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038260_P_GARARUTACHIFUSAGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "082",
+		"ability": {
+			"name": "バッドルーラー",
+			"text": "自分の番に1回使える。相手は相手自身の手札を、4枚になるようにトラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "ナックルインパクト",
+				"damage": "180",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38259,
+		"multiId": "S-P_081",
+		"nameJp": "フーパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038259_P_FUPA.jpg",
+		"imageUrl": "",
+		"cardText": "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アサルトゲート",
+				"damage": "90",
+				"text": "この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。このワザのダメージは弱点を計算しない。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38258,
+		"multiId": "S-P_080",
+		"nameJp": "ムゲンダイナVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038258_P_MUGENDAINAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "340",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "080",
+		"ability": {
+			"name": "ムゲンゾーン",
+			"text": "自分の場のポケモン全員が[dark]タイプならはたらく。自分のベンチに出せる[dark]ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）"
+		},
+		"attacks": [
+			{
+				"name": "ドレッドエンド",
+				"damage": "30×",
+				"text": "自分の場の[dark]ポケモンの数×30ダメージ。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38257,
+		"multiId": "S-P_079",
+		"nameJp": "ムゲンダイナV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038257_P_MUGENDAINAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーアクセル",
+				"damage": "30",
+				"text": "のぞむなら、自分の手札から[dark]エネルギーを1枚選び、ベンチポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイマックスほう",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38256,
+		"multiId": "S-P_078",
+		"nameJp": "ヤロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038256_T_YARO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札を2枚までトラッシュし、その枚数×2枚、自分の山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38255,
+		"multiId": "S-P_077",
+		"nameJp": "ウカッツ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038255_T_UKATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札から「めずらしい化石」を2枚まで選び、ベンチに出す。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38254,
+		"multiId": "S-P_076",
+		"nameJp": "ヨクバリスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038254_P_YOKUBARISUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみくだく",
+				"damage": "40",
+				"text": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "でんぐりプレス",
+				"damage": "180",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38253,
+		"multiId": "S-P_075",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038253_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しんかのきざし",
+				"damage": "",
+				"text": "「イーブイ」から進化するカードを、自分の山札から1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "けりつける",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38252,
+		"multiId": "S-P_074",
+		"nameJp": "ゾウドウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038252_P_ZOUDOU.jpg",
+		"imageUrl": "",
+		"cardText": "５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かいりき",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38251,
+		"multiId": "S-P_073",
+		"nameJp": "イトマル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038251_P_ITOMARU.jpg",
+		"imageUrl": "",
+		"cardText": "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶらさがる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "チクチクさす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38250,
+		"multiId": "S-P_072",
+		"nameJp": "ナックラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038250_P_NAKKURA.jpg",
+		"imageUrl": "",
+		"cardText": "砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "だいちのこどう",
+				"damage": "10＋",
+				"text": "場にスタジアムが出ているなら、10ダメージ追加。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38249,
+		"multiId": "S-P_071",
+		"nameJp": "シャワーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038249_P_SHAWAZU.jpg",
+		"imageUrl": "",
+		"cardText": "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {
+			"name": "みずがくれ",
+			"text": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "60＋",
+				"text": "このポケモンについている[water]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38248,
+		"multiId": "S-P_070",
+		"nameJp": "フクスロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038248_P_FUKUSURO.jpg",
+		"imageUrl": "",
+		"cardText": "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38247,
+		"multiId": "S-P_069",
+		"nameJp": "ポケモンセンターのお姉さん",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038247_T_POKEMONSENTANOONEESAN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のポケモンを1匹選び、そのポケモンのHPを「60」回復し、特殊状態もすべて回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38138,
+		"multiId": "S-P_068",
+		"nameJp": "モルペコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038138_P_MORUPEKO.jpg",
+		"imageUrl": "",
+		"cardText": "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ペコペコ",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "でんきショック",
+				"damage": "40",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38137,
+		"multiId": "S-P_089",
+		"nameJp": "マオ&スイレン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038137_T_MAOSUIREN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。\n\n追加で、このカードを使うときに、自分の手札を2枚トラッシュしてよい。その場合、ベンチに入れ替えたポケモンのHPを「120」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38136,
+		"multiId": "S-P_088",
+		"nameJp": "シロナ&カトレア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038136_T_SHIRONAKATOREA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュにあるサポート（「シロナ&カトレア」とこのカードの効果でトラッシュされたカードをのぞく）を1枚、相手に見せてから、手札に加える。\n\n追加で、このカードを使うときに、自分の手札を1枚トラッシュしてよい。その場合、自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38135,
+		"multiId": "S-P_087",
+		"nameJp": "グズマ&ハラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038135_T_GUZUMAHARA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にある「スタジアム」を1枚、相手に見せてから、手札に加える。そして山札を切る。\n\n追加で、このカードを使うときに、自分の手札を2枚トラッシュしてよい。その場合、「ポケモンのどうぐ」と「特殊エネルギー」も1枚ずつ手札に加えられる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38134,
+		"multiId": "S-P_086",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038134_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38133,
+		"multiId": "S-P_085",
+		"nameJp": "エール団のしたっぱ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038133_T_ERUDANNOSHITAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38011,
+		"multiId": "S-P_058",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038011_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38010,
+		"multiId": "S-P_057",
+		"nameJp": "ポケモンごっこ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038010_T_POKEMONGOKKO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38009,
+		"multiId": "S-P_056",
+		"nameJp": "ビート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038009_T_BITO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札から基本エネルギーを1枚選び、ベンチポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38008,
+		"multiId": "S-P_055",
+		"nameJp": "げんきのハチマキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038008_T_GENKINOHACHIMAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38007,
+		"multiId": "S-P_054",
+		"nameJp": "モンスターボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038007_T_MONSUTABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38006,
+		"multiId": "S-P_053",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038006_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38005,
+		"multiId": "S-P_052",
+		"nameJp": "ふしぎなアメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038005_T_FUSHIGINAAME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。（最初の自分の番と、この番出したばかりのポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38004,
+		"multiId": "S-P_051",
+		"nameJp": "きずぐすり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038004_T_KIZUGUSURI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモンを1匹選び、HPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38003,
+		"multiId": "S-P_050",
+		"nameJp": "メッソン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038003_P_MESSON.jpg",
+		"imageUrl": "",
+		"cardText": "怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38002,
+		"multiId": "S-P_049",
+		"nameJp": "スピード雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038002_E_SUPIDOKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[electric]エネルギー1個ぶんとしてはたらく。\n\nこのカードを手札から[electric]ポケモンにつけたとき、自分の山札を2枚引く。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38001,
+		"multiId": "S-P_048",
+		"nameJp": "ストリンダーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038001_P_SUTORINDAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいでん",
+				"damage": "",
+				"text": "自分のトラッシュから[electric]エネルギーを1枚選び、このポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ベノムスラップ",
+				"damage": "120",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38000,
+		"multiId": "S-P_047",
+		"nameJp": "バチンウニ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/038000_P_BACHINUNI.jpg",
+		"imageUrl": "",
+		"cardText": "棘の 先から 電気を 放つ。 鋭い 歯で 岩に ついた 海藻を こそいで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダブルドロー",
+				"damage": "",
+				"text": "自分の山札を2枚引く。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "びりびりちくちく",
+				"damage": "50",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37999,
+		"multiId": "S-P_046",
+		"nameJp": "ソニア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037999_T_SONIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札からたねポケモンを2枚まで、または基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37998,
+		"multiId": "S-P_045",
+		"nameJp": "逆境グローブ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037998_T_GYAKKYOUGUROBU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37997,
+		"multiId": "S-P_044",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037997_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "You Iribi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しんかのきざし",
+				"damage": "",
+				"text": "「イーブイ」から進化するカードを、自分の山札から1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "けりつける",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37996,
+		"multiId": "S-P_043",
+		"nameJp": "ヤブクロン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037996_P_YABUKURON.jpg",
+		"imageUrl": "",
+		"cardText": "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ベノムショック",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37995,
+		"multiId": "S-P_042",
+		"nameJp": "タンドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037995_P_TANDON.jpg",
+		"imageUrl": "",
+		"cardText": "およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37994,
+		"multiId": "S-P_041",
+		"nameJp": "ミブリム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037994_P_MIBURIMU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 突起で 生物の 気持ちを 感じとる。 穏やかな ものにしか 心を 開かない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ともだちをさがす",
+				"damage": "",
+				"text": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコショット",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37993,
+		"multiId": "S-P_040",
+		"nameJp": "ポットデスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037993_P_POTTODESUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {
+			"name": "びっくりポット",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札の下にもどす。"
+		},
+		"attacks": [
+			{
+				"name": "サイコトリップ",
+				"damage": "100",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37992,
+		"multiId": "S-P_039",
+		"nameJp": "ルクシオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037992_P_RUKUSHIO.jpg",
+		"imageUrl": "",
+		"cardText": "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 相手を気絶させる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {
+			"name": "トップエントリー",
+			"text": "自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。"
+		},
+		"attacks": [
+			{
+				"name": "エレキック",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37991,
+		"multiId": "S-P_038",
+		"nameJp": "ブースター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037991_P_BUSUTA.jpg",
+		"imageUrl": "",
+		"cardText": "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "You Iribi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こがす",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メラメラ",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。その後、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37990,
+		"multiId": "S-P_037",
+		"nameJp": "ダイオウドウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037990_P_DAIOUDOUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こんごうプレス",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "たたきつぶす",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37989,
+		"multiId": "S-P_036",
+		"nameJp": "救助隊DXのピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037989_P_KYUUJOTAIDXNOPIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "ある日 目が 覚めたら ピカチュウに なっちゃった！ 困った ポケモンを 助けるため 救助隊を 結成したぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Spike Chunsoft.",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ともだちきゅうじょ",
+				"damage": "",
+				"text": "自分のトラッシュからポケモンを1枚選び、相手に見せて、手札に加える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキボール",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37884,
+		"multiId": "S-P_035",
+		"nameJp": "モルペコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037884_P_MORUPEKO.jpg",
+		"imageUrl": "",
+		"cardText": "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ペコペコ",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "でんきショック",
+				"damage": "40",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37797,
+		"multiId": "S-P_034",
+		"nameJp": "ヒバニー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037797_P_HIBANI.jpg",
+		"imageUrl": "",
+		"cardText": "走りまわって 体温を 上げると 炎エネルギーが 体を 巡り 本来の 力を 発揮できる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおでこがす",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37796,
+		"multiId": "S-P_S-P",
+		"nameJp": "勝利の証",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037796_T_SHOURINOSHOUKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "S-P",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37795,
+		"multiId": "S-P_S-P",
+		"nameJp": "勝利の証",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037795_T_SHOURINOSHOUKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "S-P",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37794,
+		"multiId": "S-P_S-P",
+		"nameJp": "勝利の証",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037794_T_SHOURINOSHOUYUUSHOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "S-P",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37793,
+		"multiId": "S-P_033",
+		"nameJp": "バチンウニV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037793_P_BACHINUNIV.jpg",
+		"imageUrl": "",
+		"cardText": "棘の 先から 電気を 放つ。 鋭い 歯で 岩に ついた 海藻を こそいで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {
+			"name": "はんげきバリバリ",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、自分はコインを3回投げ、オモテの数×3個のダメカンを、ワザを使ったポケモンにのせる。"
+		},
+		"attacks": [
+			{
+				"name": "スパーキングアタック",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37792,
+		"multiId": "S-P_032",
+		"nameJp": "モルペコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037792_P_MORUPEKO.jpg",
+		"imageUrl": "",
+		"cardText": "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きずにうちこむ",
+				"damage": "10＋",
+				"text": "相手のバトルポケモンにダメカンがのっているなら、50ダメージ追加。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37791,
+		"multiId": "S-P_031",
+		"nameJp": "ともだちてちょう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037791_T_TOMODACHITECHOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュからサポートを2枚まで選び、相手に見せて、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37783,
+		"multiId": "S-P_030",
+		"nameJp": "ジュラルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037783_P_JURARUDON.jpg",
+		"imageUrl": "",
+		"cardText": "磨きあげた 金属の ような 体は 軽いうえに 硬いが 錆びやすいのが 欠点なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "メタルクロー",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "てっていこうせん",
+				"damage": "150",
+				"text": "このポケモンにも40ダメージ。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37782,
+		"multiId": "S-P_027",
+		"nameJp": "ビート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037782_T_BITO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札から基本エネルギーを1枚選び、ベンチポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37781,
+		"multiId": "S-P_026",
+		"nameJp": "ヨルノズク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037781_P_YORUNOZUKU.jpg",
+		"imageUrl": "",
+		"cardText": "ものごとを 考えだすと 首を １８０度 回転 させて 頭の 働きを 高める。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つばさでうつ",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "やまにつれさる",
+				"damage": "",
+				"text": "このポケモンと、相手のベンチポケモンを1匹選び、それぞれのポケモンと、ついているすべてのカードを、山札にもどして切る。相手のベンチポケモンがいないなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37780,
+		"multiId": "S-P_025",
+		"nameJp": "ガラル ポニータ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037780_P_GARARUPONITA.jpg",
+		"imageUrl": "",
+		"cardText": "小さな ツノに 癒しの 力を 秘めている。 ちょっとした 傷なら ツノを すり寄せ 治して くれる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いやしのはどう",
+				"damage": "",
+				"text": "自分のポケモンを1匹選び、HPを「30」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はねまわる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37779,
+		"multiId": "S-P_024",
+		"nameJp": "ピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037779_P_PIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽをふる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ピカボルト",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37778,
+		"multiId": "S-P_023",
+		"nameJp": "マンタイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037778_P_MANTAIN.jpg",
+		"imageUrl": "",
+		"cardText": "泳いで スピードが のってくると 波の上に 飛びだし そのまま １００メートルも 滑空 する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずため",
+				"damage": "",
+				"text": "自分の山札から[water]エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スプラッシュ",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37777,
+		"multiId": "S-P_022",
+		"nameJp": "エースバーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037777_P_ESUBAN.jpg",
+		"imageUrl": "",
+		"cardText": "小石を リフティングして 炎の サッカーボールを つくる。 するどい シュートで 相手を 燃やす。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおをまとう",
+				"damage": "40",
+				"text": "自分のトラッシュから[fire]エネルギーを1枚選び、このポケモンにつける。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぐれんのほのお",
+				"damage": "160",
+				"text": "コインを1回投げウラなら、このポケモンについているエネルギーを2個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37776,
+		"multiId": "S-P_021",
+		"nameJp": "ヒメンカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037776_P_HIMENKA.jpg",
+		"imageUrl": "",
+		"cardText": "一本足を 地面に 刺して 陽の光を たっぷり 浴びると 花びらが 鮮やかに 色づく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "うたう",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37775,
+		"multiId": "S-P_020",
+		"nameJp": "コオリッポV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037775_P_KOORIPPOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {
+			"name": "れいききゅうしゅう",
+			"text": "自分の番に、自分の手札から[water]エネルギーをこのポケモンにつけるたび、このポケモンのHPを「30」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ふぶき",
+				"damage": "120",
+				"text": "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37774,
+		"multiId": "S-P_019",
+		"nameJp": "モンスターボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037774_T_MONSUTABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37773,
+		"multiId": "S-P_018",
+		"nameJp": "なんでもなおし",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037773_T_NANDEMONAOSHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンの特殊状態を、すべて回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37772,
+		"multiId": "S-P_017",
+		"nameJp": "きずぐすり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037772_T_KIZUGUSURI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモンを1匹選び、HPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37771,
+		"multiId": "S-P_016",
+		"nameJp": "基本鋼エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037771_E_KIHONKOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37770,
+		"multiId": "S-P_015",
+		"nameJp": "基本悪エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037770_E_KIHONAKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37769,
+		"multiId": "S-P_014",
+		"nameJp": "基本闘エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037769_E_KIHONTOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37768,
+		"multiId": "S-P_013",
+		"nameJp": "基本超エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037768_E_KIHONCHOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37767,
+		"multiId": "S-P_012",
+		"nameJp": "基本雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037767_E_KIHONKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37766,
+		"multiId": "S-P_011",
+		"nameJp": "基本水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037766_E_KIHONMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37765,
+		"multiId": "S-P_010",
+		"nameJp": "基本炎エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037765_E_KIHONHONOOENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37764,
+		"multiId": "S-P_009",
+		"nameJp": "基本草エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037764_E_KIHONKUSAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37610,
+		"multiId": "S-P_004",
+		"nameJp": "ウールー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037610_P_URU.jpg",
+		"imageUrl": "",
+		"cardText": "パーマの かかった 体毛は 高い クッション性が ある。 崖から 落ちても へっちゃら。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まるくなる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ずつき",
+				"damage": "20",
+				"text": "0",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37609,
+		"multiId": "S-P_029",
+		"nameJp": "ニャースVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037609_P_NYASUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キョダイコバン",
+				"damage": "200",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37608,
+		"multiId": "S-P_028",
+		"nameJp": "ニャースV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037608_P_NYASUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ネコにこばん",
+				"damage": "30",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37607,
+		"multiId": "S-P_008",
+		"nameJp": "メッソン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037607_P_MESSON.jpg",
+		"imageUrl": "",
+		"cardText": "怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なきごえ",
+				"damage": "",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みずかけ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37606,
+		"multiId": "S-P_007",
+		"nameJp": "サルノリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037606_P_SARUNORI.jpg",
+		"imageUrl": "",
+		"cardText": "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まっしぐら",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37605,
+		"multiId": "S-P_006",
+		"nameJp": "ヒバニー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037605_P_HIBANI.jpg",
+		"imageUrl": "",
+		"cardText": "走りまわって 体温を 上げると 炎エネルギーが 体を 巡り 本来の 力を 発揮できる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さきどり",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひだね",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37604,
+		"multiId": "S-P_005",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037604_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37603,
+		"multiId": "S-P_003",
+		"nameJp": "レックウザ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037603_P_REKKUUZA.jpg",
+		"imageUrl": "",
+		"cardText": "はるか 上空の オゾン層の 中を 飛んでいるため 最近まで 姿を 見た 者は いなかった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くらいつく",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "パワーブラスト",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37602,
+		"multiId": "S-P_002",
+		"nameJp": "シブヤのピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037602_P_SHIBUYANOPIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ニューオープン",
+				"damage": "",
+				"text": "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみなり",
+				"damage": "80",
+				"text": "コインを1回投げウラなら、このポケモンにも20ダメージ。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37601,
+		"multiId": "S-P_001",
+		"nameJp": "ピカチュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/037601_P_PIKACHUU.jpg",
+		"imageUrl": "",
+		"cardText": "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "PROMO",
+		"productNo": "S-P",
+		"set": "ソード&シールド プロモカード",
+		"setCode": "S-P",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アイアンテール",
+				"damage": "30×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "エレキボール",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

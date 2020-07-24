@@ -1,0 +1,1109 @@
+[
+	{
+		"cardId": 38329,
+		"multiId": "717_057",
+		"nameJp": "アーボ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038329_P_ABO.jpg",
+		"imageUrl": "",
+		"cardText": "とりポケモンの タマゴが 好物。 噛まずに 丸呑みするので 喉が 詰まって 気を 失うことも。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっぽのムチ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38330,
+		"multiId": "717_058",
+		"nameJp": "アーボック",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038330_P_ABOKKU.jpg",
+		"imageUrl": "",
+		"cardText": "お腹の 模様で ひるませると 素早く 身体で 締め上げて 相手の 鼓動が 止まるのを 待つ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "するどいキバ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっぽのムチ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38331,
+		"multiId": "717_059",
+		"nameJp": "ガラル ヤドランV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038331_P_GARARUYADORANV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {
+			"name": "はやうちどく",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをどくにする。"
+		},
+		"attacks": [
+			{
+				"name": "あしどめショット",
+				"damage": "130",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38332,
+		"multiId": "717_060",
+		"nameJp": "ベトベター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038332_P_BETOBETA.jpg",
+		"imageUrl": "",
+		"cardText": "最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふみならす",
+				"damage": "",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘドロのうず",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38333,
+		"multiId": "717_061",
+		"nameJp": "スコルピ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038333_P_SUKORUPI.jpg",
+		"imageUrl": "",
+		"cardText": "毒のある しっぽの ツメで 襲いかかる。 挟まれると 毒が 染みて 動けなくなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どくばり",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38334,
+		"multiId": "717_062",
+		"nameJp": "ドラピオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038334_P_DORAPION.jpg",
+		"imageUrl": "",
+		"cardText": "砂の悪魔と 呼ばれるほど 獰猛だが カバルドンには ケンカも 売らず おとなしい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハードプレス",
+				"damage": "80",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ポイズンアタック",
+				"damage": "130",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38335,
+		"multiId": "717_063",
+		"nameJp": "ヤブクロン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038335_P_YABUKURON.jpg",
+		"imageUrl": "",
+		"cardText": "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ベノムショック",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38336,
+		"multiId": "717_064",
+		"nameJp": "ベロバー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038336_P_BEROBA.jpg",
+		"imageUrl": "",
+		"cardText": "人や ポケモンが 嫌がる ときに 発する マイナスエネルギーを 鼻から 吸いこみ 元気になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たたく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ふむ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38337,
+		"multiId": "717_065",
+		"nameJp": "ギモー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038337_P_GIMO.jpg",
+		"imageUrl": "",
+		"cardText": "土下座して 謝る 振りをして 槍のように 尖った 後ろ髪で 突き刺してくる 戦法を 使う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どげざつき",
+				"damage": "60",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38338,
+		"multiId": "717_066",
+		"nameJp": "オーロンゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038338_P_ORONGE.jpg",
+		"imageUrl": "",
+		"cardText": "髪の毛を 全身に 巻きつけると 筋力が アップ。 カイリキーを ねじ伏せる パワーを 発揮する。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "066",
+		"ability": {
+			"name": "あくのせいやく",
+			"text": "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、[colorless]エネルギー1個ぶん多くなる。"
+		},
+		"attacks": [
+			{
+				"name": "エナジープレス",
+				"damage": "100＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38362,
+		"multiId": "717_090",
+		"nameJp": "しんかのおこう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038362_T_SHINKANOOKOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札から進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38363,
+		"multiId": "717_091",
+		"nameJp": "スーパーボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038363_T_SUPABORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38365,
+		"multiId": "717_093",
+		"nameJp": "ツールスクラッパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038365_T_TSURUSUKURAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38367,
+		"multiId": "717_095",
+		"nameJp": "ふしぎなアメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038367_T_FUSHIGINAAME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。（最初の自分の番と、この番出したばかりのポケモンには使えない。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38369,
+		"multiId": "717_097",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038369_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38370,
+		"multiId": "717_098",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038370_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38379,
+		"multiId": "717_107",
+		"nameJp": "エール団のしたっぱ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038379_T_ERUDANNOSHITAPPA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "107",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38381,
+		"multiId": "717_109",
+		"nameJp": "オリーヴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038381_T_ORIVU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n相手の手札を見て、その中からトレーナーズを1枚選び、相手の山札の下にもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "109",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38385,
+		"multiId": "717_113",
+		"nameJp": "博士の研究（マグノリア博士）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038385_T_HAKASENOKENKYUUMAGUNORIAHAKASE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "113",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38387,
+		"multiId": "717_115",
+		"nameJp": "ポケモンごっこ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038387_T_POKEMONGOKKO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "115",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38389,
+		"multiId": "717_117",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038389_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "117",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38392,
+		"multiId": "717_120",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SD/038392_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "120",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37748,
+		"multiId": "717_DAR",
+		"nameJp": "基本悪エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large//037748_E_KIHONAKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "717",
+		"set": "Vスタートデッキ悪　ガラルヤドラン",
+		"setCode": "SD",
+		"generation": "SA",
+		"setNo": "DAR",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

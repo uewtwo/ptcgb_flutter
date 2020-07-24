@@ -136,7 +136,7 @@ class ExpansionsState extends State<Expansions> {
 
   Image _expansionImage(ExpansionContent content) {
     String targetPath =
-        'assets/img/expansions/${content.generation}/${content.name}.png';
+        'assets/img/expansions/${content.generation}/${content.productNo}.png';
     // ↓DebugCode
     targetPath = 'assets/img/various/sample.png';
     try {

@@ -1,0 +1,3527 @@
+[
+	{
+		"cardId": 34793,
+		"multiId": "531_001",
+		"nameJp": "ヒトカゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034793_P_HITOKAGE.jpg",
+		"imageUrl": "",
+		"cardText": "生まれたときから 尻尾に 炎が 点っている。 炎が 消えたとき その 命は 終わってしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおのキバ",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34794,
+		"multiId": "531_002",
+		"nameJp": "リザード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034794_P_RIZADO.jpg",
+		"imageUrl": "",
+		"cardText": "燃える 尻尾を 振り回すと まわりの 温度が どんどん 上がって 相手を 苦しめる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {
+			"name": "もえるとうし",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から5枚トラッシュし、その中にある[fire]エネルギーをすべて、このポケモンにつける。"
+		},
+		"attacks": [
+			{
+				"name": "かえんほうしゃ",
+				"damage": "80",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34795,
+		"multiId": "531_003",
+		"nameJp": "リザードン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034795_P_RIZADON.jpg",
+		"imageUrl": "",
+		"cardText": "地上 １４００メートルまで 羽を 使って 飛ぶことができる。 高熱の 炎を 吐く。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {
+			"name": "かくごのほのお",
+			"text": "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手の場の「ポケモンGX・EX」1匹につき「+30」される。"
+		},
+		"attacks": [
+			{
+				"name": "ファイヤーブラスト",
+				"damage": "130",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34796,
+		"multiId": "531_004",
+		"nameJp": "ビクティニPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034796_P_BIKUTEINI.jpg",
+		"imageUrl": "",
+		"cardText": "ビクティニが 無限に 生み出す エネルギーを 分け与えてもらうと 全身に パワーが あふれ出す。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "PRISMSTAR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "インフィニティ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある基本エネルギーをすべて相手に見せ、その枚数×20ダメージ。その後、見せたエネルギーを山札にもどして切る。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "同じ名前の（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34797,
+		"multiId": "531_005",
+		"nameJp": "ダルマッカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034797_P_DARUMAKKA.jpg",
+		"imageUrl": "",
+		"cardText": "寝るときは 手足を ひっこめ 体内で 燃えている ６００度の 炎も 小さくなり 落ち着くよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダメージラッシュ",
+				"damage": "10＋",
+				"text": "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34798,
+		"multiId": "531_006",
+		"nameJp": "ヒヒダルマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034798_P_HIHIDARUMA.jpg",
+		"imageUrl": "",
+		"cardText": "体内で １４００度の 炎を 燃やすことで ダンプカーを パンチで 破壊するほどの パワーを 作る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヒートアシスト",
+				"damage": "",
+				"text": "自分の手札にある[fire]エネルギーを3枚まで、自分のポケモンに好きなようにつける。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "だるまれんだん",
+				"damage": "30＋",
+				"text": "コインを4回投げ、オモテの数×50ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34799,
+		"multiId": "531_007",
+		"nameJp": "クイタラン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034799_P_KUITARAN.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾から 取りこんだ 空気を 炎に変えて ベロのように 使い アイアントを 溶かして 食べるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こがす",
+				"damage": "",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "くろこげブレス",
+				"damage": "120",
+				"text": "相手のバトルポケモンがやけどでないなら、このワザは失敗。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34800,
+		"multiId": "531_008",
+		"nameJp": "レシラムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034800_P_RESHIRAMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Otani",
+		"rarity": "RR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ニトロチャージ",
+				"damage": "",
+				"text": "自分の山札にある[fire]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しゃくねつのはしら",
+				"damage": "110",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ヴァーミリオンGX",
+				"damage": "180",
+				"text": "のぞむなら、自分の手札にある[fire]エネルギーを5枚まで、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34801,
+		"multiId": "531_009",
+		"nameJp": "ヤトウモリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034801_P_YATOUMORI.jpg",
+		"imageUrl": "",
+		"cardText": "火山や 乾いた 岩場に 棲む。 甘い 香りの 毒ガスを 放ち むしポケモンを おびき寄せ 襲う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ツメをたてる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34802,
+		"multiId": "531_010",
+		"nameJp": "エンニュート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034802_P_ENNYUTO.jpg",
+		"imageUrl": "",
+		"cardText": "毒ガスには 多くの フェロモンが 含まれている。 薄めることで 官能的な 香水が できる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フレイムサークル",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "80",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34803,
+		"multiId": "531_011",
+		"nameJp": "タッツー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034803_P_TATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "サンゴの 陰に 住処を 作る。 危険を 感じると 口から 真っ黒い 墨を 吐いて 逃げる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずとばし",
+				"damage": "",
+				"text": "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34804,
+		"multiId": "531_012",
+		"nameJp": "タッツー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034804_P_TATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "サンゴの 陰に 住処を 作る。 危険を 感じると 口から 真っ黒い 墨を 吐いて 逃げる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×10ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34805,
+		"multiId": "531_013",
+		"nameJp": "シードラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034805_P_SHIDORA.jpg",
+		"imageUrl": "",
+		"cardText": "羽と 尻尾を 素早く 動かし 前を 向いたまま 後ろへ 泳ぐこともできる ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34806,
+		"multiId": "531_014",
+		"nameJp": "キングドラGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034806_P_KINGUDORAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "230",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×50ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぎゃくふんしゃ",
+				"damage": "30",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メイルストロムGX",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34807,
+		"multiId": "531_015",
+		"nameJp": "コイキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034807_P_KOIKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "無闇に 跳ねて すぐ 襲われるが コイキングの おかげで 多くの ポケモンが 生き延びられると いう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずしぶき",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、10ダメージ追加。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34808,
+		"multiId": "531_016",
+		"nameJp": "ギャラドス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034808_P_GYARADOSU.jpg",
+		"imageUrl": "",
+		"cardText": "ギャラドスが 現れる 場所は 破壊される 定めに あると 信じている 人も いる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {
+			"name": "おおあれ",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、自分のベンチポケモン全員に、それぞれダメカンを2個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ワイルドテール",
+				"damage": "160",
+				"text": "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34809,
+		"multiId": "531_017",
+		"nameJp": "ラプラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034809_P_RAPURASU.jpg",
+		"imageUrl": "",
+		"cardText": "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アクアバレット",
+				"damage": "20",
+				"text": "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ハイドロポンプ",
+				"damage": "70＋",
+				"text": "このポケモンについている[water]エネルギーの数×10ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34810,
+		"multiId": "531_018",
+		"nameJp": "ウパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034810_P_UPA.jpg",
+		"imageUrl": "",
+		"cardText": "夕暮れどき 涼しくなると 水から 上がってきた ウパーたちは エサを 探して 水辺を 歩く。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みずかけ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34811,
+		"multiId": "531_019",
+		"nameJp": "ヌオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034811_P_NUO.jpg",
+		"imageUrl": "",
+		"cardText": "のんびりとした 性格で 気ままに 泳いでは いつも 船底に 頭を ぶつけている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {
+			"name": "おしながす",
+			"text": "自分の番に何回でも使える。自分のベンチポケモンについている[water]エネルギーを1個、バトルポケモンにつけ替える。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "60＋",
+				"text": "このポケモンについている[water]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34812,
+		"multiId": "531_020",
+		"nameJp": "サニーゴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034812_P_SANIGO.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 枝を 狙い ヒドイデが 追いかけてくると 自分で 枝を ポキリと 折って 逃げだすよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "バブルシュート",
+				"damage": "",
+				"text": "相手のポケモン1匹に、このポケモンについている[water]エネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34813,
+		"multiId": "531_021",
+		"nameJp": "ヒンバス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034813_P_HINBASU.jpg",
+		"imageUrl": "",
+		"cardText": "見た目が 悪いので 人気はないが 脅威の 生命力が あり 研究対象には なっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {
+			"name": "もぐる",
+			"text": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "みずかけ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34814,
+		"multiId": "531_022",
+		"nameJp": "ミロカロス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034814_P_MIROKAROSU.jpg",
+		"imageUrl": "",
+		"cardText": "澄んだ 湖の 底に 棲む。 戦争が 起こるとき 現れ 人々の 心を いやす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "hatachu",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "オーロラウェーブ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アクアスプリット",
+				"damage": "40",
+				"text": "相手のベンチポケモン2匹にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34815,
+		"multiId": "531_023",
+		"nameJp": "ヨワシ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034815_P_YOWASHI.jpg",
+		"imageUrl": "",
+		"cardText": "とても 弱く とても 美味しいので 常に 誰からも 狙われているが いじめていると ひどい目に あうぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {
+			"name": "げんちしゅうごう",
+			"text": "このポケモンがいるかぎり、自分の「ヨワシGX」全員は、最大HPが「20」大きくなり、使うワザの、相手のバトルポケモンへのダメージは「+20」される。"
+		},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34816,
+		"multiId": "531_024",
+		"nameJp": "ナックラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034816_P_NAKKURA.jpg",
+		"imageUrl": "",
+		"cardText": "大きな 顎で 邪魔な 岩を 砕きながら 砂を 掘る。 巣穴の 形は スリ鉢状。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ミニじしん",
+				"damage": "20",
+				"text": "自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34817,
+		"multiId": "531_025",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034817_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まきつく",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34818,
+		"multiId": "531_026",
+		"nameJp": "ミニリュウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034818_P_MINIRYUU.jpg",
+		"imageUrl": "",
+		"cardText": "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽではたく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34819,
+		"multiId": "531_027",
+		"nameJp": "ハクリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034819_P_HAKURYU.jpg",
+		"imageUrl": "",
+		"cardText": "天候を 司る 者として 太古から 農業を 営む 人々に 崇められてきた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドラゴンテール",
+				"damage": "60×",
+				"text": "コインを2回投げ、オモテの数×60ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "たきのぼり",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"water",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34820,
+		"multiId": "531_028",
+		"nameJp": "カイリューGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034820_P_KAIRYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "200",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"water",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ドラゴンポーターGX",
+				"damage": "",
+				"text": "自分のトラッシュにある[dragon]ポケモンを3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34821,
+		"multiId": "531_029",
+		"nameJp": "ビブラーバ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034821_P_BIBURABA.jpg",
+		"imageUrl": "",
+		"cardText": "ハネを 成長 させるために 毎日 大量の 獲物を 消化液で 溶かして すする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ソニックエッジ",
+				"damage": "50",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34822,
+		"multiId": "531_030",
+		"nameJp": "フライゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034822_P_FURAIGON.jpg",
+		"imageUrl": "",
+		"cardText": "自らが 巻き起こす 砂嵐の 中心に いるので 滅多に 人前に 現れない ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {
+			"name": "りゅうのまもり",
+			"text": "このポケモンがいるかぎり、自分の[dragon]ポケモン全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）"
+		},
+		"attacks": [
+			{
+				"name": "すなじごく",
+				"damage": "110",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34823,
+		"multiId": "531_031",
+		"nameJp": "チルタリス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034823_P_CHIRUTARISU.jpg",
+		"imageUrl": "",
+		"cardText": "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {
+			"name": "たたかいのうた",
+			"text": "このポケモンがいるかぎり、自分の[dragon]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。"
+		},
+		"attacks": [
+			{
+				"name": "つきさす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34824,
+		"multiId": "531_032",
+		"nameJp": "クリムガン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034824_P_KURIMUGAN.jpg",
+		"imageUrl": "",
+		"cardText": "日光を 翼で 受けて 体を 温める。 体温が 下がると 動けなくなってしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {
+			"name": "さめはだ",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34825,
+		"multiId": "531_033",
+		"nameJp": "ゼクロム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034825_P_ZEKUROMU.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾で 電気を 作り出す。 全身を 雷雲に 隠して イッシュ地方の 空を 飛ぶ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきさく",
+				"damage": "70",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "らいげき",
+				"damage": "150",
+				"text": "コインを1回投げウラなら、このポケモンにも50ダメージ。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34826,
+		"multiId": "531_034",
+		"nameJp": "キュレム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034826_P_KYUREMU.jpg",
+		"imageUrl": "",
+		"cardText": "強力な 冷凍エネルギーを 体内で 作り出すが 漏れ出した 冷気で 体が 凍っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "TOKIYA",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "げきりん",
+				"damage": "20＋",
+				"text": "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "フロストスピア",
+				"damage": "100",
+				"text": "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34827,
+		"multiId": "531_035",
+		"nameJp": "ホワイトキュレムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034827_P_HOWAITOKYUREMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきさく",
+				"damage": "40",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いかりのやいば",
+				"damage": "80＋",
+				"text": "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				"costs": [
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ドラゴンノヴァGX",
+				"damage": "200",
+				"text": "相手のバトルポケモンをやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire",
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34828,
+		"multiId": "531_036",
+		"nameJp": "ジガルデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034828_P_JIGARUDE.jpg",
+		"imageUrl": "",
+		"cardText": "生態系を 監視 していると 考えられている。 さらなる 力を 秘めているとの ウワサ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じひびき",
+				"damage": "20",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いかりのやいば",
+				"damage": "60＋",
+				"text": "このポケモンにダメカンがのっているなら、60ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34829,
+		"multiId": "531_037",
+		"nameJp": "バクガメス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034829_P_BAKUGAMESU.jpg",
+		"imageUrl": "",
+		"cardText": "鼻の 孔から 炎や 毒ガスを 吹く。 フンは 爆発物で 色んな 使い道が ある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ばくふんしゃ",
+				"damage": "50×",
+				"text": "自分の場のポケモンについている[fire]エネルギーを好きなだけトラッシュし、その枚数×50ダメージ。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34830,
+		"multiId": "531_038",
+		"nameJp": "ジジーロン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034830_P_JIJIRON.jpg",
+		"imageUrl": "",
+		"cardText": "人懐っこく 子どもが 大好き。 仲良しの 子どもと 遊ぶために 山奥から 町に 降りてくる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "りゅうのちえ",
+				"damage": "20",
+				"text": "自分のトラッシュにある基本エネルギーを1枚、自分の[dragon]ポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ハイパーボイス",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34831,
+		"multiId": "531_039",
+		"nameJp": "ジャラコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034831_P_JARAKO.jpg",
+		"imageUrl": "",
+		"cardText": "人気の ない 山に 暮らす。 ジャラコ同士 戦いながら 少しずつ 成長 していく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうちょく",
+				"damage": "",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ドラゴンクロー",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34832,
+		"multiId": "531_040",
+		"nameJp": "ジャランゴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034832_P_JARANGO.jpg",
+		"imageUrl": "",
+		"cardText": "鱗は どんどん 生え変わる。 新しくなるたび 鱗は 硬く 鋭く なっていく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "hatachu",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガードプレス",
+				"damage": "30",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ドラゴンクロー",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34833,
+		"multiId": "531_041",
+		"nameJp": "ジャラランガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034833_P_JARARANGA.jpg",
+		"imageUrl": "",
+		"cardText": "硬い 鱗は 攻防一体。 かつては 武器や 日用品に 加工 されて 使われた。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "so-taro",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガードプレス",
+				"damage": "60",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "いかりのアッパーカット",
+				"damage": "90＋",
+				"text": "このポケモンにダメカンが8個以上のっているなら、120ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34834,
+		"multiId": "531_042",
+		"nameJp": "チルット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034834_P_CHIRUTTO.jpg",
+		"imageUrl": "",
+		"cardText": "真綿の ような 翼の 手入れは 絶対に 欠かさない。 汚れると 水浴びをして きれいに 洗う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35707,
+		"multiId": "531_054",
+		"nameJp": "レシラムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035707_P_RESHIRAMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "PLANETA Igarashi",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ニトロチャージ",
+				"damage": "",
+				"text": "自分の山札にある[fire]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しゃくねつのはしら",
+				"damage": "110",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ヴァーミリオンGX",
+				"damage": "180",
+				"text": "のぞむなら、自分の手札にある[fire]エネルギーを5枚まで、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire",
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35708,
+		"multiId": "531_055",
+		"nameJp": "キングドラGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035708_P_KINGUDORAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "230",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×50ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぎゃくふんしゃ",
+				"damage": "30",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "メイルストロムGX",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35709,
+		"multiId": "531_056",
+		"nameJp": "カイリューGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035709_P_KAIRYUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "250",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドラゴンクロー",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "200",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"water",
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "ドラゴンポーターGX",
+				"damage": "",
+				"text": "自分のトラッシュにある[dragon]ポケモンを3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35710,
+		"multiId": "531_057",
+		"nameJp": "ホワイトキュレムGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035710_P_HOWAITOKYUREMUGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきさく",
+				"damage": "40",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いかりのやいば",
+				"damage": "80＋",
+				"text": "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				"costs": [
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ドラゴンノヴァGX",
+				"damage": "200",
+				"text": "相手のバトルポケモンをやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"fire",
+					"fire",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34835,
+		"multiId": "531_043",
+		"nameJp": "アクアパッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034835_T_AKUAPACCHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュにある[water]エネルギーを1枚、ベンチの[water]ポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34836,
+		"multiId": "531_044",
+		"nameJp": "いれかえフロート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034836_T_IREKAEFUROTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトル場の[water]ポケモンをベンチポケモンと入れ替える。その後、ベンチに入れ替えたポケモンのHPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34837,
+		"multiId": "531_045",
+		"nameJp": "火打石",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034837_T_HIDAISHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札にある[fire]エネルギーを4枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34838,
+		"multiId": "531_046",
+		"nameJp": "竜の鉤爪",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034838_T_RYUUNOKOUTSUME.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34839,
+		"multiId": "531_047",
+		"nameJp": "カキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034839_T_KAKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードを使ったら、自分の番は終わる。\n\n自分の山札にある[fire]エネルギーを4枚まで、自分のポケモン1匹につける。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34840,
+		"multiId": "531_048",
+		"nameJp": "カツラの一発勝負",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034840_T_KATSURANOIPPATSUSHOUBU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。\n\n自分の場の[fire]ポケモンの数×2枚ぶん、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "R",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34841,
+		"multiId": "531_049",
+		"nameJp": "ヒガナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034841_T_HIGANA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n\n自分の手札にある基本エネルギーを2枚まで、自分の[dragon]ポケモン1匹につける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34842,
+		"multiId": "531_050",
+		"nameJp": "ワタルPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034842_T_WATARU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n\n自分の山札にある[dragon]ポケモンを2枚まで、ベンチに出す。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "PRISMSTAR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [],
+		"addRule": "サポートは、自分の番に1枚しか使えない。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34843,
+		"multiId": "531_051",
+		"nameJp": "ヴェラ火山公園",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034843_T_VERAKAZANKOUEN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのやけどのポケモンは、ポケモンチェックのときに投げるコインがオモテでも、やけどは回復しない。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34844,
+		"multiId": "531_052",
+		"nameJp": "喰いつくされた原野",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034844_T_KUITSUKUSARETAGENYA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいの[dark]または[dragon]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34845,
+		"multiId": "531_053",
+		"nameJp": "せせらぎの丘",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/034845_T_SESERAGINOOKA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札にある[water]または[fighting]タイプのたねポケモンを1枚、ベンチに出してよい。その場合、山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35711,
+		"multiId": "531_058",
+		"nameJp": "カツラの一発勝負",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035711_T_KATSURANOIPPATSUSHOUBU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。\n\n自分の場の[fire]ポケモンの数×2枚ぶん、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35712,
+		"multiId": "531_059",
+		"nameJp": "ヒガナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM6a/035712_T_HIGANA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n\n自分の手札にある基本エネルギーを2枚まで、自分の[dragon]ポケモン1匹につける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "SR",
+		"productNo": "531",
+		"set": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
+		"setCode": "SM6a",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

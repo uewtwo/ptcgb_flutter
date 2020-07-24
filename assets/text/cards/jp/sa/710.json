@@ -1,0 +1,6802 @@
+[
+	{
+		"cardId": 38139,
+		"multiId": "710_001",
+		"nameJp": "パラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038139_P_PARASU.jpg",
+		"imageUrl": "",
+		"cardText": "冬虫夏草と いう キノコが 虫を 操っているのだ。 虫の 意思は 無視される。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38140,
+		"multiId": "710_002",
+		"nameJp": "パラセクト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038140_P_PARASEKUTO.jpg",
+		"imageUrl": "",
+		"cardText": "ムシの 方は ほぼ 死んでいて 本体は 背中の キノコだ。 もげると もう 動かなくなる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きのこタックル",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ソーラービーム",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38141,
+		"multiId": "710_003",
+		"nameJp": "マスキッパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038141_P_MASUKIPPA.jpg",
+		"imageUrl": "",
+		"cardText": "湿地帯に 生える 木に巻きつき 甘い香りの だえきで 獲物を 誘き寄せては ひとくちで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おんがえし",
+				"damage": "20",
+				"text": "のぞむなら、自分の手札が5枚になるように、山札を引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガドレイン",
+				"damage": "40",
+				"text": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38142,
+		"multiId": "710_004",
+		"nameJp": "ヤナップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038142_P_YANAPPU.jpg",
+		"imageUrl": "",
+		"cardText": "木の実を 探すのが 上手で あちこちで 集めて 仲間に 分け与える 優しさを 持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タネばくだん",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38143,
+		"multiId": "710_005",
+		"nameJp": "ヤナッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038143_P_YANAKKI.jpg",
+		"imageUrl": "",
+		"cardText": "気性が 激しく トゲの ついた 尻尾を 振り回して 戦う。 頭の 葉っぱは とても 苦い。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasegawa Saki",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "タネばくだん",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "110",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38144,
+		"multiId": "710_006",
+		"nameJp": "モクロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038144_P_MOKURO.jpg",
+		"imageUrl": "",
+		"cardText": "飛行しながら 切れ味 鋭い 羽根を 飛ばし 近距離では 強烈な キックを 叩きこむ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {
+			"name": "スカイサーカス",
+			"text": "この番、自分の手札から「とりつかい」を出して使っていたなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "かぜのつぶて",
+				"damage": "",
+				"text": "相手のベンチポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38145,
+		"multiId": "710_007",
+		"nameJp": "フクスロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038145_P_FUKUSURO.jpg",
+		"imageUrl": "",
+		"cardText": "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38146,
+		"multiId": "710_008",
+		"nameJp": "ジュナイパー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038146_P_JUNAIPA.jpg",
+		"imageUrl": "",
+		"cardText": "翼に 仕込まれた 矢羽根を 弓矢のように つがえて 放つ。 狙った 的は 外さない。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {
+			"name": "みつりんめいさい",
+			"text": "このポケモンは、相手の「ポケモンV・GX」からワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "スプリットアロー",
+				"damage": "90",
+				"text": "相手のベンチポケモン2匹にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38147,
+		"multiId": "710_009",
+		"nameJp": "ヘルガーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038147_P_HERUGAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おとしまえフレイム",
+				"damage": "100＋",
+				"text": "自分のベンチの[fire]ポケモンにダメカンがのっているなら、100ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38148,
+		"multiId": "710_010",
+		"nameJp": "アチャモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038148_P_ACHAMO.jpg",
+		"imageUrl": "",
+		"cardText": "体内で 炎が 燃えているので 抱きしめると とても 温かい。 １０００度の 火の玉を 飛ばす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひだね",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38149,
+		"multiId": "710_011",
+		"nameJp": "ワカシャモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038149_P_WAKASHAMO.jpg",
+		"imageUrl": "",
+		"cardText": "戦いに なると 体内の 炎が 激しく 燃え上がる。 キックは 破壊力 抜群だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けとばす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヒートビーク",
+				"damage": "40",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38150,
+		"multiId": "710_012",
+		"nameJp": "バシャーモ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038150_P_BASHAMO.jpg",
+		"imageUrl": "",
+		"cardText": "強敵に 出会うと 手首から 炎を 噴き出す。 ジャンプで ビルを 跳び越す 脚力。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {
+			"name": "ダブルタイプ",
+			"text": "このポケモンは、場にいるかぎり[fire]と[fighting]の2つのタイプになる。"
+		},
+		"attacks": [
+			{
+				"name": "ターボドライブ",
+				"damage": "130",
+				"text": "自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38151,
+		"multiId": "710_013",
+		"nameJp": "バオップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038151_P_BAOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "火山の 洞穴で 暮らす。 頭の ふさの 中が 燃えていて ３００度の 高温になる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Higuchi",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひだね",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38152,
+		"multiId": "710_014",
+		"nameJp": "バオッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038152_P_BAOKKI.jpg",
+		"imageUrl": "",
+		"cardText": "興奮すると 頭や 尻尾から 火の粉が 舞いあがって 熱くなる。 なぜか 甘いものが 大好物。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのお",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "110",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38153,
+		"multiId": "710_015",
+		"nameJp": "ガラル ヒヒダルマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038153_P_GARARUHIHIDARUMA.jpg",
+		"imageUrl": "",
+		"cardText": "退化したはずの 炎袋が 怒りで 復活。 ところかまわず 炎を 噴きまくり 暴れる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ずつき",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "フローズンヒート",
+				"damage": "110＋",
+				"text": "のぞむなら、このポケモンについている[water]エネルギーを、すべてトラッシュする。その場合、60ダメージ追加。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38154,
+		"multiId": "710_016",
+		"nameJp": "スイクン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038154_P_SUIKUN.jpg",
+		"imageUrl": "",
+		"cardText": "一瞬で 汚く 濁った 水も 清める 力を 持つ。 北風の 生まれ変わり という。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スプラッシュ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "オーロラループ",
+				"damage": "130",
+				"text": "このポケモンについている[water]エネルギーを2個選び、手札にもどす。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38155,
+		"multiId": "710_017",
+		"nameJp": "ジーランス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038155_P_JIRANSU.jpg",
+		"imageUrl": "",
+		"cardText": "１億年間 まったく 姿が 変わっていないのは 生命 として 完成 されているから らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フォッシルサーチ",
+				"damage": "",
+				"text": "自分の山札から「めずらしい化石」を2枚まで選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "なみのり",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38156,
+		"multiId": "710_018",
+		"nameJp": "ヒヤップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038156_P_HIYAPPU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の ふさに ためた 水は 栄養 たっぷり。 植物に かけると 大きく 育つのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38157,
+		"multiId": "710_019",
+		"nameJp": "ヒヤッキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038157_P_HIYAKKI.jpg",
+		"imageUrl": "",
+		"cardText": "水が きれいな 場所を 好む。 頭に ためこんだ 水が減ると 尻尾から 吸いあげて 補給。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "110",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38158,
+		"multiId": "710_020",
+		"nameJp": "ガラル ダルマッカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038158_P_GARARUDARUMAKKA.jpg",
+		"imageUrl": "",
+		"cardText": "雪深い 土地で 暮らすうち 炎袋は 冷えきり 退化。 冷気を つくる 器官が できた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ずつき",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38159,
+		"multiId": "710_021",
+		"nameJp": "バニプッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038159_P_BANIPUCCHI.jpg",
+		"imageUrl": "",
+		"cardText": "暑い 土地では 暮らせない。 冷気を 吐いて 雪を 降らせ 積もった 中に 潜って 眠る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こおらせる",
+				"damage": "10",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38160,
+		"multiId": "710_022",
+		"nameJp": "バニリッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038160_P_BANIRICCHI.jpg",
+		"imageUrl": "",
+		"cardText": "きれいな 水を 飲んで 氷の 体を 大きくする。 天気の 良い 日は あまり 見かけない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いてつくずつき",
+				"damage": "30",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38161,
+		"multiId": "710_023",
+		"nameJp": "バイバニラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038161_P_BAIBANIRA.jpg",
+		"imageUrl": "",
+		"cardText": "怒りが 頂点に 達すると 吹雪を 噴き出して 敵も 味方も 氷漬けに する。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {
+			"name": "そこびえ",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+		},
+		"attacks": [
+			{
+				"name": "フロストスマッシュ",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38162,
+		"multiId": "710_024",
+		"nameJp": "ヒドイデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038162_P_HIDOIDE.jpg",
+		"imageUrl": "",
+		"cardText": "棘に 刺されると まず 痺れに 襲われ やがて 掻きむしりたくなる ほどの 痒みに 苦しむのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さいせい",
+				"damage": "",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どくのしょくしゅ",
+				"damage": "20",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38163,
+		"multiId": "710_025",
+		"nameJp": "ドヒドイデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038163_P_DOHIDOIDE.jpg",
+		"imageUrl": "",
+		"cardText": "ガラル地方の 冷たい 水温に 耐えるため 脚で ドームを つくり 内部を 体温で 温める。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じこさいせい",
+				"damage": "",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。このポケモンのHPを、すべて回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "どくのムチ",
+				"damage": "80",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38164,
+		"multiId": "710_026",
+		"nameJp": "カジリガメV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038164_P_KAJIRIGAMEV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {
+			"name": "かたいこうら",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "パワーバイト",
+				"damage": "130",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38165,
+		"multiId": "710_027",
+		"nameJp": "カジリガメVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038165_P_KAJIRIGAMEVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {
+			"name": "かたいこうら",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "キョダイズツキ",
+				"damage": "160＋",
+				"text": "コインを1回投げオモテなら、80ダメージ追加。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38166,
+		"multiId": "710_028",
+		"nameJp": "ウオノラゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038166_P_UONORAGON.jpg",
+		"imageUrl": "",
+		"cardText": "ずば抜けた 脚力と 顎の 力で 古代では 無敵だったが 獲物を 獲り尽くし 絶滅した。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {
+			"name": "げんしのおきて",
+			"text": "このポケモンがバトル場にいるかぎり、相手は手札からポケモンを出して進化させられない。"
+		},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38167,
+		"multiId": "710_029",
+		"nameJp": "ウオチルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038167_P_UOCHIRUDON.jpg",
+		"imageUrl": "",
+		"cardText": "周囲を 凍りつかせて 獲物を 捕まえるが 口が 頭の 上に あるので 食べづらい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かたいかお",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-60」される。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "コールドブレス",
+				"damage": "130",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38168,
+		"multiId": "710_030",
+		"nameJp": "ラクライ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038168_P_RAKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yumi",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "10まんボルト",
+				"damage": "50",
+				"text": "このポケモンについているエネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38169,
+		"multiId": "710_031",
+		"nameJp": "ライボルト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038169_P_RAIBORUTO.jpg",
+		"imageUrl": "",
+		"cardText": "電気で 筋肉を 刺激するので 素早く 動ける。 筋肉痛も 電気で ほぐすので すぐ 治る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひるがえす",
+				"damage": "30",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "フラッシュインパクト",
+				"damage": "150",
+				"text": "自分のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38170,
+		"multiId": "710_032",
+		"nameJp": "カプ・コケコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038170_P_KAPUKOKEKO.jpg",
+		"imageUrl": "",
+		"cardText": "雷を 操る メレメレの 守り神。 好奇心旺盛で 時折 人前に 現れる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひきつける",
+				"damage": "",
+				"text": "自分の山札を2枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ライトニングボール",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38171,
+		"multiId": "710_033",
+		"nameJp": "パッチラゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038171_P_PACCHIRAGON.jpg",
+		"imageUrl": "",
+		"cardText": "古代では たくましい 下半身で 無敵だったが 餌の 植物を 食べつくしてしまい 絶滅した。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アッパーでんりゅう",
+				"damage": "30",
+				"text": "次の自分の番、このポケモンの「アッパーでんりゅう」のダメージは「＋90」される。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ギガインパクト",
+				"damage": "200",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38172,
+		"multiId": "710_034",
+		"nameJp": "パッチルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038172_P_PACCHIRUDON.jpg",
+		"imageUrl": "",
+		"cardText": "氷漬けの 上半身が 震えると 電気が つくられる。 歩くことが 非常に 苦手。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {
+			"name": "かじかむうず",
+			"text": "このポケモンがいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを2個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "エレキボール",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38173,
+		"multiId": "710_035",
+		"nameJp": "プリン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038173_P_PURIN.jpg",
+		"imageUrl": "",
+		"cardText": "歌う 歌は 棲む 地方によって 全然 違っている。 中には シャウトするような ものまで あるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Motofumi Fujiwara",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つぶやく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ムーンキック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38174,
+		"multiId": "710_036",
+		"nameJp": "プクリン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038174_P_PUKURIN.jpg",
+		"imageUrl": "",
+		"cardText": "怒ると 思いっきり 息を 吸い込み どんどん 膨らんでいく。 なんと ２０倍に なることもある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Lee HyunJung",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねむりのはどう",
+				"damage": "30",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダブルスマッシュ",
+				"damage": "90×",
+				"text": "コインを2回投げ、オモテの数×90ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38175,
+		"multiId": "710_037",
+		"nameJp": "ゴチム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038175_P_GOCHIMU.jpg",
+		"imageUrl": "",
+		"cardText": "まだまだ 赤ちゃん だけれど リボンに 似た 触角に 溜めた サイコパワーで 戦うこともある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フォーチュンアイ",
+				"damage": "",
+				"text": "相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひっぱたく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38176,
+		"multiId": "710_038",
+		"nameJp": "ゴチミル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038176_P_GOCHIMIRU.jpg",
+		"imageUrl": "",
+		"cardText": "星が 輝く 夜に 眠った 子どもたちを 連れ去ると 言われ 制裁の魔女 とも 呼ばれる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あまえごえ",
+				"damage": "",
+				"text": "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダブルスピン",
+				"damage": "30×",
+				"text": "コインを2回投げ、オモテの数×30ダメージ。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38177,
+		"multiId": "710_039",
+		"nameJp": "ゴチルゼル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038177_P_GOCHIRUZERU.jpg",
+		"imageUrl": "",
+		"cardText": "星の 動きから 未来を 見る。 すさまじい サイコパワーを もつが 争いは 好まない 気質。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイコトリップ",
+				"damage": "40",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ねじまげる",
+				"damage": "90",
+				"text": "相手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38178,
+		"multiId": "710_040",
+		"nameJp": "ゴビット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038178_P_GOBITTO.jpg",
+		"imageUrl": "",
+		"cardText": "粘土から 生み出された 古代の ポケモン。 なぜか 大岩を 並べ続ける ものも いる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ころがる",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ぶちかます",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38179,
+		"multiId": "710_041",
+		"nameJp": "ゴルーグ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038179_P_GORUGU.jpg",
+		"imageUrl": "",
+		"cardText": "古代人の お城の 壁には ゴルーグが ビームを 撃つための 砲台の ような 台座が ある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ばくれつチョップ",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ゴルーグハンマー",
+				"damage": "180",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38180,
+		"multiId": "710_042",
+		"nameJp": "ミミッキュ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038180_P_MIMIKKYU.jpg",
+		"imageUrl": "",
+		"cardText": "怖がられないように ピカチュウに 似せた ボロ布を かぶっているが 余計に 不気味に なってしまった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {
+			"name": "いやしジャマー",
+			"text": "このポケモンがいるかぎり、相手のベンチポケモン全員のHPは、回復しない。"
+		},
+		"attacks": [
+			{
+				"name": "ツメできりさく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38181,
+		"multiId": "710_043",
+		"nameJp": "ガラル サニゴーンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038181_P_GARARUSANIGONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {
+			"name": "むしばむオーラ",
+			"text": "このポケモンがバトル場にいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを3個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ホロウミサイル",
+				"damage": "60",
+				"text": "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38182,
+		"multiId": "710_044",
+		"nameJp": "ナックラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038182_P_NAKKURA.jpg",
+		"imageUrl": "",
+		"cardText": "砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Asako Ito",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "だいちのこどう",
+				"damage": "10＋",
+				"text": "場にスタジアムが出ているなら、10ダメージ追加。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38183,
+		"multiId": "710_045",
+		"nameJp": "ビブラーバ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038183_P_BIBURABA.jpg",
+		"imageUrl": "",
+		"cardText": "２枚の ハネを 高速で 振動させて だす 超音波は 激しい 頭痛を ひきおこす。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サンドインパルス",
+				"damage": "20",
+				"text": "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38184,
+		"multiId": "710_046",
+		"nameJp": "フライゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038184_P_FURAIGON.jpg",
+		"imageUrl": "",
+		"cardText": "自らが 巻き起こす 砂嵐の 中心に いるので 滅多に 人前に 現れない ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "hatachu",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {
+			"name": "すなのめいきゅう",
+			"text": "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、にげられない。"
+		},
+		"attacks": [
+			{
+				"name": "デザートゲイザー",
+				"damage": "130",
+				"text": "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38185,
+		"multiId": "710_047",
+		"nameJp": "ヒポポタス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038185_P_HIPOPOTASU.jpg",
+		"imageUrl": "",
+		"cardText": "口を 開けて 移動しながら 砂ごと 獲物を 丸飲み。 砂は 鼻から 噴き出し 捨てる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダブルスタンプ",
+				"damage": "70＋",
+				"text": "コインを2回投げ、オモテの数×30ダメージ追加。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38186,
+		"multiId": "710_048",
+		"nameJp": "カバルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038186_P_KABARUDON.jpg",
+		"imageUrl": "",
+		"cardText": "体の 穴には たまに 石が 詰まる。 石を 取ってくれるので イシズマイを 大切に 守る。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "KEIICHIRO ITO",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トリプルスマッシュ",
+				"damage": "80×",
+				"text": "コインを3回投げ、オモテの数×80ダメージ。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ランドクラッシュ",
+				"damage": "150",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38187,
+		"multiId": "710_049",
+		"nameJp": "ドサイドンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038187_P_DOSAIDONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "230",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドリルライナー",
+				"damage": "80",
+				"text": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヘビーロックキャノン",
+				"damage": "210",
+				"text": "次の自分の番、このポケモンは「ヘビーロックキャノン」が使えない。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38188,
+		"multiId": "710_050",
+		"nameJp": "ナゲツケサル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038188_P_NAGETSUKESARU.jpg",
+		"imageUrl": "",
+		"cardText": "ボスの 指示に 従い 見事な チームプレイで 好物の 木の実を 探して 仲間同士 助け合う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なかまをよぶ",
+				"damage": "",
+				"text": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いわとばし",
+				"damage": "70",
+				"text": "このワザのダメージは抵抗力を計算しない。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38189,
+		"multiId": "710_051",
+		"nameJp": "イトマル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038189_P_ITOMARU.jpg",
+		"imageUrl": "",
+		"cardText": "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶらさがる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "チクチクさす",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38190,
+		"multiId": "710_052",
+		"nameJp": "アリアドス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038190_P_ARIADOSU.jpg",
+		"imageUrl": "",
+		"cardText": "糸を はいて 獲物を 捕らえる。 夜に なると 巣から 離れて 積極的に 狩りを するぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {
+			"name": "スパイダーネット",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチの進化ポケモンを1匹選び、バトルポケモンと入れ替える。"
+		},
+		"attacks": [
+			{
+				"name": "どくばり",
+				"damage": "30",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38191,
+		"multiId": "710_053",
+		"nameJp": "クロバットV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038191_P_KUROBATTOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {
+			"name": "ナイトアセット",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札が6枚になるように、山札を引く。この番、すでに別の「ナイトアセット」を使っていたなら、この特性は使えない。"
+		},
+		"attacks": [
+			{
+				"name": "どくのキバ",
+				"damage": "70",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38192,
+		"multiId": "710_054",
+		"nameJp": "ガラル ジグザグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038192_P_GARARUJIGUZAGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "落ち着きなく 走りまわっている。 ほかの ポケモンを 見つけると わざと ぶつかって ケンカを 売る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ミサイルばり",
+				"damage": "10×",
+				"text": "コインを4回投げ、オモテの数×10ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38193,
+		"multiId": "710_055",
+		"nameJp": "ガラル マッスグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038193_P_GARARUMASSUGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "長い舌で 獲物を 挑発。 怒った 相手に 強烈な タックルを おみまい するぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すてみタックル",
+				"damage": "60",
+				"text": "このポケモンにも20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38194,
+		"multiId": "710_056",
+		"nameJp": "ガラル タチフサグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038194_P_GARARUTACHIFUSAGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {
+			"name": "バッドルーラー",
+			"text": "自分の番に1回使える。相手は相手自身の手札を、4枚になるようにトラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "ナックルインパクト",
+				"damage": "180",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38195,
+		"multiId": "710_057",
+		"nameJp": "ズルッグ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038195_P_ZURUGGU.jpg",
+		"imageUrl": "",
+		"cardText": "視線が 合ったら 危険！ 相手を 選ばず 頭突きで 襲ってくる 厄介者だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "miki kudo",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふむ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38196,
+		"multiId": "710_058",
+		"nameJp": "ズルズキン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038196_P_ZURUZUKIN.jpg",
+		"imageUrl": "",
+		"cardText": "やる気の なさげな キックは ローブシンの もつ コンクリートも 砕くほどの 破壊力。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おいつめる",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "バッドブロウル",
+				"damage": "90＋",
+				"text": "この番、手札から「ネズ」を出して使っていたなら、90ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38197,
+		"multiId": "710_059",
+		"nameJp": "マーイーカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038197_P_MAIKA.jpg",
+		"imageUrl": "",
+		"cardText": "回転しながら 発光体を 点滅。 光の パターンで 仲間と コミュニケーションする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はいごをねらう",
+				"damage": "20＋",
+				"text": "相手のバトルポケモンがこんらんなら、50ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38198,
+		"multiId": "710_060",
+		"nameJp": "カラマネロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038198_P_KARAMANERO.jpg",
+		"imageUrl": "",
+		"cardText": "発光体の 光を 見つめると たちまち 催眠状態になり カラマネロに 操られてしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶきみなねんぱ",
+				"damage": "50",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "つつきまわす",
+				"damage": "80＋",
+				"text": "コインを2回投げ、オモテの数×40ダメージ追加。",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38199,
+		"multiId": "710_061",
+		"nameJp": "フーパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038199_P_FUPA.jpg",
+		"imageUrl": "",
+		"cardText": "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "so-taro",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アサルトゲート",
+				"damage": "90",
+				"text": "この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。このワザのダメージは弱点を計算しない。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38200,
+		"multiId": "710_062",
+		"nameJp": "クスネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038200_P_KUSUNE.jpg",
+		"imageUrl": "",
+		"cardText": "ほかの ポケモンが みつけた 餌を 掠めて 暮らしている。 ふかふかの 肉球は 足音を たてない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しっぽをふる",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38201,
+		"multiId": "710_063",
+		"nameJp": "フォクスライ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038201_P_FOKUSURAI.jpg",
+		"imageUrl": "",
+		"cardText": "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "わるだくみ",
+				"damage": "",
+				"text": "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "するどいキバ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"dark",
+					"dark"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38202,
+		"multiId": "710_064",
+		"nameJp": "ムゲンダイナV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038202_P_MUGENDAINAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーアクセル",
+				"damage": "30",
+				"text": "のぞむなら、自分の手札から[dark]エネルギーを1枚選び、ベンチポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイマックスほう",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38203,
+		"multiId": "710_065",
+		"nameJp": "ムゲンダイナVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038203_P_MUGENDAINAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "340",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {
+			"name": "ムゲンゾーン",
+			"text": "自分の場のポケモン全員が[dark]タイプならはたらく。自分のベンチに出せる[dark]ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）"
+		},
+		"attacks": [
+			{
+				"name": "ドレッドエンド",
+				"damage": "30×",
+				"text": "自分の場の[dark]ポケモンの数×30ダメージ。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38204,
+		"multiId": "710_066",
+		"nameJp": "ハッサムV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038204_P_HASSAMUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちぎりとる",
+				"damage": "30",
+				"text": "相手のバトルポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を1枚ずつ選び、トラッシュする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "140",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38205,
+		"multiId": "710_067",
+		"nameJp": "ハッサムVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038205_P_HASSAMUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハードシザー",
+				"damage": "90",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ダイスチル",
+				"damage": "190",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38206,
+		"multiId": "710_068",
+		"nameJp": "エアームド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038206_P_EAMUDO.jpg",
+		"imageUrl": "",
+		"cardText": "鋼の 鎧を 身に まとう。 重そうに 見えるが 最大 ３００キロの 速度で 飛べるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "メタルアームズ",
+				"damage": "10＋",
+				"text": "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カッターウインド",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38207,
+		"multiId": "710_069",
+		"nameJp": "ギアル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038207_P_GIARU.jpg",
+		"imageUrl": "",
+		"cardText": "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "えんぐん",
+				"damage": "",
+				"text": "自分の山札から[steel]ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38208,
+		"multiId": "710_070",
+		"nameJp": "ギギアル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038208_P_GIGIARU.jpg",
+		"imageUrl": "",
+		"cardText": "本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "えんぐん",
+				"damage": "",
+				"text": "自分の山札から[steel]ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かいてんアタック",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38209,
+		"multiId": "710_071",
+		"nameJp": "ギギギアル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038209_P_GIGIGIARU.jpg",
+		"imageUrl": "",
+		"cardText": "棘の 先から 強い 電撃を 発射。 赤いコアに たくさんの エネルギーを 蓄えている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ビーム",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "クロックワーク",
+				"damage": "200",
+				"text": "自分のベンチに「ギアル」「ギギアル」がいないなら、このワザは失敗。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38210,
+		"multiId": "710_072",
+		"nameJp": "ゾウドウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038210_P_ZOUDOU.jpg",
+		"imageUrl": "",
+		"cardText": "５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かいりき",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38211,
+		"multiId": "710_073",
+		"nameJp": "ダイオウドウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038211_P_DAIOUDOU.jpg",
+		"imageUrl": "",
+		"cardText": "緑の皮膚は 水にも 強い。 昔 ほかの土地から やってきて 人と いっしょに 働いた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {
+			"name": "こうきんスキン",
+			"text": "このポケモンは特殊状態にならない。"
+		},
+		"attacks": [
+			{
+				"name": "リベンジスタンプ",
+				"damage": "120＋",
+				"text": "自分のベンチポケモンにダメカンがのっているなら、120ダメージ追加。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38212,
+		"multiId": "710_074",
+		"nameJp": "ガルーラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038212_P_GARURA.jpg",
+		"imageUrl": "",
+		"cardText": "袋から 抜け出して 遊んでいる 子どもには 近付いては いけない。 どこかで 母親が 見守っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まきかえす",
+				"damage": "30＋",
+				"text": "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ぶちかます",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38213,
+		"multiId": "710_075",
+		"nameJp": "ノコッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038213_P_NOKOCCHI.jpg",
+		"imageUrl": "",
+		"cardText": "人の 姿を 見ると シッポで 穴を 掘って 逃げてしまう。 もし 出会えたなら ラッキーだよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kazuma Koda",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {
+			"name": "さいごのひとほり",
+			"text": "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の山札を上から2枚トラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38214,
+		"multiId": "710_076",
+		"nameJp": "ヒメグマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038214_P_HIMEGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "食べ物が 減る 冬の前に あちこちに 食べ物を 隠す 習性を 持っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つぶらなひとみ",
+				"damage": "",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ツメをたてる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38215,
+		"multiId": "710_077",
+		"nameJp": "リングマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038215_P_RINGUMA.jpg",
+		"imageUrl": "",
+		"cardText": "大きな 体の 持ち主だが 木登りが 上手で 木の 上で エサを 食べたり 寝たりする。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アームハンマー",
+				"damage": "70",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ツメできりさく",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38216,
+		"multiId": "710_078",
+		"nameJp": "エネコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038216_P_ENEKO.jpg",
+		"imageUrl": "",
+		"cardText": "自分の 尻尾を 追いかけて 遊んでいると 目を 回すといった 可愛らしい 一面を みせる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドローアップ",
+				"damage": "",
+				"text": "自分の山札からエネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ねこキック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38217,
+		"multiId": "710_079",
+		"nameJp": "エネコロロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038217_P_ENEKORORO.jpg",
+		"imageUrl": "",
+		"cardText": "美しい 毛並みを 持ち 女性トレーナーに 大人気。 決まった 住処を 持たない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tika Matsuno",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みわくのしっぽ",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ムーンインパクト",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38218,
+		"multiId": "710_080",
+		"nameJp": "ボーマンダV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038218_P_BOMANDAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "RR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "080",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうだんひこう",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヘビーストーム",
+				"damage": "160",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38219,
+		"multiId": "710_081",
+		"nameJp": "ボーマンダVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038219_P_BOMANDAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツインソニック",
+				"damage": "",
+				"text": "相手のポケモン2匹に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイウイング",
+				"damage": "240",
+				"text": "次の自分の番、このポケモンは「ダイウイング」が使えない。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38220,
+		"multiId": "710_082",
+		"nameJp": "ムックル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038220_P_MUKKURU.jpg",
+		"imageUrl": "",
+		"cardText": "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "082",
+		"ability": {
+			"name": "スカイサーカス",
+			"text": "この番、自分の手札から「とりつかい」を出して使っていたなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "するどいめ",
+				"damage": "",
+				"text": "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38221,
+		"multiId": "710_083",
+		"nameJp": "ムクバード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038221_P_MUKUBADO.jpg",
+		"imageUrl": "",
+		"cardText": "森や 草原に 生息。 グループが 出くわすと なわばりを かけた 争いが はじまる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "chibi",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おそいかかる",
+				"damage": "20＋",
+				"text": "コインを1回投げオモテなら、20ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つばさでうつ",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38222,
+		"multiId": "710_084",
+		"nameJp": "ムクホーク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038222_P_MUKUHOKU.jpg",
+		"imageUrl": "",
+		"cardText": "ムクホークに なると 群れから 離れて １匹で 生きていく。 強靭な 翼を 持っている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "084",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハリケーンミキサー",
+				"damage": "70",
+				"text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ブレイブバード",
+				"damage": "170",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38223,
+		"multiId": "710_085",
+		"nameJp": "コアルヒー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038223_P_KOARUHI.jpg",
+		"imageUrl": "",
+		"cardText": "飛ぶよりも 泳ぐのが 得意で 水中に 潜っては 大好きな 水ゴケを うれしそうに 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Midori Harada",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はばたく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38224,
+		"multiId": "710_086",
+		"nameJp": "スワンナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038224_P_SUWANNA.jpg",
+		"imageUrl": "",
+		"cardText": "夜明けと ともに スワンナたちは 踊りはじめる。 真ん中で 踊る スワンナが 群れの リーダー。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Taira Akitsu",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "086",
+		"ability": {
+			"name": "スカイサーカス",
+			"text": "この番、自分の手札から「とりつかい」を出して使っていたなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "フェザースラッシュ",
+				"damage": "70＋",
+				"text": "のぞむなら、自分の手札を1枚選び、トラッシュする。その場合、70ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38225,
+		"multiId": "710_087",
+		"nameJp": "ホシガリス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038225_P_HOSHIGARISU.jpg",
+		"imageUrl": "",
+		"cardText": "ガラルの いたるところに いる。 左右の ほっぺに 木の実を 蓄えていないと 不安。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きまぐれタックル",
+				"damage": "40",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38226,
+		"multiId": "710_088",
+		"nameJp": "ヨクバリス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038226_P_YOKUBARISU.jpg",
+		"imageUrl": "",
+		"cardText": "しっぽに 木の実を 溜めこむ。 溜めこみすぎて ポロポロ こぼすが 鈍いので 気がつかない。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こそげおとす",
+				"damage": "20",
+				"text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しばいてにげる",
+				"damage": "100",
+				"text": "このポケモンと、ついているすべてのカードを、手札にもどす。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38483,
+		"multiId": "710_101",
+		"nameJp": "ヘルガーV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038483_P_HERUGAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "101",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おとしまえフレイム",
+				"damage": "100＋",
+				"text": "自分のベンチの[fire]ポケモンにダメカンがのっているなら、100ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38484,
+		"multiId": "710_102",
+		"nameJp": "カジリガメV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038484_P_KAJIRIGAMEV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "102",
+		"ability": {
+			"name": "かたいこうら",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "パワーバイト",
+				"damage": "130",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38485,
+		"multiId": "710_103",
+		"nameJp": "ガラル サニゴーンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038485_P_GARARUSANIGONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "103",
+		"ability": {
+			"name": "むしばむオーラ",
+			"text": "このポケモンがバトル場にいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを3個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "ホロウミサイル",
+				"damage": "60",
+				"text": "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38486,
+		"multiId": "710_104",
+		"nameJp": "ドサイドンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038486_P_DOSAIDONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "230",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "104",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドリルライナー",
+				"damage": "80",
+				"text": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヘビーロックキャノン",
+				"damage": "210",
+				"text": "次の自分の番、このポケモンは「ヘビーロックキャノン」が使えない。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38487,
+		"multiId": "710_105",
+		"nameJp": "クロバットV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038487_P_KUROBATTOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "105",
+		"ability": {
+			"name": "ナイトアセット",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札が6枚になるように、山札を引く。この番、すでに別の「ナイトアセット」を使っていたなら、この特性は使えない。"
+		},
+		"attacks": [
+			{
+				"name": "どくのキバ",
+				"damage": "70",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38488,
+		"multiId": "710_106",
+		"nameJp": "ムゲンダイナV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038488_P_MUGENDAINAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "106",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パワーアクセル",
+				"damage": "30",
+				"text": "のぞむなら、自分の手札から[dark]エネルギーを1枚選び、ベンチポケモンにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイマックスほう",
+				"damage": "120＋",
+				"text": "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38489,
+		"multiId": "710_107",
+		"nameJp": "ハッサムV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038489_P_HASSAMUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Satoshi Shirai",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "107",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちぎりとる",
+				"damage": "30",
+				"text": "相手のバトルポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を1枚ずつ選び、トラッシュする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "140",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38490,
+		"multiId": "710_108",
+		"nameJp": "ボーマンダV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038490_P_BOMANDAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "108",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "おうだんひこう",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ヘビーストーム",
+				"damage": "160",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38227,
+		"multiId": "710_089",
+		"nameJp": "おうえんYホーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038227_T_OUENYHON.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "おたがいのバトルポケモンを、それぞれこんらんにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38228,
+		"multiId": "710_090",
+		"nameJp": "ターボパッチ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038228_T_TABOPACCHI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、自分のトラッシュから基本エネルギーを1枚選び、自分のたねポケモン（「ポケモンGX」をのぞく）につける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38229,
+		"multiId": "710_091",
+		"nameJp": "めずらしい化石",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038229_T_MEZURASHIIKASEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、HP70の[colorless]タイプのたねポケモンとして、場に出すことができる。\n自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。\n\nこのカードは、特殊状態にならず、にげられない。",
+		"energyText": "",
+		"hp": "70",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "C",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38230,
+		"multiId": "710_092",
+		"nameJp": "タフネスマント",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038230_T_TAFUNESUMANTO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "inose yukie",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38231,
+		"multiId": "710_093",
+		"nameJp": "もくもくスモーク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038231_T_MOKUMOKUSUMOKU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38232,
+		"multiId": "710_094",
+		"nameJp": "とりつかい",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038232_T_TORITSUKAI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38233,
+		"multiId": "710_095",
+		"nameJp": "ネズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038233_T_NEZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札から[dark]ポケモンとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38234,
+		"multiId": "710_096",
+		"nameJp": "ローズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038234_T_ROZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュから基本エネルギーを2枚まで選び、自分の「ポケモンVMAX」1匹につける。その後、自分の手札をすべてトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yusuke Ohmura",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38235,
+		"multiId": "710_097",
+		"nameJp": "スパイクタウン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038235_T_SUPAIKUTAUN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番に、自分のバトルポケモンがベンチにもどるたび、ベンチにもどったポケモンにダメカンを2個のせる。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38236,
+		"multiId": "710_098",
+		"nameJp": "ローズタワー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038236_T_ROZUTAWA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札が3枚になるように、山札を引いてよい。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38491,
+		"multiId": "710_109",
+		"nameJp": "ネズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038491_T_NEZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札から[dark]ポケモンとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "109",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38492,
+		"multiId": "710_110",
+		"nameJp": "ローズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038492_T_ROZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分のトラッシュから基本エネルギーを2枚まで選び、自分の「ポケモンVMAX」1匹につける。その後、自分の手札をすべてトラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "SR",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "110",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38237,
+		"multiId": "710_099",
+		"nameJp": "ハイド悪エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038237_E_HAIDOAKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[dark]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[dark]ポケモンのにげるためのエネルギーは、すべてなくなる。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "099",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38238,
+		"multiId": "710_100",
+		"nameJp": "パワフル無色エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S3/038238_E_PAWAFURUMUSHOKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[colorless]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[colorless]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「＋20」される。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "710",
+		"set": "拡張パック「ムゲンゾーン」",
+		"setCode": "S3",
+		"generation": "SA",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

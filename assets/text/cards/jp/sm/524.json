@@ -1,0 +1,4356 @@
+[
+	{
+		"cardId": 34383,
+		"multiId": "524_001",
+		"nameJp": "ヤンヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034383_P_YANYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ばいそくいどう",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34384,
+		"multiId": "524_002",
+		"nameJp": "メガヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034384_P_MEGAYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ちょうおんぱ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "カッターウインド",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34385,
+		"multiId": "524_003",
+		"nameJp": "ロゼリア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034385_P_ROZERIA.jpg",
+		"imageUrl": "",
+		"cardText": "栄養満点の わき水を 飲んだ ロゼリアは 珍しい 色の 花を 咲かせる らしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はなびらのまい",
+				"damage": "30×",
+				"text": "コインを3回投げ、オモテの数×30ダメージ。このポケモンをこんらんにする。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34386,
+		"multiId": "524_004",
+		"nameJp": "ロズレイド",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034386_P_ROZUREIDO.jpg",
+		"imageUrl": "",
+		"cardText": "ダンサーのような 身のこなしで 毒の トゲが びっしりと 並んだ ムチを 操り 攻撃する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mitsuhiro Arita",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ごしめいどく",
+				"damage": "",
+				"text": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくにする。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "フラワーミキサー",
+				"damage": "100",
+				"text": "自分の場のポケモンについている[grass]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34387,
+		"multiId": "524_005",
+		"nameJp": "ナエトル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034387_P_NAETORU.jpg",
+		"imageUrl": "",
+		"cardText": "全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうごうせい",
+				"damage": "",
+				"text": "自分の山札にある[grass]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "とびだしヘッド",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34388,
+		"multiId": "524_006",
+		"nameJp": "ナエトル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034388_P_NAETORU.jpg",
+		"imageUrl": "",
+		"cardText": "全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "OOYAMA",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "はっぱカッター",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34389,
+		"multiId": "524_007",
+		"nameJp": "ハヤシガメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034389_P_HAYASHIGAME.jpg",
+		"imageUrl": "",
+		"cardText": "きれいな 水が わき出る 場所を 知っていて 仲間の ポケモンを 背中に 乗せて そこまで 運ぶ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "メガドレイン",
+				"damage": "30",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "はっぱカッター",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34390,
+		"multiId": "524_008",
+		"nameJp": "ドダイトス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034390_P_DODAITOSU.jpg",
+		"imageUrl": "",
+		"cardText": "小さな ポケモンたちが 集まり 動かない ドダイトスの 背中で 巣作りを はじめることがある。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ギガドレイン",
+				"damage": "50",
+				"text": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "じしん",
+				"damage": "180",
+				"text": "自分のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"grass",
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34391,
+		"multiId": "524_009",
+		"nameJp": "チェリンボ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034391_P_CHIERINBO.jpg",
+		"imageUrl": "",
+		"cardText": "小さな 玉に つまった 栄養分を 吸い取って 進化の エネルギーに するのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Asako Ito",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふいをつく",
+				"damage": "30",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34392,
+		"multiId": "524_010",
+		"nameJp": "チェリム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034392_P_CHIERIMU.jpg",
+		"imageUrl": "",
+		"cardText": "強い 日差しを 感じとると 閉ざしていた 花びらを 広げ 全身で 日光を 浴びる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "010",
+		"ability": {
+			"name": "おてんきガード",
+			"text": "このポケモンがいるかぎり、自分の[grass]ポケモン全員の弱点は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "タネばくだん",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34393,
+		"multiId": "524_011",
+		"nameJp": "マスキッパ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034393_P_MASUKIPPA.jpg",
+		"imageUrl": "",
+		"cardText": "湿地帯に 生える 木に巻きつき 甘い香りの だえきで 獲物を 誘き寄せては ひとくちで 食べる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガブガブ",
+				"damage": "20",
+				"text": "このポケモンのHPを「20」回復する。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "おおいかぶさる",
+				"damage": "90－",
+				"text": "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				"costs": [
+					"grass",
+					"grass"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34394,
+		"multiId": "524_012",
+		"nameJp": "リーフィアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034394_P_RIFIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "012",
+		"ability": {
+			"name": "あおばのいぶき",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。エネルギーがついている自分のポケモン1匹のHPを「50」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ソーラービーム",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "グランブルームGX",
+				"damage": "",
+				"text": "自分のベンチのたねポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34395,
+		"multiId": "524_013",
+		"nameJp": "カットロトム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034395_P_KATTOROTOMU.jpg",
+		"imageUrl": "",
+		"cardText": "プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kawayoo",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "013",
+		"ability": {
+			"name": "ロトモーター",
+			"text": "自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "スペシャルカット",
+				"damage": "60",
+				"text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34396,
+		"multiId": "524_014",
+		"nameJp": "シェイミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034396_P_SHIEIMI.jpg",
+		"imageUrl": "",
+		"cardText": "グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "てまねき",
+				"damage": "",
+				"text": "自分の山札にある、それぞれちがうタイプのたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アロマスリープ",
+				"damage": "30",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34397,
+		"multiId": "524_015",
+		"nameJp": "ブーバー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034397_P_BUBA.jpg",
+		"imageUrl": "",
+		"cardText": "怒ると 全身から 灼熱の 炎を 噴き上げる。 相手を 炭に するまで 収まらない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "のやき",
+				"damage": "",
+				"text": "相手の山札を上から1枚トラッシュする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かえんほうしゃ",
+				"damage": "80",
+				"text": "このポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34398,
+		"multiId": "524_016",
+		"nameJp": "ブーバーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034398_P_BUBAN.jpg",
+		"imageUrl": "",
+		"cardText": "腕先から 摂氏２０００度の 火の玉を 発射。 連射を すると 腕先が 少し 溶ける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "016",
+		"ability": {
+			"name": "しゃくねつボディ",
+			"text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。"
+		},
+		"attacks": [
+			{
+				"name": "ファイヤーガン",
+				"damage": "80＋",
+				"text": "のぞむなら、このポケモンについているエネルギーを、2個トラッシュする。その場合、80ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34399,
+		"multiId": "524_017",
+		"nameJp": "ヒコザル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034399_P_HIKOZARU.jpg",
+		"imageUrl": "",
+		"cardText": "お腹で 作られた ガスが お尻で 燃えている。 体調が 悪いと 炎が 弱くなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのお",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34400,
+		"multiId": "524_018",
+		"nameJp": "ヒコザル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034400_P_HIKOZARU.jpg",
+		"imageUrl": "",
+		"cardText": "お腹で 作られた ガスが お尻で 燃えている。 体調が 悪いと 炎が 弱くなる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みだれひっかき",
+				"damage": "10×",
+				"text": "コインを3回投げ、オモテの数×10ダメージ。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34401,
+		"multiId": "524_019",
+		"nameJp": "モウカザル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034401_P_MOUKAZARU.jpg",
+		"imageUrl": "",
+		"cardText": "天井や 壁を 利用して 空中殺法を 繰り出す。 尻尾の 炎も 武器の ひとつ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほのおでこがす",
+				"damage": "20",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34402,
+		"multiId": "524_020",
+		"nameJp": "ゴウカザル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034402_P_GOUKAZARU.jpg",
+		"imageUrl": "",
+		"cardText": "素早さで 相手を 翻弄する。 両手 両足を 使った 独特の 戦い方を する。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "nagimiso",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "020",
+		"ability": {
+			"name": "あつきとうし",
+			"text": "このポケモンがいるかぎり、相手のバトルポケモンは、やけどでのせるダメカンの数が6個になる。"
+		},
+		"attacks": [
+			{
+				"name": "バーストパンチ",
+				"damage": "50",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34403,
+		"multiId": "524_021",
+		"nameJp": "ヒートロトム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034403_P_HITOROTOMU.jpg",
+		"imageUrl": "",
+		"cardText": "プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "021",
+		"ability": {
+			"name": "ロトモーター",
+			"text": "自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "ヒートブラスト",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34404,
+		"multiId": "524_022",
+		"nameJp": "ヤトウモリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034404_P_YATOUMORI.jpg",
+		"imageUrl": "",
+		"cardText": "火山や 乾いた 岩場に 棲む。 甘い 香りの 毒ガスを 放ち むしポケモンを おびき寄せ 襲う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "022",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひだね",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かえん",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34405,
+		"multiId": "524_023",
+		"nameJp": "エンニュート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034405_P_ENNYUTO.jpg",
+		"imageUrl": "",
+		"cardText": "毒ガスには 多くの フェロモンが 含まれている。 薄めることで 官能的な 香水が できる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "パニックどく",
+				"damage": "",
+				"text": "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アサシンネイル",
+				"damage": "60＋",
+				"text": "相手のバトルポケモンが特殊状態なら、60ダメージ追加。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34406,
+		"multiId": "524_024",
+		"nameJp": "バクガメス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034406_P_BAKUGAMESU.jpg",
+		"imageUrl": "",
+		"cardText": "鼻の 孔から 炎や 毒ガスを 吹く。 フンは 爆発物で 色んな 使い道が ある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "やきこがす",
+				"damage": "10",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ばくねつほう",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34407,
+		"multiId": "524_025",
+		"nameJp": "ヤミカラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034407_P_YAMIKARASU.jpg",
+		"imageUrl": "",
+		"cardText": "不吉の 証と 嫌われるが 仲良しの トレーナーには キラキラ 光るものを プレゼントするよ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "match",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くろいまなざし",
+				"damage": "10",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34408,
+		"multiId": "524_026",
+		"nameJp": "ドンカラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034408_P_DONKARASU.jpg",
+		"imageUrl": "",
+		"cardText": "獲物を 捕るのを 失敗したり 裏切った 子分の ヤミカラスを どこまでも 追い詰め 処分する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "スナッチターン",
+				"damage": "",
+				"text": "相手の手札からオモテを見ないで、1枚トラッシュする。このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スピードひこう",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34409,
+		"multiId": "524_027",
+		"nameJp": "ニューラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034409_P_NYURA.jpg",
+		"imageUrl": "",
+		"cardText": "ツメで タマゴに 穴を 開けて 中味を すする。 ブリーダーに 憎まれ 駆除 されることもある。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こっそりこわす",
+				"damage": "",
+				"text": "このワザは、後攻プレイヤーの最初の番にだけ使える。相手の場のポケモンについているエネルギーを、1個トラッシュする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おそいかかる",
+				"damage": "10＋",
+				"text": "コインを1回投げオモテなら、20ダメージ追加。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34410,
+		"multiId": "524_028",
+		"nameJp": "マニューラ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034410_P_MANYURA.jpg",
+		"imageUrl": "",
+		"cardText": "寒い 場所に 棲み アローラでは ロコンや サンドが 主な 餌。 獲物は 仲間で きちんと 分ける。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こごえるかぜ",
+				"damage": "10",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "あくのいましめ",
+				"damage": "50×",
+				"text": "相手の場の特性を持つポケモンの数×50ダメージ。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34411,
+		"multiId": "524_029",
+		"nameJp": "スカンプー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034411_P_SUKANPU.jpg",
+		"imageUrl": "",
+		"cardText": "お尻から 強烈に くさい 液体を 飛ばして 身を 守る。 においは ２４時間 消えない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みちづれガス",
+				"damage": "10",
+				"text": "おたがいのバトルポケモンを、それぞれこんらんにする。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34412,
+		"multiId": "524_030",
+		"nameJp": "スカタンク",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034412_P_SUKATANKU.jpg",
+		"imageUrl": "",
+		"cardText": "尻尾から くさい 汁を 飛ばす。 お腹で 熟成させる 時間が 長いほど においが ひどくなる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ベタつくえんまく",
+				"damage": "50",
+				"text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを2回投げる。1回でもウラなら、そのワザは失敗。",
+				"costs": [
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ぶちかます",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"dark",
+					"dark",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34413,
+		"multiId": "524_031",
+		"nameJp": "ダークライPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034413_P_DAKURAI.jpg",
+		"imageUrl": "",
+		"cardText": "人々を 深い 眠りに 誘い 夢を 見せる 能力を 持つ。 新月の 夜に 活動する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "PRISMSTAR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "031",
+		"ability": {
+			"name": "ナイトメアスター",
+			"text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札にある[dark]エネルギーを2枚、このポケモンにつける。"
+		},
+		"attacks": [
+			{
+				"name": "アビススリープ",
+				"damage": "120",
+				"text": "相手のバトルポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+				"costs": [
+					"dark",
+					"dark",
+					"dark",
+					"dark"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "同じ名前の（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34414,
+		"multiId": "524_032",
+		"nameJp": "アローラディグダ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034414_P_ARORADEIGUDA.jpg",
+		"imageUrl": "",
+		"cardText": "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "アイアンヘッド",
+				"damage": "10×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×10ダメージ。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34415,
+		"multiId": "524_033",
+		"nameJp": "アローラダグトリオ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034415_P_ARORADAGUTORIO.jpg",
+		"imageUrl": "",
+		"cardText": "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Megumi Mizutani",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "033",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ゴールドラッシュ",
+				"damage": "30×",
+				"text": "自分の手札にある[steel]エネルギーを好きなだけトラッシュし、その枚数×30ダメージ。",
+				"costs": [
+					null
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34416,
+		"multiId": "524_034",
+		"nameJp": "コイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034416_P_KOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "電磁波を 放ち 空を 漂う。 電気を 喰っているときに 触ると 全身が ビリッと 痺れるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "034",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マグネサーチ",
+				"damage": "",
+				"text": "自分の山札にある[steel]エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34417,
+		"multiId": "524_035",
+		"nameJp": "コイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034417_P_KOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "電磁波を 放ち 空を 漂う。 電気を 喰っているときに 触ると 全身が ビリッと 痺れるぞ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "035",
+		"ability": {
+			"name": "ハードユニット",
+			"text": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34418,
+		"multiId": "524_036",
+		"nameJp": "レアコイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034418_P_REAKOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "ほぼ コイル ３倍の 電力。 太陽の黒点が 多いとき なぜか 大量発生。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "でんじほう",
+				"damage": "80",
+				"text": "次の自分の番、このポケモンは「でんじほう」が使えない。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34419,
+		"multiId": "524_037",
+		"nameJp": "ジバコイル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034419_P_JIBAKOIRU.jpg",
+		"imageUrl": "",
+		"cardText": "怪電波を 発信 しながら 空を 飛び回り 未知の 電波を 受信 していると いう。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yoshinobu Saito",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "037",
+		"ability": {
+			"name": "マグネサーキット",
+			"text": "自分の番に何回でも使える。自分の手札にある[steel]エネルギーを1枚、自分のポケモンにつける。"
+		},
+		"attacks": [
+			{
+				"name": "でんじほう",
+				"damage": "130",
+				"text": "次の自分の番、このポケモンは「でんじほう」が使えない。",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34420,
+		"multiId": "524_038",
+		"nameJp": "タテトプス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034420_P_TATETOPUSU.jpg",
+		"imageUrl": "",
+		"cardText": "頑丈な 顔の おかげで 敵は 少なかったと 思われる。 太古の ジャングルに 棲んでいた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "so-taro",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "038",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "とっしん",
+				"damage": "50",
+				"text": "このポケモンにも10ダメージ。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "がちんこ",
+				"damage": "80",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34421,
+		"multiId": "524_039",
+		"nameJp": "トリデプス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034421_P_TORIDEPUSU.jpg",
+		"imageUrl": "",
+		"cardText": "ラムパルドと 似た 場所に いた。 ２匹が 争い 共倒れに なった 化石が 見つかることも。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Hasuno",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "039",
+		"ability": {
+			"name": "だいちのたて",
+			"text": "このポケモンがいるかぎり、自分の[steel]ポケモン全員は、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。"
+		},
+		"attacks": [
+			{
+				"name": "つきとばす",
+				"damage": "110",
+				"text": "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34422,
+		"multiId": "524_040",
+		"nameJp": "ドーミラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034422_P_DOMIRA.jpg",
+		"imageUrl": "",
+		"cardText": "古い お墓から ドーミラーに そっくりな 道具が 掘り出されたが 関係は わかっていない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sumiyoshi Kizuki",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "さいみんじゅつ",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かいてんアタック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34423,
+		"multiId": "524_041",
+		"nameJp": "ドータクン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034423_P_DOTAKUN.jpg",
+		"imageUrl": "",
+		"cardText": "ドータクンに 祈りを ささげると 雨が 降り 作物を 育てると 古代の 人々は 信じていた。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねんりき",
+				"damage": "20",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコレゾナンス",
+				"damage": "60＋",
+				"text": "相手の場に[psychic]ポケモンがいるなら、60ダメージ追加。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34424,
+		"multiId": "524_042",
+		"nameJp": "ヒードラン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034424_P_HIDORAN.jpg",
+		"imageUrl": "",
+		"cardText": "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "R",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "042",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガードプレス",
+				"damage": "30",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ボイラーインパクト",
+				"damage": "130",
+				"text": "このポケモンについているエネルギーを、2個トラッシュする。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34425,
+		"multiId": "524_043",
+		"nameJp": "ソルガレオPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034425_P_SORUGAREO.jpg",
+		"imageUrl": "",
+		"cardText": "コスモッグが 進化した ♂だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 駆け抜けていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "PRISMSTAR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ライジングスター",
+				"damage": "",
+				"text": "自分のトラッシュにある[steel]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "コロナインパクト",
+				"damage": "160",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"steel"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "同じ名前の（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34426,
+		"multiId": "524_044",
+		"nameJp": "ネクロズマ たそがれのたてがみGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034426_P_NEKUROZUMATASOGARENOTATEGAMIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメできりさく",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "メテオテンペスト",
+				"damage": "220",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "イクリプスサンGX",
+				"damage": "250",
+				"text": "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"steel",
+					"steel",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34427,
+		"multiId": "524_045",
+		"nameJp": "ディアルガGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034427_P_DEIARUGAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "045",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クロックアップ",
+				"damage": "",
+				"text": "自分の手札が6枚になるように、山札を引く。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひきさく",
+				"damage": "80",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "タイムレスGX",
+				"damage": "150",
+				"text": "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34428,
+		"multiId": "524_046",
+		"nameJp": "ベロリンガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034428_P_BERORINGA.jpg",
+		"imageUrl": "",
+		"cardText": "舌が 身長の ２倍もある。 エサを 取ったり 攻撃を したりと まるで 手のように 動かせる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "したでとる",
+				"damage": "",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "たたきつける",
+				"damage": "50×",
+				"text": "コインを2回投げ、オモテの数×50ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34429,
+		"multiId": "524_047",
+		"nameJp": "ベロベルト",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034429_P_BEROBERUTO.jpg",
+		"imageUrl": "",
+		"cardText": "だえきには どんな 物も 溶かす 成分が たっぷり 含まれており なめられると いつまでも しびれる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Yumi",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なめごろし",
+				"damage": "50＋",
+				"text": "ウラが出るまでコインを投げ、オモテの数×50ダメージ追加。最初のコインがウラなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ころがりタックル",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34430,
+		"multiId": "524_048",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034430_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "048",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34431,
+		"multiId": "524_049",
+		"nameJp": "ニャルマー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034431_P_NYARUMA.jpg",
+		"imageUrl": "",
+		"cardText": "ご機嫌な ニャルマーは 尻尾で 新体操の リボンのような 美しい 動きを 見せる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あまがみ",
+				"damage": "10",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-40」される。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34432,
+		"multiId": "524_050",
+		"nameJp": "ブニャット",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034432_P_BUNYATTO.jpg",
+		"imageUrl": "",
+		"cardText": "体を 大きく 見せて 相手を 威圧するため ふたまたの 尻尾で ウエストを ぎゅっと 絞っている。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "わがものがお",
+				"damage": "20",
+				"text": "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うっちゃらかす",
+				"damage": "60",
+				"text": "相手の手札を、オモテを見ないで3枚になるまで、トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34433,
+		"multiId": "524_051",
+		"nameJp": "スピンロトム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034433_P_SUPINROTOMU.jpg",
+		"imageUrl": "",
+		"cardText": "プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "051",
+		"ability": {
+			"name": "ロトモーター",
+			"text": "自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "くるくるスピン",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34434,
+		"multiId": "524_052",
+		"nameJp": "ヤレユータン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034434_P_YAREYUTAN.jpg",
+		"imageUrl": "",
+		"cardText": "ジャングル奥地の 木の上に 棲む。 まれに 海辺に 現れて ヤドキングと 知恵比べを する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "052",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "リソースマネージメント",
+				"damage": "",
+				"text": "自分のトラッシュにある好きなカードを3枚、相手に見せてから、好きな順番に入れ替えて、山札の下にもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うんちく",
+				"damage": "60",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35681,
+		"multiId": "524_067",
+		"nameJp": "リーフィアGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035681_P_RIFIAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "067",
+		"ability": {
+			"name": "あおばのいぶき",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。エネルギーがついている自分のポケモン1匹のHPを「50」回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ソーラービーム",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "グランブルームGX",
+				"damage": "",
+				"text": "自分のベンチのたねポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35682,
+		"multiId": "524_068",
+		"nameJp": "ネクロズマ たそがれのたてがみGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035682_P_NEKUROZUMATASOGARENOTATEGAMIGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ツメできりさく",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "メテオテンペスト",
+				"damage": "220",
+				"text": "このポケモンについているエネルギーを、3個トラッシュする。",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 4
+			},
+			{
+				"name": "イクリプスサンGX",
+				"damage": "250",
+				"text": "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"steel",
+					"steel",
+					"steel"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "psychic",
+			"calc": null,
+			"value": "20"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35683,
+		"multiId": "524_069",
+		"nameJp": "ディアルガGX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035683_P_DEIARUGAGX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"dragon"
+		],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": true,
+			"isTagteam": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "クロックアップ",
+				"damage": "",
+				"text": "自分の手札が6枚になるように、山札を引く。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ひきさく",
+				"damage": "80",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "タイムレスGX",
+				"damage": "150",
+				"text": "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はGXワザを1回しか使えない。］",
+				"costs": [
+					"steel",
+					"steel",
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 5
+			}
+		],
+		"addRule": "ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fairy",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34435,
+		"multiId": "524_053",
+		"nameJp": "きずぐすり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034435_T_KIZUGUSURI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモン1匹のHPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34436,
+		"multiId": "524_054",
+		"nameJp": "ともだちてちょう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034436_T_TOMODACHITECHOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のトラッシュにあるサポートを2枚、相手に見せてから、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34437,
+		"multiId": "524_055",
+		"nameJp": "なぞの化石",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034437_T_NAZONOKASEKI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、HP60の[colorless]タイプのたねポケモンとして、場に出すことができる。\n自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。\n\nこのカードは、にげられない。",
+		"energyText": "",
+		"hp": "60",
+		"color": [],
+		"optionValue": {
+			"isFossil": true,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34438,
+		"multiId": "524_056",
+		"nameJp": "ネストボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034438_T_NESUTOBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34439,
+		"multiId": "524_057",
+		"nameJp": "ポケモンキャッチャー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034439_T_POKEMONKYACCHA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34440,
+		"multiId": "524_058",
+		"nameJp": "ミッシングクローバー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034440_T_MISSHINGUKUROBA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "「ミッシングクローバー」は、1枚または4枚同時に使え、使った枚数によって効果が変わる。\n\n◆1枚使ったなら、自分の山札を上から1枚見て、もとにもどす。\n\n◆4枚同時に使ったなら、自分のサイドを1枚とる。（この効果は、4枚で1回はたらく。）",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "C",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34441,
+		"multiId": "524_059",
+		"nameJp": "アカギPR",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034441_T_AKAGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "このカードは、自分のバトル場に[water]または[steel]ポケモンがいなければ使えない。\n\n相手は相手自身のベンチポケモンが2匹になるまで、ポケモンとついているすべてのカードを、山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": true,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "PRISMSTAR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [],
+		"addRule": "サポートは、自分の番に1枚しか使えない。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34442,
+		"multiId": "524_060",
+		"nameJp": "ナタネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034442_T_NATANE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "[grass]エネルギーがついている自分のポケモン1匹のHPを「80」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34443,
+		"multiId": "524_061",
+		"nameJp": "ポケモンだいすきクラブ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034443_T_POKEMONDAISUKIKURABU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるたねポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34444,
+		"multiId": "524_062",
+		"nameJp": "マーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034444_T_MAZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を2枚引く。その後、相手の手札からオモテを見ないで、1枚トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34445,
+		"multiId": "524_063",
+		"nameJp": "リーリエ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034445_T_RIRIE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34446,
+		"multiId": "524_064",
+		"nameJp": "テンガン山",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034446_T_TENGANYAMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーは、自分の番に1回、自分のトラッシュにある[steel]エネルギーを2枚、相手に見せてから、手札に加えてよい。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35684,
+		"multiId": "524_070",
+		"nameJp": "ナタネ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035684_T_NATANE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "[grass]エネルギーがついている自分のポケモン1匹のHPを「80」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "You Iribi",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35685,
+		"multiId": "524_071",
+		"nameJp": "ポケモンだいすきクラブ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035685_T_POKEMONDAISUKIKURABU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札にあるたねポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 35686,
+		"multiId": "524_072",
+		"nameJp": "マーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/035686_T_MAZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"trainerText": "自分の山札を2枚引く。その後、相手の手札からオモテを見ないで、1枚トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "kodama",
+		"rarity": "SR",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34447,
+		"multiId": "524_065",
+		"nameJp": "ダブル無色エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034447_E_DABURUMUSHOKUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、[colorless]エネルギー2個ぶんとしてはたらく。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "065",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 34448,
+		"multiId": "524_066",
+		"nameJp": "ユニットエネルギー草炎水",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SM5S/034448_E_YUNITTOENERUGIKUSAHONOOMIZU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[grass][fire][water]の3つのタイプのエネルギー1個ぶんとしてはたらく。\n\nポケモンについていないなら、[colorless]エネルギー1個ぶんとしてはたらく。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isFossil": false,
+			"isPr": false,
+			"isGX": false,
+			"isTagteam": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "524",
+		"set": "サン&ムーン 拡張パック「ウルトラサン」",
+		"setCode": "SM5S",
+		"generation": "SM",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]
