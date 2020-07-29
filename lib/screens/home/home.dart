@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ptcgb_flutter/screens//decks/decks.dart';
+import 'package:ptcgb_flutter/screens//decks/decklists.dart';
 import 'package:ptcgb_flutter/screens//expansions/expansions.dart';
 
 import 'package:path/path.dart';
@@ -47,9 +47,9 @@ class Home extends StatelessWidget {
   Widget _buildDecks(BuildContext context) {
     return RaisedButton(
       onPressed: (){
-        Navigator.of(context).pushNamed('/decks');
+        Navigator.of(context).pushNamed('/deck_lists');
       },
-      child: Text('Decks'),
+      child: Text('Deck Lists'),
     );
   }
 

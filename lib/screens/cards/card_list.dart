@@ -61,7 +61,7 @@ class CardList extends StatelessWidget {
       return Scrollbar(
         child: ListView.builder(
             itemCount: cardList.length,
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.0),
             itemBuilder: (context, index) {
               return _cardItem(context, cardList[index], index);
             }),

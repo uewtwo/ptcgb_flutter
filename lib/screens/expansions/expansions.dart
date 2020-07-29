@@ -122,8 +122,8 @@ class ExpansionsState extends State<Expansions> {
       BuildContext context, ExpansionContent content, int index) {
     return Container(
       decoration: new BoxDecoration(
-          border:
-              new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+          border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))
+      ),
       child: ListTile(
         leading: _expansionImage(content),
         title: Text(content.name, style: _biggerFont),
