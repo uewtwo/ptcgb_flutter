@@ -12,17 +12,18 @@ class DeckCreatorState extends State<DeckCreator> {
   double customWidth;
   List deckElements; // デッキリストの元、オブジェクト化して画像とかを用意したい
 
+  final double deckContentWidth = 120.0;
+
   TextEditingController editingController = TextEditingController();
 
-  List<charts.Series> seriesList = _createSampleData();
-
-  // テストデータ
-  var listItem = ["o","t","h","o","t","h","o","t","h","o","t","h","o","t","h",];
+  List<charts.Series> seriesList;
 
   @override
   Widget build(BuildContext context) {
     screenWidth = MediaQuery.of(context).size.width;
     customWidth = screenWidth * 0.2;
+
+    seriesList = _createSampleData();
     // TODO: min, max 決めてRowに表示するカードの枚数を調整する
 
     return Scaffold(
@@ -36,51 +37,36 @@ class DeckCreatorState extends State<DeckCreator> {
       body: Row(
           children: <Widget>[
             Expanded(child: Column(
-                    children: <Widget>[
-                      _buildSearchingCard(context),
-                      Text('カード検索結果'),
-                      Container(
-                          height: 600,
-                          child: _buildDeckContents()
-                      ),
-                    ],
-                  )
-            ),
-            Expanded(child: Column(
               children: <Widget>[
-                _buildDeckSummaryCharts(),
-                Text('デッキの中身'),
+                _buildSearchingCard(context),
+                Padding(
+                    padding: EdgeInsets.only(top: 10),
+                    child: Text('カード検索結果')),
                 Container(
-//                    width: 100,
-                    height: 450,
                     child: _buildDeckContents()
                 ),
-            ]))
+              ])
+            ),
+            Container(
+              width: deckContentWidth,
+              child: Column(
+                children: <Widget>[
+                  _buildDeckSummaryCharts(),
+                  Padding(
+                      padding: EdgeInsets.only(top: 10),
+                      child: Text('デッキの中身')),
+                  Container(
+                      child: _buildDeckContents()
+                  ),
+              ])
+            )
           ])
-//      body: Row(
-//        children: <Widget>[
-//          Container(
-//            child: Expanded(child: Column(
-//              children: <Widget>[
-//                _buildSearchingCard(context),
-//              ],
-//            )),
-//          ),
-//          Column(
-////            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-//            children: <Widget>[
-//              _buildDeckSummaryCharts(),
-//              _buildDeckContents(),
-//            ],
-//          )
-//        ],
-//      ),
     );
   }
 
   Widget _buildSearchingCard(BuildContext context) {
     return Container(
-        height: 70,
+        height: 50,
         child: Padding(
             padding: EdgeInsets.all(8.0),
             child: TextField(
@@ -105,9 +91,8 @@ class DeckCreatorState extends State<DeckCreator> {
 
   Widget _buildDeckSummaryCharts() {
     return Container(
-//                FIXME: 適当にサイズを決め打ちしてる、レイアウトから考える
-        width: 200,
-        height: 200,
+        width: deckContentWidth,
+        height: deckContentWidth,
         child: charts.BarChart(
           seriesList,
           animate: true,
@@ -117,40 +102,46 @@ class DeckCreatorState extends State<DeckCreator> {
   }
 
   Widget _buildDeckContents() {
-    return Expanded(child: ListView.builder(
-        itemCount: 100,
-        padding: EdgeInsets.all(8),
-        shrinkWrap: true,
-//        physics: NeverScrollableScrollPhysics(),
-        itemBuilder: (context, index) {
-          return Container(
-            decoration: new BoxDecoration(
-                border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
-            child: ListTile(
-              title: Text('$index番目', style: _biggerFont),
-              onTap: () {},
-            ),
-          );
-        },
-      ));
+    return Expanded(
+        child: Scrollbar(
+          child: ListView.builder(
+            itemCount: 100,
+            padding: EdgeInsets.all(8),
+            shrinkWrap: true,
+//            physics: NeverScrollableScrollPhysics(),
+            itemBuilder: (context, index) {
+              return Container(
+                decoration: new BoxDecoration(
+                    border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+                child: ListTile(
+                  title: Text('$index番目', style: _biggerFont),
+                  onTap: () {},
+                ),
+              );
+            },
+          )
+        )
+      );
   }
 
   /// テストデータ
+  /// TODO: 実際のデッキの中身で置き換える
+  /// TODO: データ構造考える
   static List<charts.Series<OrdinalSales, String>> _createSampleData() {
     final desktopSalesData = [
-      new OrdinalSales('Pok', 15),
-      new OrdinalSales('Tra', 14),
-      new OrdinalSales('Ene', 6),
+      new OrdinalSales('P', 15),
+      new OrdinalSales('T', 14),
+      new OrdinalSales('E', 6),
     ];
 
     final tableSalesData = [
-      new OrdinalSales('Pok', 7),
-      new OrdinalSales('Tra', 10),
-      new OrdinalSales('Ene', 8),
+      new OrdinalSales('P', 7),
+      new OrdinalSales('T', 10),
+      new OrdinalSales('E', 8),
     ];
 
     final mobileSalesData = [
-      new OrdinalSales('Pok', 3),
+      new OrdinalSales('P', 3),
     ];
 
     return [
