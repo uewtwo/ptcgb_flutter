@@ -1,9 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
 part 'ability_content.g.dart';
 
 @JsonSerializable()
-class AbilityContent {
+class AbilityContent extends Equatable {
   final String name;
   final String text;
 
@@ -20,4 +21,7 @@ class AbilityContent {
     'iname': name,
     'text': text,
   };
+
+  @override
+  List<Object> get props => [name, text];
 }

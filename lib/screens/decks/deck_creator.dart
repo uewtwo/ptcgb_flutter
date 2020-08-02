@@ -1,5 +1,11 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:flutter/services.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 class DeckCreator extends StatefulWidget {
   @override
@@ -8,15 +14,36 @@ class DeckCreator extends StatefulWidget {
 
 class DeckCreatorState extends State<DeckCreator> {
   final TextStyle _biggerFont = TextStyle(fontSize: 18);
+  final TextStyle _deckContentFont = TextStyle(fontSize: 11);
   double screenWidth;
   double customWidth;
-  List deckElements; // デッキリストの元、オブジェクト化して画像とかを用意したい
+  /// デッキの中身
+  // TODO: 同一効果を同一カードにしたいので専用Classにした方が多分良い
+  List<CardContent> deckElementList;
+
+  // TODO: 決め打ちではなく最新の弾を自動で読み込むようにしたい
+  String _generation = 'sa';
+  // FIXME: List<CardContent>にしたいがList<dynamic> ... のエラーが出る
+  Future<List> baseCardList;
+  List<CardContent> filteredCardList;
+
+  String _type = 'sa';
 
   final double deckContentWidth = 120.0;
 
   TextEditingController editingController = TextEditingController();
 
   List<charts.Series> seriesList;
+
+  @override
+  void initState() {
+    baseCardList = getAllCardInGeneration(context, _generation);
+    deckElementList = [];
+    super.initState();
+  }
+
+  /// ラジオボタンのGeneration用リセット関数
+  void _handleGeneration(String e) => setState(() {_type = e;});
 
   @override
   Widget build(BuildContext context) {
@@ -39,11 +66,12 @@ class DeckCreatorState extends State<DeckCreator> {
             Expanded(child: Column(
               children: <Widget>[
                 _buildSearchingCard(context),
+                _buildSelectGeneration(context),
                 Padding(
                     padding: EdgeInsets.only(top: 10),
                     child: Text('カード検索結果')),
                 Container(
-                    child: _buildDeckContents()
+                    child: _buildSearchedCard(context)
                 ),
               ])
             ),
@@ -54,7 +82,7 @@ class DeckCreatorState extends State<DeckCreator> {
                   _buildDeckSummaryCharts(),
                   Padding(
                       padding: EdgeInsets.only(top: 10),
-                      child: Text('デッキの中身')),
+                      child: Text('デッキ: ${deckElementList.length}枚')),
                   Container(
                       child: _buildDeckContents()
                   ),
@@ -63,7 +91,39 @@ class DeckCreatorState extends State<DeckCreator> {
           ])
     );
   }
+  
+  /// 対象Generationのカードリスト全取得
+  Future<List<CardContent>> getAllCardInGeneration(BuildContext context, String generation) async {
+//    FIXME: getApplicationDocumentsDirectory() とか使って
+//    FIXME: カードリストjson管理しないとダメそう
+//    FIXME: その上でファイルリストを取得して対象Genカード全リストを取得とか？
+//    final Directory dir = Directory('/assets/text/cards/jp/$generation/');
+//    final Directory dir = Directory.current;
+//    final Future<List<FileSystemEntity>> fileLists = dirContents(dir);
 
+    // TODO: テストデータ
+    List<CardContent> _list = [];
+    // FIXME: _typeがラジオボタンのgenを受け取るからそれを参照するようにする
+//    final String basePath = 'assets/text/cards/jp/$generation/';
+    final String basePath = 'assets/text/cards/jp/sa/';
+    _list.addAll(CardContents.fromJson(
+      jsonDecode(await DefaultAssetBundle.of(context).loadString(
+          '${basePath}708.json'))).getCardContentList()
+    );
+    _list.addAll(CardContents.fromJson(
+        jsonDecode(await DefaultAssetBundle.of(context).loadString(
+            '${basePath}709.json'))).getCardContentList()
+    );
+    _list.addAll(CardContents.fromJson(
+        jsonDecode(await DefaultAssetBundle.of(context).loadString(
+            '${basePath}710.json'))).getCardContentList()
+    );
+
+    return _list;
+  }
+
+  /// ラジオボタンがGenerationが選択されたときに、対象カードリストを全部読み込む
+  /// その後SearchでFilterをかける
   Widget _buildSearchingCard(BuildContext context) {
     return Container(
         height: 50,
@@ -71,9 +131,7 @@ class DeckCreatorState extends State<DeckCreator> {
             padding: EdgeInsets.all(8.0),
             child: TextField(
               onChanged: (value) {}, // 入力中から裏で検索回す場合に使用
-              onSubmitted: (value) {
-                // TODO: resultAPIに投げるかローカルのJSONに検索かける
-              },
+              onSubmitted: (value) { _filteringCard(value); },
               controller: editingController,
               decoration: InputDecoration(
                   labelText: 'Search',
@@ -88,6 +146,43 @@ class DeckCreatorState extends State<DeckCreator> {
     );
   }
 
+  void _filteringCard(String searchStr) async {
+    filteredCardList = [];
+    filteredCardList = (await baseCardList).where(
+            (val) => val.searchCardText(searchStr)
+    ).toList();
+
+    setState(() {});
+  }
+
+  // FIXME: assets/管理をやめないとダメそう
+  Widget _buildSelectGeneration(context) {
+    // TODO: generation config みたいなところから動的にリストを生成できると良い
+    return Column(
+        children: <Widget>[
+          RadioListTile(
+            // FIXME: Update generation image.
+            secondary: Image.asset('assets/img/various/sample.png'),
+            activeColor: Colors.amberAccent,
+            title: Text("ソード&シールド"),
+            value: 'sa',
+            // FIXME: onChanged時の全カードリスト取得機能
+//            onChanged: _handleGeneration,
+            groupValue: _type,
+          ),
+          RadioListTile(
+            // FIXME: Update generation image.
+            secondary: Image.asset('assets/img/various/sample.png'),
+            activeColor: Colors.amberAccent,
+            title: Text("サン&ムーン"),
+            value: 'sm',
+            // FIXME: onChanged時の全カードリスト取得機能
+//            onChanged: _handleGeneration,
+            groupValue: _type,
+          ),
+        ]
+    );
+  }
 
   Widget _buildDeckSummaryCharts() {
     return Container(
@@ -101,11 +196,101 @@ class DeckCreatorState extends State<DeckCreator> {
     );
   }
 
+  Widget _buildSearchedCard(BuildContext context) {
+    return Expanded(
+        child: filteredCardList != null
+            ? _buildFilteredCardList()
+            : _buildFutureCardList(context)
+    );
+  }
+
+  Widget _buildFilteredCardList() {
+    return _buildScrolledCardList(filteredCardList);
+  }
+
+  Widget _buildFutureCardList(BuildContext context) {
+    return  FutureBuilder(
+        future: baseCardList,
+        builder: (BuildContext context, AsyncSnapshot snapshot) {
+          return _buildCardList(context, snapshot);
+        }
+    );
+  }
+
+  Widget _buildCardList(BuildContext context, AsyncSnapshot snapshot) {
+    if (snapshot.connectionState != ConnectionState.done) {
+      return Container(
+          height: 20,
+          width: 20,
+          padding: EdgeInsets.all(10.0),
+          child: CircularProgressIndicator());
+    } else if (snapshot.hasError) {
+      //      throw snapshot.error;
+      return Container(
+          padding: EdgeInsets.all(10.0),
+          child: Text(snapshot.error.toString()));
+    } else if (snapshot.hasData) {
+      final List<CardContent> cardList = snapshot.data;
+      return _buildScrolledCardList(cardList);
+    } else {
+      return Text('No Data.');
+    }
+  }
+
+  Widget _buildScrolledCardList(List<CardContent> cardList) {
+    return Scrollbar(
+      child: ListView.builder(
+          itemCount: cardList.length,
+          padding: EdgeInsets.all(1.0),
+          itemBuilder: (context, index) {
+            return _cardItem(context, cardList[index], index);
+          }),
+    );
+  }
+
+  Widget _cardItem(BuildContext context, CardContent content, int index) {
+    return Container(
+      decoration: BoxDecoration(
+        border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+      child: ListTile(
+        leading: _cardImage(content),
+        title: Text(content.nameJp, style: _biggerFont),
+        onTap: () {
+          // 80枚超えるなら追加しない
+          if (deckElementList.length + 1 > 80) {
+            showDialog(
+              context: context,
+              builder: (_) {
+                return AlertDialog(
+                  title: Text('Exceed 80.'),
+                  content: Text('Please reduce the number of cards in the deck list first'),
+                  actions: <Widget>[
+                    FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
+                  ]
+                );
+              }
+            );
+          }
+          addDeckElement(content);
+        },
+        onLongPress: () {
+          Navigator.of(context).pushNamed('/card_detail', arguments: content);
+        },
+      ),
+    );
+  }
+
+  Image _cardImage(CardContent content) {
+    return Image.asset(
+      'assets/img/various/sample.png'
+    );
+  }
+
   Widget _buildDeckContents() {
     return Expanded(
         child: Scrollbar(
           child: ListView.builder(
-            itemCount: 100,
+            itemCount: deckElementList.length,
             padding: EdgeInsets.all(8),
             shrinkWrap: true,
 //            physics: NeverScrollableScrollPhysics(),
@@ -114,14 +299,49 @@ class DeckCreatorState extends State<DeckCreator> {
                 decoration: new BoxDecoration(
                     border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
                 child: ListTile(
-                  title: Text('$index番目', style: _biggerFont),
-                  onTap: () {},
+                  title: Text(deckElementList[index].nameJp, style: _deckContentFont),
+                  onTap: () {
+                    subDeckElement(index);
+                  },
+                  onLongPress: () {
+                    addDeckElement(deckElementList[index]);
+                  }
                 ),
               );
             },
           )
         )
       );
+  }
+
+  void addDeckElement(CardContent content) {
+    setState(() {
+      deckElementList.add(content);
+      sortDeckElement();
+    });
+  }
+
+  void subDeckElement(int index) {
+    setState(() {
+      deckElementList.removeAt(index);
+    });
+  }
+
+  // FIXME: 追加するカードの位置だけ探せれば良い、全部並びかえは無駄
+  void sortDeckElement() {
+    deckElementList.sort(
+        (a, b) {
+          int supertypeSort = a.cardSupertype.index.compareTo(b.cardSupertype.index);
+          int subtypeSort = a.cardSubtype.index.compareTo(b.cardSupertype.index);
+          if (supertypeSort != 0) {
+            return supertypeSort;
+          } else if (subtypeSort != 0){
+            return subtypeSort;
+          } else {
+            return a.nameJp.compareTo(b.nameJp);
+          }
+        }
+    );
   }
 
   /// テストデータ

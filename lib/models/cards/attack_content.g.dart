@@ -11,8 +11,8 @@ AttackContent _$AttackContentFromJson(Map<String, dynamic> json) {
     json['name'] as String,
     json['damage'] as String,
     json['text'] as String,
-    json['convertedCost'] as int,
     json['costs'] as List,
+    json['convertedCost'] as int,
   );
 }
 
