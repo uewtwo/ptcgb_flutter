@@ -270,8 +270,9 @@ class DeckCreatorState extends State<DeckCreator> {
                 );
               }
             );
+          } else {
+            addDeckElement(content);
           }
-          addDeckElement(content);
         },
         onLongPress: () {
           Navigator.of(context).pushNamed('/card_detail', arguments: content);
