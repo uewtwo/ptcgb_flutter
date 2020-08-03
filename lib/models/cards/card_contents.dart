@@ -69,15 +69,16 @@ class CardContent {
   Map<String, dynamic> toJson() => _$CardContentToJson(this);
 
   bool isTheSameEffectCard(CardContent other) {
-    return identical(this, other) ||
-        nameJp == other.nameJp ||
-        cardText == other.cardText ||
-        subtype == other.subtype ||
-        trainerText == other.trainerText ||
-        energyText == other.energyText ||
-        hp == other.hp ||
-        ability == other.ability ||
-        ListEquality().equals(attacks, other.attacks);
+    return this.minCardText == other.minCardText;
+//    return identical(this, other) ||
+//        nameJp == other.nameJp ||
+//        cardText == other.cardText ||
+//        subtype == other.subtype ||
+//        trainerText == other.trainerText ||
+//        energyText == other.energyText ||
+//        hp == other.hp ||
+//        ability == other.ability ||
+//        ListEquality().equals(attacks, other.attacks);
   }
 
   bool searchCardText(String searchStr) {
@@ -89,8 +90,14 @@ class CardContent {
         RegExp("[ァ-ヴ]"),
             (Match m) => String.fromCharCode(m.group(0).codeUnitAt(0) - 0x60));
     final RegExp _regex = RegExp('$hira|$kana');
-    // 検索対象の文字列集めたもの
-    // TODO: 多分遅い
+
+
+    return minCardText.contains(_regex);
+  }
+
+  /// 検索対象の文字列集めたもの、同一チェックもこれで行う
+  // TODO: 多分遅い
+  String get minCardText {
     String attacksStr = '';
     for (int i = 0; i < attacks.length; i++) {
       attacksStr = [
@@ -103,7 +110,7 @@ class CardContent {
       hp, attacksStr
     ].where((val) => val != null).join();
 
-    return _target.contains(_regex);
+    return _target;
   }
 
   CardSupertype get cardSupertype {

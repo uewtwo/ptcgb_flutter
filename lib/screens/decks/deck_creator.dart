@@ -1,10 +1,7 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'package:flutter/services.dart';
-import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 class DeckCreator extends StatefulWidget {
@@ -17,9 +14,9 @@ class DeckCreatorState extends State<DeckCreator> {
   final TextStyle _deckContentFont = TextStyle(fontSize: 11);
   double screenWidth;
   double customWidth;
-  /// デッキの中身
+  /// デッキの中身, [カード内容, 枚数を想定
   // TODO: 同一効果を同一カードにしたいので専用Classにした方が多分良い
-  List<CardContent> deckElementList;
+  List<List<dynamic>> deckElementList = [];
 
   // TODO: 決め打ちではなく最新の弾を自動で読み込むようにしたい
   String _generation = 'sa';
@@ -51,8 +48,8 @@ class DeckCreatorState extends State<DeckCreator> {
     customWidth = screenWidth * 0.2;
 
     seriesList = _createSampleData();
-    // TODO: min, max 決めてRowに表示するカードの枚数を調整する
 
+    // TODO: min, max 決めてRowに表示するカードの枚数を調整する
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -82,7 +79,7 @@ class DeckCreatorState extends State<DeckCreator> {
                   _buildDeckSummaryCharts(),
                   Padding(
                       padding: EdgeInsets.only(top: 10),
-                      child: Text('デッキ: ${deckElementList.length}枚')),
+                      child: Text('デッキ: $deckContentNum枚')),
                   Container(
                       child: _buildDeckContents()
                   ),
@@ -138,7 +135,7 @@ class DeckCreatorState extends State<DeckCreator> {
                   hintText: 'card name here...',
                   prefixIcon: Icon(Icons.search),
                   border: OutlineInputBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(20))
+                      borderRadius: BorderRadius.all(Radius.circular(16))
                   )
               ),
             )
@@ -256,23 +253,7 @@ class DeckCreatorState extends State<DeckCreator> {
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
         onTap: () {
-          // 80枚超えるなら追加しない
-          if (deckElementList.length + 1 > 80) {
-            showDialog(
-              context: context,
-              builder: (_) {
-                return AlertDialog(
-                  title: Text('Exceed 80.'),
-                  content: Text('Please reduce the number of cards in the deck list first'),
-                  actions: <Widget>[
-                    FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
-                  ]
-                );
-              }
-            );
-          } else {
-            addDeckElement(content);
-          }
+          addDeckElement(content);
         },
         onLongPress: () {
           Navigator.of(context).pushNamed('/card_detail', arguments: content);
@@ -300,12 +281,14 @@ class DeckCreatorState extends State<DeckCreator> {
                 decoration: new BoxDecoration(
                     border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
                 child: ListTile(
-                  title: Text(deckElementList[index].nameJp, style: _deckContentFont),
+                  title: Text(
+                      '${deckElementList[index][0].nameJp}×${deckElementList[index][1]}',
+                      style: _deckContentFont),
                   onTap: () {
                     subDeckElement(index);
                   },
                   onLongPress: () {
-                    addDeckElement(deckElementList[index]);
+                    addDeckElement(deckElementList[index][0]);
                   }
                 ),
               );
@@ -316,31 +299,91 @@ class DeckCreatorState extends State<DeckCreator> {
   }
 
   void addDeckElement(CardContent content) {
-    setState(() {
-      deckElementList.add(content);
-      sortDeckElement();
-    });
+    // 80枚超えるなら追加しない
+    if (deckContentNum + 1 > 80) {
+      alertExceedDeckList();
+    } else {
+      int existsCardIndex = -1;
+      for (int i = 0; i < deckElementList.length; i++) {
+        if (deckElementList[i][0].isTheSameEffectCard(content)) {
+          existsCardIndex = i;
+          break;
+        }
+      }
+
+
+      if (existsCardIndex == -1) {
+        deckElementList.add([content, 1]);
+        sortDeckElement();
+      }
+      else if (deckElementList[existsCardIndex][1] >= 4) {
+        alertExceedCardList();
+      } else {
+        deckElementList[existsCardIndex][1]++;
+      }
+
+      setState(() {});
+    }
   }
 
   void subDeckElement(int index) {
-    setState(() {
+    if (deckElementList[index][1] == 1) {
       deckElementList.removeAt(index);
-    });
+    } else {
+      deckElementList[index][1]--;
+    }
+    setState(() {});
   }
 
   // FIXME: 追加するカードの位置だけ探せれば良い、全部並びかえは無駄
   void sortDeckElement() {
     deckElementList.sort(
         (a, b) {
-          int supertypeSort = a.cardSupertype.index.compareTo(b.cardSupertype.index);
-          int subtypeSort = a.cardSubtype.index.compareTo(b.cardSupertype.index);
+          int supertypeSort = a[0].cardSupertype.index.compareTo(b[0].cardSupertype.index);
+          int subtypeSort = a[0].cardSubtype.index.compareTo(b[0].cardSupertype.index);
           if (supertypeSort != 0) {
             return supertypeSort;
           } else if (subtypeSort != 0){
             return subtypeSort;
           } else {
-            return a.nameJp.compareTo(b.nameJp);
+            return a[0].nameJp.compareTo(b[0].nameJp);
           }
+        }
+    );
+  }
+
+  int get deckContentNum {
+    int _nums = 0;
+    deckElementList.forEach((val) => _nums += val[1]);
+    return _nums;
+  }
+
+  void alertExceedDeckList() {
+    showDialog(
+        context: context,
+        builder: (_) {
+          return AlertDialog(
+              title: Text('Exceed 80.'),
+              content: Text('Please reduce the number of cards in the deck list first'),
+              actions: <Widget>[
+                FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
+              ]
+          );
+        }
+    );
+  }
+
+  void alertExceedCardList() {
+    showDialog(
+        context: context,
+        builder: (_) {
+          return AlertDialog(
+              title: Text('Exceed 4.'),
+              content: Text('Please reduce the number of cards first'),
+              actions: <Widget>[
+                FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
+              ]
+          );
         }
     );
   }
