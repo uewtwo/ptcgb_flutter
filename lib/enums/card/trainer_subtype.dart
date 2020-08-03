@@ -1,10 +1,10 @@
-enum TrainerSubtype { trainer, goods, equipment, }
+enum TrainerSubtype { support, goods, equipment, }
 
 extension TrainerSubtypeExt on TrainerSubtype {
   String get name {
     switch (this) {
-      case TrainerSubtype.trainer:
-        return 'trainer';
+      case TrainerSubtype.support:
+        return 'support';
       case TrainerSubtype.goods:
         return 'goods';
       case TrainerSubtype.equipment:
