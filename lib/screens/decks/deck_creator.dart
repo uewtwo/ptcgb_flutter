@@ -341,6 +341,7 @@ class DeckCreatorState extends State<DeckCreator> {
             child: Text('OK', style: TextStyle(color: Colors.white)),
             onPressed: () async => {
               await DeckFileHandler.saveDeckContentInfo(deckElementList, deckName, topCardId),
+              Navigator.pop(context),
               Navigator.pop(context)
             }),
         DialogButton(
