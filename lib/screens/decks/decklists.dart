@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import './deck_creator.dart';
 
 class Decklists extends StatefulWidget {
@@ -12,10 +15,35 @@ class DecklistsState extends State<Decklists> {
   double screenWidth;
   double customWidth;
 
+  // FIXME: デバッグ用
+  _foo() async {
+    Directory appDocDir = await getApplicationDocumentsDirectory();
+    String path = '${appDocDir.path}';
+    Directory dir = Directory(path + '/users/decks');
+    String lastPath;
+    await Directory(path + '/users/decks/deck_contents/').list().forEach((element) {
+      print(element.path);
+      lastPath = element.path;
+    });
+    try {
+      print("deckList: 個別デッキ.json");
+      print(File(path + '/users/decks/user_deck_info.json').readAsStringSync());
+      print(File(lastPath).readAsStringSync());
+    } catch(e) {
+      print(e.toString());
+    }
+  }
+
+  _bar() async {
+    await Directory((await getApplicationDocumentsDirectory()).path + '/users/decks/').delete(recursive: true);
+  }
+
   @override
   Widget build(BuildContext context) {
     screenWidth = MediaQuery.of(context).size.width;
     customWidth = screenWidth * 0.2;
+//    _foo();
+//    _bar();
 
     return Scaffold(
       appBar: AppBar(

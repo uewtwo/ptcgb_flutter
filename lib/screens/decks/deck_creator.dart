@@ -1,8 +1,11 @@
 import 'dart:convert';
-
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
+import 'package:tuple/tuple.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
+import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 
 class DeckCreator extends StatefulWidget {
   @override
@@ -15,8 +18,7 @@ class DeckCreatorState extends State<DeckCreator> {
   double screenWidth;
   double customWidth;
   /// デッキの中身, [カード内容, 枚数を想定
-  // TODO: 同一効果を同一カードにしたいので専用Classにした方が多分良い
-  List<List<dynamic>> deckElementList = [];
+  List<Tuple2<CardContent, int>> deckElementList;
 
   // TODO: 決め打ちではなく最新の弾を自動で読み込むようにしたい
   String _generation = 'sa';
@@ -55,7 +57,11 @@ class DeckCreatorState extends State<DeckCreator> {
         centerTitle: true,
         title: Text('Deck Creator'),
         actions: <Widget>[
-          IconButton(icon: Icon(Icons.list), onPressed: null),
+          IconButton(
+              // FIXME: save iconがフロッピーでダサい.
+              icon: Icon(Icons.save),
+              onPressed: (){_buildSaveDeck();}
+          )
         ],
       ),
       body: Row(
@@ -105,15 +111,15 @@ class DeckCreatorState extends State<DeckCreator> {
     final String basePath = 'assets/text/cards/jp/sa/';
     _list.addAll(CardContents.fromJson(
       jsonDecode(await DefaultAssetBundle.of(context).loadString(
-          '${basePath}708.json'))).getCardContentList()
+          '${basePath}708.json'))).toList()
     );
     _list.addAll(CardContents.fromJson(
         jsonDecode(await DefaultAssetBundle.of(context).loadString(
-            '${basePath}709.json'))).getCardContentList()
+            '${basePath}709.json'))).toList()
     );
     _list.addAll(CardContents.fromJson(
         jsonDecode(await DefaultAssetBundle.of(context).loadString(
-            '${basePath}710.json'))).getCardContentList()
+            '${basePath}710.json'))).toList()
     );
 
     return _list;
@@ -282,13 +288,13 @@ class DeckCreatorState extends State<DeckCreator> {
                     border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
                 child: ListTile(
                   title: Text(
-                      '${deckElementList[index][0].nameJp}×${deckElementList[index][1]}',
+                      '${deckElementList[index].item1.nameJp}×${deckElementList[index].item2}',
                       style: _deckContentFont),
                   onTap: () {
                     subDeckElement(index);
                   },
                   onLongPress: () {
-                    addDeckElement(deckElementList[index][0]);
+                    addDeckElement(deckElementList[index].item1);
                   }
                 ),
               );
@@ -298,6 +304,84 @@ class DeckCreatorState extends State<DeckCreator> {
       );
   }
 
+  // TODO: AlertDialogの実装でええんか？
+  void _buildSaveDeck() {
+    int deckLength = 0;
+    deckElementList.forEach((element) => deckLength += element.item2);
+//    if (deckLength != 60) {
+//      alertRequire60CardsInDecks();
+//      return;
+//    }
+    int topCardId = deckElementList[0].item1.cardId; // FIXME
+    String deckName = 'テストデッキ';
+    TextEditingController deckNameEditor = TextEditingController();
+    Alert(
+      context: context,
+      type: AlertType.info,
+      title: 'Save deck',
+      content: Column(
+        children: <Widget>[
+          // TODO: タップしてアイコンにするカードを選択できるようにする
+          // とりあえず先頭のカードIDを使う
+          _buildPickTopCard(),
+          TextField(
+              onChanged: (value) => deckName = value,
+              controller: deckNameEditor,
+              decoration: InputDecoration(
+                  labelText: 'Deck Name',
+                  prefixIcon: Icon(Icons.edit),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(16))
+                  )
+              )),
+        ],
+      ),
+      buttons: [
+        DialogButton(
+            child: Text('OK', style: TextStyle(color: Colors.white)),
+            onPressed: () async => {
+              await DeckFileHandler.saveDeckContentInfo(deckElementList, deckName, topCardId),
+              Navigator.pop(context)
+            }),
+        DialogButton(
+            child: Text('CANCEL', style: TextStyle(color: Colors.white70)),
+            onPressed: () => Navigator.pop(context)),
+      ],
+      closeFunction: (){}
+    ).show();
+  }
+
+  DropdownButton<String> _buildPickTopCard() {
+    // TODO: https://makicamel.hatenablog.com/entry/2019/04/06/005255
+    // TODO: Dialog系はStatelessなのでsetStateしても値が変わらない、customか別の路線か考える
+    List<String> _items = ['aaaaa', 'bbbbb', 'ccccc']; // FIXME: テストデータ
+    String _selectedItem = 'aaaaa';
+    return DropdownButton<String>(
+      value: _selectedItem,
+      onChanged: (String val) {
+        setState(() {
+          _selectedItem = val;
+        });
+      },
+      selectedItemBuilder: (context) {
+        return _items.map((String item) {
+          return Text('TopCard: $item', style: TextStyle(fontSize: 20));
+        }).toList();
+      },
+      items: _items.map((String item) {
+        return DropdownMenuItem(
+          value: item,
+          child: Text(
+            item,
+            style: item == _selectedItem
+                ? TextStyle(fontSize: 20, fontWeight: FontWeight.bold)
+                : TextStyle(fontSize: 20, fontWeight: FontWeight.normal),
+          ),
+        );
+      }).toList(),
+    );
+  }
+
   void addDeckElement(CardContent content) {
     // 80枚超えるなら追加しない
     if (deckContentNum + 1 > 80) {
@@ -305,32 +389,37 @@ class DeckCreatorState extends State<DeckCreator> {
     } else {
       int existsCardIndex = -1;
       for (int i = 0; i < deckElementList.length; i++) {
-        if (deckElementList[i][0].isTheSameEffectCard(content)) {
+        if (deckElementList[i].item1.isTheSameEffectCard(content)) {
           existsCardIndex = i;
           break;
         }
       }
 
-
+      // indexがなければ新規追加
       if (existsCardIndex == -1) {
-        deckElementList.add([content, 1]);
+        deckElementList.add(Tuple2(content, 1));
         sortDeckElement();
-      }
-      else if (deckElementList[existsCardIndex][1] >= 4) {
-        alertExceedCardList();
       } else {
-        deckElementList[existsCardIndex][1]++;
+        final Tuple2<CardContent, int> _target = deckElementList[existsCardIndex];
+        if (_target.item2 >= 4) {
+          alertExceedCardList();
+        } else {
+          // Tuple要素がfinalなのでList要素を置き換える
+          deckElementList[existsCardIndex] = _target.withItem2(_target.item2 + 1);
+        }
       }
-
       setState(() {});
     }
   }
 
   void subDeckElement(int index) {
-    if (deckElementList[index][1] == 1) {
+    final Tuple2<CardContent, int> _target = deckElementList[index];
+    // 減らす前が1枚ならListから削除
+    if (_target.item2 == 1) {
       deckElementList.removeAt(index);
     } else {
-      deckElementList[index][1]--;
+      // Tuple要素がfinalなのでList要素を置き換える
+      deckElementList[index] = _target.withItem2(_target.item2 - 1);
     }
     setState(() {});
   }
@@ -339,14 +428,14 @@ class DeckCreatorState extends State<DeckCreator> {
   void sortDeckElement() {
     deckElementList.sort(
         (a, b) {
-          int supertypeSort = a[0].cardSupertype.index.compareTo(b[0].cardSupertype.index);
-          int subtypeSort = a[0].cardSubtype.index.compareTo(b[0].cardSupertype.index);
+          int supertypeSort = a.item1.cardSupertype.index.compareTo(b.item1.cardSupertype.index);
+          int subtypeSort = a.item1.cardSubtype.index.compareTo(b.item1.cardSupertype.index);
           if (supertypeSort != 0) {
             return supertypeSort;
           } else if (subtypeSort != 0){
             return subtypeSort;
           } else {
-            return a[0].nameJp.compareTo(b[0].nameJp);
+            return a.item1.nameJp.compareTo(b.item1.nameJp);
           }
         }
     );
@@ -354,7 +443,7 @@ class DeckCreatorState extends State<DeckCreator> {
 
   int get deckContentNum {
     int _nums = 0;
-    deckElementList.forEach((val) => _nums += val[1]);
+    deckElementList.forEach((val) => _nums += val.item2);
     return _nums;
   }
 
@@ -374,18 +463,37 @@ class DeckCreatorState extends State<DeckCreator> {
   }
 
   void alertExceedCardList() {
-    showDialog(
-        context: context,
-        builder: (_) {
-          return AlertDialog(
-              title: Text('Exceed 4.'),
-              content: Text('Please reduce the number of cards first'),
-              actions: <Widget>[
-                FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
-              ]
-          );
-        }
-    );
+    Alert(
+      context: context,
+      type: AlertType.error,
+      title: 'Exceed 4.',
+      desc: 'Please reduce the number of cards first',
+      buttons: [
+        DialogButton(
+          child: Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
+          onPressed: () => Navigator.pop(context),
+          width: 120,
+        ),
+      ],
+      closeFunction: () {},
+    ).show();
+  }
+
+  void alertRequire60CardsInDecks() {
+    Alert(
+      context: context,
+      type: AlertType.error,
+      title: 'Require 60 cards in the deck.',
+      desc: 'Adjust cards properly.',
+      buttons: [
+        DialogButton(
+          child: Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
+          onPressed: () => Navigator.pop(context),
+          width: 120,
+        ),
+      ],
+      closeFunction: () {},
+    ).show();
   }
 
   /// テストデータ

@@ -21,12 +21,15 @@ class CardContents {
   CardContents({this.cardContentList});
 
   factory CardContents.fromJson(List<dynamic> parsedJson) {
-    List<CardContent> cardContents = new List<CardContent>();
+    List<CardContent> cardContents = List<CardContent>();
     cardContents = parsedJson.map((i) => CardContent.fromJson(i)).toList();
-    return new CardContents(cardContentList:cardContents);
+    return CardContents(cardContentList:cardContents);
   }
 
-  List<CardContent> getCardContentList() => this.cardContentList;
+  List<CardContent> toList() => this.cardContentList;
+  CardContents fromList(List<CardContent> val) => CardContents(cardContentList: val);
+
+  int get length => this.cardContentList.length;
 }
 
 @JsonSerializable()
@@ -78,7 +81,7 @@ class CardContent {
 //        energyText == other.energyText ||
 //        hp == other.hp ||
 //        ability == other.ability ||
-//        ListEquality().equals(attacks, other.attacks);
+//        ListEqua lity().equals(attacks, other.attacks);
   }
 
   bool searchCardText(String searchStr) {

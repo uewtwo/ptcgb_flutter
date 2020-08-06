@@ -28,8 +28,11 @@ dependencies:
   draggable_scrollbar: ^0.0.4
   dio: ^3.0.9
   dio_cookie_manager: ^1.0.0
-  charts_flutter: ^0.9.0
-  equatable: ^1.2.3
+  charts_flutter: any
+  equatable: any
+  tuple: any
+  path_provider: any
+  rflutter_alert: any
 
 dev_dependencies:
   flutter_test:

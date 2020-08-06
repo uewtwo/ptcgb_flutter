@@ -107,7 +107,7 @@ class CardList extends StatelessWidget {
     final List<dynamic> jsonRes =
         jsonDecode(await DefaultAssetBundle.of(context).loadString(jsonPath));
     final List<CardContent> _cardList =
-        CardContents.fromJson(jsonRes).getCardContentList();
+        CardContents.fromJson(jsonRes).toList();
     return _cardList;
   }
 }

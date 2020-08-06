@@ -1,27 +1,17 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
-import 'package:tuple/tuple.dart';
 
-part 'deck_contents.g.dart';
-
-@JsonSerializable()
-class DeckContents {
-  final List<DeckContent> deckContentList;
-
-  DeckContents({this.id, this.name, this.deckContentList});
-
-  factory DeckContents.fromJson(List<dynamic> parsedJson) {
-    List<DeckContent> deckContents = List<DeckContent>();
-    deckContents = parsedJson.map((i) => DeckContent.fromJson(i)).toList();
-    return DeckContents(deckContentList:deckContents);
-  }
-
-  List<DeckContent> getDeckContentList() => this.deckContentList;
-}
+part 'deck_content_info.g.dart';
 
 @JsonSerializable()
-class DeckContent {
+class DeckContentInfo {
+  final String deckId;
+  // TODO: Tuple2<CardContent, int>にしたいけど、TupleがjsonSerializeに載せられない
+  final List<List<dynamic>> cardContents;
 
-  List<Tuple2<CardContent, int>> deckElementList;
+  DeckContentInfo(this.deckId, this.cardContents);
 
+  factory DeckContentInfo.fromJson(Map<String, dynamic> json) => _$DeckContentInfoFromJson(json);
+
+  Map<String, dynamic> toJson() => _$DeckContentInfoToJson(this);
 }

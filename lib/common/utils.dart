@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:path_provider/path_provider.dart';
+
 /// utilities
 
 List<String> getGenerationOrders() => ['sa', 'sm'];
@@ -20,4 +22,14 @@ Future<List<FileSystemEntity>> dirContents(Directory dir, [bool isRecursive = fa
       onDone: () => completer.complete(files),
   );
   return completer.future;
+}
+
+Future<String> localBasePath() async {
+  final directory = await getApplicationDocumentsDirectory();
+  return directory.path;
+}
+
+List<FileSystemEntity> listDir(String path) {
+  final Directory dir = Directory(path);
+  return dir.listSync();
 }
