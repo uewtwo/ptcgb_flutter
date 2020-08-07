@@ -26,9 +26,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   draggable_scrollbar: ^0.0.4
-
   dio: ^3.0.9
   dio_cookie_manager: ^1.0.0
+  charts_flutter: any
+  equatable: any
+  tuple: any
+  path_provider: any
+  rflutter_alert: any
 
 dev_dependencies:
   flutter_test:

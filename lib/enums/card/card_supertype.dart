@@ -14,7 +14,7 @@ extension CardSupertypeExt on CardSupertype {
     }
   }
 
-  String get name_jp {
+  String get nameJp {
     switch (this) {
       case CardSupertype.POKEMON:
         return 'ポケモン';
@@ -26,4 +26,18 @@ extension CardSupertypeExt on CardSupertype {
         return null;
     }
   }
+
+  // enum の index でとりあえずソートするから不要?
+//  int get sortVal {
+//    switch (this) {
+//      case CardSupertype.POKEMON:
+//        return 0;
+//      case CardSupertype.TRAINER:
+//        return 10;
+//      case CardSupertype.ENERGY:
+//        return 20;
+//      default:
+//        return null;
+//    }
+//  }
 }

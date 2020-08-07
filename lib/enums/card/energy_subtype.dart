@@ -1,4 +1,0 @@
-enum EnergySubtype {
-  basEne,
-  speEne,
-}

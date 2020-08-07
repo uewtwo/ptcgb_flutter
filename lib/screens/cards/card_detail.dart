@@ -80,25 +80,22 @@ class CardDetail extends StatelessWidget {
   }
 
   List<Card> _cardDetailBody(CardContent cardContent) {
-    final CardSupertype supertype = CardSupertype.values
-        .where((_supertype) => _supertype.name == cardContent.supertype)
-        .toList()[0];
-    List<Card> supertypeCard;
-    switch (supertype) {
+    List<Card> cardSupertype;
+    switch (cardContent.cardSupertype) {
       case CardSupertype.POKEMON:
-        supertypeCard = _pokemonDetailColumn(cardContent);
+        cardSupertype = _pokemonDetailColumn(cardContent);
         break;
       case CardSupertype.TRAINER:
-        supertypeCard = _trainerDetailColumn(cardContent);
+        cardSupertype = _trainerDetailColumn(cardContent);
         break;
       case CardSupertype.ENERGY:
-        supertypeCard = _energyDetailColumn(cardContent);
+        cardSupertype = _energyDetailColumn(cardContent);
         break;
       default:
         throw Error();
     }
 
-    return supertypeCard;
+    return cardSupertype;
   }
 
   List<Card> _pokemonDetailColumn(CardContent cardContent) {

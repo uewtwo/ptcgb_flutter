@@ -6,6 +6,8 @@ import 'package:ptcgb_flutter/screens/cards/card_list.dart';
 import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
 
+import 'decks/deck_creator.dart';
+import 'decks/decklists.dart';
 import 'generations/generations.dart';
 
 class PtcgBuilderApp extends StatelessWidget {
@@ -21,8 +23,8 @@ class PtcgBuilderApp extends StatelessWidget {
         '/expansions': (BuildContext context) => Expansions(),
         '/card_list': (BuildContext context) => CardList(),
         '/card_detail': (BuildContext context) => CardDetail(),
-        '/decks': (BuildContext context) => Home(),
-        '/deck': (BuildContext context) => Home(),
+        '/deck_lists': (BuildContext context) => Decklists(),
+        '/deck_creator': (BuildContext context) => DeckCreator(),
         '/events': (BuildContext context) => Home(),
         '/search_cards': (BuildContext context) => SearchCards(),
         '/search_events': (BuildContext context) => Home(),

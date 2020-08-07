@@ -37,7 +37,7 @@ class CardList extends StatelessWidget {
               Expanded(
                 child: Center(
                   child: FutureBuilder(
-                    future: this.getCardListByExpansion(context, expansionContent),
+                    future: getCardListByExpansion(context, expansionContent),
                     builder: (BuildContext context, AsyncSnapshot snapshot) {
                       return _buildCardList(context, snapshot);
                     },
@@ -61,7 +61,7 @@ class CardList extends StatelessWidget {
       return Scrollbar(
         child: ListView.builder(
             itemCount: cardList.length,
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.0),
             itemBuilder: (context, index) {
               return _cardItem(context, cardList[index], index);
             }),
@@ -73,9 +73,8 @@ class CardList extends StatelessWidget {
 
   Widget _cardItem(BuildContext context, CardContent content, int index) {
     return Container(
-      decoration: new BoxDecoration(
-          border:
-              new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+      decoration: BoxDecoration(
+          border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
@@ -108,7 +107,7 @@ class CardList extends StatelessWidget {
     final List<dynamic> jsonRes =
         jsonDecode(await DefaultAssetBundle.of(context).loadString(jsonPath));
     final List<CardContent> _cardList =
-        CardContents.fromJson(jsonRes).getCardContentList();
+        CardContents.fromJson(jsonRes).toList();
     return _cardList;
   }
 }
