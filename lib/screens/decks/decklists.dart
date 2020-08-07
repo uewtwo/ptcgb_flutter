@@ -42,7 +42,7 @@ class DecklistsState extends State<Decklists> {
   Widget build(BuildContext context) {
     screenWidth = MediaQuery.of(context).size.width;
     customWidth = screenWidth * 0.2;
-//    _foo();
+    _foo();
 //    _bar();
 
     return Scaffold(
