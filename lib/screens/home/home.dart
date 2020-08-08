@@ -4,9 +4,12 @@ import 'package:ptcgb_flutter/screens//decks/decklists.dart';
 import 'package:ptcgb_flutter/screens//expansions/expansions.dart';
 
 import 'package:path/path.dart';
+import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/generations/generations.dart';
 
 class Home extends StatelessWidget {
+  static const routeName = '/';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +41,7 @@ class Home extends StatelessWidget {
   Widget _buildExpansions(BuildContext context) {
     return RaisedButton(
       onPressed: (){
-        Navigator.of(context).pushNamed('/generations');
+        Navigator.of(context).pushNamed(Generations.routeName);
       },
       child: Text('Expansions'),
     );
@@ -47,7 +50,7 @@ class Home extends StatelessWidget {
   Widget _buildDecks(BuildContext context) {
     return RaisedButton(
       onPressed: (){
-        Navigator.of(context).pushNamed('/deck_lists');
+        Navigator.of(context).pushNamed(Decklists.routeName);
       },
       child: Text('Deck Lists'),
     );
@@ -56,7 +59,7 @@ class Home extends StatelessWidget {
   Widget _buildSearch(BuildContext context) {
     return RaisedButton(
       onPressed: (){
-        Navigator.of(context).pushNamed('/search_cards');
+        Navigator.of(context).pushNamed(SearchCards.routeName);
       },
       child: Text('Search'),
     );

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
+import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
 
 
 class Generations extends StatelessWidget {
+  static const routeName = '/generations';
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
 
   @override
@@ -35,7 +37,7 @@ class Generations extends StatelessWidget {
         leading: _expansionImage(gen.name),
         title: Text(gen.displayName, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed('/expansions', arguments: gen);
+          Navigator.of(context).pushNamed(Expansions.routeName, arguments: gen);
         },
       ),
     );

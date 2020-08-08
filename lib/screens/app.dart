@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 
 import 'package:ptcgb_flutter/screens//home/home.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
@@ -15,18 +16,17 @@ class PtcgBuilderApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Welcome to PTCGB!!',
-      initialRoute: '/',
       routes: <String, WidgetBuilder> {
-        '/': (BuildContext context) => Home(),
+        Home.routeName: (BuildContext context) => Home(),
         '/information': (BuildContext context) => Home(),
-        '/generations': (BuildContext context) => Generations(),
-        '/expansions': (BuildContext context) => Expansions(),
-        '/card_list': (BuildContext context) => CardList(),
-        '/card_detail': (BuildContext context) => CardDetail(),
-        '/deck_lists': (BuildContext context) => Decklists(),
-        '/deck_creator': (BuildContext context) => DeckCreator(),
+        Generations.routeName: (BuildContext context) => Generations(),
+        Expansions.routeName: (BuildContext context) => Expansions(),
+        CardList.routeName: (BuildContext context) => CardList(),
+        CardDetail.routeName: (BuildContext context) => CardDetail(),
+        Decklists.routeName: (BuildContext context) => Decklists(),
+        DeckCreator.routeName: (BuildContext context) => DeckCreator(),
         '/events': (BuildContext context) => Home(),
-        '/search_cards': (BuildContext context) => SearchCards(),
+        SearchCards.routeName: (BuildContext context) => SearchCards(),
         '/search_events': (BuildContext context) => Home(),
       },
       theme: ThemeData(

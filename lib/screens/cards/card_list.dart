@@ -6,7 +6,10 @@ import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 
+import 'card_detail.dart';
+
 class CardList extends StatelessWidget {
+  static const routeName = '/card_list';
   final TextStyle _biggerFont = TextStyle(fontSize: 14.0);
 
   @override
@@ -80,7 +83,7 @@ class CardList extends StatelessWidget {
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed('/card_detail', arguments: content);
+          Navigator.of(context).pushNamed(CardDetail.routeName, arguments: content);
         },
       ),
     );

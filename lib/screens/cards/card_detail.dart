@@ -7,6 +7,8 @@ import 'package:ptcgb_flutter/models/cards/attack_content.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 class CardDetail extends StatelessWidget {
+  static const routeName = '/card_detail';
+
   @override
   Widget build(BuildContext context) {
     final CardContent cardContent = ModalRoute.of(context).settings.arguments;

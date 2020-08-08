@@ -24,16 +24,16 @@ class DeckFileHandler {
   static Future<File> get ownedDecksInfoFile async {
     final String basePath = (await deckBasePath) + 'user_deck_info.json';
     final File file = File(basePath);
-    if (!await file.exists()) {
-      await file.writeAsString('[]');
+    if (!file.existsSync()) {
       await file.create(recursive: true);
+      await file.writeAsString('[]');
     }
     
     return file;
   }
-  
-  static Future<DeckContentInfo> getDeckContent(String deckName) async {
-    final String fileStr = (await getDeckContentFile(deckName)).readAsStringSync();
+
+  static Future<DeckContentInfo> getDeckContent(String deckId) async {
+    final String fileStr = (await getDeckContentFile(deckId)).readAsStringSync();
     final DeckContentInfo deckContent = DeckContentInfo.fromJson(json.decode(fileStr));
     
     return deckContent;
@@ -50,7 +50,7 @@ class DeckFileHandler {
     return file;
   }
 
-  static Future<File> saveOwnedDeckInfo(String deckName, int topCardId, String deckId) async {
+  static Future<File> _saveOwnedDeckInfo(String deckName, int topCardId, String deckId) async {
     OwnedDecksInfo decksInfo = (await ownedDecksInfo);
     final int sortValue = decksInfo.length;
 
@@ -63,12 +63,12 @@ class DeckFileHandler {
     return (await ownedDecksInfoFile).writeAsString(json.encode(deckInfoList));
   }
 
-  static Future<File> overwriteOwnedDeckInfo(OwnedDeckInfo deckInfo) async {
+  static Future<File> _overwriteOwnedDeckInfo(OwnedDeckInfo deckInfo) async {
     List<OwnedDeckInfo> deckInfoList = (await ownedDecksInfo).toList();
     deckInfoList[deckInfo.sortValue] = deckInfo;
 
     return (await ownedDecksInfoFile)
-        .writeAsString(json.encode(deckInfo), mode: FileMode.write);
+        .writeAsString(json.encode(deckInfoList), mode: FileMode.write);
   }
 
   static Future<DeckContentInfo> getDeckContentInfoById(String deckId) async {
@@ -79,12 +79,17 @@ class DeckFileHandler {
     return deckContentInfo;
   }
 
+  static Future<bool> overwriteDeckContentInfo(
+      List<Tuple2<CardContent, int>> deckElement, String deckName,
+      int topCardId, String deckId, int sortValue) async {
+    return saveDeckContentInfo(deckElement, deckName, topCardId,
+        deckId: deckId, sortValue: sortValue);
+  }
+
   // FIXME: 2file更新するが、片方が失敗したらロールバックみたいなことしたい.
   static Future<bool> saveDeckContentInfo(
-      // TODO: model化とかしたいけど、何かAndroidStudioが落ちてできない
       List<Tuple2<CardContent, int>> deckElement,
-      String deckName,
-      int topCardId,
+      String deckName, int topCardId,
       {String deckId, int sortValue}) async {
     List<List<dynamic>> _deckElement = [];
 
@@ -96,13 +101,13 @@ class DeckFileHandler {
     /// Tupleとかにパッキングするか？
     try {
       if (deckId != null && sortValue != null) {
-        overwriteOwnedDeckInfo(
+        await _overwriteOwnedDeckInfo(
             OwnedDeckInfo(deckId, deckName, topCardId, sortValue));
-        overwriteDeckContent(DeckContentInfo(deckId, _deckElement));
+        await _overwriteDeckContent(DeckContentInfo(deckId, _deckElement));
       } else {
         deckId = DateTime.now().toString().replaceAll(' ', '_');
-        saveOwnedDeckInfo(deckName, topCardId, deckId);
-        saveDeckContent(DeckContentInfo(deckId, _deckElement));
+        await _saveOwnedDeckInfo(deckName, topCardId, deckId);
+        await _saveDeckContent(DeckContentInfo(deckId, _deckElement));
       }
     } catch(e) {
       // return false;
@@ -111,14 +116,35 @@ class DeckFileHandler {
 
     return true;
   }
+
+  static Future<bool> deleteDeckContentInfo(OwnedDeckInfo deckInfo) async {
+    var _a = await _deleteOwnedDeckInfo(deckInfo.sortValue);
+    var _b = await _deleteDeckContent(deckInfo.deckId);
+    return (_a.existsSync() && _b.existsSync());
+  }
   
-  static Future<File> overwriteDeckContent(DeckContentInfo deckContent) async {
+  static Future<File> _overwriteDeckContent(DeckContentInfo deckContent) async {
     File file = await getDeckContentFile(deckContent.deckId);
     return await file.writeAsString(json.encode(deckContent));
   }
   
-  static Future<File> saveDeckContent(DeckContentInfo deckContent) async {
+  static Future<File> _saveDeckContent(DeckContentInfo deckContent) async {
     File file = await getDeckContentFile(deckContent.deckId);
     return await file.writeAsString(json.encode(deckContent));
+  }
+
+  static Future<File> _deleteDeckContent(String deckId) async {
+    File file = await getDeckContentFile(deckId);
+    return await file.delete();
+  }
+
+  static Future<File> _deleteOwnedDeckInfo(int sortValue) async {
+    List<OwnedDeckInfo> deckInfoList = (await ownedDecksInfo).toList();
+    deckInfoList.removeAt(sortValue);
+
+    // TODO: class に通す必要があるかないか（バリデーション的な意味で）
+//    return await (await ownedDecksInfoFile)
+//        .writeAsString(decksInfo.fromList(deckInfoList).jsonString);
+    return await (await ownedDecksInfoFile).writeAsString(json.encode(deckInfoList));
   }
 }
