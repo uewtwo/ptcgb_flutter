@@ -1,15 +1,21 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:path_provider/path_provider.dart';
 
 /// utilities
 
-List<String> getGenerationOrders() => ['sa', 'sm'];
+double screenWidth(BuildContext context) {
+  return _screenSize(context).width;
+}
 
-String getGenerationDisplayName(String gen) {
-  final _map = {'sa': 'ソード＆シールド', 'sm': 'サン＆ムーン'};
-  return _map[gen];
+double screenHeight(BuildContext context) {
+  return _screenSize(context).height;
+}
+
+Size _screenSize(BuildContext context) {
+  return MediaQuery.of(context).size;
 }
 
 Future<List<FileSystemEntity>> dirContents(Directory dir, [bool isRecursive = false]) {

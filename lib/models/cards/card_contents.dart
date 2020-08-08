@@ -1,7 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:collection/collection.dart';
-import 'package:ptcgb_flutter/enums/card/card_subtype.dart';
-import 'package:ptcgb_flutter/enums/card/card_supertype.dart';
+import 'package:ptcgb_flutter/enums/cards/card_subtype.dart';
+import 'package:ptcgb_flutter/enums/cards/card_supertype.dart';
 import 'package:ptcgb_flutter/models/cards/ability_content.dart';
 import 'package:ptcgb_flutter/models/cards/attack_content.dart';
 // TODO: 下記はモデルを使えていない
@@ -114,8 +114,8 @@ class CardContent {
     return _target;
   }
 
-  CardSupertype get cardSupertype {
-    final CardSupertype _cardSupertype = CardSupertype.values
+  CardSupertypeEnum get cardSupertype {
+    final CardSupertypeEnum _cardSupertype = CardSupertypeEnum.values
         .where((_supertype) => _supertype.name == supertype)
         .toList()[0];
     return _cardSupertype;
@@ -123,22 +123,22 @@ class CardContent {
 
   // TODO: Supertype毎のenumじゃない何かを用意した方が良い？
   // FIXME: cardSubtypeの返す値が固定enumじゃない問題
-  CardSubtype get cardSubtype {
+  CardSubtypeEnum get cardSubtype {
     Object _sub;
-    final CardSupertype _cardSupertype = cardSupertype;
+    final CardSupertypeEnum _cardSupertype = cardSupertype;
     switch (_cardSupertype) {
-      case CardSupertype.POKEMON:
-        _sub = CardSubtype.values
+      case CardSupertypeEnum.POKEMON:
+        _sub = CardSubtypeEnum.values
           .where((_subtype) => _subtype.namePokemon == subtype)
           .toList()[0];
         break;
-      case CardSupertype.TRAINER:
-        _sub = CardSubtype.values
+      case CardSupertypeEnum.TRAINER:
+        _sub = CardSubtypeEnum.values
             .where((_subtype) => _subtype.nameTrainer == subtype)
             .toList()[0];
         break;
-      case CardSupertype.ENERGY:
-        _sub = CardSubtype.values
+      case CardSupertypeEnum.ENERGY:
+        _sub = CardSubtypeEnum.values
             .where((_subtype) => _subtype.nameEnergy == subtype)
             .toList()[0];
         break;

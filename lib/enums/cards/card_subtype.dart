@@ -1,29 +1,29 @@
-enum CardSubtype {
+enum CardSubtypeEnum {
   basic, stage1, stage2, gigamax,
   support, goods, equipment,
   basEne, speEne,
 }
 
-extension CardSubtypeExt on CardSubtype {
+extension CardSubtypeExt on CardSubtypeEnum {
   String get name {
     switch (this) {
-      case CardSubtype.basic:
+      case CardSubtypeEnum.basic:
         return 'basic';
-      case CardSubtype.stage1:
+      case CardSubtypeEnum.stage1:
         return 'stage1';
-      case CardSubtype.stage2:
+      case CardSubtypeEnum.stage2:
         return 'stage2';
-      case CardSubtype.gigamax:
+      case CardSubtypeEnum.gigamax:
         return 'gigamax';
-      case CardSubtype.support:
+      case CardSubtypeEnum.support:
         return 'support';
-      case CardSubtype.goods:
+      case CardSubtypeEnum.goods:
         return 'goods';
-      case CardSubtype.equipment:
+      case CardSubtypeEnum.equipment:
         return 'equipment';
-      case CardSubtype.basEne:
+      case CardSubtypeEnum.basEne:
         return 'baseEnery';
-      case CardSubtype.speEne:
+      case CardSubtypeEnum.speEne:
         return 'specialEnergy';
       default:
         return null;
@@ -32,13 +32,13 @@ extension CardSubtypeExt on CardSubtype {
 
   String get namePokemon {
     switch (this) {
-      case CardSubtype.basic:
+      case CardSubtypeEnum.basic:
         return 'basic';
-      case CardSubtype.stage1:
+      case CardSubtypeEnum.stage1:
         return 'stage1';
-      case CardSubtype.stage2:
+      case CardSubtypeEnum.stage2:
         return 'stage2';
-      case CardSubtype.gigamax:
+      case CardSubtypeEnum.gigamax:
         return 'gigamax';
       default:
         return null;
@@ -47,11 +47,11 @@ extension CardSubtypeExt on CardSubtype {
 
   String get nameTrainer {
     switch (this) {
-      case CardSubtype.support:
+      case CardSubtypeEnum.support:
         return 'support';
-      case CardSubtype.goods:
+      case CardSubtypeEnum.goods:
         return 'goods';
-      case CardSubtype.equipment:
+      case CardSubtypeEnum.equipment:
         return 'equipment';
       default:
         return null;
@@ -60,9 +60,9 @@ extension CardSubtypeExt on CardSubtype {
 
   String get nameEnergy {
     switch (this) {
-      case CardSubtype.basEne:
+      case CardSubtypeEnum.basEne:
         return 'baseEnery';
-      case CardSubtype.speEne:
+      case CardSubtypeEnum.speEne:
         return 'specialEnergy';
       default:
         return null;

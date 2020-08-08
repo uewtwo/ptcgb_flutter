@@ -6,8 +6,10 @@ import 'package:ptcgb_flutter/common/appbar_search.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
+import 'package:ptcgb_flutter/screens/cards/card_list.dart';
 
 class Expansions extends StatefulWidget {
+  static const routeName = '/expansions';
   @override
   ExpansionsState createState() => ExpansionsState();
 }
@@ -128,7 +130,7 @@ class ExpansionsState extends State<Expansions> {
         leading: _expansionImage(content),
         title: Text(content.name, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed('/card_list', arguments: content);
+          Navigator.of(context).pushNamed(CardList.routeName, arguments: content);
         },
       ),
     );

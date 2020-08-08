@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
 class SearchCards extends StatefulWidget {
+  static const routeName = '/search_cards';
+
   @override
   SearchCardsState createState() => SearchCardsState();
 }

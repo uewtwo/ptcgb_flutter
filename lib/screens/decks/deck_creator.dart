@@ -1,6 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
+import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
+import 'package:ptcgb_flutter/screens/decks/decklists.dart';
+import 'package:ptcgb_flutter/screens/home/home.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:tuple/tuple.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
@@ -8,6 +12,8 @@ import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 
 class DeckCreator extends StatefulWidget {
+  static const routeName = '/deck_creator';
+
   @override
   DeckCreatorState createState() => DeckCreatorState();
 }
@@ -18,7 +24,13 @@ class DeckCreatorState extends State<DeckCreator> {
   double screenWidth;
   double customWidth;
   /// デッキの中身, [カード内容, 枚数を想定
-  List<Tuple2<CardContent, int>> deckElementList;
+  // 既存デッキ情報
+  List<Tuple2<CardContent, int>> deckElementList = [];
+  OwnedDeckInfo deckInfo;
+  String editDeckId = '';
+  // FIXME: 1回だけ引数読みたいがために罪悪なことをしている
+  // FIXME: statelessにできれば解決できそうなので、MVVMを頑張って導入したい
+  bool isInitialized = false;
 
   // TODO: 決め打ちではなく最新の弾を自動で読み込むようにしたい
   String _generation = 'sa';
@@ -36,9 +48,9 @@ class DeckCreatorState extends State<DeckCreator> {
 
   @override
   void initState() {
-    baseCardList = getAllCardInGeneration(context, _generation);
-    deckElementList = [];
     super.initState();
+    baseCardList = getAllCardInGeneration(context, _generation);
+    seriesList = _createSampleData();
   }
 
   /// ラジオボタンのGeneration用リセット関数
@@ -46,10 +58,18 @@ class DeckCreatorState extends State<DeckCreator> {
 
   @override
   Widget build(BuildContext context) {
+    deckInfo = ModalRoute.of(context).settings.arguments;
     screenWidth = MediaQuery.of(context).size.width;
     customWidth = screenWidth * 0.2;
 
-    seriesList = _createSampleData();
+    if (deckInfo != null && !isInitialized) {
+      DeckFileHandler.getDeckContent(deckInfo.deckId).then((value) {
+        deckElementList = value.deckElements;
+        setState(() {
+          isInitialized = true;
+        });
+      });
+    }
 
     // TODO: min, max 決めてRowに表示するカードの枚数を調整する
     return Scaffold(
@@ -60,7 +80,7 @@ class DeckCreatorState extends State<DeckCreator> {
           IconButton(
               // FIXME: save iconがフロッピーでダサい.
               icon: Icon(Icons.save),
-              onPressed: (){_buildSaveDeck();}
+              onPressed: (){_buildSaveDeck(context);}
           )
         ],
       ),
@@ -262,7 +282,7 @@ class DeckCreatorState extends State<DeckCreator> {
           addDeckElement(content);
         },
         onLongPress: () {
-          Navigator.of(context).pushNamed('/card_detail', arguments: content);
+          Navigator.of(context).pushNamed(CardDetail.routeName, arguments: content);
         },
       ),
     );
@@ -305,16 +325,16 @@ class DeckCreatorState extends State<DeckCreator> {
   }
 
   // TODO: AlertDialogの実装でええんか？
-  void _buildSaveDeck() {
+  void _buildSaveDeck(BuildContext context) {
     int deckLength = 0;
     deckElementList.forEach((element) => deckLength += element.item2);
 //    if (deckLength != 60) {
 //      alertRequire60CardsInDecks();
 //      return;
 //    }
-    int topCardId = deckElementList[0].item1.cardId; // FIXME
-    String deckName = 'テストデッキ';
-    TextEditingController deckNameEditor = TextEditingController();
+    int topCardId = deckInfo?.topCardId ?? deckElementList[0].item1.cardId;
+    String deckName = deckInfo?.deckName ?? '';
+    TextEditingController deckTextEditor = TextEditingController(text: deckName);
     Alert(
       context: context,
       type: AlertType.info,
@@ -326,7 +346,7 @@ class DeckCreatorState extends State<DeckCreator> {
           _buildPickTopCard(),
           TextField(
               onChanged: (value) => deckName = value,
-              controller: deckNameEditor,
+              controller: deckTextEditor,
               decoration: InputDecoration(
                   labelText: 'Deck Name',
                   prefixIcon: Icon(Icons.edit),
@@ -340,9 +360,15 @@ class DeckCreatorState extends State<DeckCreator> {
         DialogButton(
             child: Text('OK', style: TextStyle(color: Colors.white)),
             onPressed: () async => {
-              await DeckFileHandler.saveDeckContentInfo(deckElementList, deckName, topCardId),
+              deckInfo == null
+                ? await DeckFileHandler.saveDeckContentInfo(
+                    deckElementList, deckName, topCardId)
+                : await DeckFileHandler.overwriteDeckContentInfo(
+                    deckElementList, deckName, topCardId, deckInfo.deckId, deckInfo.sortValue),
               Navigator.pop(context),
-              Navigator.pop(context)
+              // statelessだがデッキリスト更新したいためpopではなくpush
+              Navigator.pushNamedAndRemoveUntil(
+                  context, Decklists.routeName, ModalRoute.withName(Home.routeName))
             }),
         DialogButton(
             child: Text('CANCEL', style: TextStyle(color: Colors.white70)),

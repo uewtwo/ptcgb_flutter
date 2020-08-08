@@ -2,11 +2,13 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ptcgb_flutter/enums/card/card_supertype.dart';
+import 'package:ptcgb_flutter/enums/cards/card_supertype.dart';
 import 'package:ptcgb_flutter/models/cards/attack_content.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 class CardDetail extends StatelessWidget {
+  static const routeName = '/card_detail';
+
   @override
   Widget build(BuildContext context) {
     final CardContent cardContent = ModalRoute.of(context).settings.arguments;
@@ -82,13 +84,13 @@ class CardDetail extends StatelessWidget {
   List<Card> _cardDetailBody(CardContent cardContent) {
     List<Card> cardSupertype;
     switch (cardContent.cardSupertype) {
-      case CardSupertype.POKEMON:
+      case CardSupertypeEnum.POKEMON:
         cardSupertype = _pokemonDetailColumn(cardContent);
         break;
-      case CardSupertype.TRAINER:
+      case CardSupertypeEnum.TRAINER:
         cardSupertype = _trainerDetailColumn(cardContent);
         break;
-      case CardSupertype.ENERGY:
+      case CardSupertypeEnum.ENERGY:
         cardSupertype = _energyDetailColumn(cardContent);
         break;
       default:
