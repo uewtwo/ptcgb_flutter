@@ -1,13 +1,13 @@
-enum CardSupertype { POKEMON, TRAINER, ENERGY }
+enum CardSupertypeEnum { POKEMON, TRAINER, ENERGY }
 
-extension CardSupertypeExt on CardSupertype {
+extension CardSupertypeExt on CardSupertypeEnum {
   String get name {
     switch (this) {
-      case CardSupertype.POKEMON:
+      case CardSupertypeEnum.POKEMON:
         return 'pokemon';
-      case CardSupertype.TRAINER:
+      case CardSupertypeEnum.TRAINER:
         return 'trainer';
-      case CardSupertype.ENERGY:
+      case CardSupertypeEnum.ENERGY:
         return 'energy';
       default:
         return null;
@@ -16,11 +16,11 @@ extension CardSupertypeExt on CardSupertype {
 
   String get nameJp {
     switch (this) {
-      case CardSupertype.POKEMON:
+      case CardSupertypeEnum.POKEMON:
         return 'ポケモン';
-      case CardSupertype.TRAINER:
+      case CardSupertypeEnum.TRAINER:
         return 'トレーナー';
-      case CardSupertype.ENERGY:
+      case CardSupertypeEnum.ENERGY:
         return 'エネルギー';
       default:
         return null;

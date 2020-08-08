@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 
@@ -12,8 +13,8 @@ class CardList extends StatelessWidget {
   Widget build(BuildContext context) {
     final ExpansionContent expansionContent =
         ModalRoute.of(context).settings.arguments;
-    final String genDisplay = getGenerationDisplayName(
-        expansionContent.generation).replaceFirst('＆', '&');
+    final String genDisplay = GenerationsEnum.values.firstWhere(
+            (val) => val.name == expansionContent.generation).displayName;
     final String titleText = expansionContent.name
         .replaceAll(RegExp('$genDisplay'), '')
         .replaceAll(RegExp(r'強化拡張パック'), '')

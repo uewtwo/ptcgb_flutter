@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/enums/generations/generations.dart';
 
 
 class Generations extends StatelessWidget {
@@ -17,22 +18,22 @@ class Generations extends StatelessWidget {
 
   Widget _buildExpansions(BuildContext context) {
     return ListView.builder(
-      itemCount: getGenerationOrders().length,
+      itemCount: GenerationsEnum.values.length,
       padding: const EdgeInsets.all(16.0),
       itemBuilder: (context, index) {
-        return _expansionItem(context, getGenerationOrders()[index]);
+        return _expansionItem(context, GenerationsEnum.values[index]);
       },
     );
   }
 
-  Widget _expansionItem(BuildContext context, String gen) {
+  Widget _expansionItem(BuildContext context, GenerationsEnum gen) {
     return Container(
       decoration: new BoxDecoration(
           border:
               new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
-        leading: _expansionImage(gen),
-        title: Text(getGenerationDisplayName(gen), style: _biggerFont),
+        leading: _expansionImage(gen.name),
+        title: Text(gen.displayName, style: _biggerFont),
         onTap: () {
           Navigator.of(context).pushNamed('/expansions', arguments: gen);
         },
