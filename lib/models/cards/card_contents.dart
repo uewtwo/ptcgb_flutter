@@ -71,15 +71,6 @@ class CardContent {
 
   bool isTheSameEffectCard(CardContent other) {
     return this.minCardText == other.minCardText;
-//    return identical(this, other) ||
-//        nameJp == other.nameJp ||
-//        cardText == other.cardText ||
-//        subtype == other.subtype ||
-//        trainerText == other.trainerText ||
-//        energyText == other.energyText ||
-//        hp == other.hp ||
-//        ability == other.ability ||
-//        ListEqua lity().equals(attacks, other.attacks);
   }
 
   bool searchCardText(String searchStr) {

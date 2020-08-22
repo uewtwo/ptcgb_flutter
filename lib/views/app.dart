@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 
-import 'package:ptcgb_flutter/screens//home/home.dart';
-import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
-import 'package:ptcgb_flutter/screens/cards/card_list.dart';
-import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
-import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
+import 'package:ptcgb_flutter/views//home/home.dart';
+import 'package:ptcgb_flutter/views/cards/card_detail.dart';
+import 'package:ptcgb_flutter/views/cards/card_list.dart';
+import 'package:ptcgb_flutter/views/cards/search_cards.dart';
+import 'package:ptcgb_flutter/views/expansions/expansions.dart';
 
 import 'decks/deck_creator.dart';
 import 'decks/decklists.dart';

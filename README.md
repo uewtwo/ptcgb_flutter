@@ -1,16 +1,26 @@
-# ptcgb_flutter
+# FIXME this page is not true.
+# ptcgb
 
-A new Flutter project.
+## Architecture pattern
+- MVVM
+### Directory
+- views: view, screen, ui
+- view_models: view model
+- managers: Model in MVVM
+- models: data access object
 
-## Getting Started
+## Statement management
+- provider
+- state notifier
+- freezed
 
-This project is a starting point for a Flutter application.
+## Static code analysis
+- pedantic_mono
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Standard packages
+- HTTP client: dio
+- Logger: simple_logger
+- dynamic text size: auto_size_text
+- JSON serializer: json_serializable
+- Graph: charts_flutter
+- Dialog: rflutter_alert

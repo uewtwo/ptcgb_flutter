@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:ptcgb_flutter/screens//decks/decklists.dart';
-import 'package:ptcgb_flutter/screens//expansions/expansions.dart';
+import 'package:ptcgb_flutter/views//decks/decklists.dart';
+import 'package:ptcgb_flutter/views//expansions/expansions.dart';
 
 import 'package:path/path.dart';
-import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
-import 'package:ptcgb_flutter/screens/generations/generations.dart';
+import 'package:ptcgb_flutter/views/cards/search_cards.dart';
+import 'package:ptcgb_flutter/views/generations/generations.dart';
 
 class Home extends StatelessWidget {
   static const routeName = '/';

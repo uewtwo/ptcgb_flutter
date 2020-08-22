@@ -34,6 +34,11 @@ dependencies:
   path_provider: any
   rflutter_alert: any
   provider: any
+  simple_logger: any
+  auto_size_text: any
+  pedantic_mono: any
+  freezed_annotation: any
+  flutter_state_notifier: any
 
 dev_dependencies:
   flutter_test:
@@ -41,6 +46,7 @@ dev_dependencies:
 
   json_serializable: any
   build_runner: any
+  freezed: any
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

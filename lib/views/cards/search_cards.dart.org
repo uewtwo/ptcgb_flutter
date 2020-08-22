@@ -4,6 +4,35 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
+final List<int> SA_LIST = [
+  695,
+  696,
+  697,
+  698,
+  699,
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+];
+
 class SearchCards extends StatefulWidget {
   static const routeName = '/search_cards';
 
@@ -64,6 +93,7 @@ class SearchCardsState extends State<SearchCards> {
     _searchCardController.dispose();
     super.dispose();
   }
+
 
   Widget textWidgetForSearch() {
     return TextField(

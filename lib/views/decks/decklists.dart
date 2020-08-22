@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
-import 'package:ptcgb_flutter/screens/home/home.dart';
+import 'package:ptcgb_flutter/views/home/home.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 import 'deck_creator.dart';

@@ -3,10 +3,13 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ptcgb_flutter/common/appbar_search.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
+import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
-import 'package:ptcgb_flutter/screens/cards/card_list.dart';
+import 'package:ptcgb_flutter/views/cards/card_list.dart';
 
 class Expansions extends StatefulWidget {
   static const routeName = '/expansions';
@@ -16,34 +19,38 @@ class Expansions extends StatefulWidget {
 
 class ExpansionsState extends State<Expansions> {
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
-  ExpansionsState() {
-    dio = Dio();
-    _listContent = [];
-    _searchText = "";
-    _pageNum = 1;
-  }
-  Dio dio;
-  List<SearchResultCard> _listContent;
-  String _searchText;
-  int _hitCnt;
-  int _pageNum;
+  final _searchCardController = TextEditingController();
 
   AppBarSearch appbarsearch;
+
+  Future<List<CardContent>> baseCardList;
+  List<CardContent> filteredCardList;
 
   @override
   void initState() {
     super.initState();
-
     appbarsearch = AppBarSearch(
       state: this,
-      onSubmitted: _searchCardsByKeyword
+      onSubmitted: (value) { _filteringCard(value); },
+      controller: _searchCardController,
     );
+
+    baseCardList = getAllCardByGeneration(context, 'sa');
+  }
+
+  void _filteringCard(String searchStr) async {
+    filteredCardList = [];
+    filteredCardList = (await baseCardList).where(
+            (val) => val.searchCardText(searchStr)
+    ).toList();
+
+    setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
-    final String gen = ModalRoute.of(context).settings.arguments;
-    return _buildExpansionsList(context, gen);
+    final GenerationsEnum gen = ModalRoute.of(context).settings.arguments;
+    return _buildExpansionsList(context, gen.name);
   }
 
   Widget _buildExpansionsList(BuildContext context, String gen) {
@@ -55,9 +62,9 @@ class ExpansionsState extends State<Expansions> {
               appbarsearch.searchIcon,
               IconButton(icon: Icon(Icons.list), onPressed: null),
             ]),
-        body: _searchText.isEmpty
-            ? this._getExpansionContentsByGen(context, gen)
-            : this._buildSearchCardList()
+        body: filteredCardList != null
+            ? _buildSearchCardList(filteredCardList)
+            : _getExpansionContentsByGen(context, gen)
     );
   }
 
@@ -76,26 +83,33 @@ class ExpansionsState extends State<Expansions> {
     );
   }
 
-  Widget _buildSearchCardList() {
+  Widget _buildSearchCardList(List<CardContent> cardList) {
     return Scrollbar(
       child: ListView.builder(
-          itemCount: _listContent.length,
-          padding: const EdgeInsets.all(16.0),
+          itemCount: cardList.length,
+          padding: EdgeInsets.all(1.0),
           itemBuilder: (context, index) {
-            if ((_hitCnt != null && index + 1 < _hitCnt)
-                && index + 1 >= _listContent.length) {
-              _pageNum++;
-              _searchCardsByKeyword(_searchText, page: _pageNum);
-            }
-            return Container(
-              decoration: new BoxDecoration(
-                  border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
-              child: ListTile(
-                title: Text(_listContent[index].cardNameViewText, style: _biggerFont),
-                onTap: () {},
-              ),
-            );
+            return _cardItem(context, cardList[index], index);
           }),
+    );
+  }
+
+  Widget _cardItem(BuildContext context, CardContent content, int index) {
+    return Container(
+      decoration: BoxDecoration(
+          border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+      child: ListTile(
+        leading: _cardImage(content),
+        title: Text(content.nameJp, style: _biggerFont),
+        onTap: () {},
+        onLongPress: () {},
+      ),
+    );
+  }
+
+  Image _cardImage(CardContent content) {
+    return Image.asset(
+        'assets/img/various/sample.png'
     );
   }
 
@@ -158,40 +172,5 @@ class ExpansionsState extends State<Expansions> {
         ExpansionContents.fromJson(jsonRes).getExpansionContentList();
 
     return _expansions;
-  }
-
-  void _searchCardsByKeyword(String keyword, {int page = 1}) async {
-    _searchText = "";
-    // 何となく2文字以上でsubmitされた場合に絞る
-    if (keyword.length >= 2) {
-      final url = 'https://www.pokemon-card.com/card-search/resultAPI.php';
-      final payload = {
-        'keyword': keyword,
-        'regulation_sidebar_form': 'XY',
-        'sm_and_keyword': true,
-        'page': page
-      };
-
-      // FIXME: エラーハンドリング
-      final Response response = await dio.post(
-          url,
-          data: new FormData.fromMap(payload),
-          options: Options(
-            headers: {},
-          ));
-
-      final SearchResultCards resData = SearchResultCards.fromJson(
-          response.data);
-
-      setState(() {
-        _searchText = keyword;
-        _hitCnt = resData.hitCnt;
-        if (page == 1) {
-          _listContent = [];
-        }
-
-        _listContent.addAll(resData.cardList);
-      });
-    }
   }
 }
