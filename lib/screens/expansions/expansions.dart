@@ -3,6 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ptcgb_flutter/common/appbar_search.dart';
+import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
@@ -42,7 +43,8 @@ class ExpansionsState extends State<Expansions> {
 
   @override
   Widget build(BuildContext context) {
-    final String gen = ModalRoute.of(context).settings.arguments;
+    final GenerationsEnum genEnum = ModalRoute.of(context).settings.arguments;
+    final String gen = genEnum.name;
     return _buildExpansionsList(context, gen);
   }
 
