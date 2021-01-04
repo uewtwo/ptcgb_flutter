@@ -6,6 +6,7 @@ import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
 import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
+import 'package:ptcgb_flutter/screens/infomation/official_info_webview.dart';
 
 import 'decks/deck_creator.dart';
 import 'decks/decklists.dart';
@@ -16,9 +17,10 @@ class PtcgBuilderApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Welcome to PTCGB!!',
-      routes: <String, WidgetBuilder> {
+      routes: <String, WidgetBuilder>{
         Home.routeName: (BuildContext context) => Home(),
-        '/information': (BuildContext context) => Home(),
+        OfficialInfoWebView.routeName: (BuildContext context) =>
+            OfficialInfoWebView(),
         Generations.routeName: (BuildContext context) => Generations(),
         Expansions.routeName: (BuildContext context) => Expansions(),
         CardList.routeName: (BuildContext context) => CardList(),
@@ -30,6 +32,7 @@ class PtcgBuilderApp extends StatelessWidget {
         '/search_events': (BuildContext context) => Home(),
       },
       theme: ThemeData(
+        fontFamily: 'NotoSansJP-Black',
         primaryColor: Colors.teal, // app header background
         secondaryHeaderColor: Colors.indigo[400], // card header background
         cardColor: Colors.white, // card field background

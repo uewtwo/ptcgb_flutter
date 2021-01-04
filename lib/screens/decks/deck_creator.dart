@@ -1,7 +1,17 @@
 import 'dart:convert';
-import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:hooks_riverpod/all.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/decorations/decks/deck_creator_decorations.dart';
+import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
+import 'package:ptcgb_flutter/repositories/decks/deck_charts_repository.dart';
+import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
+import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
+import 'package:ptcgb_flutter/repositories/cards/filtered_card_repository.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/decks/decklists.dart';
 import 'package:ptcgb_flutter/screens/home/home.dart';
@@ -11,112 +21,136 @@ import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 
-class DeckCreator extends StatefulWidget {
+class DeckCreator extends HookWidget {
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
+  final deco = DeckCreatorDecorations();
+
+  final filteredGenCardProvider =
+      StateNotifierProvider.autoDispose((ref) => FilteredCardRepository());
+  final filteredSearchCardProvider =
+      StateNotifierProvider.autoDispose((ref) => FilteredCardRepository());
+  final deckElementsProvider =
+      StateNotifierProvider.autoDispose((ref) => DeckElementRepository());
+  final deckNameProvider =
+      StateNotifierProvider.autoDispose((ref) => TextRepository(""));
+  final baseGenerationProvider = StateNotifierProvider.autoDispose(
+      (ref) => TextRepository(GenerationsEnum.values[0].name));
+
+  final chartsProvider =
+      StateNotifierProvider.autoDispose((ref) => DeckChartsRepository());
   static const routeName = '/deck_creator';
+  static const TextStyle _biggerFont = TextStyle(fontSize: 18);
+  static const TextStyle _deckContentFont = TextStyle(fontSize: 11);
 
-  @override
-  DeckCreatorState createState() => DeckCreatorState();
-}
+  static const double deckContentWidth = 120.0;
 
-class DeckCreatorState extends State<DeckCreator> {
-  final TextStyle _biggerFont = TextStyle(fontSize: 18);
-  final TextStyle _deckContentFont = TextStyle(fontSize: 11);
-  double screenWidth;
-  double customWidth;
-  /// デッキの中身, [カード内容, 枚数を想定
-  // 既存デッキ情報
-  List<Tuple2<CardContent, int>> deckElementList = [];
-  OwnedDeckInfo deckInfo;
-  String editDeckId = '';
-  // FIXME: 1回だけ引数読みたいがために罪悪なことをしている
-  // FIXME: statelessにできれば解決できそうなので、MVVMを頑張って導入したい
-  bool isInitialized = false;
-
-  // TODO: 決め打ちではなく最新の弾を自動で読み込むようにしたい
-  String _generation = 'sa';
-  // FIXME: List<CardContent>にしたいがList<dynamic> ... のエラーが出る
-  Future<List> baseCardList;
-  List<CardContent> filteredCardList;
-
-  String _type = 'sa';
-
-  final double deckContentWidth = 120.0;
-
-  TextEditingController editingController = TextEditingController();
-
-  List<charts.Series> seriesList;
-
-  @override
-  void initState() {
-    super.initState();
-    baseCardList = getAllCardInGeneration(context, _generation);
-    seriesList = _createSampleData();
+  OwnedDeckInfo getDeckInfo(context) {
+    return ModalRoute.of(context).settings.arguments;
   }
-
-  /// ラジオボタンのGeneration用リセット関数
-  void _handleGeneration(String e) => setState(() {_type = e;});
 
   @override
   Widget build(BuildContext context) {
-    deckInfo = ModalRoute.of(context).settings.arguments;
-    screenWidth = MediaQuery.of(context).size.width;
-    customWidth = screenWidth * 0.2;
+    final double screenWidth = getScreenWidth(context);
+    final double customWidth = getScreenWidth(context) * 0.2;
 
-    if (deckInfo != null && !isInitialized) {
-      DeckFileHandler.getDeckContent(deckInfo.deckId).then((value) {
-        deckElementList = value.deckElements;
-        setState(() {
-          isInitialized = true;
-        });
+    // デッキ要素リスト
+    final List<Tuple2<CardContent, int>> stateDeckElements =
+        useProvider(deckElementsProvider.state);
+    final deckElementsExporter = useProvider(deckElementsProvider);
+    if (getDeckInfo(context) != null && stateDeckElements.length == 0) {
+      DeckFileHandler.getDeckContent(getDeckInfo(context).deckId).then((value) {
+        deckElementsExporter.exportResult(value.deckElements);
       });
     }
 
+    // デッキ名
+    // final String stateDeckName = useProvider(deckNameProvider.state);
+    // final deckNameExporter = useProvider(deckNameProvider);
+
+    // ジェネレーションテキスト
+    final String stateGeneration = useProvider(baseGenerationProvider.state);
+    final generationExporter = useProvider(baseGenerationProvider);
+
+    // ジェネレーションベースの全カードリスト
+    final List<CardContent> stateBaseCardList =
+        useProvider(filteredGenCardProvider.state);
+    final baseExporter = useProvider(filteredGenCardProvider);
+    getAllCardInGeneration(baseExporter, stateGeneration);
+
+    // サーチリスト
+    final List<CardContent> stateFilteredCard =
+        useProvider(filteredSearchCardProvider.state);
+    final filteredExporter = useProvider(filteredSearchCardProvider);
+
+    final int deckNums = deckContentNum(stateDeckElements);
+
     // TODO: min, max 決めてRowに表示するカードの枚数を調整する
     return Scaffold(
+      key: _scaffoldKey,
       appBar: AppBar(
-        centerTitle: true,
-        title: Text('Deck Creator'),
-        actions: <Widget>[
-          IconButton(
+          centerTitle: true,
+          title: Text('Deck Creator'),
+          actions: <Widget>[
+            IconButton(
               // FIXME: save iconがフロッピーでダサい.
               icon: Icon(Icons.save),
-              onPressed: (){_buildSaveDeck(context);}
-          )
-        ],
-      ),
-      body: Row(
-          children: <Widget>[
-            Expanded(child: Column(
-              children: <Widget>[
-                _buildSearchingCard(context),
-                _buildSelectGeneration(context),
-                Padding(
-                    padding: EdgeInsets.only(top: 10),
-                    child: Text('カード検索結果')),
-                Container(
-                    child: _buildSearchedCard(context)
+              onPressed: () {
+                _buildSaveDeck(context, stateDeckElements);
+              },
+            ),
+          ]),
+      body: Row(children: <Widget>[
+        Expanded(
+          child: Column(children: <Widget>[
+            _buildSearchingCard(filteredExporter, stateBaseCardList),
+            _buildSelectGeneration(stateGeneration, generationExporter),
+            Padding(padding: EdgeInsets.only(top: 10), child: Text('カード検索結果')),
+            Container(
+              child: _buildSearchedCard(stateDeckElements, deckElementsExporter,
+                  stateBaseCardList, stateFilteredCard),
+            ),
+          ]),
+        ),
+        Container(
+          width: deckContentWidth,
+          child: Column(children: <Widget>[
+            _buildDeckSummaryCharts(),
+            Container(
+              child: Padding(
+                padding: EdgeInsets.only(top: 10),
+                child: Text('デッキ: $deckNums枚'),
+              ),
+              decoration: BoxDecoration(
+                border: const Border(
+                  bottom: const BorderSide(
+                    color: Colors.grey,
+                    width: 1,
+                  ),
                 ),
-              ])
+              ),
             ),
             Container(
-              width: deckContentWidth,
-              child: Column(
-                children: <Widget>[
-                  _buildDeckSummaryCharts(),
-                  Padding(
-                      padding: EdgeInsets.only(top: 10),
-                      child: Text('デッキ: $deckContentNum枚')),
-                  Container(
-                      child: _buildDeckContents()
-                  ),
-              ])
-            )
-          ])
+              child:
+                  _buildDeckContents(stateDeckElements, deckElementsExporter),
+            ),
+          ]),
+          decoration: BoxDecoration(
+            border: const Border(
+              left: const BorderSide(
+                color: Colors.grey,
+                width: 1,
+              ),
+            ),
+          ),
+        ),
+      ]),
     );
   }
-  
+
   /// 対象Generationのカードリスト全取得
-  Future<List<CardContent>> getAllCardInGeneration(BuildContext context, String generation) async {
+  void getAllCardInGeneration(
+      FilteredCardRepository exporter, String generation) async {
+    final context = useContext();
 //    FIXME: getApplicationDocumentsDirectory() とか使って
 //    FIXME: カードリストjson管理しないとダメそう
 //    FIXME: その上でファイルリストを取得して対象Genカード全リストを取得とか？
@@ -129,367 +163,396 @@ class DeckCreatorState extends State<DeckCreator> {
     // FIXME: _typeがラジオボタンのgenを受け取るからそれを参照するようにする
 //    final String basePath = 'assets/text/cards/jp/$generation/';
     final String basePath = 'assets/text/cards/jp/sa/';
-    _list.addAll(CardContents.fromJson(
-      jsonDecode(await DefaultAssetBundle.of(context).loadString(
-          '${basePath}708.json'))).toList()
-    );
-    _list.addAll(CardContents.fromJson(
-        jsonDecode(await DefaultAssetBundle.of(context).loadString(
-            '${basePath}709.json'))).toList()
-    );
-    _list.addAll(CardContents.fromJson(
-        jsonDecode(await DefaultAssetBundle.of(context).loadString(
-            '${basePath}710.json'))).toList()
-    );
+    _list.addAll(CardContents.fromJson(jsonDecode(
+            await DefaultAssetBundle.of(context)
+                .loadString('${basePath}708.json')))
+        .toList());
+    _list.addAll(CardContents.fromJson(jsonDecode(
+            await DefaultAssetBundle.of(context)
+                .loadString('${basePath}709.json')))
+        .toList());
+    _list.addAll(CardContents.fromJson(jsonDecode(
+            await DefaultAssetBundle.of(context)
+                .loadString('${basePath}710.json')))
+        .toList());
 
-    return _list;
+    exporter.exportResult(_list);
   }
 
   /// ラジオボタンがGenerationが選択されたときに、対象カードリストを全部読み込む
   /// その後SearchでFilterをかける
-  Widget _buildSearchingCard(BuildContext context) {
+  Widget _buildSearchingCard(filteredExporter, stateBaseCardList) {
     return Container(
-        height: 50,
-        child: Padding(
-            padding: EdgeInsets.all(8.0),
-            child: TextField(
-              onChanged: (value) {}, // 入力中から裏で検索回す場合に使用
-              onSubmitted: (value) { _filteringCard(value); },
-              controller: editingController,
-              decoration: InputDecoration(
-                  labelText: 'Search',
-                  hintText: 'card name here...',
-                  prefixIcon: Icon(Icons.search),
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(16))
-                  )
-              ),
-            )
-        )
+      height: 50,
+      child: Padding(
+        padding: EdgeInsets.all(8.0),
+        child: TextField(
+          // onChanged: (value) {}, // 入力中から裏で検索回す場合に使用
+          onSubmitted: (value) {
+            _filteringCard(filteredExporter, value, stateBaseCardList);
+          },
+          // controller: TextEditingController(),
+          decoration: InputDecoration(
+            contentPadding: EdgeInsets.symmetric(vertical: 5),
+            labelText: 'Search',
+            hintText: 'card name here...',
+            prefixIcon: Icon(Icons.search),
+            border: OutlineInputBorder(
+                borderRadius: BorderRadius.all(Radius.circular(16))),
+          ),
+          inputFormatters: <TextInputFormatter>[
+            FilteringTextInputFormatter.allow(RegExp(r'.+')),
+          ],
+        ),
+      ),
     );
   }
 
-  void _filteringCard(String searchStr) async {
-    filteredCardList = [];
-    filteredCardList = (await baseCardList).where(
-            (val) => val.searchCardText(searchStr)
-    ).toList();
-
-    setState(() {});
+  void _filteringCard(
+      exporter, String searchStr, List<CardContent> baseCardList) async {
+    exporter.exportResult(
+        baseCardList.where((val) => val.searchCardText(searchStr)).toList());
   }
 
-  // FIXME: assets/管理をやめないとダメそう
-  Widget _buildSelectGeneration(context) {
-    // TODO: generation config みたいなところから動的にリストを生成できると良い
-    return Column(
-        children: <Widget>[
-          RadioListTile(
-            // FIXME: Update generation image.
-            secondary: Image.asset('assets/img/various/sample.png'),
-            activeColor: Colors.amberAccent,
-            title: Text("ソード&シールド"),
-            value: 'sa',
-            // FIXME: onChanged時の全カードリスト取得機能
-//            onChanged: _handleGeneration,
-            groupValue: _type,
-          ),
-          RadioListTile(
-            // FIXME: Update generation image.
-            secondary: Image.asset('assets/img/various/sample.png'),
-            activeColor: Colors.amberAccent,
-            title: Text("サン&ムーン"),
-            value: 'sm',
-            // FIXME: onChanged時の全カードリスト取得機能
-//            onChanged: _handleGeneration,
-            groupValue: _type,
-          ),
-        ]
-    );
+  Widget _buildSelectGeneration(stateGeneration, generationExporter) {
+    return DropdownButton<String>(
+        items: GenerationsEnum.values.map((element) {
+          return new DropdownMenuItem<String>(
+            value: element.name,
+            child: new Text(element.displayName),
+          );
+        }).toList(),
+        onChanged: (_) => generationExporter.exportResult(_),
+        value: stateGeneration);
   }
 
   Widget _buildDeckSummaryCharts() {
+    final stateCharts = useProvider(chartsProvider.state);
+    final exporter = useProvider(chartsProvider);
+
+    // FIXME: とりあえずサンプルデータ
+    // exporter.exportResult(createSampleData());
     return Container(
-        width: deckContentWidth,
-        height: deckContentWidth,
-        child: charts.BarChart(
-          seriesList,
-          animate: true,
-          barGroupingType: charts.BarGroupingType.stacked,
-        )
+      width: deckContentWidth,
+      height: deckContentWidth,
+      child: charts.BarChart(
+        stateCharts,
+        animate: true,
+        barGroupingType: charts.BarGroupingType.stacked,
+      ),
     );
   }
 
-  Widget _buildSearchedCard(BuildContext context) {
+  Widget _buildSearchedCard(
+      stateDeckElements,
+      deckElementsExporter,
+      List<CardContent> stateBaseCardList,
+      List<CardContent> stateFilteredCardList) {
     return Expanded(
-        child: filteredCardList != null
-            ? _buildFilteredCardList()
-            : _buildFutureCardList(context)
+      child: stateFilteredCardList.length != 0
+          ? _buildScrolledCardList(
+              stateDeckElements, deckElementsExporter, stateFilteredCardList)
+          : _buildScrolledCardList(
+              stateDeckElements, deckElementsExporter, stateBaseCardList),
     );
   }
 
-  Widget _buildFilteredCardList() {
-    return _buildScrolledCardList(filteredCardList);
-  }
-
-  Widget _buildFutureCardList(BuildContext context) {
-    return  FutureBuilder(
-        future: baseCardList,
-        builder: (BuildContext context, AsyncSnapshot snapshot) {
-          return _buildCardList(context, snapshot);
-        }
-    );
-  }
-
-  Widget _buildCardList(BuildContext context, AsyncSnapshot snapshot) {
-    if (snapshot.connectionState != ConnectionState.done) {
-      return Container(
-          height: 20,
-          width: 20,
-          padding: EdgeInsets.all(10.0),
-          child: CircularProgressIndicator());
-    } else if (snapshot.hasError) {
-      //      throw snapshot.error;
-      return Container(
-          padding: EdgeInsets.all(10.0),
-          child: Text(snapshot.error.toString()));
-    } else if (snapshot.hasData) {
-      final List<CardContent> cardList = snapshot.data;
-      return _buildScrolledCardList(cardList);
-    } else {
-      return Text('No Data.');
-    }
-  }
-
-  Widget _buildScrolledCardList(List<CardContent> cardList) {
+  Widget _buildScrolledCardList(
+      stateDeckElements, deckElementsExporter, List<CardContent> cardList) {
     return Scrollbar(
       child: ListView.builder(
-          itemCount: cardList.length,
-          padding: EdgeInsets.all(1.0),
-          itemBuilder: (context, index) {
-            return _cardItem(context, cardList[index], index);
-          }),
+        itemCount: cardList.length,
+        padding: EdgeInsets.all(1.0),
+        itemBuilder: (context, index) {
+          return _cardItem(context, stateDeckElements, deckElementsExporter,
+              cardList[index], index);
+        },
+      ),
     );
   }
 
-  Widget _cardItem(BuildContext context, CardContent content, int index) {
+  Widget _cardItem(context, stateDeckElements, deckElementsExporter,
+      CardContent content, int index) {
     return Container(
       decoration: BoxDecoration(
-        border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+          border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
         onTap: () {
-          addDeckElement(content);
+          addDeckElement(
+              context, stateDeckElements, deckElementsExporter, content);
         },
         onLongPress: () {
-          Navigator.of(context).pushNamed(CardDetail.routeName, arguments: content);
+          Navigator.of(context)
+              .pushNamed(CardDetail.routeName, arguments: content);
         },
       ),
     );
   }
 
   Image _cardImage(CardContent content) {
-    return Image.asset(
-      'assets/img/various/sample.png'
-    );
+    return Image.asset('assets/img/various/sample.png');
   }
 
-  Widget _buildDeckContents() {
+  Widget _buildDeckContents(stateDeckElements, deckElementsExporter) {
     return Expanded(
-        child: Scrollbar(
-          child: ListView.builder(
-            itemCount: deckElementList.length,
-            padding: EdgeInsets.all(8),
-            shrinkWrap: true,
+      child: Scrollbar(
+        child: ListView.builder(
+          itemCount: stateDeckElements.length,
+          padding: EdgeInsets.all(8),
+          shrinkWrap: true,
 //            physics: NeverScrollableScrollPhysics(),
-            itemBuilder: (context, index) {
-              return Container(
-                decoration: new BoxDecoration(
-                    border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
-                child: ListTile(
-                  title: Text(
-                      '${deckElementList[index].item1.nameJp}×${deckElementList[index].item2}',
-                      style: _deckContentFont),
-                  onTap: () {
-                    subDeckElement(index);
-                  },
-                  onLongPress: () {
-                    addDeckElement(deckElementList[index].item1);
-                  }
-                ),
-              );
-            },
-          )
-        )
-      );
-  }
-
-  // TODO: AlertDialogの実装でええんか？
-  void _buildSaveDeck(BuildContext context) {
-    int deckLength = 0;
-    deckElementList.forEach((element) => deckLength += element.item2);
-//    if (deckLength != 60) {
-//      alertRequire60CardsInDecks();
-//      return;
-//    }
-    int topCardId = deckInfo?.topCardId ?? deckElementList[0].item1.cardId;
-    String deckName = deckInfo?.deckName ?? '';
-    TextEditingController deckTextEditor = TextEditingController(text: deckName);
-    Alert(
-      context: context,
-      type: AlertType.info,
-      title: 'Save deck',
-      content: Column(
-        children: <Widget>[
-          // TODO: タップしてアイコンにするカードを選択できるようにする
-          // とりあえず先頭のカードIDを使う
-          _buildPickTopCard(),
-          TextField(
-              onChanged: (value) => deckName = value,
-              controller: deckTextEditor,
-              decoration: InputDecoration(
-                  labelText: 'Deck Name',
-                  prefixIcon: Icon(Icons.edit),
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(16))
-                  )
-              )),
-        ],
+          itemBuilder: (context, index) {
+            return Container(
+              decoration: new BoxDecoration(
+                  border: new Border(
+                      bottom: BorderSide(width: 1.0, color: Colors.grey))),
+              child: ListTile(
+                title: Text(
+                    '${stateDeckElements[index].item1.nameJp}×${stateDeckElements[index].item2}',
+                    style: _deckContentFont),
+                onTap: () {
+                  subDeckElement(
+                      stateDeckElements, deckElementsExporter, index);
+                },
+                onLongPress: () {
+                  addDeckElement(context, stateDeckElements,
+                      deckElementsExporter, stateDeckElements[index].item1);
+                },
+              ),
+            );
+          },
+        ),
       ),
-      buttons: [
-        DialogButton(
-            child: Text('OK', style: TextStyle(color: Colors.white)),
-            onPressed: () async => {
-              deckInfo == null
-                ? await DeckFileHandler.saveDeckContentInfo(
-                    deckElementList, deckName, topCardId)
-                : await DeckFileHandler.overwriteDeckContentInfo(
-                    deckElementList, deckName, topCardId, deckInfo.deckId, deckInfo.sortValue),
-              Navigator.pop(context),
-              // statelessだがデッキリスト更新したいためpopではなくpush
-              Navigator.pushNamedAndRemoveUntil(
-                  context, Decklists.routeName, ModalRoute.withName(Home.routeName))
-            }),
-        DialogButton(
-            child: Text('CANCEL', style: TextStyle(color: Colors.white70)),
-            onPressed: () => Navigator.pop(context)),
-      ],
-      closeFunction: (){}
-    ).show();
-  }
-
-  DropdownButton<String> _buildPickTopCard() {
-    // TODO: https://makicamel.hatenablog.com/entry/2019/04/06/005255
-    // TODO: Dialog系はStatelessなのでsetStateしても値が変わらない、customか別の路線か考える
-    List<String> _items = ['aaaaa', 'bbbbb', 'ccccc']; // FIXME: テストデータ
-    String _selectedItem = 'aaaaa';
-    return DropdownButton<String>(
-      value: _selectedItem,
-      onChanged: (String val) {
-        setState(() {
-          _selectedItem = val;
-        });
-      },
-      selectedItemBuilder: (context) {
-        return _items.map((String item) {
-          return Text('TopCard: $item', style: TextStyle(fontSize: 20));
-        }).toList();
-      },
-      items: _items.map((String item) {
-        return DropdownMenuItem(
-          value: item,
-          child: Text(
-            item,
-            style: item == _selectedItem
-                ? TextStyle(fontSize: 20, fontWeight: FontWeight.bold)
-                : TextStyle(fontSize: 20, fontWeight: FontWeight.normal),
-          ),
-        );
-      }).toList(),
     );
   }
 
-  void addDeckElement(CardContent content) {
+  void _buildSaveDeck(
+      context, List<Tuple2<CardContent, int>> stateDeckElements) {
+    int deckLength = 0;
+    stateDeckElements.forEach((element) => deckLength += element.item2);
+    if (deckLength == 0) {
+      alertRequireCardsInDecks(context);
+      return;
+    }
+    // if (deckLength != 60) {
+    //   alertRequireCardsInDecks(context);
+    //   return;
+    // }
+
+    final OwnedDeckInfo ownedDeckInfo = getDeckInfo(context);
+    int topCardId =
+        ownedDeckInfo?.topCardId ?? stateDeckElements[0].item1.cardId;
+    showDialog(
+      context: context,
+      builder: (_context) {
+        // デッキ保存確認画面で状態が欲しかったので、とりあえずStatefulBuilderを使用
+        String deckName = ownedDeckInfo?.deckName ?? "";
+        TextEditingController deckTextEditor =
+            TextEditingController(text: deckName);
+        return StatefulBuilder(
+          builder: (_context, setState) {
+            return AlertDialog(
+                title: Text("Save Deck",
+                    style: TextStyle(color: Colors.black54),
+                    textAlign: TextAlign.center),
+                content:
+                    Column(mainAxisSize: MainAxisSize.min, children: <Widget>[
+                  Container(
+                    child: Column(children: <Widget>[
+                      Align(
+                        alignment: Alignment.bottomLeft,
+                        child: Text(
+                          "Deck Top Card",
+                          // textAlign: TextAlign.left,
+                          style: TextStyle(fontSize: 13, color: Colors.blue),
+                        ),
+                      ),
+                      DropdownButtonFormField<int>(
+                        items: stateDeckElements.map((element) {
+                          return new DropdownMenuItem<int>(
+                            value: element.item1.cardId,
+                            child: Container(
+                              color: element.item1.cardId == topCardId
+                                  ? Colors.white60
+                                  : Colors.white,
+                              child: Text(element.item1.nameJp),
+                            ),
+                          );
+                        }).toList(),
+                        onChanged: (_) {
+                          setState(() {
+                            topCardId = _;
+                          });
+                        },
+                        value: topCardId,
+                        hint: Text("Choose Top Card"),
+                      ),
+                    ]),
+                    color: Colors.white60,
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(top: 5),
+                    child: Container(
+                      child: TextField(
+                        onSubmitted: (value) => setState(() {
+                          deckName = value;
+                        }),
+                        onChanged: (value) => setState(() {
+                          deckName = value;
+                        }),
+                        controller: deckTextEditor,
+                        decoration: deco.enterDeckNameDecoration(),
+                        keyboardType: TextInputType.text,
+                        textAlign: TextAlign.center,
+                        textAlignVertical: TextAlignVertical.bottom,
+                      ),
+                      color: Colors.white60,
+                    ),
+                  ),
+                ]),
+                actions: <Widget>[
+                  _buildSaveDeckOK(context, ownedDeckInfo, stateDeckElements,
+                      deckName, topCardId),
+                  _buildSaveDeckCancel(context),
+                ]);
+          },
+        );
+      },
+    );
+  }
+
+  Widget _buildSaveDeckOK(context, ownedDeckInfo, stateDeckElements,
+      String deckName, int topCardId) {
+    return RaisedButton(
+      child: Text('OK', style: TextStyle(color: Colors.white)),
+      onPressed: deckName.isEmpty
+          ? null
+          : () async {
+              getDeckInfo(context) == null
+                  ? await DeckFileHandler.saveDeckContentInfo(
+                      stateDeckElements, deckName, topCardId)
+                  : await DeckFileHandler.overwriteDeckContentInfo(
+                      stateDeckElements,
+                      deckName,
+                      topCardId,
+                      ownedDeckInfo.deckId,
+                      ownedDeckInfo.sortValue);
+              // Navigator.pop(context);
+              Navigator.pushNamedAndRemoveUntil(context, Decklists.routeName,
+                  ModalRoute.withName(Home.routeName));
+              // TODO: エラーハンドリング
+              // FIXME: navigationと一緒に snackbar出すやり方が分からん
+              _displaySnackBar("$deckName: デッキを保存しました。");
+            },
+    );
+  }
+
+  void _displaySnackBar(String value) {
+    _scaffoldKey.currentState
+        .showSnackBar(new SnackBar(content: new Text(value)));
+  }
+
+  Widget _buildSaveDeckCancel(context) {
+    return RaisedButton(
+      child: Text('CANCEL', style: TextStyle(color: Colors.white)),
+      onPressed: () => Navigator.pop(context),
+    );
+  }
+
+  void addDeckElement(
+      context, stateDeckElements, deckElementsExporter, CardContent content) {
     // 80枚超えるなら追加しない
-    if (deckContentNum + 1 > 80) {
-      alertExceedDeckList();
+    if (stateDeckElements.length + 1 > 80) {
+      alertExceedDeckList(context);
     } else {
       int existsCardIndex = -1;
-      for (int i = 0; i < deckElementList.length; i++) {
-        if (deckElementList[i].item1.isTheSameEffectCard(content)) {
+      for (int i = 0; i < stateDeckElements.length; i++) {
+        if (stateDeckElements[i].item1.isTheSameEffectCard(content)) {
           existsCardIndex = i;
           break;
         }
       }
+      List<Tuple2<CardContent, int>> _deckElements = stateDeckElements;
 
       // indexがなければ新規追加
       if (existsCardIndex == -1) {
-        deckElementList.add(Tuple2(content, 1));
-        sortDeckElement();
+        _deckElements.add(Tuple2(content, 1));
+        deckElementsExporter.exportResult(_deckElements);
+        sortDeckElement(stateDeckElements, deckElementsExporter);
       } else {
-        final Tuple2<CardContent, int> _target = deckElementList[existsCardIndex];
+        final Tuple2<CardContent, int> _target =
+            stateDeckElements[existsCardIndex];
         if (_target.item2 >= 4) {
-          alertExceedCardList();
+          alertExceedCardList(context);
         } else {
           // Tuple要素がfinalなのでList要素を置き換える
-          deckElementList[existsCardIndex] = _target.withItem2(_target.item2 + 1);
+          _deckElements[existsCardIndex] = _target.withItem2(_target.item2 + 1);
+          deckElementsExporter.exportResult(_deckElements);
         }
       }
-      setState(() {});
     }
   }
 
-  void subDeckElement(int index) {
-    final Tuple2<CardContent, int> _target = deckElementList[index];
+  void subDeckElement(stateDeckElements, deckElementsExporter, int index) {
+    List<Tuple2<CardContent, int>> _ = stateDeckElements;
+    final Tuple2<CardContent, int> _target = _[index];
     // 減らす前が1枚ならListから削除
     if (_target.item2 == 1) {
-      deckElementList.removeAt(index);
+      _.removeAt(index);
+      deckElementsExporter.exportResult(_);
     } else {
       // Tuple要素がfinalなのでList要素を置き換える
-      deckElementList[index] = _target.withItem2(_target.item2 - 1);
+      _[index] = _target.withItem2(_target.item2 - 1);
+      deckElementsExporter.exportResult(_);
     }
-    setState(() {});
   }
 
   // FIXME: 追加するカードの位置だけ探せれば良い、全部並びかえは無駄
-  void sortDeckElement() {
-    deckElementList.sort(
-        (a, b) {
-          int supertypeSort = a.item1.cardSupertype.index.compareTo(b.item1.cardSupertype.index);
-          int subtypeSort = a.item1.cardSubtype.index.compareTo(b.item1.cardSupertype.index);
-          if (supertypeSort != 0) {
-            return supertypeSort;
-          } else if (subtypeSort != 0){
-            return subtypeSort;
-          } else {
-            return a.item1.nameJp.compareTo(b.item1.nameJp);
-          }
+  void sortDeckElement(
+      List<Tuple2<CardContent, int>> stateDeckElements, exporter) {
+    List<Tuple2<CardContent, int>> _ = stateDeckElements;
+    _.sort(
+      (a, b) {
+        int supertypeSort =
+            a.item1.cardSupertype.index.compareTo(b.item1.cardSupertype.index);
+        int subtypeSort =
+            a.item1.cardSubtype.index.compareTo(b.item1.cardSupertype.index);
+        if (supertypeSort != 0) {
+          return supertypeSort;
+        } else if (subtypeSort != 0) {
+          return subtypeSort;
+        } else {
+          return a.item1.nameJp.compareTo(b.item1.nameJp);
         }
+      },
     );
+    exporter.exportResult(_);
   }
 
-  int get deckContentNum {
+  int deckContentNum(stateDeckElements) {
     int _nums = 0;
-    deckElementList.forEach((val) => _nums += val.item2);
+    stateDeckElements.forEach((val) => _nums += val.item2);
     return _nums;
   }
 
-  void alertExceedDeckList() {
+  void alertExceedDeckList(context) {
     showDialog(
         context: context,
         builder: (_) {
           return AlertDialog(
               title: Text('Exceed 80.'),
-              content: Text('Please reduce the number of cards in the deck list first'),
+              content: Text(
+                  'Please reduce the number of cards in the deck list first'),
               actions: <Widget>[
-                FlatButton(child: Text('OK'), onPressed: () => Navigator.pop(context)),
-              ]
-          );
-        }
-    );
+                FlatButton(
+                    child: Text('OK'), onPressed: () => Navigator.pop(context)),
+              ]);
+        });
   }
 
-  void alertExceedCardList() {
+  void alertExceedCardList(context) {
     Alert(
       context: context,
       type: AlertType.error,
@@ -497,7 +560,8 @@ class DeckCreatorState extends State<DeckCreator> {
       desc: 'Please reduce the number of cards first',
       buttons: [
         DialogButton(
-          child: Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
+          child:
+              Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
           onPressed: () => Navigator.pop(context),
           width: 120,
         ),
@@ -506,15 +570,16 @@ class DeckCreatorState extends State<DeckCreator> {
     ).show();
   }
 
-  void alertRequire60CardsInDecks() {
+  void alertRequireCardsInDecks(context, {num = 0}) {
     Alert(
       context: context,
       type: AlertType.error,
-      title: 'Require 60 cards in the deck.',
+      title: 'Require cards in the deck.',
       desc: 'Adjust cards properly.',
       buttons: [
         DialogButton(
-          child: Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
+          child:
+              Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
           onPressed: () => Navigator.pop(context),
           width: 120,
         ),
@@ -522,48 +587,48 @@ class DeckCreatorState extends State<DeckCreator> {
       closeFunction: () {},
     ).show();
   }
+}
 
-  /// テストデータ
-  /// TODO: 実際のデッキの中身で置き換える
-  /// TODO: データ構造考える
-  static List<charts.Series<OrdinalSales, String>> _createSampleData() {
-    final desktopSalesData = [
-      new OrdinalSales('P', 15),
-      new OrdinalSales('T', 14),
-      new OrdinalSales('E', 6),
-    ];
+/// テストデータ
+/// TODO: 実際のデッキの中身で置き換える
+/// TODO: データ構造考える
+List<charts.Series<OrdinalSales, String>> createSampleData() {
+  final desktopSalesData = [
+    new OrdinalSales('P', 15),
+    new OrdinalSales('T', 14),
+    new OrdinalSales('E', 6),
+  ];
 
-    final tableSalesData = [
-      new OrdinalSales('P', 7),
-      new OrdinalSales('T', 10),
-      new OrdinalSales('E', 8),
-    ];
+  final tableSalesData = [
+    new OrdinalSales('P', 7),
+    new OrdinalSales('T', 10),
+    new OrdinalSales('E', 8),
+  ];
 
-    final mobileSalesData = [
-      new OrdinalSales('P', 3),
-    ];
+  final mobileSalesData = [
+    new OrdinalSales('P', 3),
+  ];
 
-    return [
-      new charts.Series<OrdinalSales, String>(
-        id: 'Desktop',
-        domainFn: (OrdinalSales sales, _) => sales.supertype,
-        measureFn: (OrdinalSales sales, _) => sales.cards,
-        data: desktopSalesData,
-      ),
-      new charts.Series<OrdinalSales, String>(
-        id: 'Tablet',
-        domainFn: (OrdinalSales sales, _) => sales.supertype,
-        measureFn: (OrdinalSales sales, _) => sales.cards,
-        data: tableSalesData,
-      ),
-      new charts.Series<OrdinalSales, String>(
-        id: 'Mobile',
-        domainFn: (OrdinalSales sales, _) => sales.supertype,
-        measureFn: (OrdinalSales sales, _) => sales.cards,
-        data: mobileSalesData,
-      ),
-    ];
-  }
+  return [
+    new charts.Series<OrdinalSales, String>(
+      id: 'Desktop',
+      domainFn: (OrdinalSales sales, _) => sales.supertype,
+      measureFn: (OrdinalSales sales, _) => sales.cards,
+      data: desktopSalesData,
+    ),
+    new charts.Series<OrdinalSales, String>(
+      id: 'Tablet',
+      domainFn: (OrdinalSales sales, _) => sales.supertype,
+      measureFn: (OrdinalSales sales, _) => sales.cards,
+      data: tableSalesData,
+    ),
+    new charts.Series<OrdinalSales, String>(
+      id: 'Mobile',
+      domainFn: (OrdinalSales sales, _) => sales.supertype,
+      measureFn: (OrdinalSales sales, _) => sales.cards,
+      data: mobileSalesData,
+    ),
+  ];
 }
 
 /// Sample ordinal data type.

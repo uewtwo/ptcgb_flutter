@@ -15,32 +15,50 @@ version: 1.0.0+1
 
 environment:
   sdk: ">=2.7.2 <3.0.0"
+  flutter: ">1.22.4"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  json_annotation: any
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: any
+
+  # For My Application
   draggable_scrollbar: any
   dio: any
-  dio_cookie_manager: any
+  dio_http_cache: any
+  json_annotation: any
+  freezed_annotation: any
+  shared_preferences: any
+  enum_to_string: any
+  google_fonts: any
+  fluttertoast: any
+  flutter_hooks: any
+  hooks_riverpod: any
+  state_notifier: any
+  sqflite: any
+  path: any
   charts_flutter: any
   equatable: any
   tuple: any
   path_provider: any
   rflutter_alert: any
   provider: any
+  simple_logger: any
+  auto_size_text: any
+  pedantic_mono: any
+  webview_flutter: ^1.0.7
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  json_serializable: any
+  flutter_gen: any
+  mockito: any
   build_runner: any
+  freezed: any
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -98,3 +116,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+fonts:
+  - family: NotoSansJP-Black
+    font:
+      - asset: assets/fonts/NotoSansJP-Black
+
+use-material-design: true
