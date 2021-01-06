@@ -15,6 +15,7 @@ import 'package:ptcgb_flutter/repositories/cards/filtered_card_repository.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/decks/decklists.dart';
 import 'package:ptcgb_flutter/screens/home/home.dart';
+import 'package:ptcgb_flutter/screens/widgets/deck_charts_widget.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:tuple/tuple.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
@@ -36,8 +37,6 @@ class DeckCreator extends HookWidget {
   final baseGenerationProvider = StateNotifierProvider.autoDispose(
       (ref) => TextRepository(GenerationsEnum.values[0].name));
 
-  final chartsProvider =
-      StateNotifierProvider.autoDispose((ref) => DeckChartsRepository());
   static const routeName = '/deck_creator';
   static const TextStyle _biggerFont = TextStyle(fontSize: 18);
   static const TextStyle _deckContentFont = TextStyle(fontSize: 11);
@@ -63,10 +62,6 @@ class DeckCreator extends HookWidget {
       });
     }
 
-    // デッキ名
-    // final String stateDeckName = useProvider(deckNameProvider.state);
-    // final deckNameExporter = useProvider(deckNameProvider);
-
     // ジェネレーションテキスト
     final String stateGeneration = useProvider(baseGenerationProvider.state);
     final generationExporter = useProvider(baseGenerationProvider);
@@ -89,7 +84,9 @@ class DeckCreator extends HookWidget {
       key: _scaffoldKey,
       appBar: AppBar(
           centerTitle: true,
-          title: Text('Deck Creator'),
+          title: Text(getDeckInfo(context) == null
+              ? 'New Deck'
+              : getDeckInfo(context).deckName),
           actions: <Widget>[
             IconButton(
               // FIXME: save iconがフロッピーでダサい.
@@ -114,7 +111,7 @@ class DeckCreator extends HookWidget {
         Container(
           width: deckContentWidth,
           child: Column(children: <Widget>[
-            _buildDeckSummaryCharts(),
+            _buildDeckSummaryCharts(stateDeckElements),
             Container(
               child: Padding(
                 padding: EdgeInsets.only(top: 10),
@@ -226,20 +223,13 @@ class DeckCreator extends HookWidget {
         value: stateGeneration);
   }
 
-  Widget _buildDeckSummaryCharts() {
-    final stateCharts = useProvider(chartsProvider.state);
-    final exporter = useProvider(chartsProvider);
+  Widget _buildDeckSummaryCharts(List<Tuple2<CardContent, int>> deckElements) {
+    final DeckChartsWidget chartsWidget = DeckChartsWidget(deckElements);
 
-    // FIXME: とりあえずサンプルデータ
-    // exporter.exportResult(createSampleData());
     return Container(
       width: deckContentWidth,
       height: deckContentWidth,
-      child: charts.BarChart(
-        stateCharts,
-        animate: true,
-        barGroupingType: charts.BarGroupingType.stacked,
-      ),
+      child: chartsWidget.barChart,
     );
   }
 
@@ -354,11 +344,14 @@ class DeckCreator extends HookWidget {
         return StatefulBuilder(
           builder: (_context, setState) {
             return AlertDialog(
-                title: Text("Save Deck",
-                    style: TextStyle(color: Colors.black54),
-                    textAlign: TextAlign.center),
-                content:
-                    Column(mainAxisSize: MainAxisSize.min, children: <Widget>[
+              title: Text(
+                "Save Deck",
+                style: TextStyle(color: Colors.black54, fontSize: 15),
+                textAlign: TextAlign.center,
+              ),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
                   Container(
                     child: Column(children: <Widget>[
                       Align(
@@ -370,6 +363,7 @@ class DeckCreator extends HookWidget {
                         ),
                       ),
                       DropdownButtonFormField<int>(
+                        itemHeight: 50,
                         items: stateDeckElements.map((element) {
                           return new DropdownMenuItem<int>(
                             value: element.item1.cardId,
@@ -393,7 +387,7 @@ class DeckCreator extends HookWidget {
                     color: Colors.white60,
                   ),
                   Padding(
-                    padding: EdgeInsets.only(top: 5),
+                    padding: EdgeInsets.only(top: 0),
                     child: Container(
                       child: TextField(
                         onSubmitted: (value) => setState(() {
@@ -411,12 +405,15 @@ class DeckCreator extends HookWidget {
                       color: Colors.white60,
                     ),
                   ),
-                ]),
-                actions: <Widget>[
-                  _buildSaveDeckOK(context, ownedDeckInfo, stateDeckElements,
-                      deckName, topCardId),
-                  _buildSaveDeckCancel(context),
-                ]);
+                ],
+              ),
+              actions: <Widget>[
+                _buildSaveDeckOK(context, ownedDeckInfo, stateDeckElements,
+                    deckName, topCardId),
+                _buildSaveDeckCancel(context),
+              ],
+              scrollable: true,
+            );
           },
         );
       },
@@ -426,7 +423,7 @@ class DeckCreator extends HookWidget {
   Widget _buildSaveDeckOK(context, ownedDeckInfo, stateDeckElements,
       String deckName, int topCardId) {
     return RaisedButton(
-      child: Text('OK', style: TextStyle(color: Colors.white)),
+      child: Text('SAVE', style: TextStyle(color: Colors.white)),
       onPressed: deckName.isEmpty
           ? null
           : () async {
@@ -587,54 +584,4 @@ class DeckCreator extends HookWidget {
       closeFunction: () {},
     ).show();
   }
-}
-
-/// テストデータ
-/// TODO: 実際のデッキの中身で置き換える
-/// TODO: データ構造考える
-List<charts.Series<OrdinalSales, String>> createSampleData() {
-  final desktopSalesData = [
-    new OrdinalSales('P', 15),
-    new OrdinalSales('T', 14),
-    new OrdinalSales('E', 6),
-  ];
-
-  final tableSalesData = [
-    new OrdinalSales('P', 7),
-    new OrdinalSales('T', 10),
-    new OrdinalSales('E', 8),
-  ];
-
-  final mobileSalesData = [
-    new OrdinalSales('P', 3),
-  ];
-
-  return [
-    new charts.Series<OrdinalSales, String>(
-      id: 'Desktop',
-      domainFn: (OrdinalSales sales, _) => sales.supertype,
-      measureFn: (OrdinalSales sales, _) => sales.cards,
-      data: desktopSalesData,
-    ),
-    new charts.Series<OrdinalSales, String>(
-      id: 'Tablet',
-      domainFn: (OrdinalSales sales, _) => sales.supertype,
-      measureFn: (OrdinalSales sales, _) => sales.cards,
-      data: tableSalesData,
-    ),
-    new charts.Series<OrdinalSales, String>(
-      id: 'Mobile',
-      domainFn: (OrdinalSales sales, _) => sales.supertype,
-      measureFn: (OrdinalSales sales, _) => sales.cards,
-      data: mobileSalesData,
-    ),
-  ];
-}
-
-/// Sample ordinal data type.
-class OrdinalSales {
-  final String supertype;
-  final int cards;
-
-  OrdinalSales(this.supertype, this.cards);
 }

@@ -21,11 +21,12 @@ class CardContents {
   factory CardContents.fromJson(List<dynamic> parsedJson) {
     List<CardContent> cardContents = List<CardContent>();
     cardContents = parsedJson.map((i) => CardContent.fromJson(i)).toList();
-    return CardContents(cardContentList:cardContents);
+    return CardContents(cardContentList: cardContents);
   }
 
   List<CardContent> toList() => this.cardContentList;
-  CardContents fromList(List<CardContent> val) => CardContents(cardContentList: val);
+  CardContents fromList(List<CardContent> val) =>
+      CardContents(cardContentList: val);
 
   int get length => this.cardContentList.length;
 }
@@ -63,9 +64,39 @@ class CardContent {
   final List<int> nationalPokedexNumbers;
   final String evolves;
 
-  CardContent({this.nameJp, this.nameUs, this.imageUrlOfficial, this.imageUrl, this.cardText, this.supertype, this.subtype, this.trainerText, this.energyText, this.hp, this.color, this.optionValue, this.author, this.rarity, this.productNo, this.set, this.setCode, this.generation, this.setNo, this.ability, this.addRule, this.weaknesses, this.resistances, this.nationalPokedexNumbers, this.evolves, this.cardId, this.multiId, this.attacks, this.retreats});
+  CardContent(
+      {this.nameJp,
+      this.nameUs,
+      this.imageUrlOfficial,
+      this.imageUrl,
+      this.cardText,
+      this.supertype,
+      this.subtype,
+      this.trainerText,
+      this.energyText,
+      this.hp,
+      this.color,
+      this.optionValue,
+      this.author,
+      this.rarity,
+      this.productNo,
+      this.set,
+      this.setCode,
+      this.generation,
+      this.setNo,
+      this.ability,
+      this.addRule,
+      this.weaknesses,
+      this.resistances,
+      this.nationalPokedexNumbers,
+      this.evolves,
+      this.cardId,
+      this.multiId,
+      this.attacks,
+      this.retreats});
 
-  factory CardContent.fromJson(Map<String, dynamic> json) => _$CardContentFromJson(json);
+  factory CardContent.fromJson(Map<String, dynamic> json) =>
+      _$CardContentFromJson(json);
 
   Map<String, dynamic> toJson() => _$CardContentToJson(this);
 
@@ -84,14 +115,11 @@ class CardContent {
 
   bool searchCardText(String searchStr) {
     // 平仮名カタカナで検索する
-    final String hira = searchStr.replaceAllMapped(
-        RegExp("[ぁ-ゔ]"),
-            (Match m) => String.fromCharCode(m.group(0).codeUnitAt(0) + 0x60));
-    final String kana = searchStr.replaceAllMapped(
-        RegExp("[ァ-ヴ]"),
-            (Match m) => String.fromCharCode(m.group(0).codeUnitAt(0) - 0x60));
+    final String hira = searchStr.replaceAllMapped(RegExp("[ぁ-ゔ]"),
+        (Match m) => String.fromCharCode(m.group(0).codeUnitAt(0) + 0x60));
+    final String kana = searchStr.replaceAllMapped(RegExp("[ァ-ヴ]"),
+        (Match m) => String.fromCharCode(m.group(0).codeUnitAt(0) - 0x60));
     final RegExp _regex = RegExp('$hira|$kana');
-
 
     return minCardText.contains(_regex);
   }
@@ -102,13 +130,20 @@ class CardContent {
     String attacksStr = '';
     for (int i = 0; i < attacks.length; i++) {
       attacksStr = [
-        attacksStr, attacks[i].name, attacks[i].text, attacks[i].damage
+        attacksStr,
+        attacks[i].name,
+        attacks[i].text,
+        attacks[i].damage
       ].where((val) => val != null).join();
     }
     final String _target = [
-      nameJp, trainerText, energyText,
-      ability.text, ability.name,
-      hp, attacksStr
+      nameJp,
+      trainerText,
+      energyText,
+      ability.text,
+      ability.name,
+      hp,
+      attacksStr
     ].where((val) => val != null).join();
 
     return _target;
@@ -129,8 +164,8 @@ class CardContent {
     switch (_cardSupertype) {
       case CardSupertypeEnum.POKEMON:
         _sub = CardSubtypeEnum.values
-          .where((_subtype) => _subtype.namePokemon == subtype)
-          .toList()[0];
+            .where((_subtype) => _subtype.namePokemon == subtype)
+            .toList()[0];
         break;
       case CardSupertypeEnum.TRAINER:
         _sub = CardSubtypeEnum.values
@@ -142,7 +177,8 @@ class CardContent {
             .where((_subtype) => _subtype.nameEnergy == subtype)
             .toList()[0];
         break;
-      default: Error();
+      default:
+        Error();
     }
 
     return _sub;

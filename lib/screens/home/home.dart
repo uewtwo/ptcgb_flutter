@@ -7,9 +7,10 @@ import 'package:path/path.dart';
 import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/generations/generations.dart';
 import 'package:ptcgb_flutter/screens/infomation/official_info_webview.dart';
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Home extends StatelessWidget {
-  static const routeName = '/';
+  static const routeName = '/home';
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +26,7 @@ class Home extends StatelessWidget {
             _buildInformation(context),
             _buildExpansions(context),
             _buildDecks(context),
-            _buildSearch(context),
+            // _buildSearch(context), //TODO: 全体検索は重たい
           ],
         ),
       ),

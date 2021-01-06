@@ -59,6 +59,14 @@ dev_dependencies:
   mockito: any
   build_runner: any
   freezed: any
+  flutter_launcher_icons: any
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: 'assets/img/various/app_icon.png'
+  adaptive_icon_background: 'assets/img/various/app_icon_background.png'
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

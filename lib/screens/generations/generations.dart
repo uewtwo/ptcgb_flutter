@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Generations extends StatelessWidget {
   static const routeName = '/generations';
