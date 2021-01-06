@@ -1,7 +1,13 @@
 enum CardSubtypeEnum {
-  basic, stage1, stage2, gigamax,
-  support, goods, equipment,
-  basEne, speEne,
+  basic,
+  stage1,
+  stage2,
+  gigamax,
+  support,
+  goods,
+  equipment,
+  basEne,
+  speEne,
 }
 
 extension CardSubtypeExt on CardSubtypeEnum {
@@ -22,9 +28,9 @@ extension CardSubtypeExt on CardSubtypeEnum {
       case CardSubtypeEnum.equipment:
         return 'equipment';
       case CardSubtypeEnum.basEne:
-        return 'baseEnery';
+        return 'baseEnergy';
       case CardSubtypeEnum.speEne:
-        return 'specialEnergy';
+        return 'speEnergy';
       default:
         return null;
     }
@@ -61,9 +67,9 @@ extension CardSubtypeExt on CardSubtypeEnum {
   String get nameEnergy {
     switch (this) {
       case CardSubtypeEnum.basEne:
-        return 'baseEnery';
+        return 'basEnergy';
       case CardSubtypeEnum.speEne:
-        return 'specialEnergy';
+        return 'speEnergy';
       default:
         return null;
     }

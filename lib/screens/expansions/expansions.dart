@@ -35,10 +35,8 @@ class ExpansionsState extends State<Expansions> {
   void initState() {
     super.initState();
 
-    appbarsearch = AppBarSearch(
-      state: this,
-      onSubmitted: _searchCardsByKeyword
-    );
+    appbarsearch =
+        AppBarSearch(state: this, onSubmitted: _searchCardsByKeyword);
   }
 
   @override
@@ -59,45 +57,49 @@ class ExpansionsState extends State<Expansions> {
             ]),
         body: _searchText.isEmpty
             ? this._getExpansionContentsByGen(context, gen)
-            : this._buildSearchCardList()
-    );
+            : this._buildSearchCardList());
   }
 
   Widget _getExpansionContentsByGen(BuildContext context, String gen) {
     return Container(
-        child: Column(children: <Widget>[
-          Expanded(
-              child: Center(
-                  child: FutureBuilder(
-                    future: this.getExpansionContentsByGen(context, gen),
-                    builder: (BuildContext context, AsyncSnapshot snapshot) {
-                      return _buildExpansions(context, snapshot);
-                    },
-                  ))),
-        ])
+      child: Column(children: <Widget>[
+        Expanded(
+          child: Center(
+            child: FutureBuilder(
+              future: this.getExpansionContentsByGen(context, gen),
+              builder: (BuildContext context, AsyncSnapshot snapshot) {
+                return _buildExpansions(context, snapshot);
+              },
+            ),
+          ),
+        ),
+      ]),
     );
   }
 
   Widget _buildSearchCardList() {
     return Scrollbar(
       child: ListView.builder(
-          itemCount: _listContent.length,
-          padding: const EdgeInsets.all(16.0),
-          itemBuilder: (context, index) {
-            if ((_hitCnt != null && index + 1 < _hitCnt)
-                && index + 1 >= _listContent.length) {
-              _pageNum++;
-              _searchCardsByKeyword(_searchText, page: _pageNum);
-            }
-            return Container(
-              decoration: new BoxDecoration(
-                  border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
-              child: ListTile(
-                title: Text(_listContent[index].cardNameViewText, style: _biggerFont),
-                onTap: () {},
-              ),
-            );
-          }),
+        itemCount: _listContent.length,
+        padding: const EdgeInsets.all(16.0),
+        itemBuilder: (context, index) {
+          if ((_hitCnt != null && index + 1 < _hitCnt) &&
+              index + 1 >= _listContent.length) {
+            _pageNum++;
+            _searchCardsByKeyword(_searchText, page: _pageNum);
+          }
+          return Container(
+            decoration: new BoxDecoration(
+                border: new Border(
+                    bottom: BorderSide(width: 1.0, color: Colors.grey))),
+            child: ListTile(
+              title: Text(_listContent[index].cardNameViewText,
+                  style: _biggerFont),
+              onTap: () {},
+            ),
+          );
+        },
+      ),
     );
   }
 
@@ -126,13 +128,14 @@ class ExpansionsState extends State<Expansions> {
       BuildContext context, ExpansionContent content, int index) {
     return Container(
       decoration: new BoxDecoration(
-          border: new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))
-      ),
+          border:
+              new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
         leading: _expansionImage(content),
         title: Text(content.name, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed(CardList.routeName, arguments: content);
+          Navigator.of(context)
+              .pushNamed(CardList.routeName, arguments: content);
         },
       ),
     );
@@ -175,15 +178,14 @@ class ExpansionsState extends State<Expansions> {
       };
 
       // FIXME: エラーハンドリング
-      final Response response = await dio.post(
-          url,
+      final Response response = await dio.post(url,
           data: new FormData.fromMap(payload),
           options: Options(
             headers: {},
           ));
 
-      final SearchResultCards resData = SearchResultCards.fromJson(
-          response.data);
+      final SearchResultCards resData =
+          SearchResultCards.fromJson(response.data);
 
       setState(() {
         _searchText = keyword;

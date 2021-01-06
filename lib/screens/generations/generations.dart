@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
-
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Generations extends StatelessWidget {
   static const routeName = '/generations';
@@ -11,9 +11,12 @@ class Generations extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Generation List'), actions: <Widget>[
-        IconButton(icon: Icon(Icons.list), onPressed: null),
-      ]),
+      appBar: AppBar(
+        title: Text('Generation List'),
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.list), onPressed: null),
+        ],
+      ),
       body: _buildExpansions(context),
     );
   }

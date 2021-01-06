@@ -1,0 +1,12 @@
+{
+  "sa": {
+    "name": "sword & shield",
+    "name_jp": "ソード&シールド",
+    "release_date": "2020-01-01"
+  },
+  "sm": {
+    "name": "sun & moon",
+    "name_jp": "サン&ムーン",
+    "release_date": "2019-01-01"
+  }
+}

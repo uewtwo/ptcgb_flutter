@@ -6,11 +6,11 @@ import 'package:path_provider/path_provider.dart';
 
 /// utilities
 
-double screenWidth(BuildContext context) {
+double getScreenWidth(BuildContext context) {
   return _screenSize(context).width;
 }
 
-double screenHeight(BuildContext context) {
+double getScreenHeight(BuildContext context) {
   return _screenSize(context).height;
 }
 
@@ -18,14 +18,15 @@ Size _screenSize(BuildContext context) {
   return MediaQuery.of(context).size;
 }
 
-Future<List<FileSystemEntity>> dirContents(Directory dir, [bool isRecursive = false]) {
+Future<List<FileSystemEntity>> dirContents(Directory dir,
+    [bool isRecursive = false]) {
   var files = <FileSystemEntity>[];
   var completer = Completer<List<FileSystemEntity>>();
   var lister = dir.list(recursive: isRecursive);
   lister.listen(
-      (file) => files.add(file),
-      // TODO: Should also register onError
-      onDone: () => completer.complete(files),
+    (file) => files.add(file),
+    // TODO: Should also register onError
+    onDone: () => completer.complete(files),
   );
   return completer.future;
 }

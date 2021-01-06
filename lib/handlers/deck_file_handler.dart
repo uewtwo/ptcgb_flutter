@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:path_provider/path_provider.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/decks/deck_content_info.dart';
@@ -8,7 +7,6 @@ import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:tuple/tuple.dart';
 
 class DeckFileHandler {
-
   static Future<String> get deckBasePath async {
     final String path = (await localBasePath()) + '/users/decks/';
     return path;
@@ -16,9 +14,9 @@ class DeckFileHandler {
 
   static Future<OwnedDecksInfo> get ownedDecksInfo async {
     final String fileStr = await (await ownedDecksInfoFile).readAsString();
-    final OwnedDecksInfo ownedDecksInfo = OwnedDecksInfo.fromJson(json.decode(fileStr));
-
-    return ownedDecksInfo;
+    return fileStr.isNotEmpty
+        ? OwnedDecksInfo.fromJson(json.decode(fileStr))
+        : Future(null);
   }
 
   static Future<File> get ownedDecksInfoFile async {
@@ -28,17 +26,19 @@ class DeckFileHandler {
       await file.create(recursive: true);
       await file.writeAsString('[]');
     }
-    
+
     return file;
   }
 
   static Future<DeckContentInfo> getDeckContent(String deckId) async {
-    final String fileStr = (await getDeckContentFile(deckId)).readAsStringSync();
-    final DeckContentInfo deckContent = DeckContentInfo.fromJson(json.decode(fileStr));
-    
+    final String fileStr =
+        (await getDeckContentFile(deckId)).readAsStringSync();
+    final DeckContentInfo deckContent =
+        DeckContentInfo.fromJson(json.decode(fileStr));
+
     return deckContent;
   }
-  
+
   static Future<File> getDeckContentFile(String deckId) async {
     final String basePath = (await deckBasePath) + 'deck_contents/';
     final File file = File('$basePath$deckId.json');
@@ -46,11 +46,12 @@ class DeckFileHandler {
       await file.create(recursive: true);
       await file.writeAsString('{}');
     }
-    
+
     return file;
   }
 
-  static Future<File> _saveOwnedDeckInfo(String deckName, int topCardId, String deckId) async {
+  static Future<File> _saveOwnedDeckInfo(
+      String deckName, int topCardId, String deckId) async {
     OwnedDecksInfo decksInfo = (await ownedDecksInfo);
     final int sortValue = decksInfo.length;
 
@@ -74,14 +75,18 @@ class DeckFileHandler {
   static Future<DeckContentInfo> getDeckContentInfoById(String deckId) async {
     final String basePath = (await deckBasePath) + 'deck_contents';
     await Directory(basePath).create(recursive: true);
-    final DeckContentInfo deckContentInfo = DeckContentInfo.fromJson(json.decode('$basePath/$deckId.json'));
+    final DeckContentInfo deckContentInfo =
+        DeckContentInfo.fromJson(json.decode('$basePath/$deckId.json'));
 
     return deckContentInfo;
   }
 
   static Future<bool> overwriteDeckContentInfo(
-      List<Tuple2<CardContent, int>> deckElement, String deckName,
-      int topCardId, String deckId, int sortValue) async {
+      List<Tuple2<CardContent, int>> deckElement,
+      String deckName,
+      int topCardId,
+      String deckId,
+      int sortValue) async {
     return saveDeckContentInfo(deckElement, deckName, topCardId,
         deckId: deckId, sortValue: sortValue);
   }
@@ -89,8 +94,10 @@ class DeckFileHandler {
   // FIXME: 2file更新するが、片方が失敗したらロールバックみたいなことしたい.
   static Future<bool> saveDeckContentInfo(
       List<Tuple2<CardContent, int>> deckElement,
-      String deckName, int topCardId,
-      {String deckId, int sortValue}) async {
+      String deckName,
+      int topCardId,
+      {String deckId,
+      int sortValue}) async {
     List<List<dynamic>> _deckElement = [];
 
     deckElement.forEach((val) {
@@ -109,7 +116,7 @@ class DeckFileHandler {
         await _saveOwnedDeckInfo(deckName, topCardId, deckId);
         await _saveDeckContent(DeckContentInfo(deckId, _deckElement));
       }
-    } catch(e) {
+    } catch (e) {
       // return false;
       throw e;
     }
@@ -122,12 +129,12 @@ class DeckFileHandler {
     var _b = await _deleteDeckContent(deckInfo.deckId);
     return (_a.existsSync() && _b.existsSync());
   }
-  
+
   static Future<File> _overwriteDeckContent(DeckContentInfo deckContent) async {
     File file = await getDeckContentFile(deckContent.deckId);
     return await file.writeAsString(json.encode(deckContent));
   }
-  
+
   static Future<File> _saveDeckContent(DeckContentInfo deckContent) async {
     File file = await getDeckContentFile(deckContent.deckId);
     return await file.writeAsString(json.encode(deckContent));
@@ -139,12 +146,15 @@ class DeckFileHandler {
   }
 
   static Future<File> _deleteOwnedDeckInfo(int sortValue) async {
-    List<OwnedDeckInfo> deckInfoList = (await ownedDecksInfo).toList();
-    deckInfoList.removeAt(sortValue);
+    List<OwnedDeckInfo> deckInfoList = (await ownedDecksInfo)
+        .toList()
+        .where((element) => element.sortValue != sortValue)
+        .toList();
 
     // TODO: class に通す必要があるかないか（バリデーション的な意味で）
 //    return await (await ownedDecksInfoFile)
 //        .writeAsString(decksInfo.fromList(deckInfoList).jsonString);
-    return await (await ownedDecksInfoFile).writeAsString(json.encode(deckInfoList));
+    return await (await ownedDecksInfoFile)
+        .writeAsString(json.encode(deckInfoList));
   }
 }
