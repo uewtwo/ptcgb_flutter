@@ -34,7 +34,6 @@ dependencies:
   shared_preferences: any
   enum_to_string: any
   google_fonts: any
-  fluttertoast: any
   flutter_hooks: any
   hooks_riverpod: any
   state_notifier: any

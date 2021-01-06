@@ -142,5 +142,41 @@
     "name": "強化拡張パック「伝説の鼓動」",
     "releaseDate": "9999-12-31",
     "generation": "sa"
+  },
+  {
+    "productNo": "721",
+    "name": "拡張パック「仰天のボルテッカー」",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
+  },
+  {
+    "productNo": "722",
+    "name": "VMAXスペシャルセット",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
+  },
+  {
+    "productNo": "723",
+    "name": "ハイクラスパック「シャイニースターV」",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
+  },
+  {
+    "productNo": "724",
+    "name": "スターターセットVMAX　カメックス",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
+  },
+  {
+    "productNo": "725",
+    "name": "スターターセットVMAX　フシギバナ",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
+  },
+  {
+    "productNo": "726",
+    "name": "スターターセットVMAX　リザードン",
+    "releaseDate": "9999-12-31",
+    "generation": "sa"
   }
 ]

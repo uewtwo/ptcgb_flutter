@@ -1,0 +1,6193 @@
+[
+	{
+		"cardId": 38499,
+		"multiId": "721_001",
+		"nameJp": "タネボー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038499_P_TANEBO.jpg",
+		"imageUrl": "",
+		"cardText": "じっと 動かずに いると 木の実と そっくり。 ついばみに やって来た ポケモンを 驚かせて 遊ぶ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Suwama Chiaki",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38500,
+		"multiId": "721_002",
+		"nameJp": "コノハナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038500_P_KONOHANA.jpg",
+		"imageUrl": "",
+		"cardText": "森の 奥深くに 生息。 頭の 葉っぱで 笛を 作り 不安に させる 音色を 出す。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "otumami",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38501,
+		"multiId": "721_003",
+		"nameJp": "ダーテング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038501_P_DATENGU.jpg",
+		"imageUrl": "",
+		"cardText": "森の 神様と 恐れられていた ポケモン。 相手の 考えを 読み 先回りする 能力を もつ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {
+			"name": "てんぐのかえだま",
+			"text": "このポケモンがバトル場にいるかぎり、相手の手札にあるサポートの効果は、すべて「自分の山札を3枚引く。」になる。"
+		},
+		"attacks": [
+			{
+				"name": "うちわトルネード",
+				"damage": "110",
+				"text": "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38502,
+		"multiId": "721_004",
+		"nameJp": "ツチニン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038502_P_TSUCHININ.jpg",
+		"imageUrl": "",
+		"cardText": "長い あいだ 地中で 暮らして いたため 目は ほとんど 見えない。 触角で 様子を 探る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すいとる",
+				"damage": "10",
+				"text": "このポケモンのHPを「10」回復する。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38503,
+		"multiId": "721_005",
+		"nameJp": "テッカニン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038503_P_TEKKANIN.jpg",
+		"imageUrl": "",
+		"cardText": "鳴き声を 聴き つづけると 頭痛が 治まらなくなる。 見えない ほどの 速さで 動く。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {
+			"name": "からぬけ",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「ヌケニン」を1枚選び、ベンチに出す。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "すいとる",
+				"damage": "30",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38504,
+		"multiId": "721_006",
+		"nameJp": "メェークル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038504_P_MEEKURU.jpg",
+		"imageUrl": "",
+		"cardText": "水と 太陽が あれば 背中の 葉っぱで エネルギーが 作れるので エサを 食べなくても 平気なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "こうごうせい",
+				"damage": "",
+				"text": "自分の山札から[grass]エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "はっぱカッター",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38505,
+		"multiId": "721_007",
+		"nameJp": "ゴーゴート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038505_P_GOGOTO.jpg",
+		"imageUrl": "",
+		"cardText": "山岳地帯で 生活する。 ツノを ぶつけ合う 力比べの 勝者が 群れの リーダーだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱカッター",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "とっしん",
+				"damage": "160",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38506,
+		"multiId": "721_008",
+		"nameJp": "イオルブV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038506_P_IORUBUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "180",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひるがえす",
+				"damage": "20",
+				"text": "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ミステリーウェーブ",
+				"damage": "50＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38507,
+		"multiId": "721_009",
+		"nameJp": "イオルブVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038507_P_IORUBUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "310",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {
+			"name": "かいこうせん",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。"
+		},
+		"attacks": [
+			{
+				"name": "キョダイウェーブ",
+				"damage": "50＋",
+				"text": "相手のバトルポケモンについているエネルギーの数×50ダメージ追加。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38508,
+		"multiId": "721_010",
+		"nameJp": "ヒトカゲ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038508_P_HITOKAGE.jpg",
+		"imageUrl": "",
+		"cardText": "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "MAHOU",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "もってくる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのお",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38509,
+		"multiId": "721_011",
+		"nameJp": "リザード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038509_P_RIZADO.jpg",
+		"imageUrl": "",
+		"cardText": "燃える しっぽを 振りまわし するどい ツメで 相手を 切り裂く 荒々しい 性格。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きりさく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fire"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "やまかじ",
+				"damage": "60",
+				"text": "自分の山札を上から3枚トラッシュする。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38510,
+		"multiId": "721_012",
+		"nameJp": "リザードン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038510_P_RIZADON.jpg",
+		"imageUrl": "",
+		"cardText": "岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {
+			"name": "バトルセンス",
+			"text": "自分の番に1回使える。自分の山札を上から3枚見て、その中からカードを1枚選び、手札に加える。残りのカードはトラッシュする。"
+		},
+		"attacks": [
+			{
+				"name": "キングブレイズ",
+				"damage": "100＋",
+				"text": "自分のトラッシュにある「ダンデ」の枚数×50ダメージ追加。",
+				"costs": [
+					"fire",
+					"fire"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38511,
+		"multiId": "721_013",
+		"nameJp": "ブースター",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038511_P_BUSUTA.jpg",
+		"imageUrl": "",
+		"cardText": "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eri Yamaki",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {
+			"name": "しゃくねつのめざめ",
+			"text": "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[grass]ポケモンの特性は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "ほのおのたてがみ",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38512,
+		"multiId": "721_014",
+		"nameJp": "マグマッグ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038512_P_MAGUMAGGU.jpg",
+		"imageUrl": "",
+		"cardText": "溶岩で できた 体を 持つ。 絶えず 動いていないと 体が 冷えて 固まってしまうのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mina Nakai",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あくび",
+				"damage": "",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほのお",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38513,
+		"multiId": "721_015",
+		"nameJp": "マグカルゴ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038513_P_MAGUKARUGO.jpg",
+		"imageUrl": "",
+		"cardText": "体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヒートブラスト",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ぐれんのほのお",
+				"damage": "180",
+				"text": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38514,
+		"multiId": "721_016",
+		"nameJp": "ファイアローV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038514_P_FAIAROV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryota Murayama",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ファストフライト",
+				"damage": "",
+				"text": "このワザは、先攻プレイヤーの最初の番でも使える。自分の手札をすべてトラッシュし、山札を6枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぐれんのつばさ",
+				"damage": "160",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38515,
+		"multiId": "721_017",
+		"nameJp": "シャワーズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038515_P_SHAWAZU.jpg",
+		"imageUrl": "",
+		"cardText": "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {
+			"name": "げきりゅうのめざめ",
+			"text": "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[fire]ポケモンの特性は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "オーロラビーム",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38516,
+		"multiId": "721_018",
+		"nameJp": "ホエルコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038516_P_HOERUKO.jpg",
+		"imageUrl": "",
+		"cardText": "飲みこんだ 海水を 目の 上の 鼻の 穴から 噴き出し アピール。 毎日 １トンの ヨワシを 食う。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×20ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38517,
+		"multiId": "721_019",
+		"nameJp": "ホエルオー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038517_P_HOERUO.jpg",
+		"imageUrl": "",
+		"cardText": "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "200",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "SATOSHI NAKAI",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {
+			"name": "みずのベール",
+			"text": "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンの特殊状態をすべて回復する。"
+		},
+		"attacks": [
+			{
+				"name": "ハイドロポンプ",
+				"damage": "10＋",
+				"text": "このポケモンについている[water]エネルギーの数×40ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38518,
+		"multiId": "721_020",
+		"nameJp": "ミジュマル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038518_P_MIJUMARU.jpg",
+		"imageUrl": "",
+		"cardText": "お腹の ホタチで 戦う。 攻撃を 受け止めてから すかさず 切りつけて 反撃するのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "シェルアタック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38519,
+		"multiId": "721_021",
+		"nameJp": "フタチマル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038519_P_FUTACHIMARU.jpg",
+		"imageUrl": "",
+		"cardText": "きびしい 修業の すえ フタチマルごとに 異なる 型の ホタチさばきを 習得する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Megumi Higuchi",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "アクアウォッシャー",
+				"damage": "50",
+				"text": "のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38520,
+		"multiId": "721_022",
+		"nameJp": "ダイケンキ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038520_P_DAIKENKI.jpg",
+		"imageUrl": "",
+		"cardText": "よろいに 仕込まれた 剣の 一振りで 相手を 倒す。 ひとにらみで 敵を 黙らせる。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "022",
+		"ability": {
+			"name": "シェルアーマー",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "アクアウォッシャー",
+				"damage": "120",
+				"text": "のぞむなら、相手のバトルポケモンについているエネルギーを2個選び、相手の手札にもどす。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38521,
+		"multiId": "721_023",
+		"nameJp": "ガラル ヒヒダルマV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038521_P_GARARUHIHIDARUMAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "023",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いてつくずつき",
+				"damage": "50",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ひょうけつざん",
+				"damage": "190",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38522,
+		"multiId": "721_024",
+		"nameJp": "ガラル ヒヒダルマVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038522_P_GARARUHIHIDARUMAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "024",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイゴウセツ",
+				"damage": "200",
+				"text": "相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38523,
+		"multiId": "721_025",
+		"nameJp": "カムカメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038523_P_KAMUKAME.jpg",
+		"imageUrl": "",
+		"cardText": "目の前の ものに すぐに 噛みつく 習性。 生えかけの 前歯が 痒いので 噛みついてしまうらしい。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "025",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くらいつく",
+				"damage": "40",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38524,
+		"multiId": "721_026",
+		"nameJp": "カジリガメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038524_P_KAJIRIGAME.jpg",
+		"imageUrl": "",
+		"cardText": "狂暴な 性質。 鉄棒を 噛み千切る ほどの 顎の 力で 獲物に ばくりと 噛みつく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Taira Akitsu",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "026",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まんりきウェーブ",
+				"damage": "80",
+				"text": "この番、手札から「ルリナ」を出して使っていたなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "なみのり",
+				"damage": "140",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38525,
+		"multiId": "721_027",
+		"nameJp": "ウッウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038525_P_UTSUU.jpg",
+		"imageUrl": "",
+		"cardText": "大食らいなので まるまる 太った サシカマスを 飲み込もうとして 喉に 詰まらせてしまった。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "027",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくうのミサイル",
+				"damage": "60×",
+				"text": "自分のベンチの「サシカマス」を好きなだけトラッシュし、その枚数×60ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38526,
+		"multiId": "721_028",
+		"nameJp": "サシカマス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038526_P_SASHIKAMASU.jpg",
+		"imageUrl": "",
+		"cardText": "鋭く 尖った 顎が 自慢。 少しでも 動くものを 見つけると 一直線に 突撃する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "028",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "むれる",
+				"damage": "",
+				"text": "自分の山札から「サシカマス」を2枚まで選び、ベンチに出す。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38527,
+		"multiId": "721_029",
+		"nameJp": "カマスジョー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038527_P_KAMASUJO.jpg",
+		"imageUrl": "",
+		"cardText": "槍のように 尖った 顎は 鋼の 硬さ。 その 身は 驚くほど 美味しいらしい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "029",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ねらってくしざし",
+				"damage": "",
+				"text": "相手のベンチポケモン1匹に、そのポケモンにのっているダメカンの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ジェットヘッド",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38528,
+		"multiId": "721_030",
+		"nameJp": "ピカチュウV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038528_P_PIKACHUUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saki Hayashiro",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "030",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じゅうでん",
+				"damage": "",
+				"text": "自分の山札から[electric]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "10まんボルト",
+				"damage": "200",
+				"text": "このポケモンについているエネルギーを、すべてトラッシュする。",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38529,
+		"multiId": "721_031",
+		"nameJp": "ピカチュウVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038529_P_PIKACHUUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "310",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "031",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "キョダイボルテッカー",
+				"damage": "120＋",
+				"text": "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、150ダメージ追加。",
+				"costs": [
+					"electric",
+					"electric",
+					"electric"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38530,
+		"multiId": "721_032",
+		"nameJp": "ビリリダマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038530_P_BIRIRIDAMA.jpg",
+		"imageUrl": "",
+		"cardText": "発電所などに 現れる。 モンスターボールと 間違えて 触って しびれる 人が 多い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sekio",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "032",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エレキボール",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38531,
+		"multiId": "721_033",
+		"nameJp": "マルマイン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038531_P_MARUMAIN.jpg",
+		"imageUrl": "",
+		"cardText": "あふれるほどの 電気エネルギーを 体内に ためこんでいるので 少しの 刺激で 爆発する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "033",
+		"ability": {
+			"name": "エネエネはつでん",
+			"text": "このポケモンがベンチにいるなら、自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札から[electric]エネルギーを2枚まで選び、自分の[electric]ポケモンに好きなようにつける。そして山札を切る。"
+		},
+		"attacks": [
+			{
+				"name": "ライトニングボール",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38532,
+		"multiId": "721_034",
+		"nameJp": "サンダース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038532_P_SANDASU.jpg",
+		"imageUrl": "",
+		"cardText": "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "034",
+		"ability": {
+			"name": "じんらいのめざめ",
+			"text": "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[water]ポケモンの特性は、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "ライトニングボール",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38533,
+		"multiId": "721_035",
+		"nameJp": "サンダー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038533_P_SANDA.jpg",
+		"imageUrl": "",
+		"cardText": "雷雲の 中に いると 言われる 伝説の ポケモン。 雷を 自在に 操る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "035",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドリルくちばし",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "スナイプサンダー",
+				"damage": "",
+				"text": "このポケモンについているエネルギーをすべてトラッシュし、相手の「ポケモンV・GX」1匹に、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38534,
+		"multiId": "721_036",
+		"nameJp": "シママ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038534_P_SHIMAMA.jpg",
+		"imageUrl": "",
+		"cardText": "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Saya Tsuruta",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "036",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "エレキック",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38535,
+		"multiId": "721_037",
+		"nameJp": "ゼブライカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038535_P_ZEBURAIKA.jpg",
+		"imageUrl": "",
+		"cardText": "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "0313",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "037",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けたぐり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキック",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38536,
+		"multiId": "721_038",
+		"nameJp": "シビシラス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038536_P_SHIBISHIRASU.jpg",
+		"imageUrl": "",
+		"cardText": "弱い 電気しか だせないので たくさんの シビシラスで 集まり 強力な 電気を 放つ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "038",
+		"ability": {
+			"name": "ふゆう",
+			"text": "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+		},
+		"attacks": [
+			{
+				"name": "プチでんき",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38537,
+		"multiId": "721_039",
+		"nameJp": "シビビール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038537_P_SHIBIBIRU.jpg",
+		"imageUrl": "",
+		"cardText": "食欲 旺盛な ポケモン。 獲物を 見つけると 襲いかかり 電気で しびれさせてから 食べる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "039",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しびれクラッシュ",
+				"damage": "",
+				"text": "コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘッドボルト",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38538,
+		"multiId": "721_040",
+		"nameJp": "シビルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038538_P_SHIBIRUDON.jpg",
+		"imageUrl": "",
+		"cardText": "腕の 力で 海から はい出し 水辺の 獲物に 襲いかかる。 一瞬で 海へ 引きずりこむ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "040",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しびれるはがた",
+				"damage": "60",
+				"text": "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、そのポケモンにダメカンを6個のせる。",
+				"costs": [
+					"electric"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エレキスプリンクラー",
+				"damage": "120",
+				"text": "自分のベンチポケモン1匹にも、30ダメージ。相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38539,
+		"multiId": "721_041",
+		"nameJp": "フーディンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038539_P_FUDEINV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "190",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ayaka Yoshida",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "041",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "しねんのさじ",
+				"damage": "",
+				"text": "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "マインドルーラー",
+				"damage": "30×",
+				"text": "相手の手札の枚数×30ダメージ。",
+				"costs": [
+					"psychic",
+					"psychic"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38540,
+		"multiId": "721_042",
+		"nameJp": "ヌケニン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038540_P_NUKENIN.jpg",
+		"imageUrl": "",
+		"cardText": "ツチニンが 進化する ときに いつの間にか モンスターボールに 入っている 不思議な ポケモンだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "30",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tomokazu Komiya",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "042",
+		"ability": {
+			"name": "ぬけしばり",
+			"text": "このカードは、テッカニンの特性「からぬけ」の効果によってしか場に出せない。（このカードは、対戦準備でも場に出せない。）"
+		},
+		"attacks": [
+			{
+				"name": "いのちをしぼる",
+				"damage": "",
+				"text": "相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38541,
+		"multiId": "721_043",
+		"nameJp": "ヨマワル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038541_P_YOMAWARU.jpg",
+		"imageUrl": "",
+		"cardText": "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "043",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みらいよち",
+				"damage": "",
+				"text": "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38542,
+		"multiId": "721_044",
+		"nameJp": "サマヨール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038542_P_SAMAYORU.jpg",
+		"imageUrl": "",
+		"cardText": "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kazuma Koda",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "044",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あやしいひかり",
+				"damage": "",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "サイコパンチ",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38543,
+		"multiId": "721_045",
+		"nameJp": "ヨノワール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038543_P_YONOWARU.jpg",
+		"imageUrl": "",
+		"cardText": "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "045",
+		"ability": {
+			"name": "ゴーストブリーチ",
+			"text": "このポケモンがいるかぎり、おたがいの場のポケモンについている特殊エネルギーの効果はすべてなくなり、【無】エネルギー1個ぶんとしてはたらく。"
+		},
+		"attacks": [
+			{
+				"name": "ホロウショット",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38544,
+		"multiId": "721_046",
+		"nameJp": "チリーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038544_P_CHIRIN.jpg",
+		"imageUrl": "",
+		"cardText": "超音波の 鳴き声を 持つ。 ふわふわと 浮かび 風に 乗って 長い 距離を 旅する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Asako Ito",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "046",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ときめくねいろ",
+				"damage": "",
+				"text": "自分の山札からポケモンとサポートを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "さいみんはどう",
+				"damage": "30",
+				"text": "相手のバトルポケモンをねむりにする。",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "dark",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38545,
+		"multiId": "721_047",
+		"nameJp": "コロモリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038545_P_KOROMORI.jpg",
+		"imageUrl": "",
+		"cardText": "洞窟を 見上げて 壁に ハート型の 跡が あれば コロモリが 棲んでいる 証拠。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sui",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "047",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まるごしおんぱ",
+				"damage": "",
+				"text": "相手のポケモン全員に、それぞれ30ダメージ。自分の手札が1枚でもあるなら、このワザは失敗。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38546,
+		"multiId": "721_048",
+		"nameJp": "ココロモリ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038546_P_KOKOROMORI.jpg",
+		"imageUrl": "",
+		"cardText": "超強力な 音波を 放ったあとは 疲れて しばらく 飛べなくなるよ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "048",
+		"ability": {
+			"name": "てんねん",
+			"text": "このポケモンは、相手のポケモンが使うワザの効果を受けない。"
+		},
+		"attacks": [
+			{
+				"name": "ハートスタンプ",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"psychic",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38547,
+		"multiId": "721_049",
+		"nameJp": "モンメン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038547_P_MONMEN.jpg",
+		"imageUrl": "",
+		"cardText": "綿を 飛ばして 身を 守る。 台風の 風に 流され 地球の 裏側に いくことも。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Mizue",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "049",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ころがりタックル",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38548,
+		"multiId": "721_050",
+		"nameJp": "エルフーン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038548_P_ERUFUN.jpg",
+		"imageUrl": "",
+		"cardText": "綿を まき散らし イタズラする。 水を かけると 重くなって 動けなくなり 観念するぞ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "050",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "トリプルドロー",
+				"damage": "",
+				"text": "自分の山札を3枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "とんでけラッシュ",
+				"damage": "10＋",
+				"text": "ダメージを与える前に、自分の場のポケモンについている「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×40ダメージ追加。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38549,
+		"multiId": "721_051",
+		"nameJp": "マホミル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038549_P_MAHOMIRU.jpg",
+		"imageUrl": "",
+		"cardText": "クリームで できた 体を もつ。 空気中の 甘い 香りの 成分が 集まって 生まれた。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "50",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "051",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "あまいかおり",
+				"damage": "",
+				"text": "自分のポケモンを1匹選び、HPを「20」回復する。",
+				"costs": [
+					"psychic"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38550,
+		"multiId": "721_052",
+		"nameJp": "マホイップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038550_P_MAHOIPPU.jpg",
+		"imageUrl": "",
+		"cardText": "信頼する トレーナーには クリームで デコレーションした 木の実を ふるまって くれるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"psychic"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kagemaru Himeno",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "052",
+		"ability": {
+			"name": "スイートシェア",
+			"text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。おたがいのプレイヤーは、それぞれ山札を1枚引く。"
+		},
+		"attacks": [
+			{
+				"name": "ワンダーシャイン",
+				"damage": "60",
+				"text": "相手のバトルポケモンをこんらんにする。",
+				"costs": [
+					"psychic",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "steel",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38551,
+		"multiId": "721_053",
+		"nameJp": "ワンリキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038551_P_WANRIKI.jpg",
+		"imageUrl": "",
+		"cardText": "全身が 筋肉になっており 子どもほどの 大きさしかないのに 大人 １００人を 投げ飛ばせる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "053",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けたぐり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ワンツーパンチ",
+				"damage": "20＋",
+				"text": "コインを1回投げオモテなら、40ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38552,
+		"multiId": "721_054",
+		"nameJp": "ゴーリキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038552_P_GORIKI.jpg",
+		"imageUrl": "",
+		"cardText": "すごく 強靭な 肉体なので パワーセーブ ベルトを つけて 強さを 制御している。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "054",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "けたぐり",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶんなぐる",
+				"damage": "50＋",
+				"text": "コインを1回投げオモテなら、70ダメージ追加。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38553,
+		"multiId": "721_055",
+		"nameJp": "カイリキー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038553_P_KAIRIKI.jpg",
+		"imageUrl": "",
+		"cardText": "４本の腕を すばやく 動かし あらゆる 角度から 休むことなく パンチや チョップを 叩きこむ。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "170",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "055",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "マッチョリベンジ",
+				"damage": "20×",
+				"text": "自分のトラッシュにある[fighting]ポケモンの枚数×20ダメージ。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ダイナマイトパンチ",
+				"damage": "200",
+				"text": "このポケモンにも50ダメージ。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38554,
+		"multiId": "721_056",
+		"nameJp": "ゴマゾウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038554_P_GOMAZOU.jpg",
+		"imageUrl": "",
+		"cardText": "体は 小さいが 力持ち。 大人の 人を 軽々と 背中に 乗せて 歩いてしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shibuzoh.",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "056",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふむ",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "おかえしアタック",
+				"damage": "30×",
+				"text": "このポケモンにのっているダメカンの数×30ダメージ。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38555,
+		"multiId": "721_057",
+		"nameJp": "ドンファン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038555_P_DONFAN.jpg",
+		"imageUrl": "",
+		"cardText": "キバが 長くて 大きいほど 群れの中での ランクが 高い。 キバが 伸びるには 時間が かかる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasegawa Saki",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "057",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "じしん",
+				"damage": "120",
+				"text": "自分のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ヘビーインパクト",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38556,
+		"multiId": "721_058",
+		"nameJp": "カポエラー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038556_P_KAPOERA.jpg",
+		"imageUrl": "",
+		"cardText": "くるくる 回って キックをはなつ。 高速で 回っていると そのまま 地面に 潜っていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Sanosuke Sakuma",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "058",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "サイクルドロー",
+				"damage": "",
+				"text": "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "たつまきキック",
+				"damage": "50＋",
+				"text": "この番、手札から「サイトウ」を出して使っていたなら、80ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38557,
+		"multiId": "721_059",
+		"nameJp": "モグリュー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038557_P_MOGURYU.jpg",
+		"imageUrl": "",
+		"cardText": "両手の ツメを 重ね合わせ 体を 高速回転 させると 獲物 めがけて 突っ込むのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "059",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きあいづき",
+				"damage": "50",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38558,
+		"multiId": "721_060",
+		"nameJp": "テラキオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038558_P_TERAKION.jpg",
+		"imageUrl": "",
+		"cardText": "けた外れの パワーの 持ち主。 小さな ポケモンを いじめる 相手は とことん 叩きのめす。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "NC Empire",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "060",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ガードプレス",
+				"damage": "30",
+				"text": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "グラウンドパワー",
+				"damage": "80＋",
+				"text": "場に自分のスタジアムが出ているなら、80ダメージ追加。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38559,
+		"multiId": "721_061",
+		"nameJp": "ドロバンコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038559_P_DOROBANKO.jpg",
+		"imageUrl": "",
+		"cardText": "体重の ５０倍の 荷物を 軽々と 運ぶ 力持ち。 泥の 扱いに 長けている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoyo Kimura",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "061",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶつかる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うしろげり",
+				"damage": "60",
+				"text": "",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38560,
+		"multiId": "721_062",
+		"nameJp": "バンバドロ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038560_P_BANBADORO.jpg",
+		"imageUrl": "",
+		"cardText": "泥で 固めた 脚は 岩よりも 硬くなり 一撃で トラックを 破壊する 威力を 生み出す。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "tetsuya koizumi",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "062",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "どろばくだん",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ヘビーボンバー",
+				"damage": "180－",
+				"text": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージぶん、このワザのダメージは小さくなる。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38561,
+		"multiId": "721_063",
+		"nameJp": "タタッコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038561_P_TATAKKO.jpg",
+		"imageUrl": "",
+		"cardText": "餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Misa Tsutsui",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "063",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たたく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ぶちかます",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38562,
+		"multiId": "721_064",
+		"nameJp": "オトスパス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038562_P_OTOSUPASU.jpg",
+		"imageUrl": "",
+		"cardText": "全身が 筋肉の 塊。 触手を 使って 繰りだす 絞め技の 威力は 凄まじい。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hitoshi Ariga",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "064",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ヘッドロック",
+				"damage": "30",
+				"text": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				"costs": [
+					"fighting"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "テンタクルバスター",
+				"damage": "50＋",
+				"text": "前の自分の番、このポケモンが「ヘッドロック」を使っていたなら、120ダメージ追加。",
+				"costs": [
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38563,
+		"multiId": "721_065",
+		"nameJp": "ガラル ネギガナイトV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038563_P_GARARUNEGIGANAITOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"fighting"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "065",
+		"ability": {
+			"name": "ちかいのやり",
+			"text": "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについている[fighting]エネルギーを好きなだけ選び、このポケモンにつけ替える。"
+		},
+		"attacks": [
+			{
+				"name": "フォールスター",
+				"damage": "200",
+				"text": "次の自分の番、このポケモンはワザが使えない。",
+				"costs": [
+					"fighting",
+					"fighting",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "psychic",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38564,
+		"multiId": "721_066",
+		"nameJp": "ポチエナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038564_P_POCHIENA.jpg",
+		"imageUrl": "",
+		"cardText": "鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "066",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "うしろげり",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38565,
+		"multiId": "721_067",
+		"nameJp": "グラエナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038565_P_GURAENA.jpg",
+		"imageUrl": "",
+		"cardText": "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Aya Kusube",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "067",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほえたてる",
+				"damage": "20",
+				"text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっこくのキバ",
+				"damage": "100",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38566,
+		"multiId": "721_068",
+		"nameJp": "ヤミラミ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038566_P_YAMIRAMI.jpg",
+		"imageUrl": "",
+		"cardText": "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "KEIICHIRO ITO",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "068",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "くすねる",
+				"damage": "",
+				"text": "自分の山札を1枚引く。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "いちゃもん",
+				"damage": "30",
+				"text": "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザが使えない。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38567,
+		"multiId": "721_069",
+		"nameJp": "ドラピオンV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038567_P_DORAPIONV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Eske Yoshinob",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "069",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たたきつぶす",
+				"damage": "70",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "ハザードクロー",
+				"damage": "130",
+				"text": "このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをどくとマヒにする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38568,
+		"multiId": "721_070",
+		"nameJp": "メグロコ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038568_P_MEGUROKO.jpg",
+		"imageUrl": "",
+		"cardText": "まだ 狩りは 下手なので おもに 砂漠で 行き倒れたものを 食う。 砂漠の掃除屋と 呼ばれる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Pani Kobayashi",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "070",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほりあらす",
+				"damage": "",
+				"text": "相手の山札を上から3枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38569,
+		"multiId": "721_071",
+		"nameJp": "ワルビル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038569_P_WARUBIRU.jpg",
+		"imageUrl": "",
+		"cardText": "獲物の １部は 砂の中に 埋めて 狩りが 失敗したときの 非常食に するのだ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "071",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かみつく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"dark"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ほりあらす",
+				"damage": "",
+				"text": "相手の山札を上から3枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38570,
+		"multiId": "721_072",
+		"nameJp": "ワルビアル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038570_P_WARUBIARU.jpg",
+		"imageUrl": "",
+		"cardText": "フライゴンの 起こす 砂嵐に 身を 潜めて 獲物が くるのを じっと 待ちかまえている。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "150",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "072",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほりあらす",
+				"damage": "",
+				"text": "相手の山札を上から3枚トラッシュする。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "あばれまわる",
+				"damage": "180",
+				"text": "このポケモンをこんらんにする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "grass",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38571,
+		"multiId": "721_073",
+		"nameJp": "ヤブクロン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038571_P_YABUKURON.jpg",
+		"imageUrl": "",
+		"cardText": "不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kyoko Umemoto",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "073",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ほりだしもの",
+				"damage": "",
+				"text": "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ヘドロなげ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38572,
+		"multiId": "721_074",
+		"nameJp": "ダストダス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038572_P_DASUTODASU.jpg",
+		"imageUrl": "",
+		"cardText": "食った ゴミが 体内で 毒に 変化する。 食う ゴミ しだいで 毒の 主成分も 変わる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"dark"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hasuno",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "074",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダストサイクロン",
+				"damage": "30×",
+				"text": "自分のトラッシュにある「ポケモンのどうぐ」をすべて相手に見せて、その枚数×30ダメージ。その後、見せた「ポケモンのどうぐ」を山札にもどして切る。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "どくをとばす",
+				"damage": "80",
+				"text": "相手のバトルポケモンをどくにする。",
+				"costs": [
+					"dark",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38573,
+		"multiId": "721_075",
+		"nameJp": "ガラル ニャース",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038573_P_GARARUNYASU.jpg",
+		"imageUrl": "",
+		"cardText": "戦闘的な 海洋民族と 暮らすうちに 鍛えられ 体の あちこちが 黒鉄に 変化した。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "075",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ひっかく",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "みだれひっかき",
+				"damage": "20×",
+				"text": "コインを3回投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38574,
+		"multiId": "721_076",
+		"nameJp": "ガラル ニャイキング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038574_P_GARARUNYAIKINGU.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 体毛が 硬質化して 鉄の ヘルメットのように なった。 とても 好戦的な 性質。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shin Nagasawa",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "076",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ふんだクロー",
+				"damage": "20",
+				"text": "コインを3回投げる。オモテが出たなら、相手の手札を見て、その中からトレーナーズをオモテの数ぶん選び、トラッシュする。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ツメできりさく",
+				"damage": "90",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38575,
+		"multiId": "721_077",
+		"nameJp": "ドリュウズ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038575_P_DORYUUZU.jpg",
+		"imageUrl": "",
+		"cardText": "自然の 洞窟に 見えても ドリュウズが 掘り荒らした 跡と いうことも よくある 話だ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Anesaki Dynamic",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "077",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ドリルライナー",
+				"damage": "30",
+				"text": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "スラッシュクロー",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38576,
+		"multiId": "721_078",
+		"nameJp": "テッシード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038576_P_TESSHIDO.jpg",
+		"imageUrl": "",
+		"cardText": "棘を 飛ばして 身を 守る。 狙った 方向に 飛ばすには たくさんの 訓練が 必要。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "078",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はんどう",
+				"damage": "10",
+				"text": "このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38577,
+		"multiId": "721_079",
+		"nameJp": "ナットレイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038577_P_NATTOREI.jpg",
+		"imageUrl": "",
+		"cardText": "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Miki Tanaka",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "079",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶんぶんスイング",
+				"damage": "30×",
+				"text": "このポケモンについている[steel]エネルギーの数×30ダメージ。このポケモンをベンチポケモンと入れ替える。",
+				"costs": [
+					"steel"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38578,
+		"multiId": "721_080",
+		"nameJp": "ギルガルドV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038578_P_GIRUGARUDOV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "210",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RR",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "080",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "きりさく",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ソニックエッジ",
+				"damage": "130",
+				"text": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38579,
+		"multiId": "721_081",
+		"nameJp": "ギルガルドVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038579_P_GIRUGARUDOVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "081",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイザンゲキ",
+				"damage": "160＋",
+				"text": "自分がすでにとったサイドの枚数×30ダメージ追加。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38580,
+		"multiId": "721_082",
+		"nameJp": "ジュラルドン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038580_P_JURARUDON.jpg",
+		"imageUrl": "",
+		"cardText": "磨きあげた 金属の ような 体は 軽いうえに 硬いが 錆びやすいのが 欠点なのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"steel"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kawayoo",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "082",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "いかりのツメ",
+				"damage": "20＋",
+				"text": "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "パワーブラスト",
+				"damage": "120",
+				"text": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				"costs": [
+					"steel",
+					"steel",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "grass",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38581,
+		"multiId": "721_083",
+		"nameJp": "イーブイ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038581_P_IBUI.jpg",
+		"imageUrl": "",
+		"cardText": "まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Lee HyunJung",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "083",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "かじる",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "しっぽではたく",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38582,
+		"multiId": "721_084",
+		"nameJp": "カビゴン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038582_P_KABIGON.jpg",
+		"imageUrl": "",
+		"cardText": "１日に 食べ物を ４００キロ 食べないと 気がすまない。 食べ終わると 眠ってしまう。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Atsuko Nishida",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "084",
+		"ability": {
+			"name": "くいだめ",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使えて、使ったなら、自分の番は終わる。自分の手札が7枚になるように、山札を引く。"
+		},
+		"attacks": [
+			{
+				"name": "のしかかり",
+				"damage": "100",
+				"text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38583,
+		"multiId": "721_085",
+		"nameJp": "スバメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038583_P_SUBAME.jpg",
+		"imageUrl": "",
+		"cardText": "寒い 季節は 苦手。 暖かい 土地を 探し １日 ３００キロの 距離を 飛んで 移動する。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuka Morii",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "085",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "にどつつき",
+				"damage": "20×",
+				"text": "コインを2回投げ、オモテの数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38584,
+		"multiId": "721_086",
+		"nameJp": "オオスバメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038584_P_OOSUBAME.jpg",
+		"imageUrl": "",
+		"cardText": "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "086",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "でんこうせっか",
+				"damage": "20＋",
+				"text": "コインを1回投げオモテなら、40ダメージ追加。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "エネアシスト",
+				"damage": "40",
+				"text": "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38585,
+		"multiId": "721_087",
+		"nameJp": "ゴニョニョ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038585_P_GONYONYO.jpg",
+		"imageUrl": "",
+		"cardText": "危険を 察知すると ジェット機と 同じ 音量の 鳴き声を 上げて 敵を ひるませるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Tika Matsuno",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "087",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "れんぞくころがり",
+				"damage": "40×",
+				"text": "ウラが出るまでコインを投げ、オモテの数×40ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38586,
+		"multiId": "721_088",
+		"nameJp": "ドゴーム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038586_P_DOGOMU.jpg",
+		"imageUrl": "",
+		"cardText": "大声の 衝撃波で トラックを ひっくりかえしてしまう。 足を 踏みならして パワーアップ。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "100",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "miki kudo",
+		"rarity": "C",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "088",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "りんしょう",
+				"damage": "20×",
+				"text": "自分の場の、ワザ「りんしょう」を持つポケモンの数×20ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ハイパーボイス",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38587,
+		"multiId": "721_089",
+		"nameJp": "バクオング",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038587_P_BAKUONGU.jpg",
+		"imageUrl": "",
+		"cardText": "戦いのときに 出す うなり声は まるで 地震の ように 地面を グラグラと 揺らす。",
+		"supertype": "pokemon",
+		"subtype": "stage2",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "160",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Shigenori Negishi",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "089",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "りんしょう",
+				"damage": "50×",
+				"text": "自分の場の、ワザ「りんしょう」を持つポケモンの数×50ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ハイパーボイス",
+				"damage": "120",
+				"text": "",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38588,
+		"multiId": "721_090",
+		"nameJp": "ドローンロトム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038588_T_DORONROTOMU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "相手の手札を見る。その後、相手の山札を上から1枚見て、もとにもどす。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "090",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38589,
+		"multiId": "721_091",
+		"nameJp": "望遠スコープ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038589_T_BOUENSUKOPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "このカードをつけているポケモンが使うワザの、相手のベンチの「ポケモンV・GX」へのダメージは「+30」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Toyste Beach",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "091",
+		"ability": {},
+		"attacks": [],
+		"addRule": "グッズは、自分の番に何枚でも使える。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38590,
+		"multiId": "721_092",
+		"nameJp": "メモリーカプセル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038590_T_MEMORIKAPUSERU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "equipment",
+		"trainerText": "このカードをつけているポケモンは、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "092",
+		"ability": {},
+		"attacks": [],
+		"addRule": "グッズは、自分の番に何枚でも使える。",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38591,
+		"multiId": "721_093",
+		"nameJp": "サイトウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038591_T_SAITOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、ベンチの[fighting]ポケモンに好きなようにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "093",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38592,
+		"multiId": "721_094",
+		"nameJp": "ダンデ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038592_T_DANDE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "この番、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "R",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "094",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38593,
+		"multiId": "721_095",
+		"nameJp": "リーグスタッフ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038593_T_RIGUSUTAFFU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の山札を2枚引く。場に「シュートスタジアム」が出ているなら、さらに2枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Emi Ando",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "095",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38594,
+		"multiId": "721_096",
+		"nameJp": "ルリナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038594_T_RURINA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分のトラッシュから[water]ポケモンと[water]エネルギーを合計4枚まで選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "096",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38595,
+		"multiId": "721_097",
+		"nameJp": "キルクス温泉",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038595_T_KIRUKUSUONSEN.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのたねポケモンが、相手のポケモンから受けるワザのダメージは「-20」される。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "097",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38596,
+		"multiId": "721_098",
+		"nameJp": "シュートスタジアム",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038596_T_SHUTOSUTAJIAMU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "stadium",
+		"trainerText": "おたがいのプレイヤーが、自分の番に、手札から「ポケモンVMAX」を出して「ポケモンV」を進化させるたび、そのポケモンのHPを「100」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "098",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38597,
+		"multiId": "721_099",
+		"nameJp": "ウォッシュ水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038597_E_UOSSHUMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[water]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[water]ポケモンは、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "099",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38598,
+		"multiId": "721_100",
+		"nameJp": "コーティング鋼エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038598_E_KOTEINGUKOUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "speEne",
+		"trainerText": "",
+		"energyText": "このカードは、ポケモンについているかぎり、[steel]エネルギー1個ぶんとしてはたらく。\n\nこのカードをつけている[steel]ポケモンの弱点は、すべてなくなる。",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "U",
+		"productNo": "721",
+		"set": "拡張パック「仰天のボルテッカー」",
+		"setCode": "S4",
+		"generation": "SA",
+		"setNo": "100",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

@@ -1,0 +1,1012 @@
+[
+	{
+		"cardId": 38845,
+		"multiId": "724_001",
+		"nameJp": "カメックスV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038845_P_KAMEKKUSUV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "げきりゅうほう",
+				"damage": "200",
+				"text": "次の自分の番、このポケモンは「げきりゅうほう」が使えない。",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38846,
+		"multiId": "724_002",
+		"nameJp": "カメックスVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038846_P_KAMEKKUSUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "330",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "5ban Graphics",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "グランフォール",
+				"damage": "120",
+				"text": "自分の山札から[water]エネルギーを3枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+				"costs": [
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 3
+			},
+			{
+				"name": "キョダイボンバード",
+				"damage": "220",
+				"text": "相手のベンチポケモン2匹にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"water"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38847,
+		"multiId": "724_003",
+		"nameJp": "タッツー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038847_P_TATTSU.jpg",
+		"imageUrl": "",
+		"cardText": "サンゴの 陰に 住処を 作る。 危険を 感じると 口から 真っ黒い 墨を 吐いて 逃げる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "40",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Taira Akitsu",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずでっぽう",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38848,
+		"multiId": "724_004",
+		"nameJp": "ブイゼル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038848_P_BUIZERU.jpg",
+		"imageUrl": "",
+		"cardText": "首の 浮き袋を ふくらませ 水面から 顔を だして 辺りの 様子を うかがっている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "ryoma uratsuka",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "みずかけ",
+				"damage": "20",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38849,
+		"multiId": "724_005",
+		"nameJp": "フローゼル",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038849_P_FUROZERU.jpg",
+		"imageUrl": "",
+		"cardText": "水中の 獲物を 追いかける うちに 浮き袋が 発達した。 ゴムボートのように 人を 乗せる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "AKIRA EGAWA",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "なみのり",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38850,
+		"multiId": "724_006",
+		"nameJp": "マナフィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038850_P_MANAFI.jpg",
+		"imageUrl": "",
+		"cardText": "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Narumi Sato",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {
+			"name": "うみのそうさく",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見る。その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "スプラッシュ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38851,
+		"multiId": "724_007",
+		"nameJp": "ボルケニオン",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038851_P_BORUKENION.jpg",
+		"imageUrl": "",
+		"cardText": "背中の アームから 体内の 水蒸気を 噴射する。 山 ひとつ 吹き飛ばす 威力。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "130",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "nagimiso",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ぶちかます",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ダイナマイトスチーム",
+				"damage": "120×",
+				"text": "コインを2回投げ、オモテの数×120ダメージ。",
+				"costs": [
+					"water",
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38852,
+		"multiId": "724_008",
+		"nameJp": "カムカメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038852_P_KAMUKAME.jpg",
+		"imageUrl": "",
+		"cardText": "頭の ツノは 岩の 硬さ。 ツノで 戦い ひるんだ 隙に パクリと 噛みつき 離さない。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sowsow",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"water"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かみつく",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"water",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38853,
+		"multiId": "724_009",
+		"nameJp": "カジリガメ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038853_P_KAJIRIGAME.jpg",
+		"imageUrl": "",
+		"cardText": "首が 伸び縮みする。 離れた ところから 首を 一気に 伸ばし 鋭い キバで 敵を しとめる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "140",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Masakazu Fukuda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {
+			"name": "かたいからだ",
+			"text": "このポケモンが受けるワザのダメージは「-30」される。"
+		},
+		"attacks": [
+			{
+				"name": "ロケットずつき",
+				"damage": "130",
+				"text": "",
+				"costs": [
+					"water",
+					"water",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38854,
+		"multiId": "724_010",
+		"nameJp": "ウッウ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038854_P_UTSUU.jpg",
+		"imageUrl": "",
+		"cardText": "食いしん坊で エサの サシカマスを 丸飲みするが たまに 間違えて ほかの ポケモンに 食らいつく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"water"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "HYOGONOSUKE",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はきだしショット",
+				"damage": "",
+				"text": "相手のベンチポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"water",
+					"water"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38855,
+		"multiId": "724_011",
+		"nameJp": "クイックボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038855_T_KUIKKUBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の山札からたねポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38856,
+		"multiId": "724_012",
+		"nameJp": "クラッシュハンマー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038856_T_KURASSHUHANMA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38857,
+		"multiId": "724_013",
+		"nameJp": "しんかのおこう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038857_T_SHINKANOOKOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札から進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38858,
+		"multiId": "724_014",
+		"nameJp": "ポケギア3.0",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038858_T_POKEGIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38859,
+		"multiId": "724_015",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038859_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38860,
+		"multiId": "724_016",
+		"nameJp": "博士の研究（アララギ博士）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038860_T_HAKASENOKENKYUUARARAGIHAKASE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38861,
+		"multiId": "724_017",
+		"nameJp": "ボスの指令（フラダリ）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038861_T_BOSUNOSHIREIFURADARI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38862,
+		"multiId": "724_018",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038862_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38863,
+		"multiId": "724_019",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038863_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38864,
+		"multiId": "724_020",
+		"nameJp": "ルリナ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEK/038864_T_RURINA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分のトラッシュから[water]ポケモンと[water]エネルギーを合計4枚まで選び、相手に見せて、手札に加える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37744,
+		"multiId": "724_WAT",
+		"nameJp": "基本水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large//037744_E_KIHONMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "724",
+		"set": "スターターセットVMAX　カメックス",
+		"setCode": "SEK",
+		"generation": "SA",
+		"setNo": "WAT",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

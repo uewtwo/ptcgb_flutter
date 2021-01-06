@@ -16,8 +16,9 @@ class CardList extends StatelessWidget {
   Widget build(BuildContext context) {
     final ExpansionContent expansionContent =
         ModalRoute.of(context).settings.arguments;
-    final String genDisplay = GenerationsEnum.values.firstWhere(
-            (val) => val.name == expansionContent.generation).displayName;
+    final String genDisplay = GenerationsEnum.values
+        .firstWhere((val) => val.name == expansionContent.generation)
+        .displayName;
     final String titleText = expansionContent.name
         .replaceAll(RegExp('$genDisplay'), '')
         .replaceAll(RegExp(r'強化拡張パック'), '')
@@ -26,8 +27,7 @@ class CardList extends StatelessWidget {
         .replaceAll(RegExp(r'「'), '')
         .replaceAll(RegExp(r'」'), '')
         .replaceAll(RegExp(r'　'), '\n')
-        .replaceFirst(RegExp(r' '), '')
-    ;
+        .replaceFirst(RegExp(r' '), '');
 
     return Scaffold(
         appBar: AppBar(
@@ -38,17 +38,17 @@ class CardList extends StatelessWidget {
             ]),
         body: Container(
             child: Column(children: <Widget>[
-              Expanded(
-                child: Center(
-                  child: FutureBuilder(
-                    future: getCardListByExpansion(context, expansionContent),
-                    builder: (BuildContext context, AsyncSnapshot snapshot) {
-                      return _buildCardList(context, snapshot);
-                    },
-                  ),
-                ),
-              )
-            ])));
+          Expanded(
+            child: Center(
+              child: FutureBuilder(
+                future: getCardListByExpansion(context, expansionContent),
+                builder: (BuildContext context, AsyncSnapshot snapshot) {
+                  return _buildCardList(context, snapshot);
+                },
+              ),
+            ),
+          )
+        ])));
   }
 
   Widget _buildCardList(BuildContext context, AsyncSnapshot snapshot) {
@@ -83,7 +83,8 @@ class CardList extends StatelessWidget {
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed(CardDetail.routeName, arguments: content);
+          Navigator.of(context)
+              .pushNamed(CardDetail.routeName, arguments: content);
         },
       ),
     );
@@ -93,7 +94,8 @@ class CardList extends StatelessWidget {
     // TODO: 個別のカードの画像用意
     // TODO: 画像について個別にダウンロードボタンを用意して、画像がなければsampleを利用するようにしたい。
     final String defaultTargetPath = 'assets/img/various/sample.png';
-    final String targetPath = 'assets/img/cards/jp/${content.generation.toLowerCase()}/${content.productNo}/${content.cardId}.png';
+    final String targetPath =
+        'assets/img/cards/jp/${content.generation.toLowerCase()}/${content.productNo}/${content.cardId}.png';
     try {
       // FIXME: 非同期処理だからか try-catch で画像がないときにdefaultTargetPathをみてくれない
 //      return Image.asset(targetPath);
@@ -110,8 +112,7 @@ class CardList extends StatelessWidget {
     final String jsonPath = 'assets/text/cards/jp/$gen/$productNo.json';
     final List<dynamic> jsonRes =
         jsonDecode(await DefaultAssetBundle.of(context).loadString(jsonPath));
-    final List<CardContent> _cardList =
-        CardContents.fromJson(jsonRes).toList();
+    final List<CardContent> _cardList = CardContents.fromJson(jsonRes).toList();
     return _cardList;
   }
 }

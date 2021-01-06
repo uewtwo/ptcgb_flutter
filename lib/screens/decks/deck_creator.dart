@@ -8,6 +8,7 @@ import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/decorations/decks/deck_creator_decorations.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
+import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_charts_repository.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
 import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
@@ -103,8 +104,11 @@ class DeckCreator extends HookWidget {
             _buildSelectGeneration(stateGeneration, generationExporter),
             Padding(padding: EdgeInsets.only(top: 10), child: Text('カード検索結果')),
             Container(
-              child: _buildSearchedCard(stateDeckElements, deckElementsExporter,
-                  stateBaseCardList, stateFilteredCard),
+              child: _buildSearchedCard(
+                  stateDeckElements ?? [],
+                  deckElementsExporter,
+                  stateBaseCardList ?? [],
+                  stateFilteredCard),
             ),
           ]),
         ),
@@ -145,35 +149,55 @@ class DeckCreator extends HookWidget {
   }
 
   /// 対象Generationのカードリスト全取得
+  // FIXME: card json もassetsに含めずDLするようにしたい
   void getAllCardInGeneration(
       FilteredCardRepository exporter, String generation) async {
     final context = useContext();
-//    FIXME: getApplicationDocumentsDirectory() とか使って
-//    FIXME: カードリストjson管理しないとダメそう
-//    FIXME: その上でファイルリストを取得して対象Genカード全リストを取得とか？
-//    final Directory dir = Directory('/assets/text/cards/jp/$generation/');
-//    final Directory dir = Directory.current;
-//    final Future<List<FileSystemEntity>> fileLists = dirContents(dir);
+    // get expansions in generation.
+    final String jsonPath = 'assets/text/expansions/$generation.json';
+    final List<ExpansionContent> expansions = ExpansionContents.fromJson(
+            jsonDecode(
+                await DefaultAssetBundle.of(context).loadString(jsonPath)))
+        .getExpansionContentList();
+    List<CardContent> cardList = [];
+    expansions.forEach((element) async {
+      final String _jsonPath =
+          'assets/text/cards/jp/$generation/${element.productNo}.json';
+      // final List<dynamic> jsonRes = jsonDecode(await DefaultAssetBundle.of(context).loadString(_jsonPath));
+      // final cardList = CardContents.fromJson(jsonDecode(await DefaultAssetBundle.of(context).loadString(_jsonPath))).toList();
+      cardList.addAll(CardContents.fromJson(jsonDecode(
+              await DefaultAssetBundle.of(context).loadString(_jsonPath)))
+          .toList());
+    });
 
-    // TODO: テストデータ
-    List<CardContent> _list = [];
-    // FIXME: _typeがラジオボタンのgenを受け取るからそれを参照するようにする
-//    final String basePath = 'assets/text/cards/jp/$generation/';
-    final String basePath = 'assets/text/cards/jp/sa/';
-    _list.addAll(CardContents.fromJson(jsonDecode(
-            await DefaultAssetBundle.of(context)
-                .loadString('${basePath}708.json')))
-        .toList());
-    _list.addAll(CardContents.fromJson(jsonDecode(
-            await DefaultAssetBundle.of(context)
-                .loadString('${basePath}709.json')))
-        .toList());
-    _list.addAll(CardContents.fromJson(jsonDecode(
-            await DefaultAssetBundle.of(context)
-                .loadString('${basePath}710.json')))
-        .toList());
-
-    exporter.exportResult(_list);
+    exporter.exportResult(cardList);
+//
+// //    FIXME: getApplicationDocumentsDirectory() とか使って
+// //    FIXME: カードリストjson管理しないとダメそう
+// //    FIXME: その上でファイルリストを取得して対象Genカード全リストを取得とか？
+// //    final Directory dir = Directory('/assets/text/cards/jp/$generation/');
+// //    final Directory dir = Directory.current;
+// //    final Future<List<FileSystemEntity>> fileLists = dirContents(dir);
+//
+//     // TODO: テストデータ
+//     List<CardContent> _list = [];
+//     // FIXME: _typeがラジオボタンのgenを受け取るからそれを参照するようにする
+// //    final String basePath = 'assets/text/cards/jp/$generation/';
+//     final String basePath = 'assets/text/cards/jp/sa/';
+//     _list.addAll(CardContents.fromJson(jsonDecode(
+//             await DefaultAssetBundle.of(context)
+//                 .loadString('${basePath}708.json')))
+//         .toList());
+//     _list.addAll(CardContents.fromJson(jsonDecode(
+//             await DefaultAssetBundle.of(context)
+//                 .loadString('${basePath}709.json')))
+//         .toList());
+//     _list.addAll(CardContents.fromJson(jsonDecode(
+//             await DefaultAssetBundle.of(context)
+//                 .loadString('${basePath}710.json')))
+//         .toList());
+//
+//     exporter.exportResult(_list);
   }
 
   /// ラジオボタンがGenerationが選択されたときに、対象カードリストを全部読み込む
@@ -251,7 +275,7 @@ class DeckCreator extends HookWidget {
       stateDeckElements, deckElementsExporter, List<CardContent> cardList) {
     return Scrollbar(
       child: ListView.builder(
-        itemCount: cardList.length,
+        itemCount: cardList.length ?? 0,
         padding: EdgeInsets.all(1.0),
         itemBuilder: (context, index) {
           return _cardItem(context, stateDeckElements, deckElementsExporter,

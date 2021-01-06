@@ -1,0 +1,401 @@
+[
+	{
+		"cardId": 38635,
+		"multiId": "722_001",
+		"nameJp": "ダダリンVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038635_P_DADARINVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "330",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ブンブンチェーン",
+				"damage": "",
+				"text": "相手のポケモン1匹に、このポケモンについている[grass]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ダイアンカー",
+				"damage": "240",
+				"text": "次の自分の番、このポケモンは「ダイアンカー」が使えない。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38636,
+		"multiId": "722_002",
+		"nameJp": "エースバーンVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038636_P_ESUBANVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"fire"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "カウンター",
+				"damage": "30＋",
+				"text": "前の相手の番に、このポケモンが受けたワザのダメージと同じダメージ追加。",
+				"costs": [
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ダイカエンダマ",
+				"damage": "170",
+				"text": "相手のバトルポケモンをやけどにする。",
+				"costs": [
+					"fire",
+					"fire",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "water",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38637,
+		"multiId": "722_003",
+		"nameJp": "モルペコVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038637_P_MORUPEKOVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "300",
+		"color": [
+			"electric"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "PLANETA Mochizuki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイホウデン",
+				"damage": "180",
+				"text": "相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				"costs": [
+					"electric",
+					"electric",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fighting",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38638,
+		"multiId": "722_004",
+		"nameJp": "ウッウVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038638_P_UTSUUVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "320",
+		"color": [
+			"colorless"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "PLANETA Tsuji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "ダイフンシャ",
+				"damage": "80×",
+				"text": "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "electric",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {
+			"color": "fighting",
+			"calc": null,
+			"value": "30"
+		},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38640,
+		"multiId": "722_FIR",
+		"nameJp": "基本炎エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038640_E_KIHONHONOOENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "FIR",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38639,
+		"multiId": "722_GRA",
+		"nameJp": "基本草エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038639_E_KIHONKUSAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "GRA",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38642,
+		"multiId": "722_LIG",
+		"nameJp": "基本雷エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038642_E_KIHONKAMINARIENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "LIG",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38641,
+		"multiId": "722_WAT",
+		"nameJp": "基本水エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SP2/038641_E_KIHONMIZUENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "722",
+		"set": "VMAXスペシャルセット",
+		"setCode": "SP2",
+		"generation": "SA",
+		"setNo": "WAT",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]

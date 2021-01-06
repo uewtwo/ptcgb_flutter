@@ -1,0 +1,1069 @@
+[
+	{
+		"cardId": 38865,
+		"multiId": "725_001",
+		"nameJp": "フシギバナV",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038865_P_FUSHIGIBANAV.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "220",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": true,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "001",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "リーフドレイン",
+				"damage": "50",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "すてみタックル",
+				"damage": "190",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "ポケモンVがきぜつしたとき、相手はサイドを2枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 3
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38866,
+		"multiId": "725_002",
+		"nameJp": "フシギバナVMAX",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038866_P_FUSHIGIBANAVMAX.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "pokemon",
+		"subtype": "gigamax",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "330",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": true,
+			"isFossil": false
+		},
+		"author": "aky CG Works",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "002",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "フォレストストーム",
+				"damage": "30×",
+				"text": "自分の場のポケモンについている[grass]エネルギーの数×30ダメージ。",
+				"costs": [
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "キョダイブルーム",
+				"damage": "210",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 4
+			}
+		],
+		"addRule": "ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless",
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 4
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38867,
+		"multiId": "725_003",
+		"nameJp": "ヤンヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038867_P_YANYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "80",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "003",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "たいあたり",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "つばさでうつ",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38868,
+		"multiId": "725_004",
+		"nameJp": "メガヤンマ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038868_P_MEGAYANMA.jpg",
+		"imageUrl": "",
+		"cardText": "６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Souichirou Gunjima",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "004",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "むしくい",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "きゅうこうか",
+				"damage": "120",
+				"text": "このポケモンにも30ダメージ。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [],
+			"convertedCost": 0
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38869,
+		"multiId": "725_005",
+		"nameJp": "セレビィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038869_P_SEREBII.jpg",
+		"imageUrl": "",
+		"cardText": "時間を 越える 力を 使う。 平和な 時代にだけ 姿を 見せると 言われている。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yuu Nishida",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "005",
+		"ability": {
+			"name": "もりのさんさく",
+			"text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見る。その中からエネルギーを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
+		},
+		"attacks": [
+			{
+				"name": "リーフステップ",
+				"damage": "40",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38870,
+		"multiId": "725_006",
+		"nameJp": "サボネア",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038870_P_SABONEA.jpg",
+		"imageUrl": "",
+		"cardText": "砂漠などの 過酷な 環境を 好む。 体の 中に たくわえた 水で ３０日間 生きられる。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "70",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Uta",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "006",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "つきさす",
+				"damage": "50",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38871,
+		"multiId": "725_007",
+		"nameJp": "トロピウス",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038871_P_TOROPIUSU.jpg",
+		"imageUrl": "",
+		"cardText": "首の フサが 美味しくて 人気。 暖かい 土地には トロピウスを 育てる 牧場が たくさん。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "110",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Akira Komayama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "007",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "はっぱをつける",
+				"damage": "",
+				"text": "自分のトラッシュから[grass]エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "かぜおこし",
+				"damage": "30",
+				"text": "",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38872,
+		"multiId": "725_008",
+		"nameJp": "ヒメンカ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038872_P_HIMENKA.jpg",
+		"imageUrl": "",
+		"cardText": "そよ風で くるくる 回りながら 楽しそうに 歌う 愛らしさに 魅せられ 育てる 人が 多い。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "60",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Yukiko Baba",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "008",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "このは",
+				"damage": "10",
+				"text": "",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38873,
+		"multiId": "725_009",
+		"nameJp": "ワタシラガ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038873_P_WATASHIRAGA.jpg",
+		"imageUrl": "",
+		"cardText": "頭の 綿毛で つくった 糸は 光沢があり とても 美しい。 ガラル地方の 名産品。",
+		"supertype": "pokemon",
+		"subtype": "stage1",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "90",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kodama",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "009",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "まんたんのタネ",
+				"damage": "",
+				"text": "自分のベンチポケモンを1匹選び、HPをすべて回復する。",
+				"costs": [
+					"colorless"
+				],
+				"convertedCost": 1
+			},
+			{
+				"name": "ふいをつく",
+				"damage": "50",
+				"text": "コインを1回投げウラなら、このワザは失敗。",
+				"costs": [
+					"grass"
+				],
+				"convertedCost": 1
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless"
+			],
+			"convertedCost": 1
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38874,
+		"multiId": "725_010",
+		"nameJp": "ザルード",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038874_P_ZARUDO.jpg",
+		"imageUrl": "",
+		"cardText": "体に 生える ツルは ちぎれると 土の 栄養分となって 森の 植物たちを 育てるのだ。",
+		"supertype": "pokemon",
+		"subtype": "basic",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "120",
+		"color": [
+			"grass"
+		],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Kouki Saitou",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "010",
+		"ability": {},
+		"attacks": [
+			{
+				"name": "すいつくつる",
+				"damage": "30",
+				"text": "このポケモンのHPを「30」回復する。",
+				"costs": [
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 2
+			},
+			{
+				"name": "ジャングルボンバー",
+				"damage": "110",
+				"text": "",
+				"costs": [
+					"grass",
+					"grass",
+					"colorless"
+				],
+				"convertedCost": 3
+			}
+		],
+		"addRule": "",
+		"weaknesses": {
+			"color": "fire",
+			"calc": null,
+			"value": "2"
+		},
+		"retreats": {
+			"costs": [
+				"colorless",
+				"colorless"
+			],
+			"convertedCost": 2
+		},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38875,
+		"multiId": "725_011",
+		"nameJp": "きずぐすり",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038875_T_KIZUGUSURI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のポケモンを1匹選び、HPを「30」回復する。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "011",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38876,
+		"multiId": "725_012",
+		"nameJp": "クイックボール",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038876_T_KUIKKUBORU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の山札からたねポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "sadaji",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "012",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38877,
+		"multiId": "725_013",
+		"nameJp": "しんかのおこう",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038877_T_SHINKANOOKOU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札から進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "013",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38878,
+		"multiId": "725_014",
+		"nameJp": "ポケギア3.0",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038878_T_POKEGIA.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分の山札を上から7枚見る。その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryo Ueda",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "014",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38879,
+		"multiId": "725_015",
+		"nameJp": "ポケモンいれかえ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038879_T_POKEMONIREKAE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "goods",
+		"trainerText": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Studio Bora Inc.",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "015",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38880,
+		"multiId": "725_016",
+		"nameJp": "博士の研究（アララギ博士）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038880_T_HAKASENOKENKYUUARARAGIHAKASE.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Hideki Ishikawa",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "016",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38881,
+		"multiId": "725_017",
+		"nameJp": "ビート",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038881_T_BITO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の手札から基本エネルギーを1枚選び、ベンチポケモンにつける。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Naoki Saito",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "017",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38882,
+		"multiId": "725_018",
+		"nameJp": "ボスの指令（フラダリ）",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038882_T_BOSUNOSHIREIFURADARI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ryuta Fuse",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "018",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38883,
+		"multiId": "725_019",
+		"nameJp": "ホップ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038883_T_HOPPU.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の山札を3枚引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "Ken Sugimori",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "019",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38884,
+		"multiId": "725_020",
+		"nameJp": "マリィ",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038884_T_MARII.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "kirisAki",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "020",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 38885,
+		"multiId": "725_021",
+		"nameJp": "ヤロー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large/SEF/038885_T_YARO.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "trainer",
+		"subtype": "support",
+		"trainerText": "自分の手札を2枚までトラッシュし、その枚数×2枚、自分の山札を引く。",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "take",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "021",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	},
+	{
+		"cardId": 37742,
+		"multiId": "725_GRA",
+		"nameJp": "基本草エネルギー",
+		"nameUs": "",
+		"imageUrlOfficial": "https://www.pokemon-card.com/assets/images/card_images/large//037742_E_KIHONKUSAENERUGI.jpg",
+		"imageUrl": "",
+		"cardText": "",
+		"supertype": "energy",
+		"subtype": "basEne",
+		"trainerText": "",
+		"energyText": "",
+		"hp": "",
+		"color": [],
+		"optionValue": {
+			"isV": false,
+			"isVMAX": false,
+			"isFossil": false
+		},
+		"author": "",
+		"rarity": "RARYTY_UNDEFINED",
+		"productNo": "725",
+		"set": "スターターセットVMAX　フシギバナ",
+		"setCode": "SEF",
+		"generation": "SA",
+		"setNo": "GRA",
+		"ability": {},
+		"attacks": [],
+		"addRule": "",
+		"weaknesses": {},
+		"retreats": {},
+		"resistances": {},
+		"nationalPokedexNumbers": null,
+		"evolves": null
+	}
+]
