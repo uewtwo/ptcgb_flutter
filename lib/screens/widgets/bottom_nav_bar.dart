@@ -6,7 +6,7 @@ import 'package:ptcgb_flutter/models/common/page_model.dart';
 import 'package:ptcgb_flutter/repositories/commons/bottom_navigation_repository.dart';
 import 'package:ptcgb_flutter/screens/decks/decklists.dart';
 import 'package:ptcgb_flutter/screens/generations/generations.dart';
-import 'package:ptcgb_flutter/screens/infomation/official_info_webview.dart';
+import 'package:ptcgb_flutter/screens/information/official_info_webview.dart';
 
 final provider =
     StateNotifierProvider.autoDispose((ref) => BottomNavigationRepository());

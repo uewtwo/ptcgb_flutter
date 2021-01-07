@@ -6,7 +6,7 @@ import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
 import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
-import 'package:ptcgb_flutter/screens/infomation/official_info_webview.dart';
+import 'package:ptcgb_flutter/screens/information/official_info_webview.dart';
 import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 import 'decks/deck_creator.dart';
