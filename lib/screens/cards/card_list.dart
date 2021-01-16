@@ -29,7 +29,9 @@ class CardList extends StatelessWidget {
         .replaceAll(RegExp(r'　'), '\n')
         .replaceFirst(RegExp(r' '), '');
 
-    return Scaffold(
+    return SafeArea(
+      top: false,
+      child: Scaffold(
         appBar: AppBar(
             centerTitle: true,
             title: Text(titleText, maxLines: 2),
@@ -37,18 +39,23 @@ class CardList extends StatelessWidget {
               IconButton(icon: Icon(Icons.list), onPressed: null),
             ]),
         body: Container(
-            child: Column(children: <Widget>[
-          Expanded(
-            child: Center(
-              child: FutureBuilder(
-                future: getCardListByExpansion(context, expansionContent),
-                builder: (BuildContext context, AsyncSnapshot snapshot) {
-                  return _buildCardList(context, snapshot);
-                },
-              ),
-            ),
-          )
-        ])));
+          child: Column(
+            children: <Widget>[
+              Expanded(
+                child: Center(
+                  child: FutureBuilder(
+                    future: getCardListByExpansion(context, expansionContent),
+                    builder: (BuildContext context, AsyncSnapshot snapshot) {
+                      return _buildCardList(context, snapshot);
+                    },
+                  ),
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 
   Widget _buildCardList(BuildContext context, AsyncSnapshot snapshot) {

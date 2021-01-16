@@ -18,9 +18,9 @@ class AbilityContent extends Equatable {
   }
 
   Map<String, dynamic> toJson() => {
-    'iname': name,
-    'text': text,
-  };
+        'name': name,
+        'text': text,
+      };
 
   @override
   List<Object> get props => [name, text];

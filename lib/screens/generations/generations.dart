@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
+import 'package:ptcgb_flutter/models/common/constants_child_context.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
-import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar_custom.dart';
 
 class Generations extends StatelessWidget {
   static const routeName = '/generation/generations';
@@ -12,6 +12,7 @@ class Generations extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Generation List'),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.list), onPressed: null),
@@ -39,7 +40,9 @@ class Generations extends StatelessWidget {
         leading: _expansionImage(gen.name),
         title: Text(gen.displayName, style: _biggerFont),
         onTap: () {
-          Navigator.of(context).pushNamed(Expansions.routeName, arguments: gen);
+          // FIXME: CupertinoTab使いながらHardware back buttonが機能するようにできなかった
+          Navigator.of(context, rootNavigator: true)
+              .pushNamed(Expansions.routeName, arguments: gen);
         },
       ),
     );

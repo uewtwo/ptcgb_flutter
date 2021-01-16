@@ -1,8 +1,7 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
+import 'package:ptcgb_flutter/models/common/constants_child_context.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class OfficialInfoWebView extends StatefulWidget {
@@ -13,7 +12,11 @@ class OfficialInfoWebView extends StatefulWidget {
 }
 
 class OfficialInfoWebViewState extends State<OfficialInfoWebView> {
+  final int pageCount = 1;
+
   WebViewController _controller;
+  final Completer<WebViewController> _controllerCompleter =
+      Completer<WebViewController>();
 
   @override
   void initState() {
@@ -23,37 +26,26 @@ class OfficialInfoWebViewState extends State<OfficialInfoWebView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Official Information'),
-      // actions: <Widget>[
-      //   IconButton(
-      //     icon: Icon(Icons.refresh),
-      //     onPressed: () {
-      //       _controller.loadUrl('https://www.twitch.tv/');
-      //     },
-      //   ),
-      //   IconButton(
-      //     icon: Icon(Icons.add_comment),
-      //     onPressed: () {
-      //       showDialog(
-      //           context: context,
-      //           builder: (context) {
-      //             return AlertDialog(
-      //               title: Text('webviewの上に表示'),
-      //             );
-      //           });
-      //     },
-      //   ),
-      // ],
-      // ),
-      body: WebView(
-        initialUrl: 'https://www.pokemon-card.com/info/',
-        javascriptMode: JavascriptMode.unrestricted,
-        onWebViewCreated: (WebViewController controller) {
-          _controller = controller;
-        },
+    return WillPopScope(
+      onWillPop: () async => await _exitApp(context),
+      child: Scaffold(
+        body: WebView(
+          initialUrl: 'https://www.pokemon-card.com/info/',
+          javascriptMode: JavascriptMode.unrestricted,
+          onWebViewCreated: (WebViewController webViewController) {
+            _controllerCompleter.complete(webViewController);
+          },
+        ),
       ),
     );
+  }
+
+  Future<bool> _exitApp(BuildContext context) async {
+    if (await (await _controllerCompleter.future).canGoBack()) {
+      await (await _controllerCompleter.future).goBack();
+      return Future.value(false);
+    } else {
+      return Future.value(true);
+    }
   }
 }

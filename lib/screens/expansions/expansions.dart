@@ -35,7 +35,6 @@ class ExpansionsState extends State<Expansions> {
   @override
   void initState() {
     super.initState();
-
     appbarsearch =
         AppBarSearch(state: this, onSubmitted: _searchCardsByKeyword);
   }
@@ -44,7 +43,10 @@ class ExpansionsState extends State<Expansions> {
   Widget build(BuildContext context) {
     final GenerationsEnum genEnum = ModalRoute.of(context).settings.arguments;
     final String gen = genEnum.name;
-    return _buildExpansionsList(context, gen);
+    return SafeArea(
+      top: false,
+      child: _buildExpansionsList(context, gen),
+    );
   }
 
   Widget _buildExpansionsList(BuildContext context, String gen) {

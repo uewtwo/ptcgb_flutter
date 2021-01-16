@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
+import 'package:ptcgb_flutter/models/common/constants_child_context.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_list_repository.dart';
@@ -42,16 +43,18 @@ class Decklists extends HookWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Decklists"),
+        title: Text("Deck List"),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.list), onPressed: null),
         ],
       ),
       body: _buildOwnedDecksList(context, stateDeckList, decksProvider),
+      // bottomNavigationBar: BottomNavBarCustom(),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           // 新規作成は値を渡さない
-          Navigator.of(context).pushNamed(DeckCreator.routeName);
+          Navigator.of(context, rootNavigator: true)
+              .pushNamed(DeckCreator.routeName);
         },
         child: Icon(Icons.playlist_add),
       ),
@@ -107,7 +110,7 @@ class Decklists extends HookWidget {
     return Card(
       child: new InkWell(
         onTap: () async {
-          Navigator.of(context)
+          Navigator.of(context, rootNavigator: true)
               .pushNamed(DeckCreator.routeName, arguments: deckInfo);
         },
         onLongPress: () {
@@ -201,11 +204,12 @@ class Decklists extends HookWidget {
     // コマンド系マジックワードが増えてきそうならEnumにまとめる
     switch (route) {
       case DeckCreator.routeName:
-        Navigator.of(context)
+        Navigator.of(context, rootNavigator: true)
             .pushNamed(DeckCreator.routeName, arguments: deckInfo);
         break;
       case DeckSimulator.routeName:
-        Navigator.of(context).pushNamed(route, arguments: deckInfo);
+        Navigator.of(context, rootNavigator: true)
+            .pushNamed(route, arguments: deckInfo);
         break;
       case '/cmd:share':
         Share.share(

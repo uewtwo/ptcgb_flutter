@@ -1,4 +1,3 @@
-// TODO: riverpodを用いた純正 BottomNavigationBarの実装として残しておく
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -6,7 +5,6 @@ import 'package:ptcgb_flutter/enums/common/bottom_navigation_event.dart';
 import 'package:ptcgb_flutter/models/common/page_model.dart';
 import 'package:ptcgb_flutter/repositories/commons/bottom_navigation_repository.dart';
 import 'package:ptcgb_flutter/screens/decks/decklists.dart';
-import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
 import 'package:ptcgb_flutter/screens/generations/generations.dart';
 import 'package:ptcgb_flutter/screens/information/official_info_webview.dart';
 
@@ -15,6 +13,13 @@ final provider =
 
 class BottomNavBar extends HookWidget {
   static const routeName = '/';
+
+  // final bool isChildScreen;
+  // BottomNavBar({this.isChildScreen});
+
+  bool isChildScreen(BuildContext context) {
+    return ModalRoute.of(context).settings.arguments;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +39,7 @@ class BottomNavBar extends HookWidget {
     }
 
     return Scaffold(
-      body: body,
+      body: isChildScreen(context) != true ? body : null,
       bottomNavigationBar: BottomNavigationBar(
         fixedColor: Colors.blue,
         currentIndex: pageModel.page.index,
@@ -51,6 +56,13 @@ class BottomNavBar extends HookWidget {
                     ? Colors.white54
                     : Colors.white,
           ),
+          // BottomNavigationBarItem(
+          //   icon: ImageIcon(
+          //     AssetImage('assets/img/various/home_icon.png'),
+          //     color: Colors.black,
+          //   ),
+          //   label: 'Home',
+          // ),
           BottomNavigationBarItem(
             icon: ImageIcon(
               AssetImage('assets/img/various/card_icon.png'),

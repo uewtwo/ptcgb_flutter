@@ -12,27 +12,34 @@ class CardDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final CardContent cardContent = ModalRoute.of(context).settings.arguments;
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(cardContent.nameJp),
-        actions: <Widget>[
-          IconButton(icon: Icon(Icons.list), onPressed: null),
-        ],
-      ),
-      body: SingleChildScrollView(
-          child: Column(children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: FutureBuilder(
-            future: _cardDetailImage(cardContent),
-            builder: (BuildContext context, snapshot) =>
-                snapshot.hasData ? snapshot.data : CircularProgressIndicator(),
+    return SafeArea(
+      top: false,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(cardContent.nameJp),
+          actions: <Widget>[
+            IconButton(icon: Icon(Icons.list), onPressed: null),
+          ],
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: FutureBuilder(
+                  future: _cardDetailImage(cardContent),
+                  builder: (BuildContext context, snapshot) => snapshot.hasData
+                      ? snapshot.data
+                      : CircularProgressIndicator(),
+                ),
+              ),
+              _cardDetailHeader(cardContent),
+              ..._cardDetailBody(cardContent),
+              _cardDetailReference(cardContent),
+            ],
           ),
         ),
-        _cardDetailHeader(cardContent),
-        ..._cardDetailBody(cardContent),
-        _cardDetailReference(cardContent),
-      ])),
+      ),
     );
   }
 
