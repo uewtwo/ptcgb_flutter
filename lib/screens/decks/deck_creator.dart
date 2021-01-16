@@ -6,20 +6,20 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/decorations/decks/deck_creator_decorations.dart';
+import 'package:ptcgb_flutter/enums/cards/card_subtype.dart';
+import 'package:ptcgb_flutter/enums/cards/card_supertype.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
-import 'package:ptcgb_flutter/repositories/decks/deck_charts_repository.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
 import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
 import 'package:ptcgb_flutter/repositories/cards/filtered_card_repository.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/decks/decklists.dart';
-import 'package:ptcgb_flutter/screens/home/home.dart';
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 import 'package:ptcgb_flutter/screens/widgets/deck_charts_widget.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:tuple/tuple.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 
@@ -38,7 +38,7 @@ class DeckCreator extends HookWidget {
   final baseGenerationProvider = StateNotifierProvider.autoDispose(
       (ref) => TextRepository(GenerationsEnum.values[0].name));
 
-  static const routeName = '/deck_creator';
+  static const routeName = '/deck/deck_creator';
   static const TextStyle _biggerFont = TextStyle(fontSize: 18);
   static const TextStyle _deckContentFont = TextStyle(fontSize: 11);
 
@@ -160,44 +160,16 @@ class DeckCreator extends HookWidget {
                 await DefaultAssetBundle.of(context).loadString(jsonPath)))
         .getExpansionContentList();
     List<CardContent> cardList = [];
+    expansions.sort((a, b) => b.releaseDate.compareTo(a.releaseDate));
     expansions.forEach((element) async {
       final String _jsonPath =
           'assets/text/cards/jp/$generation/${element.productNo}.json';
-      // final List<dynamic> jsonRes = jsonDecode(await DefaultAssetBundle.of(context).loadString(_jsonPath));
-      // final cardList = CardContents.fromJson(jsonDecode(await DefaultAssetBundle.of(context).loadString(_jsonPath))).toList();
       cardList.addAll(CardContents.fromJson(jsonDecode(
               await DefaultAssetBundle.of(context).loadString(_jsonPath)))
           .toList());
     });
 
     exporter.exportResult(cardList);
-//
-// //    FIXME: getApplicationDocumentsDirectory() とか使って
-// //    FIXME: カードリストjson管理しないとダメそう
-// //    FIXME: その上でファイルリストを取得して対象Genカード全リストを取得とか？
-// //    final Directory dir = Directory('/assets/text/cards/jp/$generation/');
-// //    final Directory dir = Directory.current;
-// //    final Future<List<FileSystemEntity>> fileLists = dirContents(dir);
-//
-//     // TODO: テストデータ
-//     List<CardContent> _list = [];
-//     // FIXME: _typeがラジオボタンのgenを受け取るからそれを参照するようにする
-// //    final String basePath = 'assets/text/cards/jp/$generation/';
-//     final String basePath = 'assets/text/cards/jp/sa/';
-//     _list.addAll(CardContents.fromJson(jsonDecode(
-//             await DefaultAssetBundle.of(context)
-//                 .loadString('${basePath}708.json')))
-//         .toList());
-//     _list.addAll(CardContents.fromJson(jsonDecode(
-//             await DefaultAssetBundle.of(context)
-//                 .loadString('${basePath}709.json')))
-//         .toList());
-//     _list.addAll(CardContents.fromJson(jsonDecode(
-//             await DefaultAssetBundle.of(context)
-//                 .loadString('${basePath}710.json')))
-//         .toList());
-//
-//     exporter.exportResult(_list);
   }
 
   /// ラジオボタンがGenerationが選択されたときに、対象カードリストを全部読み込む
@@ -298,6 +270,7 @@ class DeckCreator extends HookWidget {
               context, stateDeckElements, deckElementsExporter, content);
         },
         onLongPress: () {
+          // print(content.toJson());
           Navigator.of(context)
               .pushNamed(CardDetail.routeName, arguments: content);
         },
@@ -388,17 +361,19 @@ class DeckCreator extends HookWidget {
                       ),
                       DropdownButtonFormField<int>(
                         itemHeight: 50,
-                        items: stateDeckElements.map((element) {
-                          return new DropdownMenuItem<int>(
-                            value: element.item1.cardId,
-                            child: Container(
-                              color: element.item1.cardId == topCardId
-                                  ? Colors.white60
-                                  : Colors.white,
-                              child: Text(element.item1.nameJp),
-                            ),
-                          );
-                        }).toList(),
+                        items: stateDeckElements.map(
+                          (element) {
+                            return new DropdownMenuItem<int>(
+                              value: element.item1.cardId,
+                              child: Container(
+                                color: element.item1.cardId == topCardId
+                                    ? Colors.white60
+                                    : Colors.white,
+                                child: Text(element.item1.nameJp),
+                              ),
+                            );
+                          },
+                        ).toList(),
                         onChanged: (_) {
                           setState(() {
                             topCardId = _;
@@ -460,19 +435,19 @@ class DeckCreator extends HookWidget {
                       topCardId,
                       ownedDeckInfo.deckId,
                       ownedDeckInfo.sortValue);
-              // Navigator.pop(context);
-              Navigator.pushNamedAndRemoveUntil(context, Decklists.routeName,
-                  ModalRoute.withName(Home.routeName));
+              Navigator.popUntil(
+                context,
+                ModalRoute.withName(BottomNavBar.routeName),
+              );
+              // Navigator.pushNamedAndRemoveUntil(
+              //   context,
+              //   Decklists.routeName,
+              //   ModalRoute.withName(BottomNavBar.routeName),
+              // );
               // TODO: エラーハンドリング
-              // FIXME: navigationと一緒に snackbar出すやり方が分からん
-              _displaySnackBar("$deckName: デッキを保存しました。");
+              // TODO: DeckCreatorを定義して、戻り値に応じたSnackbarとかの対応をしたい
             },
     );
-  }
-
-  void _displaySnackBar(String value) {
-    _scaffoldKey.currentState
-        .showSnackBar(new SnackBar(content: new Text(value)));
   }
 
   Widget _buildSaveDeckCancel(context) {
@@ -505,7 +480,8 @@ class DeckCreator extends HookWidget {
       } else {
         final Tuple2<CardContent, int> _target =
             stateDeckElements[existsCardIndex];
-        if (_target.item2 >= 4) {
+        if (_target.item1.cardSubtype != CardSubtypeEnum.basEne &&
+            _target.item2 >= 4) {
           alertExceedCardList(context);
         } else {
           // Tuple要素がfinalなのでList要素を置き換える

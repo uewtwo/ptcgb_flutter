@@ -6,7 +6,7 @@ import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class OfficialInfoWebView extends StatefulWidget {
-  static const routeName = '/information';
+  static const routeName = '/information/official_info';
 
   @override
   State<StatefulWidget> createState() => OfficialInfoWebViewState();

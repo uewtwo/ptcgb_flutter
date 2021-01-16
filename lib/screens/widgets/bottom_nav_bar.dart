@@ -12,6 +12,15 @@ final provider =
     StateNotifierProvider.autoDispose((ref) => BottomNavigationRepository());
 
 class BottomNavBar extends HookWidget {
+  static const routeName = '/';
+
+  // final bool isChildScreen;
+  // BottomNavBar({this.isChildScreen});
+
+  bool isChildScreen(BuildContext context) {
+    return ModalRoute.of(context).settings.arguments;
+  }
+
   @override
   Widget build(BuildContext context) {
     final PageModel pageModel = useProvider(provider.state);
@@ -30,7 +39,7 @@ class BottomNavBar extends HookWidget {
     }
 
     return Scaffold(
-      body: body,
+      body: isChildScreen(context) != true ? body : null,
       bottomNavigationBar: BottomNavigationBar(
         fixedColor: Colors.blue,
         currentIndex: pageModel.page.index,

@@ -1,27 +1,43 @@
 import 'dart:math';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_list_repository.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
+import 'package:ptcgb_flutter/screens/decks/deck_simulator.dart';
+import 'package:share/share.dart';
 import 'deck_creator.dart';
 
 final deckListProvider =
     StateNotifierProvider.autoDispose((ref) => DeckListRepository());
 
+// TODO: 遷移先からの戻り値が適当すぎるので deckCreator 用戻り値のクラスを定義したい
 class Decklists extends HookWidget {
-  static const routeName = '/deck_lists';
+  static const routeName = '/deck/deck_lists';
 
   @override
   Widget build(BuildContext context) {
+    // 遷移先から戻ってきた場合はSnackbarで表示する
+    if (ModalRoute.of(context).settings.arguments == 'saved') {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('保存しました！'),
+          duration: Duration(seconds: 1),
+          action: SnackBarAction(
+            label: 'DeckCreator',
+            onPressed: () {},
+          ),
+        ),
+      );
+    }
+
     final List<OwnedDeckInfo> stateDeckList =
         useProvider(deckListProvider.state);
-    final decksProvider = useProvider(deckListProvider);
-    getOwnedDeckInfoList(context, decksProvider);
+    final DeckListRepository decksProvider = useProvider(deckListProvider);
+    getOwnedDeckInfoList(decksProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -33,11 +49,9 @@ class Decklists extends HookWidget {
       ),
       body: _buildOwnedDecksList(context, stateDeckList, decksProvider),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
+        onPressed: () async {
           // 新規作成は値を渡さない
-          // TODO: null渡すの格好悪いし何か変えたい.
-          Navigator.of(context)
-              .pushNamed(DeckCreator.routeName, arguments: null);
+          Navigator.of(context).pushNamed(DeckCreator.routeName);
         },
         child: Icon(Icons.playlist_add),
       ),
@@ -45,7 +59,7 @@ class Decklists extends HookWidget {
   }
 
   Widget _buildOwnedDecksList(
-      BuildContext context, stateDeckList, decksProvider) {
+      BuildContext context, stateDeckList, DeckListRepository decksProvider) {
     final int displayNum = 3;
     final int itemCount = (stateDeckList.length / displayNum).ceil();
     return Scrollbar(
@@ -79,20 +93,25 @@ class Decklists extends HookWidget {
     );
   }
 
-  void getOwnedDeckInfoList(context, decksProvider) async {
+  void getOwnedDeckInfoList(decksProvider) async {
     decksProvider.exportResult((await DeckFileHandler.ownedDecksInfo).toList());
   }
 
-  Widget _buildDeckCard(BuildContext context, String deckName, int cardId,
-      int displayNum, OwnedDeckInfo deckInfo, decksProvider) {
+  Widget _buildDeckCard(
+      BuildContext context,
+      String deckName,
+      int cardId,
+      int displayNum,
+      OwnedDeckInfo deckInfo,
+      DeckListRepository decksProvider) {
     return Card(
       child: new InkWell(
-        onTap: () {
+        onTap: () async {
           Navigator.of(context)
               .pushNamed(DeckCreator.routeName, arguments: deckInfo);
         },
         onLongPress: () {
-          alertDeleteDeck(context, deckInfo, decksProvider);
+          popDeckMenu(context, deckInfo, decksProvider);
         },
         child: Container(
           // TODO: paddingとか適当に取ってるから表示+1を幅としてとる、適当なので直したい
@@ -105,12 +124,18 @@ class Decklists extends HookWidget {
                 child: Stack(children: <Widget>[
                   Center(
                     child: Column(children: <Widget>[
-                      Text(deckName, style: TextStyle(fontSize: 12)),
+                      FittedBox(
+                        fit: BoxFit.contain,
+                        child: Text(
+                          deckName,
+                          maxLines: 1,
+                        ),
+                      ),
                       _deckImage(cardId),
                     ]),
-                  )
+                  ),
                 ]),
-              )
+              ),
             ]),
           ),
         ),
@@ -118,35 +143,82 @@ class Decklists extends HookWidget {
     );
   }
 
-  Image _deckImage(int cardId) {
+  Widget _deckImage(int cardId) {
     // FIXME: カードIDに対応したサムネ用の画像とか欲しい
     // FIXME: staticな外部関数にしたい、サムネ画像使うのは使用ケースかなりある
     final String defaultTargetPath = 'assets/img/various/sample.png';
     return Image.asset(defaultTargetPath);
   }
 
-  void alertDeleteDeck(
-      BuildContext context, OwnedDeckInfo deckInfo, decksProvider) {
-    Alert(
+  Future<void> popDeckMenu(BuildContext context, OwnedDeckInfo deckInfo,
+      DeckListRepository decksProvider) async {
+    final String route = await showMenu(
       context: context,
-      type: AlertType.warning,
-      title: 'Delete decks.',
-      desc: 'Deleting ${deckInfo.deckName} deck, are you OK?',
-      buttons: [
-        DialogButton(
-          child:
-              Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
-          onPressed: () => {
-            DeckFileHandler.deleteDeckContentInfo(deckInfo),
-            decksProvider.deleteDeck(deckInfo),
-            Navigator.pop(context),
-          },
+      position: RelativeRect.fromLTRB(1000, 1000, 0, 0),
+      items: <PopupMenuItem<String>>[
+        PopupMenuItem<String>(
+          enabled: false,
+          value: DeckCreator.routeName,
+          child: ListTile(
+            leading: Icon(Icons.list_alt_sharp),
+            title: Text('一覧'),
+          ),
         ),
-        DialogButton(
-            child: Text('CANCEL', style: TextStyle(color: Colors.white70)),
-            onPressed: () => Navigator.pop(context)),
+        PopupMenuItem<String>(
+          value: DeckCreator.routeName,
+          child: ListTile(
+            leading: Icon(Icons.edit_sharp),
+            title: Text('編集'),
+          ),
+        ),
+        PopupMenuItem<String>(
+          value: DeckSimulator.routeName,
+          child: ListTile(
+            leading: Icon(Icons.play_arrow_outlined),
+            title: Text('シミュレーター'),
+          ),
+        ),
+        PopupMenuItem<String>(
+          enabled: false,
+          value: '/cmd:share',
+          child: ListTile(
+            leading: Icon(Icons.share_sharp),
+            title: Text('Share'),
+          ),
+        ),
+        PopupMenuItem<String>(
+          value: '/cmd:delete',
+          child: ListTile(
+            leading: Icon(Icons.delete_sharp),
+            title: Text('削除'),
+          ),
+        ),
       ],
-      closeFunction: () {},
-    ).show();
+    );
+
+    // 画面遷移先に合わせて呼ぶ.
+    // 画面遷移がないものはマジックワードで対応
+    // コマンド系マジックワードが増えてきそうならEnumにまとめる
+    switch (route) {
+      case DeckCreator.routeName:
+        Navigator.of(context)
+            .pushNamed(DeckCreator.routeName, arguments: deckInfo);
+        break;
+      case DeckSimulator.routeName:
+        Navigator.of(context).pushNamed(route, arguments: deckInfo);
+        break;
+      case '/cmd:share':
+        Share.share(
+            // TODO: デッキ内容シェアの内容
+            // 例えば全部の画像をくっつけたデッキ画像や、アプリのDLリンクとかそういうのが欲しい
+            'FIXME!!');
+        break;
+      case '/cmd:delete':
+        DeckFileHandler.deleteDeckContentInfo(deckInfo);
+        decksProvider.deleteDeck(deckInfo);
+        break;
+      default:
+        break;
+    }
   }
 }

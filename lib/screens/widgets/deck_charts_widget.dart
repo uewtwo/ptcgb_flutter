@@ -36,8 +36,11 @@ class DeckChartsWidget {
           domainFn: (SupertypeChartData data, _) => data.supertype,
           measureFn: (SupertypeChartData data, _) => data.num,
           data: chartData,
+          labelAccessorFn: (SupertypeChartData data, _) => data.num.toString(),
         ),
       ],
+      barRendererDecorator: charts.BarLabelDecorator(),
+      domainAxis: charts.OrdinalAxisSpec(),
       animate: false,
     );
   }

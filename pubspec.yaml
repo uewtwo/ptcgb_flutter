@@ -49,6 +49,7 @@ dependencies:
   auto_size_text: any
   pedantic_mono: any
   webview_flutter: ^1.0.7
+  share: any
 
 
 dev_dependencies:

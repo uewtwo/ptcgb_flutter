@@ -9,7 +9,7 @@ import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'card_detail.dart';
 
 class CardList extends StatelessWidget {
-  static const routeName = '/card_list';
+  static const routeName = '/card/card_list';
   final TextStyle _biggerFont = TextStyle(fontSize: 14.0);
 
   @override

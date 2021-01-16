@@ -28,9 +28,9 @@ extension CardSubtypeExt on CardSubtypeEnum {
       case CardSubtypeEnum.equipment:
         return 'equipment';
       case CardSubtypeEnum.basEne:
-        return 'baseEnergy';
+        return 'baseEne';
       case CardSubtypeEnum.speEne:
-        return 'speEnergy';
+        return 'speEne';
       default:
         return null;
     }
@@ -67,9 +67,9 @@ extension CardSubtypeExt on CardSubtypeEnum {
   String get nameEnergy {
     switch (this) {
       case CardSubtypeEnum.basEne:
-        return 'basEnergy';
+        return 'basEne';
       case CardSubtypeEnum.speEne:
-        return 'speEnergy';
+        return 'speEne';
       default:
         return null;
     }

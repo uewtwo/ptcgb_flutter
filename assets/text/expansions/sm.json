@@ -1,188 +1,188 @@
 [
   {
-    "number": "SMP",
+    "productNo": "SMP",
     "name": "サン&ムーン プロモカード",
-    "releaseDate": "9999-12-31",
-    "generation": "sm"
-  },
-  {
-    "number": "651",
-    "name": "サン&ムーン スターターセット TAG TEAM GX 「エーフィ&デオキシスGX」",
-    "releaseDate": "9999-12-31",
-    "generation": "sm"
-  },
-  {
-    "number": "652",
-    "name": "サン&ムーン スターターセット TAG TEAM GX「ブラッキー&ダークライGX」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2010-01-01",
     "generation": "sm"
   },
   {
     "productNo": "612",
     "name": "サン&ムーン ハイクラスパック「GXウルトラシャイニー」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-12",
+    "generation": "sm"
+  },
+  {
+    "productNo": "651",
+    "name": "サン&ムーン スターターセット TAG TEAM GX 「エーフィ&デオキシスGX」",
+    "releaseDate": "2018-06-51",
+    "generation": "sm"
+  },
+  {
+    "productNo": "652",
+    "name": "サン&ムーン スターターセット TAG TEAM GX「ブラッキー&ダークライGX」",
+    "releaseDate": "2018-06-52",
     "generation": "sm"
   },
   {
     "productNo": "656",
     "name": "サン&ムーン ハイクラスパック「TAG TEAM GX タッグオールスターズ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-0656",
     "generation": "sm"
   },
   {
     "productNo": "530",
     "name": "サン&ムーン 拡張パック「禁断の光」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-30",
     "generation": "sm"
   },
   {
     "productNo": "524",
     "name": "サン&ムーン 拡張パック「ウルトラサン」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-24",
     "generation": "sm"
   },
   {
     "productNo": "624",
     "name": "サン&ムーン 拡張パック「タッグボルト」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-24",
     "generation": "sm"
   },
   {
     "productNo": "525",
     "name": "サン&ムーン 拡張パック「ウルトラムーン」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-25",
     "generation": "sm"
   },
   {
     "productNo": "637",
     "name": "サン&ムーン 拡張パック「ダブルブレイズ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-37",
     "generation": "sm"
   },
   {
     "productNo": "650",
     "name": "サン&ムーン 拡張パック「ミラクルツイン」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-50",
     "generation": "sm"
   },
   {
     "productNo": "570",
     "name": "サン&ムーン 拡張パック「裂空のカリスマ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-70",
     "generation": "sm"
   },
   {
     "productNo": "606",
     "name": "サン&ムーン 拡張パック「超爆インパクト」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-06",
     "generation": "sm"
   },
   {
     "productNo": "602",
     "name": "サン&ムーン 強化拡張パック「迅雷スパーク」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-02",
     "generation": "sm"
   },
   {
     "productNo": "645",
     "name": "サン&ムーン 強化拡張パック「ジージーエンド」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-45",
     "generation": "sm"
   },
   {
     "productNo": "609",
     "name": "サン&ムーン 強化拡張パック「ダークオーダー」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-09",
     "generation": "sm"
   },
   {
     "productNo": "654",
     "name": "サン&ムーン 強化拡張パック「ドリームリーグ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-54",
     "generation": "sm"
   },
   {
     "productNo": "627",
     "name": "サン&ムーン 強化拡張パック「ナイトユニゾン」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-27",
     "generation": "sm"
   },
   {
     "productNo": "655",
     "name": "サン&ムーン 拡張パック「オルタージェネシス」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-55",
     "generation": "sm"
   },
   {
     "productNo": "618",
     "name": "サン&ムーン スターターセット「水のシャワーズGX」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-18",
     "generation": "sm"
   },
   {
     "productNo": "615",
     "name": "サン&ムーン スターターセット「炎のブースターGX」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-15",
     "generation": "sm"
   },
   {
     "productNo": "621",
     "name": "サン&ムーン スターターセット「雷のサンダースGX」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-21",
     "generation": "sm"
   },
   {
     "productNo": "527",
     "name": "サン&ムーン 強化拡張パック「ウルトラフォース」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-27",
     "generation": "sm"
   },
   {
     "productNo": "647",
     "name": "サン&ムーン 強化拡張パック「スカイレジェンド」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-47",
     "generation": "sm"
   },
   {
     "productNo": "531",
     "name": "サン&ムーン 強化拡張パック「ドラゴンストーム」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-31",
     "generation": "sm"
   },
   {
     "productNo": "605",
     "name": "サン&ムーン 強化拡張パック「フェアリーライズ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-05",
     "generation": "sm"
   },
   {
     "productNo": "653",
     "name": "サン&ムーン 強化拡張パック「リミックスバウト」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-53",
     "generation": "sm"
   },
   {
     "productNo": "532",
     "name": "サン&ムーン 強化拡張パック「チャンピオンロード」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-32",
     "generation": "sm"
   },
   {
     "productNo": "634",
     "name": "サン&ムーン 強化拡張パック「フルメタルウォール」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-34",
     "generation": "sm"
   },
   {
     "productNo": "648",
     "name": "サン&ムーン ムービースペシャルパック「名探偵ピカチュウ」",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-06-48",
     "generation": "sm"
   },
   {
     "productNo": "523",
     "name": "スターターセット伝説 ソルガレオGX ルナアーラGX",
-    "releaseDate": "9999-12-31",
+    "releaseDate": "2018-05-23",
     "generation": "sm"
   }
 ]

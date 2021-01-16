@@ -5,7 +5,7 @@ import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
 import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Generations extends StatelessWidget {
-  static const routeName = '/generations';
+  static const routeName = '/generation/generations';
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
 
   @override
@@ -33,9 +33,8 @@ class Generations extends StatelessWidget {
 
   Widget _expansionItem(BuildContext context, GenerationsEnum gen) {
     return Container(
-      decoration: new BoxDecoration(
-          border:
-              new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
+      decoration: BoxDecoration(
+          border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
         leading: _expansionImage(gen.name),
         title: Text(gen.displayName, style: _biggerFont),

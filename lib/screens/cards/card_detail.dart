@@ -7,7 +7,7 @@ import 'package:ptcgb_flutter/models/cards/attack_content.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
 class CardDetail extends StatelessWidget {
-  static const routeName = '/card_detail';
+  static const routeName = '/card/card_detail';
 
   @override
   Widget build(BuildContext context) {
@@ -21,18 +21,18 @@ class CardDetail extends StatelessWidget {
       ),
       body: SingleChildScrollView(
           child: Column(children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: FutureBuilder(
-                future: _cardDetailImage(cardContent),
-                builder: (BuildContext context, snapshot) =>
-                    snapshot.hasData ? snapshot.data : CircularProgressIndicator(),
-              ),
-            ),
-            _cardDetailHeader(cardContent),
-            ..._cardDetailBody(cardContent),
-            _cardDetailReference(cardContent),
-          ])),
+        Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: FutureBuilder(
+            future: _cardDetailImage(cardContent),
+            builder: (BuildContext context, snapshot) =>
+                snapshot.hasData ? snapshot.data : CircularProgressIndicator(),
+          ),
+        ),
+        _cardDetailHeader(cardContent),
+        ..._cardDetailBody(cardContent),
+        _cardDetailReference(cardContent),
+      ])),
     );
   }
 
@@ -70,13 +70,13 @@ class CardDetail extends StatelessWidget {
                   child: Stack(children: <Widget>[
                     Center(
                         child: Column(children: <Widget>[
-                          Text(cardContent.nameJp),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text(cardContent.generation),
-                          Text(cardContent.set),
-                        ]))
+                      Text(cardContent.nameJp),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(cardContent.generation),
+                      Text(cardContent.set),
+                    ]))
                   ]))
             ])));
   }
@@ -107,6 +107,7 @@ class CardDetail extends StatelessWidget {
     // アビリティの有無で表示を切り替える
     final Card ability = isAbiliter ? _abilityCardWidget(cardContent) : null;
     // attacksの数で表示を切り替える
+    // TODO itemBuilder とか使って可変に扱えるようにしたい
     List<Card> attacks;
     switch (attackNum) {
       case 0:
@@ -114,12 +115,27 @@ class CardDetail extends StatelessWidget {
         break;
       case 1:
         final atk1 = cardContent.attacks[0];
-        attacks = [_attackCardWidget(atk1)];
+        attacks = [
+          _attackCardWidget(atk1),
+        ];
         break;
       case 2:
         final atk1 = cardContent.attacks[0];
         final atk2 = cardContent.attacks[1];
-        attacks = [_attackCardWidget(atk1), _attackCardWidget(atk2)];
+        attacks = [
+          _attackCardWidget(atk1),
+          _attackCardWidget(atk2),
+        ];
+        break;
+      case 3:
+        final atk1 = cardContent.attacks[0];
+        final atk2 = cardContent.attacks[1];
+        final atk3 = cardContent.attacks[2];
+        attacks = [
+          _attackCardWidget(atk1),
+          _attackCardWidget(atk2),
+          _attackCardWidget(atk3),
+        ];
         break;
     }
 
@@ -137,10 +153,10 @@ class CardDetail extends StatelessWidget {
                   child: Stack(children: <Widget>[
                     Center(
                         child: Column(children: <Widget>[
-                          Text("特性"),
-                          Text(cardContent.ability.name),
-                          Text(cardContent.ability.text)
-                        ]))
+                      Text("特性"),
+                      Text(cardContent.ability.name),
+                      Text(cardContent.ability.text)
+                    ]))
                   ]))
             ])));
   }
@@ -156,15 +172,15 @@ class CardDetail extends StatelessWidget {
                   child: Stack(children: <Widget>[
                     Center(
                         child: Column(children: <Widget>[
-                          Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children: <Widget>[
-                                Text(attackContent.costs.toList().toString()),
-                                Text(attackContent.name),
-                                Text(attackContent.damage)
-                              ]),
-                          Text(attackContent.text),
-                        ]))
+                      Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(attackContent.costs.toList().toString()),
+                            Text(attackContent.name),
+                            Text(attackContent.damage)
+                          ]),
+                      Text(attackContent.text),
+                    ]))
                   ]))
             ])));
   }

@@ -8,9 +8,10 @@ import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
 
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
+import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Expansions extends StatefulWidget {
-  static const routeName = '/expansions';
+  static const routeName = '/expansion/expansions';
   @override
   ExpansionsState createState() => ExpansionsState();
 }
@@ -48,16 +49,18 @@ class ExpansionsState extends State<Expansions> {
 
   Widget _buildExpansionsList(BuildContext context, String gen) {
     return Scaffold(
-        appBar: AppBar(
-            centerTitle: true,
-            title: appbarsearch.onTitle(const Text('Expansion List')),
-            actions: <Widget>[
-              appbarsearch.searchIcon,
-              IconButton(icon: Icon(Icons.list), onPressed: null),
-            ]),
-        body: _searchText.isEmpty
-            ? this._getExpansionContentsByGen(context, gen)
-            : this._buildSearchCardList());
+      appBar: AppBar(
+          centerTitle: true,
+          title: appbarsearch.onTitle(const Text('Expansion List')),
+          actions: <Widget>[
+            appbarsearch.searchIcon,
+            IconButton(icon: Icon(Icons.list), onPressed: null),
+          ]),
+      body: _searchText.isEmpty
+          ? this._getExpansionContentsByGen(context, gen)
+          : this._buildSearchCardList(),
+      // bottomNavigationBar: BottomNavBar(),
+    );
   }
 
   Widget _getExpansionContentsByGen(BuildContext context, String gen) {

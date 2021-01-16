@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
-
 import 'package:ptcgb_flutter/screens//home/home.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
