@@ -1,17 +1,23 @@
 import 'dart:async';
 import 'dart:io';
+
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/models/common/constants_child_context.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class OfficialInfoWebView extends StatefulWidget {
   static const routeName = '/information/official_info';
 
+  OfficialInfoWebView(this.routeContext);
+  final BuildContext routeContext;
+
   @override
-  State<StatefulWidget> createState() => OfficialInfoWebViewState();
+  State<StatefulWidget> createState() => OfficialInfoWebViewState(routeContext);
 }
 
 class OfficialInfoWebViewState extends State<OfficialInfoWebView> {
+  OfficialInfoWebViewState(this.routeContext);
+  final BuildContext routeContext;
+
   final int pageCount = 1;
 
   WebViewController _controller;
@@ -27,15 +33,16 @@ class OfficialInfoWebViewState extends State<OfficialInfoWebView> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () async => await _exitApp(context),
+      onWillPop: () async => await _exitApp(routeContext),
       child: Scaffold(
         body: WebView(
-          initialUrl: 'https://www.pokemon-card.com/info/',
+          initialUrl: 'https://www.pokemon-card.com/info',
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (WebViewController webViewController) {
             _controllerCompleter.complete(webViewController);
           },
         ),
+        // bottomNavigationBar: bottomNavigationBarCustom2(0),
       ),
     );
   }

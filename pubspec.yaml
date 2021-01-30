@@ -50,6 +50,7 @@ dependencies:
   pedantic_mono: any
   webview_flutter: ^1.0.7
   share: any
+  ff_navigation_bar: any
 
 
 dev_dependencies:

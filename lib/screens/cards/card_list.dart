@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
@@ -9,6 +8,9 @@ import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'card_detail.dart';
 
 class CardList extends StatelessWidget {
+  // CardList(this.routeContext);
+
+  // final BuildContext routeContext;
   static const routeName = '/card/card_list';
   final TextStyle _biggerFont = TextStyle(fontSize: 14.0);
 

@@ -1,15 +1,16 @@
 import 'dart:math';
-import 'package:flutter/material.dart';
+
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
-import 'package:ptcgb_flutter/models/common/constants_child_context.dart';
-import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
+import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_list_repository.dart';
 import 'package:ptcgb_flutter/screens/decks/deck_simulator.dart';
 import 'package:share/share.dart';
+
 import 'deck_creator.dart';
 
 final deckListProvider =
@@ -17,13 +18,16 @@ final deckListProvider =
 
 // TODO: 遷移先からの戻り値が適当すぎるので deckCreator 用戻り値のクラスを定義したい
 class Decklists extends HookWidget {
+  Decklists(this.routeContext);
+
   static const routeName = '/deck/deck_lists';
+  final BuildContext routeContext;
 
   @override
   Widget build(BuildContext context) {
     // 遷移先から戻ってきた場合はSnackbarで表示する
-    if (ModalRoute.of(context).settings.arguments == 'saved') {
-      ScaffoldMessenger.of(context).showSnackBar(
+    if (ModalRoute.of(routeContext).settings.arguments == 'saved') {
+      ScaffoldMessenger.of(routeContext).showSnackBar(
         SnackBar(
           content: Text('保存しました！'),
           duration: Duration(seconds: 1),
@@ -48,13 +52,12 @@ class Decklists extends HookWidget {
           IconButton(icon: Icon(Icons.list), onPressed: null),
         ],
       ),
-      body: _buildOwnedDecksList(context, stateDeckList, decksProvider),
-      // bottomNavigationBar: BottomNavBarCustom(),
+      body: _buildOwnedDecksList(routeContext, stateDeckList, decksProvider),
+      // bottomNavigationBar: bottomNavigationBarCustom2(2),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           // 新規作成は値を渡さない
-          Navigator.of(context, rootNavigator: true)
-              .pushNamed(DeckCreator.routeName);
+          Navigator.of(context).pushNamed(DeckCreator.routeName);
         },
         child: Icon(Icons.playlist_add),
       ),

@@ -1,29 +1,34 @@
 import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:ptcgb_flutter/common/appbar_search.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
-
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
-import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
 
 class Expansions extends StatefulWidget {
+  Expansions(this.routeContext);
+
+  final BuildContext routeContext;
   static const routeName = '/expansion/expansions';
+
   @override
-  ExpansionsState createState() => ExpansionsState();
+  ExpansionsState createState() => ExpansionsState(routeContext);
 }
 
 class ExpansionsState extends State<Expansions> {
-  final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
-  ExpansionsState() {
+  ExpansionsState(this.routeContext) {
     dio = Dio();
     _listContent = [];
     _searchText = "";
     _pageNum = 1;
   }
+
+  final BuildContext routeContext;
+  final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
+  // final BuildContext routeContext;
   Dio dio;
   List<SearchResultCard> _listContent;
   String _searchText;
@@ -41,11 +46,16 @@ class ExpansionsState extends State<Expansions> {
 
   @override
   Widget build(BuildContext context) {
-    final GenerationsEnum genEnum = ModalRoute.of(context).settings.arguments;
+    final GenerationsEnum genEnum =
+        ModalRoute.of(routeContext).settings.arguments;
+    print("#################");
+    print(routeContext);
+    print(context);
+    print("#################");
     final String gen = genEnum.name;
     return SafeArea(
       top: false,
-      child: _buildExpansionsList(context, gen),
+      child: _buildExpansionsList(routeContext, gen),
     );
   }
 
@@ -61,7 +71,6 @@ class ExpansionsState extends State<Expansions> {
       body: _searchText.isEmpty
           ? this._getExpansionContentsByGen(context, gen)
           : this._buildSearchCardList(),
-      // bottomNavigationBar: BottomNavBar(),
     );
   }
 

@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -8,19 +9,18 @@ import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/decorations/decks/deck_creator_decorations.dart';
 import 'package:ptcgb_flutter/enums/cards/card_subtype.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
+import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
+import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
-import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
-import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
 import 'package:ptcgb_flutter/repositories/cards/filtered_card_repository.dart';
+import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
+import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
-import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar.dart';
-import 'package:ptcgb_flutter/screens/widgets/bottom_nav_bar_custom.dart';
 import 'package:ptcgb_flutter/screens/widgets/deck_charts_widget.dart';
+import 'package:ptcgb_flutter/screens/widgets/navigators/historize_navigator.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:tuple/tuple.dart';
-import 'package:ptcgb_flutter/models/cards/card_contents.dart';
-import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
 
 class DeckCreator extends HookWidget {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
@@ -436,7 +436,7 @@ class DeckCreator extends HookWidget {
                       ownedDeckInfo.sortValue);
               Navigator.popUntil(
                 context,
-                ModalRoute.withName(BottomNavBar.routeName),
+                ModalRoute.withName(HistorizeNavigator.routeName),
               );
               // Navigator.pushNamedAndRemoveUntil(
               //   context,
