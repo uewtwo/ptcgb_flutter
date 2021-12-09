@@ -3,32 +3,34 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:ptcgb_flutter/common/appbar_search.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/models/api/search_result_cards.dart';
+import 'package:ptcgb_flutter/models/arguments/card_list_arguments.dart';
+import 'package:ptcgb_flutter/models/arguments/expansions_arguments.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 import 'package:ptcgb_flutter/screens/cards/card_list.dart';
 
 class Expansions extends StatefulWidget {
-  Expansions(this.routeContext);
+  Expansions();
 
-  final BuildContext routeContext;
   static const routeName = '/expansion/expansions';
 
   @override
-  ExpansionsState createState() => ExpansionsState(routeContext);
+  ExpansionsState createState() => ExpansionsState();
 }
 
 class ExpansionsState extends State<Expansions> {
-  ExpansionsState(this.routeContext) {
+  ExpansionsState() {
     dio = Dio();
     _listContent = [];
     _searchText = "";
     _pageNum = 1;
   }
 
-  final BuildContext routeContext;
-  final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
   // final BuildContext routeContext;
+  final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
+
   Dio dio;
   List<SearchResultCard> _listContent;
   String _searchText;
@@ -46,20 +48,13 @@ class ExpansionsState extends State<Expansions> {
 
   @override
   Widget build(BuildContext context) {
-    final GenerationsEnum genEnum =
-        ModalRoute.of(routeContext).settings.arguments;
-    print("#################");
-    print(routeContext);
-    print(context);
-    print("#################");
-    final String gen = genEnum.name;
     return SafeArea(
       top: false,
-      child: _buildExpansionsList(routeContext, gen),
+      child: _buildExpansionsList(context),
     );
   }
 
-  Widget _buildExpansionsList(BuildContext context, String gen) {
+  Widget _buildExpansionsList(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
           centerTitle: true,
@@ -69,18 +64,18 @@ class ExpansionsState extends State<Expansions> {
             IconButton(icon: Icon(Icons.list), onPressed: null),
           ]),
       body: _searchText.isEmpty
-          ? this._getExpansionContentsByGen(context, gen)
+          ? this._getExpansionContentsByGen(context)
           : this._buildSearchCardList(),
     );
   }
 
-  Widget _getExpansionContentsByGen(BuildContext context, String gen) {
+  Widget _getExpansionContentsByGen(BuildContext context) {
     return Container(
       child: Column(children: <Widget>[
         Expanded(
           child: Center(
             child: FutureBuilder(
-              future: this.getExpansionContentsByGen(context, gen),
+              future: this.getExpansionContentsByGen(context),
               builder: (BuildContext context, AsyncSnapshot snapshot) {
                 return _buildExpansions(context, snapshot);
               },
@@ -145,32 +140,28 @@ class ExpansionsState extends State<Expansions> {
           border:
               new Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
       child: ListTile(
-        leading: _expansionImage(content),
+        // TODO: 弾用画像用意
+        leading: Image.asset('assets/img/various/sample.png'),
+        // ImageWidget.getExpansionImage(
+        //     content.generation, content.productNo),
         title: Text(content.name, style: _biggerFont),
         onTap: () {
-          Navigator.of(context)
-              .pushNamed(CardList.routeName, arguments: content);
+          Navigator.push(
+            context,
+            Utils.nestedPageRoute(
+              CardList.routeName,
+              CardListArguments(content),
+            ),
+          );
         },
       ),
     );
   }
 
-  Image _expansionImage(ExpansionContent content) {
-    String targetPath =
-        'assets/img/expansions/${content.generation}/${content.productNo}.png';
-    // ↓DebugCode
-    targetPath = 'assets/img/various/sample.png';
-    try {
-      return Image.asset(targetPath);
-    } catch (e) {
-      print(e);
-      return Image.asset('assets/img/various/sample.png');
-    }
-  }
-
   Future<List<ExpansionContent>> getExpansionContentsByGen(
-      BuildContext context, String gen) async {
-    final String jsonPath = 'assets/text/expansions/$gen.json';
+      BuildContext context) async {
+    final String jsonPath =
+        'assets/text/expansions/${getArguments(context).generation.name}.json';
     final List<dynamic> jsonRes =
         jsonDecode(await DefaultAssetBundle.of(context).loadString(jsonPath));
     final List<ExpansionContent> _expansions =
@@ -178,6 +169,9 @@ class ExpansionsState extends State<Expansions> {
 
     return _expansions;
   }
+
+  static ExpansionsArguments getArguments(BuildContext context) =>
+      ModalRoute.of(context).settings.arguments;
 
   void _searchCardsByKeyword(String keyword, {int page = 1}) async {
     _searchText = "";

@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ptcgb_flutter/enums/cards/card_supertype.dart';
+import 'package:ptcgb_flutter/models/arguments/card_detail_arguments.dart';
 import 'package:ptcgb_flutter/models/cards/attack_content.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 
@@ -11,7 +12,7 @@ class CardDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final CardContent cardContent = ModalRoute.of(context).settings.arguments;
+    final CardContent cardContent = getArguments(context).cardContent;
     return SafeArea(
       top: false,
       child: Scaffold(
@@ -151,85 +152,125 @@ class CardDetail extends StatelessWidget {
 
   Card _abilityCardWidget(CardContent cardContent) {
     return Card(
-        elevation: 5,
-        child: Padding(
-            padding: EdgeInsets.all(7),
-            child: Stack(children: <Widget>[
-              Align(
-                  alignment: Alignment.centerRight,
-                  child: Stack(children: <Widget>[
-                    Center(
-                        child: Column(children: <Widget>[
-                      Text("特性"),
-                      Text(cardContent.ability.name),
-                      Text(cardContent.ability.text)
-                    ]))
-                  ]))
-            ])));
+      elevation: 5,
+      child: Padding(
+        padding: EdgeInsets.all(7),
+        child: Stack(
+          children: <Widget>[
+            Align(
+              alignment: Alignment.centerRight,
+              child: Stack(
+                children: <Widget>[
+                  Center(
+                    child: Column(
+                      children: <Widget>[
+                        Text("特性"),
+                        Text(cardContent.ability.name),
+                        Text(cardContent.ability.text)
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   Card _attackCardWidget(AttackContent attackContent) {
     return Card(
-        elevation: 5,
-        child: Padding(
-            padding: EdgeInsets.all(7),
-            child: Stack(children: <Widget>[
-              Align(
-                  alignment: Alignment.centerRight,
-                  child: Stack(children: <Widget>[
-                    Center(
-                        child: Column(children: <Widget>[
-                      Row(
+      elevation: 5,
+      child: Padding(
+        padding: EdgeInsets.all(7),
+        child: Stack(
+          children: <Widget>[
+            Align(
+              alignment: Alignment.centerRight,
+              child: Stack(
+                children: <Widget>[
+                  Center(
+                    child: Column(
+                      children: <Widget>[
+                        Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
                             Text(attackContent.costs.toList().toString()),
                             Text(attackContent.name),
                             Text(attackContent.damage)
-                          ]),
-                      Text(attackContent.text),
-                    ]))
-                  ]))
-            ])));
+                          ],
+                        ),
+                        Text(attackContent.text),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
-  List<Card> _trainerDetailColumn(CardContent cardContent) {
-    return [_textCardWidget(cardContent.trainerText)];
-  }
+  List<Card> _trainerDetailColumn(CardContent cardContent) =>
+      [_textCardWidget(cardContent.trainerText)];
 
-  List<Card> _energyDetailColumn(CardContent cardContent) {
-    return [_textCardWidget(cardContent.energyText)];
-  }
+  List<Card> _energyDetailColumn(CardContent cardContent) =>
+      [_textCardWidget(cardContent.energyText)];
 
   Card _textCardWidget(String text) {
     return Card(
-        elevation: 5,
-        child: Padding(
-            padding: EdgeInsets.all(7),
-            child: Stack(children: <Widget>[
-              Align(
-                  alignment: Alignment.centerRight,
-                  child: Stack(children: <Widget>[
-                    Center(child: Column(children: <Widget>[Text(text)]))
-                  ]))
-            ])));
+      elevation: 5,
+      child: Padding(
+        padding: EdgeInsets.all(7),
+        child: Stack(
+          children: <Widget>[
+            Align(
+              alignment: Alignment.centerRight,
+              child: Stack(
+                children: <Widget>[
+                  Center(
+                    child: Column(
+                      children: <Widget>[Text(text)],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   // TODO: 化石、墓地利用、エネルギー利用、GX(VMAX）、TagTEAM等関連するカードの表示
   Card _cardDetailReference(CardContent cardContent) {
     return Card(
-        elevation: 5,
-        child: Padding(
-            padding: EdgeInsets.all(7),
-            child: Stack(children: <Widget>[
-              Align(
-                  alignment: Alignment.centerRight,
-                  child: Stack(children: <Widget>[
-                    Center(
+      elevation: 5,
+      child: Padding(
+        padding: EdgeInsets.all(7),
+        child: Stack(
+          children: <Widget>[
+            Align(
+              alignment: Alignment.centerRight,
+              child: Stack(
+                children: <Widget>[
+                  Center(
 //                        child: Column(children: <Widget>[
 //                          Text("TODO: 関連カード"),
 //                        ])
-                        )
-                  ]))
-            ])));
+                      ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
+
+  static CardDetailArguments getArguments(BuildContext context) =>
+      ModalRoute.of(context).settings.arguments;
 }

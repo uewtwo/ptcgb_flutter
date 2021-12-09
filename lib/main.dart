@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/all.dart';
+import 'package:ptcgb_flutter/common/app_routes.dart';
 import 'package:ptcgb_flutter/screens/app.dart';
 
 void main() => runApp(ProviderScope(child: App()));
@@ -10,8 +11,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome PTCG Builder',
       home: PtcgBuilderApp(),
-      // initialRoute:
-      // routes: AppRoutes.appRoutes,
+      // 原則 Navigation 管理しているが、Navigation無しにしたい時に使用する
+      routes: AppRoutes.appRoutes,
       theme: ThemeData(
         fontFamily: 'NotoSansJP-Black',
         primaryColor: Colors.teal, // app header background

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ptcgb_flutter/screens//decks/decklists.dart';
+import 'package:ptcgb_flutter/screens//decks/deck_lists.dart';
 import 'package:ptcgb_flutter/screens/cards/search_cards.dart';
 import 'package:ptcgb_flutter/screens/generations/generations.dart';
 import 'package:ptcgb_flutter/screens/information/official_info_webview.dart';

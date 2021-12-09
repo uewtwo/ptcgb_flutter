@@ -9,7 +9,7 @@ import 'package:ptcgb_flutter/screens/widgets/navigators/bottom_navigation.dart'
 import 'package:ptcgb_flutter/screens/widgets/navigators/historize_navigator.dart';
 
 class PtcgBuilderApp extends HookWidget {
-  static const String routeName = '/';
+  static const String routeName = '/home';
 
   static const PageModel mainPage = PageModel(HistorizeNavigatorEvent.CARDS);
 

@@ -1,27 +1,28 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
+import 'package:ptcgb_flutter/models/arguments/card_detail_arguments.dart';
+import 'package:ptcgb_flutter/models/arguments/card_list_arguments.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
 
 import 'card_detail.dart';
 
 class CardList extends StatelessWidget {
-  // CardList(this.routeContext);
-
-  // final BuildContext routeContext;
   static const routeName = '/card/card_list';
   final TextStyle _biggerFont = TextStyle(fontSize: 14.0);
 
   @override
   Widget build(BuildContext context) {
-    final ExpansionContent expansionContent =
-        ModalRoute.of(context).settings.arguments;
     final String genDisplay = GenerationsEnum.values
-        .firstWhere((val) => val.name == expansionContent.generation)
+        .firstWhere((val) =>
+            val.name == getArguments(context).expansionContent.generation)
         .displayName;
-    final String titleText = expansionContent.name
+    final String titleText = getArguments(context)
+        .expansionContent
+        .name
         .replaceAll(RegExp('$genDisplay'), '')
         .replaceAll(RegExp(r'強化拡張パック'), '')
         .replaceAll(RegExp(r'拡張パック'), '')
@@ -46,13 +47,14 @@ class CardList extends StatelessWidget {
               Expanded(
                 child: Center(
                   child: FutureBuilder(
-                    future: getCardListByExpansion(context, expansionContent),
+                    future: getCardListByExpansion(
+                        context, getArguments(context).expansionContent),
                     builder: (BuildContext context, AsyncSnapshot snapshot) {
                       return _buildCardList(context, snapshot);
                     },
                   ),
                 ),
-              )
+              ),
             ],
           ),
         ),
@@ -92,8 +94,13 @@ class CardList extends StatelessWidget {
         leading: _cardImage(content),
         title: Text(content.nameJp, style: _biggerFont),
         onTap: () {
-          Navigator.of(context)
-              .pushNamed(CardDetail.routeName, arguments: content);
+          Navigator.push(
+            context,
+            Utils.nestedPageRoute(
+              CardDetail.routeName,
+              CardDetailArguments(content),
+            ),
+          );
         },
       ),
     );
@@ -124,4 +131,7 @@ class CardList extends StatelessWidget {
     final List<CardContent> _cardList = CardContents.fromJson(jsonRes).toList();
     return _cardList;
   }
+
+  CardListArguments getArguments(BuildContext context) =>
+      ModalRoute.of(context).settings.arguments;
 }

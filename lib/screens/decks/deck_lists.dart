@@ -6,8 +6,11 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
+import 'package:ptcgb_flutter/models/arguments/deck_creator_arguments.dart';
+import 'package:ptcgb_flutter/models/arguments/deck_display_arguments.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_list_repository.dart';
+import 'package:ptcgb_flutter/screens/decks/deck_display.dart';
 import 'package:ptcgb_flutter/screens/decks/deck_simulator.dart';
 import 'package:share/share.dart';
 
@@ -16,7 +19,6 @@ import 'deck_creator.dart';
 final deckListProvider =
     StateNotifierProvider.autoDispose((ref) => DeckListRepository());
 
-// TODO: 遷移先からの戻り値が適当すぎるので deckCreator 用戻り値のクラスを定義したい
 class Decklists extends HookWidget {
   Decklists(this.routeContext);
 
@@ -25,19 +27,19 @@ class Decklists extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 遷移先から戻ってきた場合はSnackbarで表示する
-    if (ModalRoute.of(routeContext).settings.arguments == 'saved') {
-      ScaffoldMessenger.of(routeContext).showSnackBar(
-        SnackBar(
-          content: Text('保存しました！'),
-          duration: Duration(seconds: 1),
-          action: SnackBarAction(
-            label: 'DeckCreator',
-            onPressed: () {},
-          ),
-        ),
-      );
-    }
+    // // 遷移先から戻ってきた場合はSnackbarで表示する
+    // if (ModalRoute.of(routeContext).settings.arguments == 'saved') {
+    //   ScaffoldMessenger.of(routeContext).showSnackBar(
+    //     SnackBar(
+    //       content: Text('保存しました！'),
+    //       duration: Duration(seconds: 1),
+    //       action: SnackBarAction(
+    //         label: 'DeckCreator',
+    //         onPressed: () {},
+    //       ),
+    //     ),
+    //   );
+    // }
 
     final List<OwnedDeckInfo> stateDeckList =
         useProvider(deckListProvider.state);
@@ -53,11 +55,15 @@ class Decklists extends HookWidget {
         ],
       ),
       body: _buildOwnedDecksList(routeContext, stateDeckList, decksProvider),
-      // bottomNavigationBar: bottomNavigationBarCustom2(2),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           // 新規作成は値を渡さない
-          Navigator.of(context).pushNamed(DeckCreator.routeName);
+          Navigator.of(routeContext, rootNavigator: true)
+              .pushNamed(DeckCreator.routeName, arguments: null)
+              .then((value) {
+            final arguments = ModalRoute.of(routeContext).settings;
+            print(arguments);
+          });
         },
         child: Icon(Icons.playlist_add),
       ),
@@ -84,12 +90,15 @@ class Decklists extends HookWidget {
                 : displayNum;
           };
           // FIXME: spaceEvenlyなので displayNumで割り切れない場合、表示位置がおかしくなる
-          List<Widget> rowList = List.generate(rowNum(), (i) {
-            final OwnedDeckInfo tarDeck =
-                stateDeckList[displayRange(index) + i];
-            return _buildDeckCard(context, tarDeck.deckName, tarDeck.topCardId,
-                displayNum, tarDeck, decksProvider);
-          });
+          List<Widget> rowList = List.generate(
+            rowNum(),
+            (i) {
+              final OwnedDeckInfo tarDeck =
+                  stateDeckList[displayRange(index) + i];
+              return _buildDeckCard(context, tarDeck.deckName,
+                  tarDeck.topCardId, displayNum, tarDeck, decksProvider);
+            },
+          );
           return Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: rowList,
@@ -113,36 +122,43 @@ class Decklists extends HookWidget {
     return Card(
       child: new InkWell(
         onTap: () async {
-          Navigator.of(context, rootNavigator: true)
-              .pushNamed(DeckCreator.routeName, arguments: deckInfo);
+          Navigator.of(context, rootNavigator: true).pushNamed(
+              DeckCreator.routeName,
+              arguments: DeckCreatorArguments(deckInfo));
         },
         onLongPress: () {
           popDeckMenu(context, deckInfo, decksProvider);
         },
         child: Container(
           // TODO: paddingとか適当に取ってるから表示+1を幅としてとる、適当なので直したい
-          width: getScreenWidth(context) / (displayNum + 1),
+          width: Utils.getScreenWidth(context) / (displayNum + 1),
           child: Padding(
             padding: EdgeInsets.all(7),
-            child: Stack(children: <Widget>[
-              Align(
-                alignment: Alignment.center,
-                child: Stack(children: <Widget>[
-                  Center(
-                    child: Column(children: <Widget>[
-                      FittedBox(
-                        fit: BoxFit.contain,
-                        child: Text(
-                          deckName,
-                          maxLines: 1,
+            child: Stack(
+              children: <Widget>[
+                Align(
+                  alignment: Alignment.center,
+                  child: Stack(
+                    children: <Widget>[
+                      Center(
+                        child: Column(
+                          children: <Widget>[
+                            FittedBox(
+                              fit: BoxFit.contain,
+                              child: Text(
+                                deckName,
+                                maxLines: 1,
+                              ),
+                            ),
+                            _deckImage(cardId),
+                          ],
                         ),
                       ),
-                      _deckImage(cardId),
-                    ]),
+                    ],
                   ),
-                ]),
-              ),
-            ]),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -163,8 +179,8 @@ class Decklists extends HookWidget {
       position: RelativeRect.fromLTRB(1000, 1000, 0, 0),
       items: <PopupMenuItem<String>>[
         PopupMenuItem<String>(
-          enabled: false,
-          value: DeckCreator.routeName,
+          enabled: true,
+          value: DeckDisplay.routeName,
           child: ListTile(
             leading: Icon(Icons.list_alt_sharp),
             title: Text('一覧'),
@@ -207,10 +223,15 @@ class Decklists extends HookWidget {
     // コマンド系マジックワードが増えてきそうならEnumにまとめる
     switch (route) {
       case DeckCreator.routeName:
-        Navigator.of(context, rootNavigator: true)
-            .pushNamed(DeckCreator.routeName, arguments: deckInfo);
+        Navigator.of(context, rootNavigator: true).pushNamed(
+            DeckCreator.routeName,
+            arguments: DeckCreatorArguments(deckInfo));
         break;
       case DeckSimulator.routeName:
+        Navigator.of(context, rootNavigator: true)
+            .pushNamed(route, arguments: DeckDisplayArguments(deckInfo));
+        break;
+      case DeckDisplay.routeName:
         Navigator.of(context, rootNavigator: true)
             .pushNamed(route, arguments: deckInfo);
         break;

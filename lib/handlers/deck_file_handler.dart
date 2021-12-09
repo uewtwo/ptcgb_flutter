@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/decks/deck_content_info.dart';
@@ -8,7 +9,7 @@ import 'package:tuple/tuple.dart';
 
 class DeckFileHandler {
   static Future<String> get deckBasePath async {
-    final String path = (await localBasePath()) + '/users/decks/';
+    final String path = (await Utils.localBasePath()) + '/users/decks/';
     return path;
   }
 

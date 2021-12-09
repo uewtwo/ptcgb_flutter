@@ -10,6 +10,8 @@ import 'package:ptcgb_flutter/decorations/decks/deck_creator_decorations.dart';
 import 'package:ptcgb_flutter/enums/cards/card_subtype.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
 import 'package:ptcgb_flutter/handlers/deck_file_handler.dart';
+import 'package:ptcgb_flutter/models/arguments/card_detail_arguments.dart';
+import 'package:ptcgb_flutter/models/arguments/deck_creator_arguments.dart';
 import 'package:ptcgb_flutter/models/cards/card_contents.dart';
 import 'package:ptcgb_flutter/models/decks/owned_decks_info.dart';
 import 'package:ptcgb_flutter/models/expansion/expansion_contents.dart';
@@ -18,7 +20,6 @@ import 'package:ptcgb_flutter/repositories/commons/text_repository.dart';
 import 'package:ptcgb_flutter/repositories/decks/deck_element_repository.dart';
 import 'package:ptcgb_flutter/screens/cards/card_detail.dart';
 import 'package:ptcgb_flutter/screens/widgets/deck_charts_widget.dart';
-import 'package:ptcgb_flutter/screens/widgets/navigators/historize_navigator.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:tuple/tuple.dart';
 
@@ -43,21 +44,23 @@ class DeckCreator extends HookWidget {
 
   static const double deckContentWidth = 120.0;
 
-  OwnedDeckInfo getDeckInfo(context) {
-    return ModalRoute.of(context).settings.arguments;
-  }
+  // OwnedDeckInfo getDeckInfo(context) {
+  //   return ModalRoute.of(context).settings.arguments;
+  // }
 
   @override
   Widget build(BuildContext context) {
-    final double screenWidth = getScreenWidth(context);
-    final double customWidth = getScreenWidth(context) * 0.2;
+    // iPadとかの画面サイズ大きいやつの時用
+    final double screenWidth = Utils.getScreenWidth(context);
+    final double customWidth = Utils.getScreenWidth(context) * 0.2;
 
     // デッキ要素リスト
     final List<Tuple2<CardContent, int>> stateDeckElements =
         useProvider(deckElementsProvider.state);
     final deckElementsExporter = useProvider(deckElementsProvider);
-    if (getDeckInfo(context) != null && stateDeckElements.length == 0) {
-      DeckFileHandler.getDeckContent(getDeckInfo(context).deckId).then((value) {
+    if (getArguments(context) != null && stateDeckElements.length == 0) {
+      DeckFileHandler.getDeckContent(getArguments(context).ownedDeckInfo.deckId)
+          .then((value) {
         deckElementsExporter.exportResult(value.deckElements);
       });
     }
@@ -80,70 +83,74 @@ class DeckCreator extends HookWidget {
     final int deckNums = deckContentNum(stateDeckElements);
 
     // TODO: min, max 決めてRowに表示するカードの枚数を調整する
-    return Scaffold(
-      key: _scaffoldKey,
-      appBar: AppBar(
-          centerTitle: true,
-          title: Text(getDeckInfo(context) == null
-              ? 'New Deck'
-              : getDeckInfo(context).deckName),
-          actions: <Widget>[
-            IconButton(
-              // FIXME: save iconがフロッピーでダサい.
-              icon: Icon(Icons.save),
-              onPressed: () {
-                _buildSaveDeck(context, stateDeckElements);
-              },
-            ),
-          ]),
-      body: Row(children: <Widget>[
-        Expanded(
-          child: Column(children: <Widget>[
-            _buildSearchingCard(filteredExporter, stateBaseCardList),
-            _buildSelectGeneration(stateGeneration, generationExporter),
-            Padding(padding: EdgeInsets.only(top: 10), child: Text('カード検索結果')),
-            Container(
-              child: _buildSearchedCard(
-                  stateDeckElements ?? [],
-                  deckElementsExporter,
-                  stateBaseCardList ?? [],
-                  stateFilteredCard),
-            ),
-          ]),
-        ),
-        Container(
-          width: deckContentWidth,
-          child: Column(children: <Widget>[
-            _buildDeckSummaryCharts(stateDeckElements),
-            Container(
-              child: Padding(
-                padding: EdgeInsets.only(top: 10),
-                child: Text('デッキ: $deckNums枚'),
+    return WillPopScope(
+      onWillPop: () async => _buildConfirmBackDialog(context),
+      child: Scaffold(
+        key: _scaffoldKey,
+        appBar: AppBar(
+            centerTitle: true,
+            title: Text(getArguments(context) == null
+                ? 'New Deck'
+                : getArguments(context).ownedDeckInfo.deckName),
+            actions: <Widget>[
+              IconButton(
+                // FIXME: save iconがフロッピーでダサい.
+                icon: Icon(Icons.save),
+                onPressed: () {
+                  _buildSaveDeck(context, stateDeckElements);
+                },
               ),
-              decoration: BoxDecoration(
-                border: const Border(
-                  bottom: const BorderSide(
-                    color: Colors.grey,
-                    width: 1,
+            ]),
+        body: Row(children: <Widget>[
+          Expanded(
+            child: Column(children: <Widget>[
+              _buildSearchingCard(filteredExporter, stateBaseCardList),
+              _buildSelectGeneration(stateGeneration, generationExporter),
+              Padding(
+                  padding: EdgeInsets.only(top: 10), child: Text('カード検索結果')),
+              Container(
+                child: _buildSearchedCard(
+                    stateDeckElements ?? [],
+                    deckElementsExporter,
+                    stateBaseCardList ?? [],
+                    stateFilteredCard),
+              ),
+            ]),
+          ),
+          Container(
+            width: deckContentWidth,
+            child: Column(children: <Widget>[
+              _buildDeckSummaryCharts(stateDeckElements),
+              Container(
+                child: Padding(
+                  padding: EdgeInsets.only(top: 10),
+                  child: Text('デッキ: $deckNums枚'),
+                ),
+                decoration: BoxDecoration(
+                  border: const Border(
+                    bottom: const BorderSide(
+                      color: Colors.grey,
+                      width: 1,
+                    ),
                   ),
                 ),
               ),
-            ),
-            Container(
-              child:
-                  _buildDeckContents(stateDeckElements, deckElementsExporter),
-            ),
-          ]),
-          decoration: BoxDecoration(
-            border: const Border(
-              left: const BorderSide(
-                color: Colors.grey,
-                width: 1,
+              Container(
+                child:
+                    _buildDeckContents(stateDeckElements, deckElementsExporter),
+              ),
+            ]),
+            decoration: BoxDecoration(
+              border: const Border(
+                left: const BorderSide(
+                  color: Colors.grey,
+                  width: 1,
+                ),
               ),
             ),
           ),
-        ),
-      ]),
+        ]),
+      ),
     );
   }
 
@@ -269,9 +276,8 @@ class DeckCreator extends HookWidget {
               context, stateDeckElements, deckElementsExporter, content);
         },
         onLongPress: () {
-          // print(content.toJson());
-          Navigator.of(context)
-              .pushNamed(CardDetail.routeName, arguments: content);
+          Navigator.of(context).pushNamed(CardDetail.routeName,
+              arguments: CardDetailArguments(content));
         },
       ),
     );
@@ -322,12 +328,14 @@ class DeckCreator extends HookWidget {
       alertRequireCardsInDecks(context);
       return;
     }
+
     // if (deckLength != 60) {
-    //   alertRequireCardsInDecks(context);
-    //   return;
+    //   alertRequireCardsInDecks(context).then((value) {
+    //     if (value) return;
+    //   });
     // }
 
-    final OwnedDeckInfo ownedDeckInfo = getDeckInfo(context);
+    final OwnedDeckInfo ownedDeckInfo = getArguments(context).ownedDeckInfo;
     int topCardId =
         ownedDeckInfo?.topCardId ?? stateDeckElements[0].item1.cardId;
     showDialog(
@@ -425,7 +433,8 @@ class DeckCreator extends HookWidget {
       onPressed: deckName.isEmpty
           ? null
           : () async {
-              getDeckInfo(context) == null
+              // int count = 0;
+              getArguments(context) == null
                   ? await DeckFileHandler.saveDeckContentInfo(
                       stateDeckElements, deckName, topCardId)
                   : await DeckFileHandler.overwriteDeckContentInfo(
@@ -434,15 +443,19 @@ class DeckCreator extends HookWidget {
                       topCardId,
                       ownedDeckInfo.deckId,
                       ownedDeckInfo.sortValue);
-              Navigator.popUntil(
-                context,
-                ModalRoute.withName(HistorizeNavigator.routeName),
+              Navigator.of(context).popUntil(
+                (Route route) {
+                  // TODO: popUntilで戻りたいが、HistorizeとRootのNavigatorが混じっていてむずかしい...
+                  // if (count++ >= 2) {
+                  if (route.settings.name == '/') {
+                    // print(route.settings);
+                    // (route.settings.arguments as Map)['result'] = true;
+                    return true;
+                  } else {
+                    return false;
+                  }
+                },
               );
-              // Navigator.pushNamedAndRemoveUntil(
-              //   context,
-              //   Decklists.routeName,
-              //   ModalRoute.withName(BottomNavBar.routeName),
-              // );
               // TODO: エラーハンドリング
               // TODO: DeckCreatorを定義して、戻り値に応じたSnackbarとかの対応をしたい
             },
@@ -451,6 +464,7 @@ class DeckCreator extends HookWidget {
 
   Widget _buildSaveDeckCancel(context) {
     return RaisedButton(
+      color: Colors.grey,
       child: Text('CANCEL', style: TextStyle(color: Colors.white)),
       onPressed: () => Navigator.pop(context),
     );
@@ -535,17 +549,20 @@ class DeckCreator extends HookWidget {
 
   void alertExceedDeckList(context) {
     showDialog(
-        context: context,
-        builder: (_) {
-          return AlertDialog(
-              title: Text('Exceed 80.'),
-              content: Text(
-                  'Please reduce the number of cards in the deck list first'),
-              actions: <Widget>[
-                FlatButton(
-                    child: Text('OK'), onPressed: () => Navigator.pop(context)),
-              ]);
-        });
+      context: context,
+      builder: (_) {
+        return AlertDialog(
+            title: Text('Exceed 80.'),
+            content: Text(
+                'Please reduce the number of cards in the deck list first'),
+            actions: <Widget>[
+              FlatButton(
+                child: Text('OK'),
+                onPressed: () => Navigator.pop(context),
+              ),
+            ]);
+      },
+    );
   }
 
   void alertExceedCardList(context) {
@@ -566,21 +583,73 @@ class DeckCreator extends HookWidget {
     ).show();
   }
 
-  void alertRequireCardsInDecks(context, {num = 0}) {
-    Alert(
+  Future<bool> alertRequireCardsInDecks(context, {num = 0}) async {
+    return await Alert(
       context: context,
-      type: AlertType.error,
+      type: AlertType.warning,
       title: 'Require cards in the deck.',
       desc: 'Adjust cards properly.',
       buttons: [
         DialogButton(
-          child:
-              Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
-          onPressed: () => Navigator.pop(context),
+          child: Text(
+            'OK',
+            style: TextStyle(color: Colors.white, fontSize: 20),
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+            return true;
+          },
           width: 120,
         ),
+        // DialogButton(
+        //   color: Colors.grey,
+        //   child: Text(
+        //     'CANCEL',
+        //     style: TextStyle(color: Colors.white, fontSize: 20),
+        //   ),
+        //   onPressed: () {
+        //     Navigator.pop(context);
+        //     return false;
+        //   },
+        //   width: 120,
+        // ),
       ],
       closeFunction: () {},
     ).show();
   }
+
+  Future<bool> _buildConfirmBackDialog(BuildContext context) async {
+    return Alert(
+      context: context,
+      type: AlertType.error,
+      title: '',
+      desc: 'Check if want to back without saving.',
+      buttons: [
+        DialogButton(
+          child:
+              Text('OK', style: TextStyle(color: Colors.white, fontSize: 20)),
+          onPressed: () {
+            Navigator.of(context).pop(true);
+            return true;
+          },
+        ),
+        DialogButton(
+          color: Colors.grey,
+          child: Text('CANCEL',
+              style: TextStyle(color: Colors.white, fontSize: 20)),
+          onPressed: () {
+            Navigator.of(context).pop(false);
+            return false;
+          },
+        ),
+      ],
+      closeFunction: () {
+        Navigator.of(context).pop(false);
+        return false;
+      },
+    ).show();
+  }
+
+  DeckCreatorArguments getArguments(BuildContext context) =>
+      ModalRoute.of(context).settings.arguments;
 }

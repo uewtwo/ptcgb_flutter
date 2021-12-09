@@ -13,12 +13,16 @@ class HistorizeNavigator extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final routeBuilders = _routeBuilders(context);
+    final AppRouteTree routeBuilders = _routeBuilders(context);
     return Navigator(
       key: navigatorKey,
       initialRoute: '/',
       onGenerateRoute: (routeSettings) {
         return MaterialPageRoute(
+          settings: RouteSettings(
+            name: '/',
+            arguments: Map(),
+          ),
           builder: (context) =>
               routeBuilders.routeTree[routeSettings.name](context),
         );

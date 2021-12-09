@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:ptcgb_flutter/common/utils.dart';
 import 'package:ptcgb_flutter/enums/generations/generations.dart';
+import 'package:ptcgb_flutter/models/arguments/expansions_arguments.dart';
 import 'package:ptcgb_flutter/screens/expansions/expansions.dart';
+import 'package:ptcgb_flutter/screens/widgets/image_widget.dart';
 
 class Generations extends StatelessWidget {
-  Generations(this.routeContext);
+  // Generations(this.routeContext);
 
-  final BuildContext routeContext;
+  // final BuildContext routeContext;
+  // final GlobalKey navigatorKey;
+
   static const routeName = '/generation/generations';
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
 
@@ -28,37 +33,26 @@ class Generations extends StatelessWidget {
       itemCount: GenerationsEnum.values.length,
       padding: const EdgeInsets.all(16.0),
       itemBuilder: (context, index) {
-        return _expansionItem(context, GenerationsEnum.values[index]);
+        final GenerationsEnum gen = GenerationsEnum.values[index];
+        return Container(
+          decoration: BoxDecoration(
+            border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey)),
+          ),
+          child: ListTile(
+            leading: ImageWidget.getGenerationImage(gen.name),
+            title: Text(gen.displayName, style: _biggerFont),
+            onTap: () {
+              Navigator.push(
+                context,
+                Utils.nestedPageRoute(
+                  Expansions.routeName,
+                  ExpansionsArguments(gen),
+                ),
+              );
+            },
+          ),
+        );
       },
     );
-  }
-
-  Widget _expansionItem(BuildContext context, GenerationsEnum gen) {
-    return Container(
-      decoration: BoxDecoration(
-          border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
-      child: ListTile(
-        leading: _expansionImage(gen.name),
-        title: Text(gen.displayName, style: _biggerFont),
-        onTap: () {
-          Navigator.of(context).pushNamed(
-            Expansions.routeName,
-            arguments: gen,
-          );
-          // Navigator.push(
-          //   routeContext,
-          //   MaterialPageRoute(
-          //     builder: (context) =>
-          //         AppRoutes.appRoutes[Expansions.routeName](context),
-          //   ),
-          // );
-        },
-      ),
-    );
-  }
-
-  Image _expansionImage(String gen) {
-    final String targetPath = 'assets/img/generations/$gen.png';
-    return Image.asset(targetPath);
   }
 }
